@@ -1,0 +1,73 @@
+---
+const random = Math.floor(Math.random() * 10) % 2 === 0 ? true : false;
+import headerVideo from "../assets/146169-788789382_small.mp4";
+import ImageComp from "./ImageComp.astro";
+---
+
+<section
+  class="relative h-screen overflow-hidden flex items-center justify-center md:justify-end p-0 m-0"
+  aria-label="Header section featuring a video background and text introducing LA Flight Academy"
+>
+  <div class="absolute -z-30 inset-0" aria-hidden="true">
+    <ImageComp
+      imagePath="/src/assets/lafa-cfi-checking-rudder-and-stabilizers-of-piper-archer-plane.jpg"
+      imageAlt="LA flight academy aircraft flying over Los Angeles, California"
+      loading="eager"
+      styles="object-cover h-full w-full object-left-30 lg:object-center contrast-125 animate-slow-zoom"
+      widths={[540, 720, 1080, 1440, 1980, 2048, 2560, 2880, 3200, 3840]}
+      sizes={`(max-width: 240px) 540px, (max-width: 540px) 720px, (max-width: 720px) 1080px, (max-width: 1080px) 1440px, (max-width: 1440px) 1920px, (max-width: 1980px) 2048px, (max-width: 2048px) 2560px, (max-width: 2560px) 2880px, (max-width: 2880px) 3200px, 3840px`}
+    />
+  </div>
+
+  <!-- {
+    random && (
+      <video
+        autoplay
+        muted
+        loop
+        class="absolute h-full w-full brightness-125 saturate-50 object-cover object-center -z-30 inset-0"
+        aria-hidden="true"
+      >
+        <source src={headerVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    )
+  }
+  {
+    !random && (
+      <div class="absolute -z-30 inset-0" aria-hidden="true">
+        <ImageComp
+          imagePath="/src/assets/lafa-pilot-student-plane-piper-cherokee-ready-to-take-off.jpg"
+          imageAlt="LA flight academy aircraft flying over Los Angeles, California"
+          loading="eager"
+          styles="object-cover h-full w-full object-center"
+          widths={[240, 540, 720, 1080, 1440, 1980]}
+          sizes={`(max-width: 300px) 240px, (max-width: 660px) 540px, (max-width: 900px) 720px, (max-width: 1200px) 1080px, (max-width: 1800px) 1440px, 1920px`}
+        />
+      </div>
+    )
+  } -->
+  <div
+    class="absolute h-full w-full bg-white/10 -z-20 inset-0"
+    aria-hidden="true"
+  >
+  </div>
+  <div class="flex flex-col justify-center px-4 md:pr-24 text-white text-center md:items-end md:text-right max-w-4xl bg-white/60 md:bg-transparent md:bg-gradient-to-l from-white/60 via-white/60 to-transparent h-full"
+    data-aos="fade-left"
+  >
+    <h1
+      class="text-6xl uppercase text-primary-700 font-serif md:text-7xl lg:text-8xl font-medium tracking-wide drop-shadow-md"
+    >
+      Earn Your Wings
+    </h1>
+    <h3
+      class="text-2xl lg:text-4xl max-w-2xl mt-3 text-primary-900 font-semibold tracking-wide drop-shadow-md "
+    >
+      Accelerated Flight Training Programs in Los Angeles
+    </h3>
+    <div class="pt-16 w-full flex justify-end items-center gap-8 md:gap-16">
+      <a href="/discovery-flight" class="btn-primary ">Book a discovery flight</a>
+      <a href="/path" class="btn-primary">How to become a pilot</a>  
+    </div>
+  </div>
+</section>
