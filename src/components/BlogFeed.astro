@@ -11,7 +11,7 @@ const { data } = Astro.props;
 
 <section
   id="blogfeed"
-  class="relative isolate overflow-hidden bg-white px-6 pt-16 pb-36 lg:overflow-visible lg:px-0"
+  class="relative isolate overflow-hidden bg-black px-6 pt-16 pb-36 lg:overflow-visible lg:px-0"
 >
   <div class="mx-auto max-w-6xl lg:pr-4">
     <div class="my-9 text-center">
@@ -72,7 +72,7 @@ const { data } = Astro.props;
   >
     {
       posts.map((post, index) => (
-        <article class="relative group w-full lg:m-0 md:w-2/5 lg:w-1/4 isolate flex flex-col justify-end overflow-hidden rounded-md bg-white px-8 pb-8 pt-48 hover:ring-1 hover:ring-primary-300 duration-200">
+        <article class="relative group w-full lg:m-0 md:w-2/5 lg:w-1/4 isolate flex flex-col justify-end overflow-hidden rounded-md bg-black px-8 pb-8 pt-48 hover:ring-1 hover:ring-primary-300 duration-200">
           <img
             src={post.data.heroImage}
             alt={post.data.title}
