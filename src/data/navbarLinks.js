@@ -42,25 +42,6 @@ export const navbarLinks = [
       },
     ],
   },
-  // {
-  //   name: "Packages",
-  //   link: "/packages/gallery",
-  //   mobileLink: false,
-  //   submenu: [
-  //     {
-  //       name: "Gallery",
-  //       link: "/packages/gallery",
-  //     },
-  //     {
-  //       name: "Fleet",
-  //       link: "/packages/fleet",
-  //     },
-  //     {
-  //       name: "Crew",
-  //       link: "/packages/crew",
-  //     },
-  //   ],
-  // },
   {
     name: "Fleet",
     link: "/packages/fleet",
@@ -72,21 +53,6 @@ export const navbarLinks = [
     link: "/packages/crew",
     mobileLink: true,
     submenu: [],
-  },
-  {
-    name: "Financing",
-    link: "/financing",
-    mobileLink: false,
-    submenu: [
-      {
-        name: "Financing",
-        link: "/financing",
-      },
-      {
-        name: "Insurance",
-        link: "https://www.avemco.com/products/renter?partner=LA16",
-      },
-    ],
   },
   {
     name: "About",
