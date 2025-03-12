@@ -7,7 +7,7 @@ import {
 const homePage = {
   data: {
     //SEO Header Stuff
-    pageTitle: `Hampton Los Angeles Flight School for Pilot Training | ${COMPANY_NAME}`,
+    pageTitle: `Atlanta Hampton Flight School | ${COMPANY_NAME}`,
     pageDescription:
       `${SITE_DESCRIPTION}`,
     pageKeywords:
