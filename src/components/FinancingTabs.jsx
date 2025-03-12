@@ -400,7 +400,7 @@ const FinancingTabs = () => {
           aria-label="Tabs"
         >
           <div
-            className={`${currentTab === "Quick Comparison" ? "text-gray-900" : "text-gray-500 hover:text-gray-700"} cursor-pointer rounded-l-lg group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center font-medium hover:bg-gray-50 focus:z-10`}
+            className={`${currentTab === "Quick Comparison" ? "text-gray-900" : "text-gray-500 hover:text-gray-700"} cursor-pointer rounded-l-lg group relative min-w-0 flex-1 overflow-hidden bg-black py-4 px-4 text-center font-medium hover:bg-gray-50 focus:z-10`}
             onClick={() => setCurrentTab("Quick Comparison")}
           >
             <span>Quick Comparison</span>
@@ -410,7 +410,7 @@ const FinancingTabs = () => {
             ></span>
           </div>
           <div
-            className={`${currentTab === "Stratus Financial" ? "text-gray-900" : "text-gray-500 hover:text-gray-700"} cursor-pointer rounded-l-lg group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center font-medium hover:bg-gray-50 focus:z-10`}
+            className={`${currentTab === "Stratus Financial" ? "text-gray-900" : "text-gray-500 hover:text-gray-700"} cursor-pointer rounded-l-lg group relative min-w-0 flex-1 overflow-hidden bg-black py-4 px-4 text-center font-medium hover:bg-gray-50 focus:z-10`}
             onClick={() => setCurrentTab("Stratus Financial")}
           >
             <span>Stratus Financial</span>
@@ -420,7 +420,7 @@ const FinancingTabs = () => {
             ></span>
           </div>
           <div
-            className={`${currentTab === "Flight Training Finance" ? "text-gray-900" : "text-gray-500 hover:text-gray-700"} cursor-pointer rounded-l-lg group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center font-medium hover:bg-gray-50 focus:z-10`}
+            className={`${currentTab === "Flight Training Finance" ? "text-gray-900" : "text-gray-500 hover:text-gray-700"} cursor-pointer rounded-l-lg group relative min-w-0 flex-1 overflow-hidden bg-black py-4 px-4 text-center font-medium hover:bg-gray-50 focus:z-10`}
             onClick={() => setCurrentTab("Flight Training Finance")}
           >
             <span>Flight Training Finance</span>
