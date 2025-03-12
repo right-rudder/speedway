@@ -32,8 +32,7 @@ export const ADDRESS_STATE = "Georgia";
 export const ADDRESS_ZIP = "30228";
 export const GMAPS = "https://maps.app.goo.gl/example";
 export const EMAIL_ADDRESS = "info@speedwayflighttraining.com";
-export const FACEBOOK_URL =
-  "https://www.facebook.com/speedwayflighttraining";
+export const FACEBOOK_URL = "https://www.facebook.com/speedwayflighttraining";
 export const INSTAGRAM_URL = "https://www.instagram.com/speedwayflighttraining/";
 export const LINKEDIN_URL = "";
 export const X_URL = "";
@@ -68,34 +67,22 @@ export const COURSES = [
       title: "Commercial Pilot",
       path: "commercial-pilot-training",
     },
-    4: {
-      title: "Multi-Engine Rating",
-      path: "multi-engine-rating",
-    },
-    5: {
-      title: "Flight Instructor",
-      path: "certified-flight-instructor-cfi",
-    },
   },
 ];
 
 export const FLEET = [
   {
     1: {
-      title: "Cessna 172 Skyhawk",
-      path: "cessna-172",
+      title: "N7350G - Cessna 172K Skyhawk",
+      path: "cessna-172k",
     },
     2: {
-      title: "Piper Archer PA28-181",
-      path: "piper-archer",
+      title: "N46269 - Cessna 172L Skyhawk",
+      path: "cessna-172l",
     },
     3: {
-      title: "Piper Seminole PA44",
-      path: "piper-seminole",
-    },
-    4: {
-      title: "Diamond DA40",
-      path: "diamond-da40",
+      title: "N21648 Cessna 172M Skyhawk",
+      path: "cessna-172m",
     },
   },
 ];
