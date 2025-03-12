@@ -127,7 +127,7 @@ const Navbar = ({ pathname }) => {
                       )}
                       {item.submenu && item.submenu.length > 0 && (
                         <ul
-                          className={`absolute top-16 bg-white border-b-4 border-white whitespace-nowrap text-primary-950 -left-4 duration-200 ease-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
+                          className={`absolute top-16 bg-black border-b-4 border-white whitespace-nowrap text-primary-950 -left-4 duration-200 ease-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
                         >
                           {item.submenu.map((subitem, subIndex) => (
                             <li
@@ -234,7 +234,7 @@ const Navbar = ({ pathname }) => {
       <div
         className={`${
           openMobile ? "max-h-screen" : "max-h-0"
-        } overflow-x-hidden duration-700 ease-in-out h-screen lg:hidden absolute w-full max-w-2xl right-0 bg-white z-20 top-0`}
+        } overflow-x-hidden duration-700 ease-in-out h-screen lg:hidden absolute w-full max-w-2xl right-0 bg-black z-20 top-0`}
         id="mobile-menu"
       >
         <div className="flex justify-end pl-5 pr-[26px] py-6">
@@ -270,7 +270,7 @@ const Navbar = ({ pathname }) => {
         </a>
 
         <div
-          className={`absolute w-full h-48 bg-white top-0 z-20 ${
+          className={`absolute w-full h-48 bg-black top-0 z-20 ${
             openMobile
               ? "translate-x-0 opacity-100"
               : "-translate-x-full opacity-50"
@@ -312,7 +312,7 @@ const Navbar = ({ pathname }) => {
                   {item.submenu.map((subitem, subIndex) => (
                     <li
                       key={subIndex}
-                      className="relative border-b border-primary-100/20 w-full bg-white/10 font-bold"
+                      className="relative border-b border-primary-100/20 w-full bg-black/10 font-bold"
                       onClick={(event) => handleSubItemClick(event, subIndex)}
                     >
                       {subitem.link ? (
@@ -327,7 +327,7 @@ const Navbar = ({ pathname }) => {
                         <div className="font-normal p-5 w-full justify-between flex cursor-pointer text-2xl duration-300 border-primary whitespace-nowrap">
                           <p>{subitem.name}</p>
                           <div
-                            className={`p-1 pointer-events-none duration-300 rounded-full ${subHoveredIndex === subIndex ? "bg-white rotate-90" : "bg-primary -rotate-90"} 
+                            className={`p-1 pointer-events-none duration-300 rounded-full ${subHoveredIndex === subIndex ? "bg-black rotate-90" : "bg-primary -rotate-90"} 
                     `}
                           >
                             <IoIosArrowForward
