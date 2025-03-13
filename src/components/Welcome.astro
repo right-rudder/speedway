@@ -4,11 +4,11 @@ import ImageComp from "./ImageComp.astro";
 
 ---
 
-<section id={content.title} class="relative py-12 lg:py-32">
+<section id={content.title} class="relative py-12 lg:py-24">
   <div class="absolute -z-30 inset-0" aria-hidden="true">
     <ImageComp
-      imagePath="/src/assets/placeholder.jpg"
-      imageAlt="LA flight academy aircraft flying over Los Angeles, California"
+      imagePath={content.imagePath}
+      imageAlt={content.imageAlt}
       loading="eager"
       styles="absolute object-cover h-full w-full object-center -z-50"
       widths={[240, 540, 720, 1080, 1440, 1980]}
@@ -35,7 +35,11 @@ import ImageComp from "./ImageComp.astro";
     </div>
   </div>
   <div class="w-full flex justify-center gap-16 pt-8">
-    <a href="/about" class="btn-accent text-2xl">About Us</a>
-    <a href="/packages/gallery" class="btn-accent text-2xl">Gallery</a>
+    {
+      content.buttons &&
+        content.buttons.map((button) => (
+          <a href={button.link} class="btn-accent text-2xl">{button.text}</a>
+        ))
+    }
   </div>
 </section>
