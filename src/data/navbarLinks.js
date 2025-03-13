@@ -6,7 +6,7 @@ export const navbarLinks = [
     submenu: [],
   },
   {
-    name: "Our Fleet",
+    name: "Fleet",
     link: "/fleet",
     mobileLink: true,
     submenu: [],
