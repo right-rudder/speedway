@@ -79,29 +79,16 @@ const Navbar = ({ pathname }) => {
     <nav className="w-full h-0 sticky inset-0 z-50 font-serif">
       <div
         className={`${
-          navBar || openMobile ? "bg-primary-800" : "bg-gradient-to-b from-white/60 via-white/60 to-transparent pb-10"
+          navBar || openMobile ? "bg-primary-800" : "pb-10"
         } duration-500`}
       >
-        <div className="px-5 w-full max-w-8xl mx-auto top-0">
+        <div className="px-5 w-full top-0 pb-2">
           <div
-            className={`${navBar || openMobile ? "lg:h-20" : "lg:h-28"} relative flex h-20 align-middle justify-around transition-all`}
+            className={`${navBar || openMobile ? "lg:h-20" : "lg:h-28"} relative w-full flex h-20 align-middle justify-between transition-all`}
             id="navbar"
           >
-            <div className="flex w-full items-center justify-left flex-auto">
-              <a
-                href="/"
-                className="relative hover:brightness-110 duration-200 ease-in-out lg:w-1/3 "
-              >
-                <img
-                  src={`${navBar || openMobile ? LOGO_SECONDARY : LOGO_PRIMARY}`}
-                  alt={`${COMPANY_NAME} logo`}
-                  aria-label={`${COMPANY_NAME} logo`}
-                  title={COMPANY_NAME}
-                  loading="eager"
-                  className={`${navBar || openMobile ? "h-20 lg:h-20 p-1" : "mt-4 h-20 lg:h-28"} mx-auto object-contain duration-500`}
-                />
-              </a>
-              <div className="hidden mx-auto lg:flex text-lg">
+            <div className="flex w-full items-center justify-between flex-auto">
+              <div className="hidden lg:flex w-full justify-between text-lg">
                 <ul className="flex justify-between align-middle gap-2 xl:gap-5 items-center">
                   {navbarLinks.map((item, index) => (
                     <li
@@ -114,9 +101,9 @@ const Navbar = ({ pathname }) => {
                         <a
                           href={item.link}
                           target={`${item.link.includes("http") ? "_blank" : "_self"}`}
-                          className={`${navBar || openMobile ? "text-white group-last:bg-primary-100 group-last:text-primary-900" : "text-primary-900 group-last:bg-primary-800 group-last:text-white"} group-last:block font-medium text-xl duration-300 hover:underline decoration-primary-600 decoration-4 underline-offset-[10px] border-primary whitespace-nowrap group-last:font-normal group-last:px-0 group-last:rounded-sm group-last:hover:bg-primary-500 group-last:hover:text-white group-last:hover:no-underline group-last:hover:border-primary-500`}
+                          className={`${navBar || openMobile ? "text-white" : "text-primary-100"} font-bold font-sans text-xl duration-300 hover:underline decoration-primary-700 decoration-2 underline-offset-[10px] border-primary whitespace-nowrap `}
                         >
-                          <span className="relative font-medium block group-last:py-3 group-last:px-5">
+                          <span className="relative block">
                             {item.name}
                           </span>
                         </a>
@@ -127,12 +114,12 @@ const Navbar = ({ pathname }) => {
                       )}
                       {item.submenu && item.submenu.length > 0 && (
                         <ul
-                          className={`absolute top-16 bg-black border-b-4 border-white whitespace-nowrap text-primary-950 -left-4 duration-200 ease-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
+                          className={`${navBar || openMobile ? "text-white bg-red-700" : "text-primary-100 "} absolute top-16 whitespace-nowrap text-primary-100 font-bold font-sans -left-4 duration-400 ease-in-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
                         >
                           {item.submenu.map((subitem, subIndex) => (
                             <li
                               key={subIndex}
-                              className={`${isActive(subitem, pathname) ? "scale-110 bg-primary-600 text-white" : ""} relative hover:bg-primary-600 hover:scale-110 duration-200 px-3 hover:font-medium hover:shadow-sm drop-shadow-sm font-medium hover:text-white`}
+                              className={`${isActive(subitem, pathname) ? "scale-110 bg-primary-600 text-white" : ""} relative hover:bg-primary-700 hover:scale-110 duration-200 px-3 hover:shadow-sm drop-shadow-sm font-bold hover:text-white`}
                               onMouseEnter={() => setSubHoveredIndex(subIndex)}
                               onMouseLeave={() => setSubHoveredIndex(null)}
                             >
@@ -180,6 +167,26 @@ const Navbar = ({ pathname }) => {
                     </li>
                   ))}
                 </ul>
+                <a
+                  href="/"
+                  className="relative hover:brightness-110 duration-200 ease-in-out lg:w-1/3 "
+                >
+                  <img
+                    src={`${navBar || openMobile ? LOGO_SECONDARY : LOGO_PRIMARY}`}
+                    alt={`${COMPANY_NAME} logo`}
+                    aria-label={`${COMPANY_NAME} logo`}
+                    title={COMPANY_NAME}
+                    loading="eager"
+                    className={`${navBar || openMobile ? "h-20 lg:h-20 p-1" : "mt-4 h-20 lg:h-28"} mx-auto object-contain duration-500 max-w-[70vw]`}
+                  />
+                </a>
+                <div
+                  className="relative hover:brightness-110 duration-200 ease-in-out lg:w-1/3 flex justify-end items-center"
+                >
+                  <a href="/" className={`btn-primary font-sans font-bold ${navBar || openMobile ? "bg-accent-200 text-mariner-950" : ""}`}> 
+                   Menu
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -234,7 +241,7 @@ const Navbar = ({ pathname }) => {
       <div
         className={`${
           openMobile ? "max-h-screen" : "max-h-0"
-        } overflow-x-hidden duration-700 ease-in-out h-screen lg:hidden absolute w-full max-w-2xl right-0 bg-black z-20 top-0`}
+        } overflow-x-hidden duration-700 ease-in-out h-screen lg:hidden absolute w-full max-w-2xl right-0 z-20 top-0`}
         id="mobile-menu"
       >
         <div className="flex justify-end pl-5 pr-[26px] py-6">
@@ -270,7 +277,7 @@ const Navbar = ({ pathname }) => {
         </a>
 
         <div
-          className={`absolute w-full h-48 bg-black top-0 z-20 ${
+          className={`absolute w-full h-48 top-0 z-20 ${
             openMobile
               ? "translate-x-0 opacity-100"
               : "-translate-x-full opacity-50"
@@ -288,7 +295,7 @@ const Navbar = ({ pathname }) => {
                 <a
                   href={item.link}
                   target={`${item.link.includes("http") ? "_blank" : "_self"}`}
-                  className="font-normal text-xl block py-3 duration-300 whitespace-nowrap group-last:bg-primary-600 group-last:text-white group-last:font-medium group-last:border-2 group-last:mt-5 group-last:py-4 group-last:px-8 group-last:text-center group-last:mx-5"
+                  className="font-normal text-xl block py-3 duration-300 whitespace-nowrap"
                 >
                   {item.name}
                 </a>
@@ -312,7 +319,7 @@ const Navbar = ({ pathname }) => {
                   {item.submenu.map((subitem, subIndex) => (
                     <li
                       key={subIndex}
-                      className="relative border-b border-primary-100/20 w-full bg-black/10 font-bold"
+                      className="relative border-b border-primary-100/20 w-full font-bold"
                       onClick={(event) => handleSubItemClick(event, subIndex)}
                     >
                       {subitem.link ? (
@@ -327,7 +334,7 @@ const Navbar = ({ pathname }) => {
                         <div className="font-normal p-5 w-full justify-between flex cursor-pointer text-2xl duration-300 border-primary whitespace-nowrap">
                           <p>{subitem.name}</p>
                           <div
-                            className={`p-1 pointer-events-none duration-300 rounded-full ${subHoveredIndex === subIndex ? "bg-black rotate-90" : "bg-primary -rotate-90"} 
+                            className={`p-1 pointer-events-none duration-300 rounded-full ${subHoveredIndex === subIndex ? "rotate-90" : "bg-primary -rotate-90"} 
                     `}
                           >
                             <IoIosArrowForward
