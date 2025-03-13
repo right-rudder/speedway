@@ -5,7 +5,7 @@ const {imagePath, imageAlt, loading, styles, widths, sizes} = Astro.props;
 ---
 
 <section
-  class="relative h-screen overflow-hidden flex items-center justify-center md:justify-end p-0 m-0"
+  class="relative h-[80vh] overflow-hidden flex items-center justify-center md:justify-end p-0 m-0"
   aria-label="Speedway Flight Training, Atlanta Speedway Airport, Hampton, Georgia"
 >
 
@@ -15,7 +15,7 @@ const {imagePath, imageAlt, loading, styles, widths, sizes} = Astro.props;
         imagePath={imagePath}
         imageAlt="LA flight academy aircraft flying over Los Angeles, California"
         loading="eager"
-        styles="object-cover h-full w-full object-left-30 lg:object-center contrast-125 animate-slow-zoom"
+        styles="object-cover h-full w-full object-left-30 lg:object-center contrast-125 opacity-30"
         widths={[540, 720, 1080, 1440, 1980, 2048, 2560, 2880, 3200, 3840]}
         sizes={`(max-width: 240px) 540px, (max-width: 540px) 720px, (max-width: 720px) 1080px, (max-width: 1080px) 1440px, (max-width: 1440px) 1920px, (max-width: 1980px) 2048px, (max-width: 2048px) 2560px, (max-width: 2560px) 2880px, (max-width: 2880px) 3200px, 3840px`}
       />
