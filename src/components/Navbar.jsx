@@ -101,7 +101,7 @@ const Navbar = ({ pathname }) => {
                         <a
                           href={item.link}
                           target={`${item.link.includes("http") ? "_blank" : "_self"}`}
-                          className={`${navBar || openMobile ? "text-accent-100" : "text-primary-100"} font-bold font-sans text-xl duration-300 hover:underline decoration-primary-700 decoration-2 underline-offset-[10px] border-primary whitespace-nowrap `}
+                          className={`${navBar || openMobile ? "text-accent-100" : "text-accent-100"} font-bold font-sans text-xl duration-300 hover:underline decoration-primary-700 decoration-2 underline-offset-[10px] border-primary whitespace-nowrap `}
                         >
                           <span className="relative block">
                             {item.name}
@@ -114,7 +114,7 @@ const Navbar = ({ pathname }) => {
                       )}
                       {item.submenu && item.submenu.length > 0 && (
                         <ul
-                          className={`${navBar || openMobile ? "text-accent-100 bg-red-700" : "text-primary-100 "} absolute top-16 whitespace-nowrap text-primary-100 font-bold font-sans -left-4 duration-400 ease-in-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
+                          className={`${navBar || openMobile ? "text-accent-100 bg-red-700" : "text-accent-100 "} absolute top-16 whitespace-nowrap text-accent-100 font-bold font-sans -left-4 duration-400 ease-in-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
                         >
                           {item.submenu.map((subitem, subIndex) => (
                             <li
@@ -307,7 +307,7 @@ const Navbar = ({ pathname }) => {
                     `}
                   >
                     <IoIosArrowForward
-                      className={`${hoveredIndex === index ? "text-primary-900" : "text-primary-100"} size-5`}
+                      className={`${hoveredIndex === index ? "text-primary-900" : "text-accent-100"} size-5`}
                     />
                   </div>
                 </div>
@@ -338,7 +338,7 @@ const Navbar = ({ pathname }) => {
                     `}
                           >
                             <IoIosArrowForward
-                              className={`${subHoveredIndex === subIndex ? "text-primary-1000" : "text-primary-100"} size-5`}
+                              className={`${subHoveredIndex === subIndex ? "text-accent-1000" : "text-accent-100"} size-5`}
                             />
                           </div>
                         </div>
