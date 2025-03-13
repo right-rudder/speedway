@@ -1,19 +1,19 @@
 export const navbarLinks = [
   {
-    name: "Home",
-    link: "/",
+    name: "Flight Training",
+    link: "/flight-training",
     mobileLink: true,
     submenu: [],
   },
   {
-    name: "Career Path",
-    link: "/path",
+    name: "Our Fleet",
+    link: "/fleet",
     mobileLink: true,
     submenu: [],
   },
   {
-    name: "Courses",
-    link: "/programs",
+    name: "More Info",
+    link: "/menu",
     mobileLink: false,
     submenu: [
       {
@@ -41,42 +41,5 @@ export const navbarLinks = [
         link: "/programs/advanced-trainings",
       },
     ],
-  },
-  {
-    name: "Fleet",
-    link: "/packages/fleet",
-    mobileLink: true,
-    submenu: [],
-  },
-  {
-    name: "Instructors",
-    link: "/packages/crew",
-    mobileLink: true,
-    submenu: [],
-  },
-  {
-    name: "About",
-    link: "/about",
-    mobileLink: false,
-    submenu: [
-      {
-        name: "About Us",
-        link: "/about",
-      },
-      {
-        name: "Gallery",
-        link: "/packages/gallery",
-      },
-      {
-        name: "Blog",
-        link: "/blog",
-      },
-    ],
-  },
-  {
-    name: "Enroll Today",
-    link: "/enroll-now",
-    mobileLink: true,
-    submenu: [],
   },
 ];
