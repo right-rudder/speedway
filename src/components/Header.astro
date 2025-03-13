@@ -13,7 +13,7 @@ if (!images[data.imagePath])
 ---
 
 <header
-  class="relative isolate overflow-hidden min-h-[75vh] md:min-h-screen-5/6 text-white flex items-center justify-center"
+  class="relative isolate overflow-hidden min-h-[75vh] md:min-h-screen-5/6 text-accent-100 flex items-center justify-center"
 >
   <Image
     src={images[data.imagePath]()}
@@ -39,7 +39,7 @@ if (!images[data.imagePath])
         )}
         {data.paragraph && (
           <p
-            class="text-base lg:text-xl mt-3 font-semibold text-white tracking-wide drop-shadow-sm text-center max-w-3xl font-sans"
+            class="text-base lg:text-xl mt-3 font-semibold text-accent-100 tracking-wide drop-shadow-sm text-center max-w-3xl font-sans"
             set:html={data.paragraph}
           />
         )}

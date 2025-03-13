@@ -101,7 +101,7 @@ const Navbar = ({ pathname }) => {
                         <a
                           href={item.link}
                           target={`${item.link.includes("http") ? "_blank" : "_self"}`}
-                          className={`${navBar || openMobile ? "text-white" : "text-primary-100"} font-bold font-sans text-xl duration-300 hover:underline decoration-primary-700 decoration-2 underline-offset-[10px] border-primary whitespace-nowrap `}
+                          className={`${navBar || openMobile ? "text-accent-100" : "text-primary-100"} font-bold font-sans text-xl duration-300 hover:underline decoration-primary-700 decoration-2 underline-offset-[10px] border-primary whitespace-nowrap `}
                         >
                           <span className="relative block">
                             {item.name}
@@ -114,12 +114,12 @@ const Navbar = ({ pathname }) => {
                       )}
                       {item.submenu && item.submenu.length > 0 && (
                         <ul
-                          className={`${navBar || openMobile ? "text-white bg-red-700" : "text-primary-100 "} absolute top-16 whitespace-nowrap text-primary-100 font-bold font-sans -left-4 duration-400 ease-in-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
+                          className={`${navBar || openMobile ? "text-accent-100 bg-red-700" : "text-primary-100 "} absolute top-16 whitespace-nowrap text-primary-100 font-bold font-sans -left-4 duration-400 ease-in-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
                         >
                           {item.submenu.map((subitem, subIndex) => (
                             <li
                               key={subIndex}
-                              className={`${isActive(subitem, pathname) ? "scale-110 bg-primary-600 text-white" : ""} relative hover:bg-primary-700 hover:scale-110 duration-200 px-3 hover:shadow-sm drop-shadow-sm font-bold hover:text-white`}
+                              className={`${isActive(subitem, pathname) ? "scale-110 bg-primary-600 text-accent-100" : ""} relative hover:bg-primary-700 hover:scale-110 duration-200 px-3 hover:shadow-sm drop-shadow-sm font-bold hover:text-accent-100`}
                               onMouseEnter={() => setSubHoveredIndex(subIndex)}
                               onMouseLeave={() => setSubHoveredIndex(null)}
                             >
@@ -183,7 +183,7 @@ const Navbar = ({ pathname }) => {
                 <div
                   className="relative hover:brightness-110 duration-200 ease-in-out lg:w-1/3 flex justify-end items-center"
                 >
-                  <a href="/" className={`btn-primary font-sans font-bold ${navBar || openMobile ? "bg-accent-200 text-mariner-950" : ""}`}> 
+                  <a href="/" className={`btn-primary font-sans font-bold ${navBar || openMobile ? "bg-accent-100 hover:bg-accent-100 text-mariner-950" : ""}`}> 
                    Menu
                   </a>
                 </div>
@@ -202,7 +202,7 @@ const Navbar = ({ pathname }) => {
                 <span className="sr-only">Open main menu</span>
 
                 <svg
-                  className={`${openMobile ? "hidden" : "block"} ${navBar ? "text-white" : "text-primary-900"} h-6 w-6 `}
+                  className={`${openMobile ? "hidden" : "block"} ${navBar ? "text-accent-100" : "text-primary-900"} h-6 w-6 `}
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="2.0"
@@ -288,7 +288,7 @@ const Navbar = ({ pathname }) => {
           {navbarLinks.map((item, index) => (
             <li
               key={index}
-              className="relative group border-b border-primary-100/20 last:border-none w-full text-center text-white"
+              className="relative group border-b border-primary-100/20 last:border-none w-full text-center text-accent-100"
               onClick={() => handleItemClick(index)}
             >
               {item.mobileLink ? (
@@ -324,7 +324,7 @@ const Navbar = ({ pathname }) => {
                     >
                       {subitem.link ? (
                         <a
-                          className="p-1 block font-thin text-white py-2 text-lg"
+                          className="p-1 block font-thin text-accent-100 py-2 text-lg"
                           href={subitem.link}
                           target={`${subitem.link.includes("http") ? "_blank" : "_self"}`}
                         >
@@ -375,13 +375,13 @@ const Navbar = ({ pathname }) => {
             aria-labelledby="Call Us Now"
             title="Call Us Now"
             href={`tel:${PHONE_NUMBER}`}
-            className="flex items-center justify-center py-4 gap-2 text-white w-full"
+            className="flex items-center justify-center py-4 gap-2 text-accent-100 w-full"
           >
-            <FaPhone className="size-5 text-white" />
+            <FaPhone className="size-5 text-accent-100" />
             {PHONE_NUMBER}
           </a>
 
-          <div className="flex gap-3 mt-2 mb-16 text-white">
+          <div className="flex gap-3 mt-2 mb-16 text-accent-100">
             <a href={FACEBOOK_URL} target="_blank">
               <span className="sr-only">Facebook</span>
               <svg
