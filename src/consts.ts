@@ -13,7 +13,7 @@ export const SITE_DESCRIPTION =
 export const KEYWORDS =
   "Speedway Flight Training, Atlanta Speedway flight school, how to become a pilot, flight school near Atlanta, private pilot, discovery flight, introductory flight, instrument rating, commercial certificate, certified flight instructor, airline programs, how to become an airline pilot, flight training, pilot training, aviation school in Georgia, Cessna 172 training, discovery flights Atlanta, pilot school near me, flight training in Hampton, Peachtree City, McDonough, Griffin, Stockbridge";
 
-export const OG_IMAGE = "/Speedway-OG-image.png";
+export const OG_IMAGE = "/speedway-flight-training-hampton-georgia-logo-red.png";
 
 // CHANGE client business info
 export const COMPANY_NAME = "Speedway Flight Training";
