@@ -25,19 +25,19 @@ if (!images[content.imagePath]) {
     widths={[240, 540, 720, 1080, 1440, 1980]}
     sizes={`(max-width: 240px) 240px, (max-width: 540px) 540px, (max-width: 720px) 720px, (max-width: 1080px) 1080px, (max-width: 1440px) 1440px, 1920px`}
   />
-  <div class="absolute  w-full h-full z-0"></div>
+  <div class="absolute bg-mariner-950/80 w-full h-full z-0"></div>
   <div
-    class="text-accent-100 py-12 pt-20 lg:mt-0 text-right z-10 flex flex-col items-end gap-4 px-5 h-full w-full bg-black/50 lg:pt-28 justify-end"
+    class="text-accent-100 py-12 pt-20 lg:mt-0 text-right z-10 flex flex-col items-end gap-4 px-5 h-full w-full lg:pt-28 justify-end"
     data-aos="fade-left"
     data-aos-delay="500"
     data-aos-duration="2000"
   >
     <h3
-      class="text-4xl md:text-4xl lg:text-6xl font-serif  md:max-w-3xl lg:max-w-6xl font-black italic tracking-wide text-black uppercase"
+      class="text-4xl md:text-4xl lg:text-6xl font-sans2  md:max-w-3xl lg:max-w-6xl font-black italic tracking-wide text-primary-600 uppercase"
       set:html={content.headerH1}
     />
     <p
-      class="text-base lg:text-xl mt-3 font-semibold tracking-wide text-primary-950  max-w-5xl"
+      class="text-base lg:text-xl mt-3 font-semibold tracking-wide text-accent-200 max-w-5xl"
       set:html={content.paragraph}
     />
     <div
