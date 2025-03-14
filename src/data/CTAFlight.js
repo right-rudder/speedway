@@ -1,9 +1,9 @@
 const CTAFlight = {
-  imagePath: "/src/assets/placeholder.jpg",
-  imageAlt: "Speedway Flight Training student flying over Los Angeles",
+  imagePath: "/src/assets/inside-cockpit-flight-training-speedway-ga.jpg",
+  imageAlt: "Speedway Flight Training student flying over Atlanta Motor Speedway",
   headerH1: `<span class="text-primary-800">Take the First Step</br></span>With a Discovery Flight`,
   paragraph:
-    "Experience the excitement of flying with a discovery flight at Speedway Flight Training. Whether you're pursuing a passion or preparing for a professional aviation career, this is your chance to take control and explore the skies over Los Angeles and beyond. Book your discovery flight today and start your journey into aviation!",
+    "Experience the thrill of flying with a Discovery Flight at Speedway Flight Training. Whether you're exploring aviation as a passion or considering a career in flight, this hands-on experience lets you take the controls under the guidance of a certified instructor. Fly over <strong>Atlanta Motor Speedway, Stone Mountain, and the Atlanta skyline</strong> as you embark on your aviation journey. Book your Discovery Flight today!",
   buttons: [
     {
       name: "Book Now",
@@ -12,4 +12,5 @@ const CTAFlight = {
     },
   ],
 };
+
 export default CTAFlight;
