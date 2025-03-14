@@ -6,82 +6,82 @@ import { PHONE_NUMBER } from "../consts";
 const GeneralFAQs = () => {
   const faqs = [
     {
-      question: "Where is LA Flight Academy located?",
+      question: "Where is Speedway Flight Training located?",
       answer:
-        "We’re located at Van Nuys Airport in Los Angeles, CA, one of the busiest general aviation airports in the world.",
+        "We’re located at Atlanta Speedway Airport (KHMP) in Hampton, GA, a non-towered airport with minimal traffic—perfect for efficient flight training.",
     },
     {
-      question: "What are LAFA's hours of operation?",
+      question: "What are Speedway’s hours of operation?",
       answer:
-        `We operate Monday through Sunday from 8:00 AM to 9:00 PM. For after-hours inquiries, you can contact us directly at ${PHONE_NUMBER}.`,
+        "Our business hours are 9:00 AM - 4:00 PM. Flight training is available daily from 6:00 AM - 11:30 PM. For inquiries outside business hours, please contact us directly.",
     },
     {
-      question: "What pilot training programs does LA Flight Academy offer?",
+      question: "What pilot training programs does Speedway Flight Training offer?",
       answer:
-        "<ul className='list-disc ml-5'><li>Private Pilot License (PPL)</li><li>Instrument Rating (IR)</li><li>Commercial Pilot License (CPL)</li><li>Multi-Engine Rating (ME)</li><li>Certified Flight Instructor (CFI, CFII, MEI)</li><li>Airline Transport Pilot (ATP)</li><li>Complex and high-performance aircraft training</li><li>Spin training, BFRs, and IPCs</li></ul>",
+        "<ul className='list-disc ml-5'><li>Private Pilot License (PPL)</li><li>Instrument Rating (IR)</li><li>Commercial Pilot License (CPL)</li><li>Certified Flight Instructor (CFI & CFII)</li><li>Instrument Proficiency Check (IPC)</li><li>Biennial Flight Review (BFR)</li><li>Professional Pilot Program (Zero to Commercial)</li></ul>",
     },
     {
-      question: "Does LA Flight Academy offer accelerated training?",
+      question: "Does Speedway offer accelerated training?",
       answer:
-        "Yes! We specialize in accelerated multi-engine training, allowing students to complete their programs in as little as 1.5 weeks.",
+        "While we don’t offer traditional accelerated programs, our structured training approach allows students to progress efficiently based on their availability and learning pace.",
     },
     {
       question: "Are there any prerequisites for enrollment?",
       answer:
-        "<ul className='list-disc ml-5'><li>Completion of a discovery flight</li><li>A valid FAA Medical Certificate (preferred)</li><li>Training materials such as a logbook, headset, FAR/AIM, charts, a headlamp, and a kneeboard</li></ul>",
+        "<ul className='list-disc ml-5'><li>Completion of a discovery flight (recommended)</li><li>A valid FAA Medical Certificate (required for solo flight)</li><li>Required materials: logbook, headset, Gleim student kit, iPad (6th gen or newer, cellular-capable), and sunglasses</li></ul>",
     },
     {
       question: "Is the training Part 61 or Part 141?",
       answer:
-        "Our programs follow a Part 61 structure with defined phases, such as pre-solo, cross-country, and checkride preparation.",
+        "We currently operate under Part 61 and are in the process of obtaining Part 141 certification to provide additional training flexibility.",
     },
     {
       question: "What is your checkride pass rate?",
       answer:
-        "We’re proud to maintain a 100% checkride pass rate, a testament to our experienced instructors and high-quality training standards.",
+        "Our students maintain an impressive 82% first-time checkride pass rate, thanks to our dedicated instructors and structured training environment.",
     },
     {
-      question: "How many days per week should I commit to training?",
+      question: "How often should I train per week?",
       answer:
-        "For best results, we recommend training at least three days per week, especially for full-time students.",
+        "For best results, we recommend training at least 3 times per week to maintain proficiency and ensure steady progress toward your certification.",
     },
     {
-      question: "What types of aircraft are in LAF's fleet?",
+      question: "What types of aircraft are in Speedway’s fleet?",
       answer:
-        "Our fleet includes Cessna and Piper aircraft, equipped with Garmin Dual G5s, G750 avionics, and other IFR-capable systems. You can find the full list of aircraft on our Fleet Page.",
+        "Our fleet consists of four well-maintained Cessna 172s (models K, L, I, and M), all IFR-certified and equipped with Garmin Dual G5 avionics and G650XI systems.",
     },
     {
-      question: "Does LA Flight Academy offer financing options?",
+      question: "Does Speedway offer financing options?",
       answer:
-        "Not directly, but we are partnered with <a href='https://stratus.finance/apply/laflightacademy1303242/' target='_blank' class='hover:brightness-125 text-primary-600'>Stratus Financial</a> and <a href='https://www.flighttrainingfinancellc.com/' target='_blank' class='hover:brightness-125 text-primary-600'>Flight Training Finance</a>, to provide financing options for students. We also have a partnership with <a href='https://www.avemco.com/products/renter?partner=LA16' target='_blank' class='hover:brightness-125 text-primary-600'>Avemco</a> to offer insurance.",
+        "We are in the process of partnering with <a href='https://stratus.finance' target='_blank' class='hover:brightness-125 text-primary-600'>Stratus Financial</a> to provide financing options for students.",
     },
     {
-      question: "Does LA Flight Academy offer job placement assistance?",
+      question: "Does Speedway offer job placement assistance?",
       answer:
-        "Yes, many of our CFI graduates are hired in-house after completing their training. This ensures a seamless transition to becoming a flight instructor with us.",
+        "Yes! Many of our CFI graduates are offered instructor positions at Speedway, allowing them to build hours while training future pilots.",
     },
     {
-      question: "What sets LA Flight Academy apart from other flight schools?",
+      question: "What sets Speedway apart from other flight schools?",
       answer:
-        "<ul className='list-disc ml-5'><li>Affordable but premium-quality training</li><li>Relationships with Designated Pilot Examiners (DPEs), making it easier to schedule checkrides</li><li>Personalized instruction, pairing students with instructors based on personality and learning style</li><li>A family-like environment that fosters camaraderie among students and instructors</li></ul>",
+        "<ul className='list-disc ml-5'><li>Located at KHMP, a low-traffic training airport with quick access to practice areas</li><li>Training near Atlanta’s Class B airspace for real-world ATC experience</li><li>Competitive pricing without sacrificing quality instruction</li><li>A supportive, community-driven training environment</li></ul>",
     },
     {
-      question: "Does LAFA offer discovery flights?",
+      question: "Does Speedway offer discovery flights?",
       answer:
-        "Yes! Discovery flights are the perfect way to experience what it’s like to pilot an aircraft. Learn more on our Discovery Flights page.",
+        "Yes! Our discovery flights provide a hands-on introduction to flying with a certified instructor. Learn more on our Discovery Flights page.",
     },
     {
       question: "Can I see scenic landmarks during my training?",
       answer:
-        "Yes! Our training routes often include breathtaking views of local landmarks like the Santa Monica Mountains, Venice Beach, and the Pacific Ocean.",
+        "Yes! Our training routes include beautiful views of **Atlanta Motor Speedway, Stone Mountain, the Atlanta skyline, and local reservoirs.**",
     },
     {
       question: "How do I start the enrollment process?",
       answer:
-        "Starting is easy! Book a discovery flight, gather your required materials, and contact us to schedule your first lesson.",
+        "Starting is simple! Book a discovery flight, gather your required materials, and contact us to schedule your first lesson.",
     },
   ];
-
+  
   const [openQuestions, setOpenQuestions] = useState(
     new Array(faqs.length).fill(false)
   );
@@ -100,7 +100,7 @@ const GeneralFAQs = () => {
       <h2 className="uppercase text-primary-800/80 tracking-widest text-center">
         FAQ's
       </h2>
-      <h3 className="text-4xl lg:text-6xl mx-auto font-serif text-center mb-5 text-primary-800">
+      <h3 className="text-4xl lg:text-6xl mx-auto font-sans2 text-center mb-5 text-primary-800">
         {"Frequently Asked Questions"}
       </h3>
       <div className="flex flex-col gap-5 w-full">
