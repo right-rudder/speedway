@@ -12,18 +12,19 @@ import CTAFinancing from "../components/CTAFinancing.astro";
 import financingCompData from "../data/financingComp";
 import BlogFeed from "../components/BlogFeed.astro";
 import Welcome from "../components/Welcome.astro";
-import FleetComp from "../components/FleetComp.astro";
-import fleetCompData from "../data/fleetComp";
 import CTAQuiz from "../components/CTAQuiz.astro";
 import CTAQuizData from "../data/CTAQuiz";
 import GeneralFAQs from "../components/GeneralFAQs";
+import FlightTrainingSection from "../components/FlightTrainingSection.astro";
+import FlightSchoolFeatures from "../components/FlightSchoolFeatures.astro";
+import FlightTrainingAdvantages from "../components/FlightTrainingAdvantages.astro";
 
 
 const blogfeed = {
   upperHeading: "Our Blog",
-  heading: "LA Flight Academy News",
+  heading: "Speedway Flight Training News",
   description:
-    "Stay up to date with the latest news, pilot resources and updates from LA Flight.",
+    "Stay up to date with the latest news, pilot resources and updates from Speedway.",
 };
 
 const welcome = {
@@ -57,11 +58,15 @@ const { data } = homePage;
 >
   <HomeHeader imagePath="/src/assets/speedway-checkered-flag-atlanta-hampton-georgia.jpg"/>
   <Welcome content={welcome} />
-  <CTAQuiz content={CTAQuizData} />
+  
+
+  <FlightTrainingSection />
+  <FlightSchoolFeatures />
+  <FlightTrainingAdvantages />
+
   <GridPrograms content={programs} />
-  <CTAQuiz content={CTAQuizData} />
-  <FleetComp content={fleetCompData}/>
-  <section class="my-14">
+  <!-- <CTAQuiz content={CTAQuizData} /> -->
+  <section class="py-14 bg-accent-100">
     <div class="max-w-7xl mx-auto flex justify-center">
       <GeneralFAQs client:visible />
     </div>
