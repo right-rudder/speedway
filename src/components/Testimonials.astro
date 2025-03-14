@@ -2,7 +2,7 @@
 const { content } = Astro.props;
 ---
 
-<section id="testimonials" class="bg-primary-700 pt-8 lg:py-24">
+<section id="testimonials" class="bg-mariner-950 pt-8 lg:py-24">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="flex flex-wrap justify-evenly items-start align-middle">
       <div
@@ -10,7 +10,7 @@ const { content } = Astro.props;
       >
         {
           content.upperHeading && (
-            <p class="text-xl font-sans2 text-center uppercase lg:text-right font-bold tracking-tight text-primary-300">
+            <p class="text-xl font-sans2 text-center uppercase lg:text-right font-bold tracking-tight text-accent-300">
               {content.upperHeading}
             </p>
           )
@@ -34,7 +34,7 @@ const { content } = Astro.props;
             <a
               href={content.buttonLink}
               target="_blank"
-              class="mt-12 btn-accent text-right"
+              class="mt-12 btn-primary text-right"
             >
               {content.buttonText}
             </a>
@@ -83,7 +83,7 @@ const { content } = Astro.props;
                       <em>{review.body}</em>
                     </p>
                   </div>
-                  <p class="mt-4 text-3xl text-primary-300/80 font-bold italic font-bebas text-center">
+                  <p class="mt-4 text-3xl text-accent-300/80 font-bold italic font-bebas text-center">
                     {review.author}
                   </p>
                 </blockquote>
