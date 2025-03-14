@@ -76,7 +76,7 @@ const Navbar = ({ pathname }) => {
   };
 
   return (
-    <nav className="w-full h-0 sticky inset-0 z-50 font-serif">
+    <nav className="w-full h-0 sticky inset-0 z-50 font-sans2">
       <div
         className={`${
           navBar || openMobile ? "bg-primary-800" : "pb-10"
@@ -300,8 +300,8 @@ const Navbar = ({ pathname }) => {
                   {item.name}
                 </a>
               ) : (
-                <div className="font-serif justify-center flex cursor-pointer text-xl duration-300  border-primary whitespace-nowrap">
-                  <p className="font-serif py-3">{item.name}</p>
+                <div className="font-sans2 justify-center flex cursor-pointer text-xl duration-300  border-primary whitespace-nowrap">
+                  <p className="font-sans2 py-3">{item.name}</p>
                   <div
                     className={`absolute right-2 top-2 p-2 pointer-events-none duration-500 ease-in-out rounded-full ${hoveredIndex === index ? "bg-primary-100/30 -rotate-90" : "bg-primary-900/30 rotate-90"} 
                     `}
