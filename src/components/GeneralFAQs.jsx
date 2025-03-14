@@ -97,7 +97,7 @@ const GeneralFAQs = () => {
 
   return (
     <div className="flex flex-col gap-5 max-w-3xl mt-10 lg:mt-0 mx-5">
-      <h2 className="uppercase text-primary-800/80 tracking-widest text-center">
+      <h2 className="uppercase text-mariner-950/80 tracking-widest text-center">
         FAQ's
       </h2>
       <h3 className="text-4xl lg:text-6xl mx-auto font-sans2 text-center mb-5 text-primary-800">
@@ -108,7 +108,7 @@ const GeneralFAQs = () => {
           <div key={index} className="border-b border-main-black/30 pb-2" data-aos="fade up">
             <button
               onClick={() => toggleFAQ(index)}
-              className="text-xl lg:text-2xl w-full text-left flex justify-between py-3 text-primary-800/90 hover:text-main-blue"
+              className="text-xl lg:text-2xl w-full text-left flex justify-between py-3 text-mariner-950/90 hover:text-main-blue"
             >
               {faq.question}
               <IoIosArrowForward
@@ -122,7 +122,7 @@ const GeneralFAQs = () => {
                 openQuestions[index] ? "max-h-min" : "max-h-0"
               }`}
             >
-              <div className="text-primary-800/80 text-lg lg:text-xl pl-5">
+              <div className="text-accent-900/80 text-lg lg:text-xl pl-5">
                 {parse(faq.answer)}
               </div>
             </div>
