@@ -89,7 +89,7 @@ const Navbar = ({ pathname }) => {
           >
             <div className="flex w-full items-center justify-between flex-auto">
               <div className="hidden lg:flex w-full justify-between text-lg">
-                <ul className="flex justify-between align-middle gap-2 xl:gap-5 items-center">
+                <ul className="flex lg:w-1/3 align-middle gap-2 xl:gap-5 items-center">
                   {navbarLinks.map((item, index) => (
                     <li
                       key={index}
