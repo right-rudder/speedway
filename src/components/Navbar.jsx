@@ -114,12 +114,12 @@ const Navbar = ({ pathname }) => {
                       )}
                       {item.submenu && item.submenu.length > 0 && (
                         <ul
-                          className={`${navBar || openMobile ? "text-accent-100 bg-red-700" : "text-accent-100 "} absolute top-16 whitespace-nowrap text-accent-100 font-bold font-sans -left-4 duration-400 ease-in-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
+                          className={`${navBar || openMobile ? "text-accent-100 bg-mariner-950/90 backdrop-blur-sm" : "text-accent-100 "} absolute top-16 whitespace-nowrap text-accent-100 font-bold font-sans -left-4 duration-400 ease-in-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
                         >
                           {item.submenu.map((subitem, subIndex) => (
                             <li
                               key={subIndex}
-                              className={`${isActive(subitem, pathname) ? "scale-110 bg-primary-600 text-accent-100" : ""} relative hover:bg-primary-700 hover:scale-110 duration-200 px-3 hover:shadow-sm drop-shadow-sm font-bold hover:text-accent-100`}
+                              className={`${isActive(subitem, pathname) ? "scale-110  text-accent-100" : ""} relative hover:bg-primary-700 hover:scale-110 duration-200 px-3 hover:shadow-sm drop-shadow-sm font-bold hover:text-accent-100`}
                               onMouseEnter={() => setSubHoveredIndex(subIndex)}
                               onMouseLeave={() => setSubHoveredIndex(null)}
                             >
