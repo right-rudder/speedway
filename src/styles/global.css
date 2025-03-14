@@ -78,6 +78,10 @@
     background-image:linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.1) 50%, black 100%), linear-gradient(to right, black 0%, transparent 10%, transparent 90%, black 100%), url(../assets/bg-clouds-from-above.webp);
   }
 
+  .bg-checkered {
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.95) 100%), url(../assets/checkered-background-speedway-hampton-atlanta-cessna-flight-school.png);
+  }
+
   /* * {
     border:1px solid red;
   } */
