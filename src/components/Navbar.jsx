@@ -79,7 +79,7 @@ const Navbar = ({ pathname }) => {
     <nav className="w-full h-0 sticky inset-0 z-50 font-sans2">
       <div
         className={`${
-          navBar || openMobile ? "bg-primary-800" : "pb-10"
+          navBar || openMobile ? "bg-mariner-950/90 backdrop-blur-sm" : "pb-10"
         } duration-500`}
       >
         <div className="px-5 w-full top-0 pb-2">
