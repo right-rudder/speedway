@@ -184,7 +184,7 @@ const Navbar = ({ pathname }) => {
                   className="relative hover:brightness-110 duration-200 ease-in-out lg:w-1/3 flex justify-end items-center"
                 >
                   <a href="/" className={`btn-primary font-sans font-bold ${navBar || openMobile ? "bg-accent-100 hover:bg-accent-100 text-mariner-950" : ""}`}> 
-                   Menu
+                   Enroll
                   </a>
                 </div>
               </div>
