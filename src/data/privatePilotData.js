@@ -3,26 +3,26 @@ import { COMPANY_NAME } from "../consts";
 const privatePilotData = {
   pageTitle: `Private Pilot License | ${COMPANY_NAME}`,
   pageDescription:
-    "Start your aviation journey with Speedway Flight Training’s Private Pilot License (PPL) program. Train with expert instructors and gain the foundational skills needed to become a licensed pilot at Atlanta Speedway Airport.",
+    "Start your aviation journey with Speedway Flight Training’s Private Pilot License (PPL) program. Train with expert instructors, a well-maintained fleet, and a structured learning path designed to help you earn your wings efficiently.",
   pageKeywords:
-    "private pilot license Georgia, flight school Hampton, learn to fly, PPL certification, aviation school Atlanta, beginner pilot training",
+    "private pilot license Georgia, flight school Hampton, learn to fly, PPL certification, aviation school Atlanta, beginner pilot training, accelerated flight training",
 
   // Top Header
   header: {
     stars: true,
-    imagePath: "/src/assets/placeholder.jpg",
-    imageAlt: "A Speedway Flight Training aircraft on the ramp at Atlanta Speedway Airport",
+    imagePath: "/src/assets/stock-avery-murray-pz0sXiMIxgw-unsplash.jpg",
+    imageAlt: "Speedway Flight Training aircraft on the runway at Atlanta Speedway Airport",
     headerH1: `Private Pilot <br>LICENSE</span>`,
-    paragraph: `Begin your aviation journey with Speedway Flight Training’s Private Pilot License program. Learn to fly in a structured, student-focused environment with expert instructors and well-maintained aircraft.`,
+    paragraph: `The foundation of your aviation journey. Train with expert instructors, gain real-world flight experience, and complete your Private Pilot License in as little as 8 weeks with Speedway Flight Training.`,
     buttons: [
       {
-        name: "Enroll Today",
+        name: "Apply Now",
         link: "/enroll-now",
         primary: false,
       },
       {
-        name: "Program Guide",
-        link: "/path",
+        name: "Request Info",
+        link: "/contact",
         primary: false,
       },
     ],
@@ -33,58 +33,111 @@ const privatePilotData = {
     upperHeading: "Get Started With a",
     heading: "Private Pilot License",
     subHeading:
-      "A Private Pilot License (PPL) is your first step into aviation, whether you want to fly for fun or pursue a professional career.",
+      "Your journey to becoming a pilot starts here. Whether you're flying recreationally or pursuing a career in aviation, this program provides the essential skills and knowledge to succeed.",
 
     title: "Overview",
     description: `
-      Earning your Private Pilot License (PPL) at Speedway Flight Training is the first milestone toward becoming a certified pilot. Our structured program equips students with the essential skills to operate an aircraft safely and confidently.
+      Speedway Flight Training’s <strong>Private Pilot License (PPL) program</strong> is designed for students who want to <strong>become a certified pilot</strong> with a structured and professional training approach.
+      <br/><br/>
+      🚀 <strong>Accelerated Program:</strong> Earn your PPL in <strong>as little as 8 weeks</strong>.<br/>
+      📆 <strong>Flexible Training:</strong> Choose a self-paced option based on your schedule.<br/>
+      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
+      💰 <strong>Estimated Cost:</strong> <strong>$16,250</strong> (based on <strong>50 flight training hours</strong>; additional expenses apply).<br/>
+      🛩 <strong>Aircraft Used:</strong> Modern, well-maintained <strong>Cessna 172 fleet</strong>.<br/>
+      📜 <strong>FAA Requirements:</strong> Minimum <strong>40 flight hours</strong>, but students typically require <strong>50+ hours</strong>.<br/>
       <br/>
-      <br/>
-      Through a combination of **ground school instruction** and **hands-on flight training**, you’ll master aerodynamics, navigation, meteorology, airspace regulations, radio communication, and emergency procedures. You'll gain experience in real-world flight planning, takeoffs, landings, and cross-country operations.
-      <br/>
-      <br/>
-      Speedway Flight Training’s location at **Atlanta Speedway Airport (KHMP)** provides an **ideal training environment**—a **non-towered airport** with minimal traffic, offering efficient training while still providing exposure to **Class B airspace (ATL)**. Our goal is to ensure that you graduate with not only the knowledge but also the confidence to take to the skies as a licensed private pilot.
+      This program includes <strong>one-on-one instruction with experienced CFIs</strong>, comprehensive <strong>ground school training</strong>, and full <strong>checkride preparation</strong> to ensure you pass your FAA exam with confidence.
     `,
 
     keyPoints: [
-      "Expert Instruction from Certified Flight Instructors (CFIs)",
-      "FAA-Certified Training Program",
-      "Hands-On Flight Experience in Well-Maintained Cessna 172s",
-      "Ideal Training Location: Non-Towered Airport with Access to Class B Airspace",
+      "Accelerated Training: Complete in as little as 8 weeks",
+      "Flexible Self-Paced Option Available",
+      "FAA-Approved Training Curriculum",
+      "One-on-One Instruction from Expert CFIs",
+      "Hands-On Experience in Modern, Well-Maintained Aircraft",
+      "Comprehensive Checkride Preparation",
     ],
 
+    // What's Included
+    included: {
+      heading: "What’s Included in Your Training Package?",
+      items: [
+        "50 flight training hours (FAA minimum: 40 hours)",
+        "One-on-one instructor training with experienced flight instructors",
+        "Ground school & exam preparation (FAA regulations, navigation, flight planning)",
+        "Gleim Deluxe Private Pilot Kit with audio review",
+        "Foggles (for instrument training practice)",
+        "Fuel tester",
+        "Pre-checkride preparation (maneuver refinement & test readiness)",
+        "Safety-focused training environment that prioritizes student well-being",
+      ],
+    },
+
+    // Additional Costs
+    additionalCosts: {
+      heading: "What’s Not Included (Additional Student Costs)?",
+      items: [
+        "Noise-canceling aviation headset (~$600 - $1,100; Recommended: Bose, Lightspeed, David Clark)",
+        "iPad with GPS (~$500 - $700; Cellular capable, no data plan required)",
+        "Aircraft rental insurance (~$600/year; Required for training flights)",
+        "FAA Designated Pilot Examiner (DPE) practical exam fees (~$800 - $1,200)",
+        "FAA written exam fees (~$175)",
+        "ForeFlight subscription (~$250/year; Flight planning & in-flight navigation)",
+        "FAA 1st Class Medical clearance (~$150; Required for professional pilots)",
+      ],
+    },
+
+    // Benefits
+    benefits: {
+      heading: "Why Train with Speedway?",
+      items: [
+        " Accelerated Training: Earn your PPL in just 8 weeks",
+        " Expert Instructors: One-on-one mentorship from highly qualified CFIs",
+        " Structured Learning Path: Comprehensive ground school + in-flight training",
+        " State-of-the-Art Training Fleet: Learn on modern, well-maintained aircraft",
+        " Career Readiness: Build a solid foundation for advanced ratings & commercial aviation",
+        " Commitment to Safety & Integrity: Your training experience is backed by Speedway’s core values",
+      ],
+    },
+
     cta: {
-      imagePath: "/src/assets/placeholder.jpg",
+      imagePath: "/src/assets/stock-yves-scheuber-Hn2t_74pp3Q-unsplash.jpg",
       imageAlt: "Speedway Flight Training student preflighting a Cessna 172",
-      title: "Start Your Aviation Journey",
+      title: "Fast Track Your Aviation Journey",
       description:
-        "Take the first step toward your dream of flying. Train with experienced instructors and earn your Private Pilot License in a professional yet welcoming environment.",
+        "Take the first step toward your dream of flying. Train with experienced instructors and earn your Private Pilot License in a structured, professional, and safety-focused environment.",
       button: {
-        name: "Enroll Now",
-        link: "/enroll-at-speedway",
+        name: "Apply Now",
+        link: "/apply",
       },
     },
 
+    // FAQs
     faqs: [
       {
-        question: "How long does it take to get a Private Pilot License?",
+        question: "How long does it take to earn my Private Pilot License?",
         answer:
-          "The time frame varies based on training frequency, but most students complete their PPL in 3-6 months.",
+          "With our accelerated program, students can complete training in <strong>8 weeks</strong>. A self-paced program is also available for those needing more scheduling flexibility.",
       },
       {
-        question: "Do I need prior experience?",
+        question: "Can I finance my training?",
         answer:
-          "No prior flying experience is necessary! Our program is designed for beginners looking to start their aviation journey.",
+          "Yes! We partner with <a href='https://stratus.finance' target='_blank' class='hover:brightness-125 text-primary-600'>Stratus Financial</a> to offer financing options. Contact us to learn more about making your flight training affordable.",
       },
       {
-        question: "What does the training include?",
+        question: "What kind of aircraft will I train on?",
         answer:
-          "Our PPL program includes in-air flight training, ground school, and FAA exam preparation to help you obtain your Private Pilot Certificate.",
+          "Students train on <strong>modern, well-maintained Cessna 172 aircraft</strong>, suitable for both VFR and IFR training.",
       },
       {
-        question: "Where does flight training take place?",
+        question: "Will I be ready for my checkride after training?",
         answer:
-          "Training is conducted at **Atlanta Speedway Airport (KHMP)**, a non-towered airport offering an ideal learning environment with quick access to practice areas.",
+          "Absolutely! Our program includes <strong>comprehensive checkride preparation</strong> and <strong>simulated practical exams</strong> to ensure you're fully prepared.",
+      },
+      {
+        question: "What happens after I get my PPL?",
+        answer:
+          "Many students continue their training for an <strong>Instrument Rating (IR), Commercial Pilot License (CPL), or Certified Flight Instructor (CFI) rating</strong>.",
       },
     ],
   },
