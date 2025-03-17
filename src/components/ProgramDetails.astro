@@ -43,7 +43,7 @@ const benefits = program.benefits;
         <ul class="space-y-3">
           {program.keyPoints.map((point) => (
             <li class="flex text-lg items-center bg-accent-50/70 p-3 rounded-md shadow-sm hover:scale-105 hover:shadow-md transition-all duration-300">
-              <FaCheck className="text-mariner-600 mr-2" /> {point}
+              <FaCheck className="text-mariner-600 mr-2 w-4 flex-shrink-0" /> {point}
             </li>
           ))}
         </ul>
@@ -83,7 +83,7 @@ const benefits = program.benefits;
           <ul class="space-y-2">
             {benefits.items.map((benefit) => (
               <li class="flex items-center text-accent-800">
-                <FaCheck className="text-mariner-600 mr-2" /> {benefit}
+                <FaCheck className="text-mariner-600 mr-2 w-3 flex-shrink-0" /> {benefit}
               </li>
             ))}
           </ul>
