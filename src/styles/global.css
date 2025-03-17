@@ -4,7 +4,7 @@
 
 @layer components {
   .btn-primary {
-    @apply text-center tracking-wide font-sans font-bold text-xl lg:text-2xl uppercase py-3 px-6 bg-primary-800 w-fit h-fit text-accent-100 rounded-sm hover:bg-primary-900 duration-300;
+    @apply text-center tracking-wide font-sans font-bold text-xl lg:text-2xl uppercase py-3 px-6 bg-primary-800 w-fit h-fit text-accent-100 rounded-sm hover:bg-accent-200 hover:text-mariner-900 duration-300;
   }
 
   .btn-accent {
