@@ -10,7 +10,7 @@ const programs = {
       imageAlt: "Cessna 172 aircraft at Speedway Flight Training on the runway",
       description:
         "Take the first step toward becoming a pilot with our structured Private Pilot License (PPL) training.",
-      link: "/programs/private-pilot-course",
+      link: "/programs/private-pilot",
     },
     {
       title: "Instrument Rating (IFR)",
