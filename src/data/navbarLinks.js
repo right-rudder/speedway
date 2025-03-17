@@ -23,16 +23,8 @@ export const navbarLinks = [
         link: "/programs/commercial-pilot",
       },
       {
-        name: "Multi-Engine Rating",
-        link: "/programs/multi-engine-rating",
-      },
-      {
         name: "Flight Instructor",
         link: "/programs/certified-flight-instructor",
-      },
-      {
-        name: "Advanced Training",
-        link: "/programs/advanced-trainings",
       },
     ],
   },
@@ -42,28 +34,20 @@ export const navbarLinks = [
     mobileLink: false,
     submenu: [
       {
-        name: "Private Pilot",
-        link: "/programs/private-pilot-course",
+        name: "Fleet",
+        link: "/fleet",
       },
       {
-        name: "Instrument Rating",
-        link: "/programs/instrument-rating",
+        name: "About Us",
+        link: "/about-us",
       },
       {
-        name: "Commercial Pilot",
-        link: "/programs/commercial-pilot",
+        name: "Gallery",
+        link: "/gallery",
       },
       {
-        name: "Multi-Engine Rating",
-        link: "/programs/multi-engine-rating",
-      },
-      {
-        name: "Flight Instructor",
-        link: "/programs/certified-flight-instructor",
-      },
-      {
-        name: "Advanced Training",
-        link: "/programs/advanced-trainings",
+        name: "Blog",
+        link: "/blog",
       },
     ],
   },
