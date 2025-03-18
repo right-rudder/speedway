@@ -21,14 +21,14 @@ if (!images[cta.imagePath]) {
     src={images[cta.imagePath]()}
     alt={cta.imageAlt}
     loading={"lazy"}
-    class="absolute inset-0 -z-20 object-cover object-center w-full h-full"
+    class="absolute inset-0 z-0 object-cover object-center w-full h-full"
   />
 
   <!-- Dark Overlay for Better Contrast -->
-  <div class="absolute inset-0 -z-10 w-full h-full bg-accent-800/70"></div>
+  <div class="absolute inset-0 z-10 w-full h-full bg-accent-800/70"></div>
 
   <!-- CTA Content -->
-  <div class="p-6 flex flex-col gap-5 justify-center items-center">
+  <div class="p-6 flex flex-col gap-5 justify-center items-center z-20">
     <h3 class="uppercase font-semibold text-accent-50/80 tracking-wider">
       {cta.title}
     </h3>
