@@ -6,7 +6,7 @@ const { content } = Astro.props;
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="flex flex-wrap justify-evenly items-start align-middle">
       <div
-        class="w-full lg:w-1/3 flex flex-col items-center lg:items-end lg:sticky top-44"
+        class="w-full lg:w-1/3 flex flex-col items-center lg:items-end lg:sticky top-28 max-h-[80vh]"
       >
         {
           content.upperHeading && (
@@ -34,7 +34,7 @@ const { content } = Astro.props;
             <a
               href={content.buttonLink}
               target="_blank"
-              class="mt-12 btn-primary text-right"
+              class="mt-6 btn-primary text-right"
             >
               {content.buttonText}
             </a>
