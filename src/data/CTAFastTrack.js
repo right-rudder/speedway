@@ -12,7 +12,7 @@ const CTAFastTrack = {
     },
     {
       name: "Learn More",
-      link: "/fast-track",
+      link: "/fast-track-program",
       primary: false,
     },
   ],
