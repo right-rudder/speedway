@@ -6,27 +6,27 @@ const { content } = Astro.props;
 
 <section
   id={content.heading}
-  class="bg-gradient-to-b from-muted-50 to-primary-100 py-20 flex justify-center align-middle items-center"
+  class="w-full py-20 flex justify-center align-middle items-center"
 >
   <div>
     <div class="w-full lg:mx-0 text-center mb-16">
       {
         content.upperHeading && (
-          <h3 class="mx-auto mt-12 uppercase text-lg lg:text-xl font-sans font-bold tracking-tight text-primary-500">
+          <p class="mx-auto mt-12 uppercase text-lg lg:text-xl font-sans font-bold tracking-tight text-accent-400">
             {content.upperHeading}
-          </h3>
+          </p>
         )
       }
       {
         content.heading && (
-          <h2 class="mx-auto px-5 lg:px-0 mb-3 text-3xl lg:text-5xl font-sans2 font-bold tracking-tight text-primary-800">
+          <h2 class="mx-auto px-5 lg:px-0 mb-3 text-3xl lg:text-5xl font-sans2 font-bold tracking-tight text-accent-200">
             {content.heading}
           </h2>
         )
       }
       {
         content.descriptions && (
-          <div class="max-w-4xl mx-auto px-4 lg:px-0">
+          <div class="max-w-4xl mx-auto px-4 lg:px-0 text-accent-300">
             {content.descriptions.map((p) => (
               <p
                 class="mx-auto mb-4 text-lg tracking-loose leading-relaxed text-muted-800"
@@ -39,7 +39,7 @@ const { content } = Astro.props;
     </div>
     {
       content.steps && (
-        <div class="max-w-6xl">
+        <div class="max-w-6xl mx-auto">
           {content.steps.map((step, index) => (
             <div
               class={`relative mt-12 flex flex-wrap justify-center gap-8 lg:gap-0 items-center align-middle`}
@@ -71,7 +71,7 @@ const { content } = Astro.props;
 
                   {step.paragraphs.map((par) => (
                     <p
-                      class="text-lg mb-3 font-sans2 text-gray-800"
+                      class="text-lg mb-3 font-sans2 text-accent-200"
                       set:html={par}
                     />
                   ))}
@@ -95,7 +95,7 @@ const { content } = Astro.props;
     }
     <div class="mt-16 px-5 lg:px-0">
       <p
-        class="text-center mx-auto font-medium text-xl max-w-5xl"
+        class="text-center text-accent-200 mx-auto font-medium text-xl max-w-5xl"
         set:html={content.finalParagraph}
       />
       {
