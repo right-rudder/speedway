@@ -1,6 +1,6 @@
 export const navbarLinks = [
   {
-    name: "Fast-Track Program",
+    name: "Fast-Track",
     link: "/fast-track-program",
     mobileLink: true,
     submenu: [],
