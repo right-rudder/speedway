@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HomeHeader from "../components/HomeHeader.astro";
 import CTAColor from "../components/CTAColor.astro";
 import CTAFlight from "../data/CTAFlight.js";
+import CTAFastTrack from "../data/CTAFastTrack.js";
 import Testimonials from "../components/Testimonials.astro";
 import testimonialsData from "../data/testimonialsData.js";
 import homePage from "../data/homePage";
@@ -57,13 +58,31 @@ const { data } = homePage;
   keywords={data.pageKeywords}
 >
   <HomeHeader imagePath="/src/assets/speedway-checkered-flag-atlanta-hampton-georgia.jpg"/>
+  
+  <div
+    class="absolute bottom-20 py-5 px-5 left-5 right-5 mx-auto md:px-20 max-w-max flex flex-col md:gap-5 md:flex-row items-center bg-accent-300 backdrop-blur-sm rounded-lg shadow-md"
+  >
+    <div class="flex-1 h-12 border-accent-400 md:border-r-2 md:pr-4 flex items-center">
+      <p class="hidden text-accent-700 md:block text-lg w-max">Proudly Partnered with</p>
+    </div>
+    <div class="flex flex-row gap-1 w-full justify-around">
+      <a href="https://fsana.com/" target="_blank" rel="noopener noreferrer">
+        <img
+          src="/src/assets/logo-fsana-r13-600px.png"
+          alt="Cessna Pilot Center Logo"
+          class="h-8 w-auto lg:h-12"
+        />
+      </a>
+    </div>
+  </div>  
+  
   <Welcome content={welcome} />
   
 
   <FlightTrainingSection />
   <FlightSchoolFeatures />
   <FlightTrainingAdvantages />
-
+  <CTAColor content={CTAFastTrack} />
   <GridPrograms content={programs} />
   <!-- <CTAQuiz content={CTAQuizData} /> -->
   <section class="py-14 bg-accent-100">

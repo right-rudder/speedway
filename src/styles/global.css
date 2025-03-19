@@ -4,11 +4,11 @@
 
 @layer components {
   .btn-primary {
-    @apply text-center tracking-wide font-sans font-bold text-xl lg:text-2xl uppercase py-3 px-6 bg-primary-800 w-fit h-fit text-accent-100 rounded-sm hover:bg-primary-900 duration-300;
+    @apply text-center tracking-wide font-sans2 font-bold text-xl lg:text-2xl uppercase py-3 px-6 bg-primary-700 w-fit h-fit text-accent-100 rounded-sm hover:bg-accent-200 hover:text-mariner-900 duration-300;
   }
 
   .btn-accent {
-    @apply text-center tracking-wide font-bebas font-light uppercase py-3 px-6 w-fit rounded-sm duration-300 bg-accent-100 text-mariner-950 text-xl hover:bg-mariner-950 hover:text-accent-100;
+    @apply text-center tracking-wide font-sans2 font-bold uppercase py-3 px-6 w-fit rounded-sm duration-300 bg-accent-100 text-mariner-950 text-xl hover:bg-mariner-950 hover:text-accent-100;
   }
 
   .btn-animate {
@@ -80,6 +80,12 @@
 
   .bg-checkered {
     background-image:linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.95) 100%), url(../assets/checkered-background-speedway-hampton-atlanta-cessna-flight-school.png);
+    z-index: -100;
+  }
+
+  .bg-checkered-navy {
+    background-image:linear-gradient(to top, #000c1af3 0%, #000c1af3 100%), url(../assets/checkered-background-speedway-hampton-atlanta-cessna-flight-school.png);
+    z-index: -100;
   }
 
   /* * {
