@@ -1,24 +1,18 @@
 export const navbarLinks = [
   {
-    name: "Flight Training",
-    link: "/flight-training",
+    name: "Fast-Track Program",
+    link: "/fast-track-program",
     mobileLink: true,
     submenu: [],
   },
   {
-    name: "Fleet",
-    link: "/fleet",
+    name: "Programs",
+    link: "/programs",
     mobileLink: true,
-    submenu: [],
-  },
-  {
-    name: "More Info",
-    link: "/menu",
-    mobileLink: false,
     submenu: [
       {
         name: "Private Pilot",
-        link: "/programs/private-pilot-course",
+        link: "/programs/private-pilot",
       },
       {
         name: "Instrument Rating",
@@ -29,16 +23,31 @@ export const navbarLinks = [
         link: "/programs/commercial-pilot",
       },
       {
-        name: "Multi-Engine Rating",
-        link: "/programs/multi-engine-rating",
-      },
-      {
         name: "Flight Instructor",
         link: "/programs/certified-flight-instructor",
       },
+    ],
+  },
+  {
+    name: "More Info",
+    link: "/menu",
+    mobileLink: false,
+    submenu: [
       {
-        name: "Advanced Training",
-        link: "/programs/advanced-trainings",
+        name: "Fleet",
+        link: "/fleet",
+      },
+      {
+        name: "About Us",
+        link: "/about-us",
+      },
+      {
+        name: "Gallery",
+        link: "/gallery",
+      },
+      {
+        name: "Blog",
+        link: "/blog",
       },
     ],
   },

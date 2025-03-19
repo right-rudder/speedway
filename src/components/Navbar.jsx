@@ -89,7 +89,7 @@ const Navbar = ({ pathname }) => {
           >
             <div className="flex w-full items-center justify-between flex-auto">
               <div className="hidden lg:flex w-full justify-between text-lg">
-                <ul className="flex lg:w-1/3 align-middle gap-2 xl:gap-5 items-center">
+                <ul className="flex flex-1 min-w-0 lg:w-1/3 align-middle gap-2 xl:gap-5 items-center">
                   {navbarLinks.map((item, index) => (
                     <li
                       key={index}
@@ -169,7 +169,7 @@ const Navbar = ({ pathname }) => {
                 </ul>
                 <a
                   href="/"
-                  className="relative hover:brightness-110 duration-200 ease-in-out lg:w-1/3 "
+                  className="relative hover:brightness-110 duration-200 ease-in-out flex-1 min-w-0 lg:w-1/3 flex justify-center"
                 >
                   <img
                     src={`${navBar || openMobile ? LOGO_SECONDARY : LOGO_PRIMARY}`}
@@ -181,9 +181,9 @@ const Navbar = ({ pathname }) => {
                   />
                 </a>
                 <div
-                  className="relative hover:brightness-110 duration-200 ease-in-out lg:w-1/3 flex justify-end items-center"
+                  className="relative hover:brightness-110 duration-200 ease-in-out flex-1 min-w-0 lg:w-1/3 flex justify-end items-center"
                 >
-                  <a href="/" className={`btn-primary font-sans font-bold ${navBar || openMobile ? "bg-accent-100 hover:bg-accent-100 text-mariner-950" : ""}`}> 
+                  <a href="/" className={`btn-primary ${navBar || openMobile ? "btn-accent hover:bg-primary-700" : ""}`}> 
                    Enroll
                   </a>
                 </div>

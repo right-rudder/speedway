@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeaderSmall from "../../components/HeaderSmall.astro";
+import CTAColor from "../../components/CTAColor.astro";
+import CTAFlight from "../../data/CTAFlight.js";
+import programData from "../../data/programsIndex.js";
+import GridPrograms from "../../components/GridPrograms.astro";
+import programs from "../../data/programs";
+
+---
+<BaseLayout
+  siteTitle={programData.pageTitle}
+  siteDescription={programData.pageDescription}
+  keywords={programData.pageKeywords}
+  >
+  
+  <HeaderSmall content={programData.header} />
+  <GridPrograms content={programs} />
+
+
+  <CTAColor content={CTAFlight} />
+
+</BaseLayout>
+
