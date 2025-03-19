@@ -49,7 +49,7 @@ const fastTrackRoadmap = {
     },
     {
       title: "Step 5: Add a Certified Flight Instructor - Instrument (CFII)",
-      link: "/programs/certified-flight-instructor-instrument",
+      link: "/programs/certified-flight-instructor",
       paragraphs: [
         "Enhancing your credentials with a Certified Flight Instructor - Instrument (CFII) rating allows you to train students in instrument flight procedures, further increasing your flight hours and expertise.",
         "At Speedway, our CFII program refines your instructional techniques and prepares you to mentor pilots through IFR training."
