@@ -88,6 +88,11 @@
     z-index: -100;
   }
 
+  .bg-roadmap {
+    background-image:linear-gradient(to top, #000c1a0e 0%, #000c1a0e 100%), url(../assets/roadmap-racetrack.webp);
+    z-index: -100;
+  }
+
   /* * {
     border:1px solid red;
   } */
