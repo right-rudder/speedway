@@ -88,6 +88,10 @@
     z-index: -100;
   }
 
+  .bg-df-cta {
+    background-image:linear-gradient(to top, #000c1a3b 0%, #000c1a3b 100%), url(../assets/inside-cockpit-flight-training-speedway-ga.jpg);
+  }
+
   .bg-roadmap {
     background-image:linear-gradient(to top, #000c1a0e 0%, #000c1a0e 100%), url(../assets/roadmap-racetrack.webp);
     z-index: -100;
