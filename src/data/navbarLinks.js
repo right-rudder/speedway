@@ -26,6 +26,10 @@ export const navbarLinks = [
         name: "Flight Instructor",
         link: "/programs/certified-flight-instructor",
       },
+      {
+        name: "CFI - Instrument",
+        link: "/programs/certified-flight-instructor-instrument-cfii",
+      },
     ],
   },
   {
