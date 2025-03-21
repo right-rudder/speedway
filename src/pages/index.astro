@@ -19,7 +19,7 @@ import GeneralFAQs from "../components/GeneralFAQs";
 import FlightTrainingSection from "../components/FlightTrainingSection.astro";
 import FlightSchoolFeatures from "../components/FlightSchoolFeatures.astro";
 import FlightTrainingAdvantages from "../components/FlightTrainingAdvantages.astro";
-
+import Partners from "../components/Partners.astro";
 
 const blogfeed = {
   upperHeading: "Our Blog",
@@ -49,6 +49,19 @@ const welcome = {
   ]
 };
 
+const partners = [
+  {
+    link: "https://fsana.com/",
+    img: "/src/assets/logo-fsana-r13-600px.png",
+    alt: "Flight School Association of North America (FSANA) partner logo",
+  },
+  {
+    link: "https://indyjet.net/",
+    img: "/src/assets/indy-jet.png",
+    alt: "Indy Jet FBO and aviation partner logo",
+  },
+];
+
 const { data } = homePage;
 ---
 
@@ -59,7 +72,9 @@ const { data } = homePage;
 >
   <HomeHeader imagePath="/src/assets/speedway-checkered-flag-atlanta-hampton-georgia.jpg"/>
   
-  <div
+  <Partners content={partners} />
+  
+  <!-- <div
     class="absolute top-[81vh] py-5 px-5 left-5 right-5 mx-auto md:px-20 max-w-max flex flex-col md:gap-5 md:flex-row items-center bg-accent-300 backdrop-blur-sm rounded-lg shadow-md"
   >
     <div class="flex-1 h-12 border-accent-400 md:border-r-2 md:pr-4 flex items-center">
@@ -74,7 +89,7 @@ const { data } = homePage;
         />
       </a>
     </div>
-  </div>  
+  </div>   -->
     
   <Welcome content={welcome} />
   
