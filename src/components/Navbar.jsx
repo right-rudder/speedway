@@ -1,4 +1,5 @@
 import { navbarLinks } from "../data/navbarLinks.js";
+import { navbarLinks2 } from "../data/navbarLinks2.js";
 import { useEffect, useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { FaPhone } from "react-icons/fa";
@@ -180,10 +181,90 @@ const Navbar = ({ pathname }) => {
                     className={`${navBar || openMobile ? "h-20 lg:h-20 p-1" : "mt-4 h-20 lg:h-28"} mx-auto object-contain duration-500 max-w-[70vw]`}
                   />
                 </a>
+                
                 <div
                   className="relative hover:brightness-110 duration-200 ease-in-out flex-1 min-w-0 lg:w-1/3 flex justify-end items-center"
                 >
-                  <a href="/" className={`btn-primary ${navBar || openMobile ? "btn-accent hover:bg-primary-700" : ""}`}> 
+                  <ul className="flex flex-1 justify-end min-w-0 lg:w-1/3 align-middle gap-2 xl:gap-5 items-center">
+                    {navbarLinks2.map((item, index) => (
+                      <li
+                        key={index}
+                        className={`${isActive(item, pathname) ? "decoration-transparent underline font-normal" : "font-thin"} py-5 uppercase xl:tracking-widest relative group last:no-underline last:px-0`}
+                        onMouseEnter={() => setHoveredIndex(index)}
+                        onMouseLeave={() => setHoveredIndex(null)}
+                      >
+                        {item.link ? (
+                          <a
+                            href={item.link}
+                            target={`${item.link.includes("http") ? "_blank" : "_self"}`}
+                            className={`${navBar || openMobile ? "text-accent-100" : "text-accent-100"} font-bold font-sans text-xl duration-300 hover:underline decoration-primary-700 decoration-2 underline-offset-[10px] border-primary whitespace-nowrap `}
+                          >
+                            <span className="relative block">
+                              {item.name}
+                            </span>
+                          </a>
+                        ) : (
+                          <span className="font-medium cursor-default text-2xl duration-300 hover:underline decoration-primary-300 decoration-4 underline-offset-[10px] py-12 whitespace-nowrap">
+                            {item.name}
+                          </span>
+                        )}
+                        {item.submenu && item.submenu.length > 0 && (
+                          <ul
+                            className={`${navBar || openMobile ? "text-accent-100 bg-mariner-950/90 backdrop-blur-sm" : "text-accent-100 "} absolute top-16 whitespace-nowrap text-accent-100 font-bold font-sans -left-4 duration-400 ease-in-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
+                          >
+                            {item.submenu.map((subitem, subIndex) => (
+                              <li
+                                key={subIndex}
+                                className={`${isActive(subitem, pathname) ? "scale-110  text-accent-100" : ""} relative hover:bg-primary-700 hover:scale-110 duration-200 px-3 hover:shadow-sm drop-shadow-sm font-bold hover:text-accent-100`}
+                                onMouseEnter={() => setSubHoveredIndex(subIndex)}
+                                onMouseLeave={() => setSubHoveredIndex(null)}
+                              >
+                                {subitem.link ? (
+                                  <a
+                                    className="p-3 block"
+                                    href={subitem.link}
+                                    target={`${subitem.link.includes("http") ? "_blank" : "_self"}`}
+                                  >
+                                    {subitem.name}
+                                  </a>
+                                ) : (
+                                  <span className="cursor-default p-3 block">
+                                    {subitem.name}
+                                  </span>
+                                )}
+
+                                {subitem.subsubmenu &&
+                                  subitem.subsubmenu.length > 0 && (
+                                    <ul
+                                      className={`absolute z-20 top-0 bg-primary-400 whitespace-nowrap left-full duration-500 ${subHoveredIndex === subIndex ? "max-h-auto w-auto opacity-100" : "max-h-0 w-0 opacity-0 overflow-hidden"}`}
+                                    >
+                                      {subitem.subsubmenu.map(
+                                        (subsubitem, subsubIndex) => (
+                                          <li
+                                            key={subsubIndex}
+                                            className={`${isActive(subsubitem, pathname) ? "bg-primary" : ""} relative hover:bg-secondary`}
+                                          >
+                                            <a
+                                              href={subsubitem.link}
+                                              target={`${subsubitem.link.includes("http") ? "_blank" : "_self"}`}
+                                              className="block p-3"
+                                            >
+                                              {subsubitem.name}
+                                            </a>
+                                          </li>
+                                        ),
+                                      )}
+                                    </ul>
+                                  )}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+
+                  <a href="/" className={`ml-2 xl:ml-4 btn-primary ${navBar || openMobile ? "btn-accent hover:bg-primary-700" : ""}`}> 
                    Enroll
                   </a>
                 </div>
