@@ -8,6 +8,7 @@ import programs from "../../data/programs";
 import PageSummary from "../../components/PageSummary.astro";
 import ContentSplit from "../../components/ContentSplit.astro";
 import TestimonialsSwiper from "../../components/TestimonialsSwiper.astro";
+import testimonialsSwiper from "../../data/testimonialsSwiper";
 import Why from "../../components/Why.astro";
 
 import pageData from "../../data/whyData.js";
@@ -24,11 +25,8 @@ import pageData from "../../data/whyData.js";
   
   <div id="info"></div>
   <ContentSplit content={pageData.contentSplit} />
-  
-  
-  <TestimonialsSwiper />
 
-  <ProgramSwiper content={programs} />
+  <TestimonialsSwiper content={testimonialsSwiper} />
   <CTAColor content={CTAFlight} />
   <script src="../../scripts/creativeSwiper.js"></script>
 </BaseLayout>
