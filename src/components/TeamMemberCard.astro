@@ -23,7 +23,7 @@ const { teamMember } = Astro.props;
   </div>
   <div class="max-w-md lg:max-w-3xl flex flex-col justify-between">
     <div class="flex flex-col gap-2">
-      {teamMember.bio.map((paragraph) => <p class="text-sm">{paragraph}</p>)}
+      {teamMember.bio.map((paragraph) => <p class="text-sm" set:html={paragraph} ></p>)}
     </div>
     <div>
       <p class="text-end font-semibold text-main-red">{teamMember.email}</p>
