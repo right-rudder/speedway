@@ -6,6 +6,7 @@ import { FaArrowAltCircleRight } from "react-icons/fa";
 import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
 import { fleet } from "../../../data/fleet";
 import PlaneCarousel from "../../../components/PlaneCarousel.jsx";
+import ContactUs from "../../../components/ContactUs.astro";
 
 export async function getStaticPaths() {
   return fleet.map(({ slug, ...plane }) => ({
@@ -111,7 +112,7 @@ const header = {
           </ul>
         </>
       )}
-      <a href={rentalPrice ? "/contact-us" : "/enrollment-form"} class="btn-primary mx-auto">
+      <a href={rentalPrice ? "#contact" : "/enrollment-form"} class="btn-primary mx-auto">
         {rentalPrice ? "Book Now" : "Start Training"}
       </a>
 
@@ -139,15 +140,6 @@ const header = {
     </div>
   </section>
 
-  <section class="py-12 px-5 bg-primary-700">
-    <div class="max-w-7xl mx-auto gap-10 lg:gap-52 flex justify-between items-center lg:flex-row flex-col">
-      <div>
-        <h3 class="text-5xl text-white font-bold leading-tight text-center lg:text-left">
-          Reach out to schedule a flight in this aircraft
-        </h3>
-      </div>
-      <a href="/contact-us" class="flex-shrink-0 btn-accent">Submit Rental Inquiry</a>
-    </div>
-  </section>
+  <ContactUs />
 
 </BaseLayout>
