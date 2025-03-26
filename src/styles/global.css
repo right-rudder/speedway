@@ -32,7 +32,7 @@
 
   .swiper-button-next,
   .swiper-button-prev {
-    @apply bg-gray-100 opacity-20 hover:opacity-70 duration-300 ease-in-out px-8 py-9;
+    @apply opacity-40 hover:opacity-80 duration-300 ease-in-out px-8 py-9 filter saturate-0;
   }
 
   p {
@@ -85,6 +85,15 @@
 
   .bg-checkered-navy {
     background-image:linear-gradient(to top, #000c1af3 0%, #000c1af3 100%), url(../assets/checkered-background-speedway-hampton-atlanta-cessna-flight-school.png);
+    z-index: -100;
+  }
+
+  .bg-df-cta {
+    background-image:linear-gradient(to top, #000c1a3b 0%, #000c1a3b 100%), url(../assets/inside-cockpit-flight-training-speedway-ga.jpg);
+  }
+
+  .bg-roadmap {
+    background-image:linear-gradient(to top, #000c1a0e 0%, #000c1a0e 100%), url(../assets/roadmap-racetrack.webp);
     z-index: -100;
   }
 

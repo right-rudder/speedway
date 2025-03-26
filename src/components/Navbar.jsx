@@ -180,6 +180,7 @@ const Navbar = ({ pathname }) => {
                     className={`${navBar || openMobile ? "h-20 lg:h-20 p-1" : "mt-4 h-20 lg:h-28"} mx-auto object-contain duration-500 max-w-[70vw]`}
                   />
                 </a>
+                
                 <div
                   className="relative hover:brightness-110 duration-200 ease-in-out flex-1 min-w-0 lg:w-1/3 flex justify-end items-center"
                 >

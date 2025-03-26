@@ -21,8 +21,8 @@ const fastTrackZeroToCFIData = {
         primary: false,
       },
       {
-        name: "Request Info",
-        link: "/contact",
+        name: "More Info",
+        link: "#info",
         primary: false,
       },
     ],
@@ -30,7 +30,7 @@ const fastTrackZeroToCFIData = {
 
   // Program Details
   details: {
-    upperHeading: "Accelerate Your Aviation Career with",
+    upperHeading: "Accelerate Your Aviation Career",
     heading: "Fast Track to the Flight Deck",
     subHeading:
       "For aspiring pilots who want an efficient and structured path to becoming a professional pilot, this all-inclusive program takes students from zero flight hours to Certified Flight Instructor (CFI).",

@@ -9,10 +9,10 @@ interface Partner {
 }
 
 interface Props {
-  data: Partner[];
+  content: Partner[];
 }
 
-const { data }: Props = Astro.props;
+const { content }: Props = Astro.props;
 
 // Dynamically import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(
@@ -20,7 +20,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 );
 
 const resolvedImages = await Promise.all(
-  data.map(async (partner) => {
+  content.map(async (partner) => {
     if (images[partner.img]) {
       const importedImage = await images[partner.img]();
       return { ...partner, imgSrc: importedImage.default };
@@ -33,24 +33,26 @@ const resolvedImages = await Promise.all(
 ---
 
 <section
-  class="relative lg:mt-0 h-24 -z-0 bg-accent-300/90 text-accent-100 flex flex-row items-center justify-center overflow-hidden"
+  class="absolute top-[81vh] py-5 px-5 left-5 right-5 mx-auto md:px-20 max-w-max flex flex-col md:gap-5 md:flex-row items-center bg-accent-300 backdrop-blur-sm rounded-lg shadow-md"
 >
-  <p class="text-center text-xl py-3 pr-3 border-r">
-    Proudly partnered with 
-  </p>
+  <div class="flex-1 h-12 border-accent-400 md:border-r-2 md:pr-4 flex items-center">
+    <p class="hidden text-accent-700 md:block text-lg w-max">Proudly Partnered with</p>
+  </div>
+  <div class="flex flex-row gap-1 w-full justify-around items-center">
     {resolvedImages.map((partner) => (
-      <a href={partner.link} class="inline-block mx-2">
+      <a href={partner.link} class="h-8 w-auto lg:h-12" target="_blank">
         {partner.imgSrc ? (
           <Image
             src={partner.imgSrc}
             alt={partner.alt}
             width={200}
             loading="eager"
+            class="h-8 w-auto lg:h-12 group-last:top-0"
           />
         ) : (
           <span>Error: Image not found</span>
         )}
       </a>
     ))}
- 
+  </div>
 </section>

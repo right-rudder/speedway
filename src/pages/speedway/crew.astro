@@ -1,0 +1,58 @@
+---
+import ContactUs from "../../components/ContactUs.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import TeamMemberCard from "../../components/TeamMemberCard.astro";
+import { leadershipTeam, flightTeam } from "../../data/team.js";
+import Location from "../../components/Location.astro";
+import EnrollNowCTA from "../../components/EnrollNowCTA.astro";
+import FlightTeamMember from "../../components/FlightTeamMember.astro";
+import HeaderSmall from "../../components/HeaderSmall.astro";
+
+const header = {
+  imagePath: "/src/assets/cessna-172-preflight-check-speedway-flight-training-wide.webp",
+  headerH1: "the Speedway Team",
+  imageAlt: "Speedway Flight Training instructors and staff in front of a Cessna at KHMP",
+  paragraph:
+    "Our instructors are more than just pilots — they're mentors, guides, and aviation enthusiasts who are here to help you succeed. Learn more about the people who make Speedway Flight Training a community-driven flight school in Hampton, Georgia.",
+  buttons: [
+    {
+      name: "Contact Us",
+      link: "#contact",
+      primary: false,
+    },
+  ],
+};
+---
+
+<BaseLayout
+  pageTitle="Our Team | Speedway Flight Training"
+  pageDescription="Meet the instructors and staff behind Speedway Flight Training. Our experienced team is dedicated to safety, mentorship, and helping you become the best pilot you can be."
+  pageKeywords="Speedway Flight Training team, instructors, staff, flight school Georgia, CFI, CFII, aviation mentors"
+>
+  <HeaderSmall content={header} />
+
+  <section class="flex flex-col items-center px-10 py-16">
+    <h2 class="text-4xl font-semibold text-center tracking-tight text-accent-200 mb-10">
+      Leadership Team
+    </h2>
+
+    {leadershipTeam.map((member) => <TeamMemberCard teamMember={member} />)}
+
+    <hr class="bg-primary-600 w-full h-1 rounded-xl max-w-4xl my-16" />
+
+    <h2 class="text-4xl font-semibold text-center tracking-tight text-accent-200 mb-10">
+      Flight Instructors
+    </h2>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 justify-items-center">
+      {flightTeam.map((member) => <FlightTeamMember teamMember={member} />)}
+    </div>
+
+    <a href="#contactUs" class="mt-12">
+      <div class="btn-primary">Get in Touch</div>
+    </a>
+  </section>
+
+  <Location />
+  <ContactUs />
+</BaseLayout>
