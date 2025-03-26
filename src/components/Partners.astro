@@ -40,7 +40,7 @@ const resolvedImages = await Promise.all(
   </div>
   <div class="flex flex-row gap-1 w-full justify-around items-center">
     {resolvedImages.map((partner) => (
-      <a href={partner.link} class="h-8 w-auto lg:h-12">
+      <a href={partner.link} class="h-8 w-auto lg:h-12" target="_blank">
         {partner.imgSrc ? (
           <Image
             src={partner.imgSrc}
