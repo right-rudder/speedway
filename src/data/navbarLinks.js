@@ -33,21 +33,17 @@ export const navbarLinks = [
     ],
   },
   {
-    name: "More Info",
+    name: "About Us",
     link: "/speedway",
     mobileLink: false,
     submenu: [
       {
         name: "Fleet",
-        link: "/fleet",
+        link: "/speedway/fleet",
       },
       {
-        name: "About Us",
-        link: "/about-us",
-      },
-      {
-        name: "Gallery",
-        link: "/gallery",
+        name: "Crew",
+        link: "/speedway/crew",
       },
       {
         name: "Blog",
