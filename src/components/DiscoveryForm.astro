@@ -75,14 +75,14 @@ const CONTACT_US_FORM_WEBHOOK_URL = import.meta.env.CONTACT_WEBHOOK_URL;
       <!-- <label for="message" class="block text-sm leading-6 text-accent-100">How can we help?</label> -->
       <div class="mt-2.5">
         <!-- Need to get align bottom... -->
-        <label for="interest-program" class="block mb-0 font-extralight">
+        <label for="interest-program" class="block mb-0 font-extralight text-accent-100">
           What is your aviation goal?
         </label>
         <select
           required
           id="interest-program"
           name="interest-program"
-          class="w-full font-extralight h-9 p-2 bg-transparent focus:outline focus:outline-primary-600/50"
+          class="block font-extralight w-full py-2 text-accent-100 shadow-sm ring-inset ring-gray-300 placeholder:text-gray-300 bg-transparent border-b-[1px] border-gray-300 sm:text-sm sm:leading-6 outline-none"
         >
           <option class="bg-accent-950">Private Pilot License (PPL)</option>
           <option class="bg-accent-950">Instrument Rating (IR)</option>
@@ -98,7 +98,7 @@ const CONTACT_US_FORM_WEBHOOK_URL = import.meta.env.CONTACT_WEBHOOK_URL;
           name="message"
           id="message"
           rows="4"
-          placeholder="How can we help?"
+          placeholder="What is your preferred time and day?"
           required
           class="block w-full py-2 text-accent-100 shadow-sm ring-inset ring-gray-300 placeholder:text-gray-300 bg-transparent border-b-[1px] border-gray-300 sm:text-sm sm:leading-6 outline-none"
         ></textarea>
@@ -109,9 +109,9 @@ const CONTACT_US_FORM_WEBHOOK_URL = import.meta.env.CONTACT_WEBHOOK_URL;
         <!-- Enabled: "bg-gray-900", Not Enabled: "bg-gray-200" -->
         <button
           type="button"
-          x-bind:class="{ 'bg-gray-900': isChecked, 'bg-gray-200': !isChecked }"
+          x-bind:class="{ 'bg-primary-900': isChecked, 'bg-gray-200': !isChecked }"
           x-on:click="isChecked = !isChecked"
-          class="flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
+          class="flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-primary-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
           role="switch"
           aria-checked="false"
           aria-labelledby="switch-1-label"
@@ -140,7 +140,7 @@ const CONTACT_US_FORM_WEBHOOK_URL = import.meta.env.CONTACT_WEBHOOK_URL;
     </div>
   </div>
   <div class="mt-10">
-    <button type="submit" class="btn-accent">Contact Us</button>
+    <button type="submit" class="btn-accent">Book Now</button>
   </div>
 </form>
 
