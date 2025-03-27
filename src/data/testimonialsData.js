@@ -7,36 +7,28 @@ const testimonialsData = {
   ],
   buttonText: "Share Your Experience",
   buttonLink:
-    "https://search.google.com/local/writereview?placeid=ChIJZyqAXVebwoARFSs_Fz2HHeA",
+    "https://g.page/r/CaFIJjUwvpBsEBM/review",
   reviews: [
     {
-      body: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis at arcu nec purus convallis tincidunt. Aenean at lorem suscipit, molestie enim vel, tincidunt dui.`,
-      author: "Jonathan D."
+      body: `Speedway flight training is by far the best flight school on the south side of Atlanta. The planes and instructors are top notch. Speedway airport is fantastic for flight training. It's not too busy which allows for more training and it also has a nice fbo and staff.`,
+      author: "Noah"
     },
     {
-      body: `Quisque vehicula lacus sit amet felis interdum, a dictum ligula facilisis. Morbi eget velit at nisl ultricies laoreet. Integer vestibulum nisi non ligula venenatis tincidunt.`,
-      author: "Kaine S."
+      body: `Hands down the best flight school/aircraft rental for the Atlanta area. The planes are kept in excellent condition and I never have to worry about maintenance being an issue.`,
+      author: "Brandon S."
     },
     {
-      body: `Sed nec leo pharetra, posuere justo in, efficitur ipsum. Aliquam erat volutpat. Suspendisse vel dapibus purus, nec congue augue. Duis eget nisi nec metus tincidunt consectetur.`,
-      author: "Henry S."
+      body: `Speedway Flight training is the real deal! Top notch instructors, great fleet and affordable. I've trained with Joe for IRA rating and passed my checkride, all while working a full time job! Loved the experience and will continue to pursue the remaining ratings needed to obtain the required minimums.`,
+      author: "Elijah L."
     },
     {
-      body: `Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce efficitur nisl non lacus faucibus tristique. Nullam eget augue nec justo sagittis tincidunt.`,
-      author: "Shlomi E."
+      body: `Great place to train and fly. I received all my flight training here, private through Certified Flight Instructor. The owners have always ensured the planes are in great shape and regular maintenance is up to date. Very affordable cost to rent the planes with the integrated avionics, autopilot and primary flight display. The instructors are top notch and care about their students progress and success. The airport is quiet, 5,500ft runway with really cool views of Atlanta Motor Speedway. Overall, I would definitely recommend trying out an introduction flight with Speedway Flight Training and see where it takes you.`,
+      author: "Cory C."
     },
     {
-      body: `Nunc vel felis sed ex bibendum interdum. Cras ut elit nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.`,
-      author: "Matthew R."
+      body: `The highest quality and most affordable flight training in south Atlanta! Highly recommend to anyone looking to pursue aviation!`,
+      author: "Jonathan B."
     },
-    {
-      body: `Aliquam eget metus id quam sollicitudin venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus vel urna eu turpis accumsan fermentum.`,
-      author: "Ajuma O."
-    },
-    {
-      body: `Phasellus a libero ac justo tincidunt sagittis. Donec sodales, ligula in cursus malesuada, nisl libero dapibus libero, sed tristique sapien elit nec felis.`,
-      author: "Boaz F."
-    }
   ]
 };
 
