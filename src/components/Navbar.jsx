@@ -241,8 +241,8 @@ const Navbar = ({ pathname }) => {
 
       <div
         className={`${
-          openMobile ? "max-h-screen" : "max-h-0"
-        } overflow-x-hidden duration-700 ease-in-out h-screen lg:hidden absolute w-full max-w-2xl right-0 z-20 top-0`}
+          openMobile ? "h-screen" : "max-h-0"
+        } overflow-x-hidden duration-700 ease-in-out fixed w-full right-0 z-50  bg-primary-700 ${navBar ? "top-0" : "top-12"} backdrop-blur-md`}
         id="mobile-menu"
       >
         <div className="flex justify-end pl-5 pr-[26px] py-6">
@@ -264,18 +264,16 @@ const Navbar = ({ pathname }) => {
           </svg>
         </div>
 
-        <a
-          href="/"
-          className="z-30 relative flex justify-center items-center align-middle"
-        >
-          <img
-            src={LOGO_PRIMARY}
-            alt={`${COMPANY_NAME} logo`}
-            aria-label={`${COMPANY_NAME} logo`}
-            title={COMPANY_NAME}
-            className="object-contain h-24 w-auto drop-shadow-sm"
-          />
-        </a>
+        <div className="bg-mariner-950 py-6 flex justify-center items-center">
+          <a href="/">
+            <img
+              src={LOGO_PRIMARY}
+              alt={`${COMPANY_NAME} logo`}
+              title={COMPANY_NAME}
+              className="h-20 w-auto object-contain"
+            />
+          </a>
+        </div>
 
         <div
           className={`absolute w-full h-48 top-0 z-20 ${
