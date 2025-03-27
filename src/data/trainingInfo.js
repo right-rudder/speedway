@@ -4,7 +4,7 @@ const trainingInfo = {
     "At Speedway Flight Training, our experienced instructors provide expert guidance in a safe, structured, and enjoyable learning environment. Train with a fleet of well-maintained aircraft at Atlanta Speedway Airport.",
   bullets: [
     "Learn from experienced instructors with real-world flight expertise.",
-    "Train in modern aircraft equipped with advanced avionics.",
+    "Train in well-maintained aircraft equipped with advanced avionics.",
     "Flexible programs tailored to recreational and career pilots."
   ],
   imagePath: "/src/assets/cessna-172-tail-speedway-flight-training-logo-hampton-atlanta-georgia.jpg",
