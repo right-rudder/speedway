@@ -48,6 +48,18 @@ export const leadershipTeam = [
 
 export const flightTeam = [
   {
+    name: "Jordan Morris",
+    title: "Chief Flight Instructor",
+    subtitle: "Certificates & Ratings: Commercial ASEL, CFI",
+    bio: [
+      "<strong>Jordan Morris</strong> is passionate about making aviation accessible and rewarding for every student. He brings an encouraging tone to each lesson and adapts quickly to meet the needs of diverse learners.",
+      "Jordan emphasizes strong preflight habits, situational awareness, and sound aeronautical decision-making. He works closely with students to help them identify their personal learning styles, building strategies that work for each pilot-in-training.",
+      "Whether working on VFR maneuvers or teaching cross-country procedures, Jordan prioritizes clarity, consistency, and real-world relevance."
+    ],
+    image: "/src/assets/profile-silhouette.png",
+    alt: "CFI Jordan Morris at Speedway Flight Training",
+  },
+  {
     name: "Eric Schafhauser",
     title: "Chief Standards Captain – Boeing 717",
     subtitle: "Airline Captain & Aviation Educator",
@@ -113,18 +125,6 @@ export const flightTeam = [
     ],
     image: "/src/assets/profile-silhouette.png",
     alt: "CFI Sammy Shlapak at Speedway Flight Training",
-  },
-  {
-    name: "Jordan Morris",
-    title: "Flight Instructor",
-    subtitle: "Certificates & Ratings: Commercial ASEL, CFI",
-    bio: [
-      "<strong>Jordan Morris</strong> is passionate about making aviation accessible and rewarding for every student. He brings an encouraging tone to each lesson and adapts quickly to meet the needs of diverse learners.",
-      "Jordan emphasizes strong preflight habits, situational awareness, and sound aeronautical decision-making. He works closely with students to help them identify their personal learning styles, building strategies that work for each pilot-in-training.",
-      "Whether working on VFR maneuvers or teaching cross-country procedures, Jordan prioritizes clarity, consistency, and real-world relevance."
-    ],
-    image: "/src/assets/profile-silhouette.png",
-    alt: "CFI Jordan Morris at Speedway Flight Training",
   },
   {
     name: "Garrett Hoffee",
