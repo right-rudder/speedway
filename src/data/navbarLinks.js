@@ -8,7 +8,7 @@ export const navbarLinks = [
   {
     name: "Programs",
     link: "/programs#top",
-    mobileLink: true,
+    mobileLink: false,
     submenu: [
       {
         name: "Private Pilot",
