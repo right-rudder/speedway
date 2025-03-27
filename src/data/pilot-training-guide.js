@@ -95,7 +95,7 @@ const pilotTrainingGuide = {
           imageAlt: "Commercial airline cockpit view",
           description:
             "With the right training, flight hours, and certifications, you’ll be ready to apply for your first airline job and launch your professional pilot career.",
-          link: "/contact-us",
+          link: "/contact",
         },
       ],
     },
