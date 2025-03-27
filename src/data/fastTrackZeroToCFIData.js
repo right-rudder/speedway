@@ -17,7 +17,7 @@ const fastTrackZeroToCFIData = {
     buttons: [
       {
         name: "Apply Now",
-        link: "/enroll-now",
+        link: "/enroll",
         primary: false,
       },
       {
@@ -112,7 +112,7 @@ const fastTrackZeroToCFIData = {
         "Train with expert instructors, gain hands-on experience, and complete your flight training in as little as 12-18 months. Start your journey toward a professional aviation career today!",
       button: {
         name: "Apply Now",
-        link: "/apply",
+        link: "/enroll",
       },
     },
 

@@ -2,39 +2,71 @@ const programs = {
   upperHeading: "Explore",
   heading: "Our Training Programs",
   description:
-    "Whether you're starting your aviation journey, advancing your skills, or pursuing a career in aviation, Speedway Flight Training offers tailored programs for all experience levels.",
+    "From your first discovery flight to becoming a flight instructor, Speedway Flight Training offers professional, structured programs for every stage of your aviation journey.",
   cards: [
     {
       title: "Private Pilot License (PPL)",
       imagePath: "/src/assets/speedway-flight-training-cessna-172-hampton-ga.jpg",
       imageAlt: "Cessna 172 aircraft at Speedway Flight Training on the runway",
       description:
-        "Take the first step toward becoming a pilot with our structured Private Pilot License (PPL) training.",
-      link: "/programs/private-pilot",
+        "Earn your Private Pilot License and build a solid foundation in aviation with hands-on training and expert instruction.",
+      link: "/programs/private-pilot#top",
     },
     {
-      title: "Instrument Rating (IFR)",
+      title: "Instrument Rating (IR)",
       imagePath: "/src/assets/stock-ben-knight--r4CK5tFND8-unsplash.jpg",
       imageAlt: "Close-up of modern avionics in a Speedway Flight Training aircraft",
       description:
-        "Enhance your skills and safely navigate through low-visibility conditions with our Instrument Rating course.",
-      link: "/programs/instrument-rating",
+        "Train to fly in low-visibility and IFR conditions with our Instrument Rating program, designed for confident, safe pilots.",
+      link: "/programs/instrument-rating#top",
     },
     {
       title: "Commercial Pilot License (CPL)",
       imagePath: "/src/assets/instructor-and-student-preparing-for-flight-speedway.jpg",
       imageAlt: "Speedway Flight Training aircraft in flight over Georgia",
       description:
-        "Advance your aviation career with our Commercial Pilot License (CPL) program and qualify for professional flying opportunities.",
-      link: "/programs/commercial-pilot",
+        "Advance your training and open the door to professional pilot opportunities with our Commercial Pilot License course.",
+      link: "/programs/commercial-pilot#top",
     },
     {
-      title: "Certified Flight Instructor (CFI & CFII)",
+      title: "Certified Flight Instructor (CFI)",
       imagePath: "/src/assets/cessna-172-in-flight-over-hampton-ga.jpg",
       imageAlt: "Speedway Flight Training instructor guiding a student pilot during pre-flight checks",
       description:
-        "Share your passion for aviation and build valuable flight hours by becoming a Certified Flight Instructor (CFI). Expand your teaching credentials with the CFII course and train future pilots in advanced instrument flight techniques.",
-      link: "/programs/certified-flight-instructor",
+        "Become a Certified Flight Instructor (CFI) and start your teaching journey while building time toward your aviation career.",
+      link: "/programs/certified-flight-instructor#top",
+    },
+    {
+      title: "Instrument Instructor (CFII)",
+      imagePath: "/src/assets/stock-kristina-delp-xx7EiLeralM-unsplash.jpg",
+      imageAlt: "Instructor training a student on instrument procedures in flight",
+      description:
+        "Expand your instructor qualifications with a CFII and teach instrument procedures to the next generation of pilots.",
+      link: "/programs/certified-flight-instructor-instrument-cfii#top",
+    },
+    {
+      title: "Multi-Engine Add-On",
+      imagePath: "/src/assets/stock-chris-michals-PQXjU65EPKE-unsplash.jpg",
+      imageAlt: "Speedway multi-engine aircraft on the taxiway",
+      description:
+        "Enhance your training with multi-engine experience and prepare for airline and corporate aviation roles.",
+      link: "/programs/multi-engine#top",
+    },
+    {
+      title: "Multi-Engine Instructor (MEI)",
+      imagePath: "/src/assets/stock-david-b-o27uCBOPbG0-unsplash.jpg",
+      imageAlt: "Multi-engine instructor briefing a student pilot at Speedway",
+      description:
+        "Train to teach multi-engine operations and further your flight instructor credentials with Speedway’s MEI program.",
+      link: "/programs/multi-engine-instructor#top",
+    },
+    {
+      title: "Spin Endorsement",
+      imagePath: "/src/assets/stock-rod-long-YUUUrkTzdgQ-unsplash.jpg",
+      imageAlt: "Flight instructor performing spin recovery maneuver",
+      description:
+        "Earn your FAA-required spin endorsement in a single day. Ideal for future CFIs and pilots seeking stall/spin recovery proficiency.",
+      link: "/programs/spin-endorsement#top",
     },
   ],
 };

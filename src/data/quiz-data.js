@@ -29,7 +29,7 @@ const quizPage = {
       buttons: [
         {
           name: "Enroll Form",
-          link: "/enroll-now",
+          link: "/enroll",
           primary: false,
         },
         {

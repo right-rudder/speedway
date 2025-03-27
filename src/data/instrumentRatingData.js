@@ -17,7 +17,7 @@ const instrumentRatingData = {
     buttons: [
       {
         name: "Apply Now",
-        link: "/enroll-now",
+        link: "/enroll",
         primary: false,
       },
       {
@@ -108,7 +108,7 @@ const instrumentRatingData = {
         "Take control in IFR conditions with expert training at Speedway Flight Training. Enroll in our Instrument Rating program today and gain the skills to fly safely in all weather conditions.",
       button: {
         name: "Apply Now",
-        link: "/apply",
+        link: "/enroll",
       },
     },
 

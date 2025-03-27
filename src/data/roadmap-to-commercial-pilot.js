@@ -78,7 +78,7 @@ const Roadmap = {
       "Ready to take the first step in your aviation journey? Enroll in Speedway Flight Training’s Private Pilot Course today and begin your path to becoming an airline pilot.",
   finalButton: {
       name: "Enroll Now",
-      link: "/enroll-now",
+      link: "/enroll",
       primary: true
   }
 };

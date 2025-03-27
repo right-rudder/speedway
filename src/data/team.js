@@ -48,14 +48,27 @@ export const leadershipTeam = [
 
 export const flightTeam = [
   {
+    name: "Jordan Morris",
+    title: "Chief Flight Instructor",
+    subtitle: "Certificates & Ratings: Commercial ASEL, CFI",
+    bio: [
+      "<strong>Jordan Morris</strong> is passionate about making aviation accessible and rewarding for every student. He brings an encouraging tone to each lesson and adapts quickly to meet the needs of diverse learners.",
+      "Jordan emphasizes strong preflight habits, situational awareness, and sound aeronautical decision-making. He works closely with students to help them identify their personal learning styles, building strategies that work for each pilot-in-training.",
+      "Whether working on VFR maneuvers or teaching cross-country procedures, Jordan prioritizes clarity, consistency, and real-world relevance."
+    ],
+    image: "/src/assets/profile-silhouette.png",
+    alt: "CFI Jordan Morris at Speedway Flight Training",
+    email: "email@speedwayft.com",
+    phone: "(123) 456-7890 ext. 123",
+  },
+  {
     name: "Eric Schafhauser",
     title: "Chief Standards Captain – Boeing 717",
     subtitle: "Airline Captain & Aviation Educator",
     bio: [
-      "With an impressive 34 years as an active Certified Flight Instructor (CFI) and over 20,000 flight hours, Eric Schafhauser is a cornerstone of Speedway Flight Training’s Fast Track to Flight Deck program. His extensive experience spans both the airline industry and academia, having served as an Aviation Staff Instructor and Education Specialist at Purdue University, where he helped shape the next generation of pilots.",
-      "Eric’s airline career includes serving as a Captain for a major U.S. airline, where he also holds leadership roles in pilot standards and training. As a Boeing 717 Chief Standards Captain and FAA Designated Lead Line Check Pilot, he plays a critical role in ensuring operational excellence and safety in commercial aviation. His expertise extends to the BE1900 and DC-9, where he has served as an FAA Designated Instructor and Line Check Pilot.",
-      "Beyond the cockpit, Eric is a respected leader in aviation safety and training, having chaired the Airline Pilots Association International Training Committee and worked as a Human Factors Incident Debriefer for the Aviation Safety Action Program (ASAP). His dedication to pilot excellence has been recognized with the prestigious Flight Operations Leadership Excellence Award from a major airline.",
-      "At Speedway Flight Training, Eric’s deep industry knowledge, safety-first mindset, and instructional expertise provide students with real-world airline training from day one. Whether guiding students through multi-engine instruction or preparing them for a seamless transition to the airlines, Eric’s mentorship is invaluable for those on the Fast Track to Flight Deck.",
+      "<strong>Eric Schafhauser</strong> brings a calm and steady approach to every flight. Known for his professionalism and clear instruction style, Eric has trained dozens of students through their first solo and on to checkride success.",
+      "With a strong background in instrument procedures and scenario-based training, Eric emphasizes judgment, situational awareness, and mastery of the aircraft. He is particularly effective in the cockpit during instrument instruction, guiding students through real-world approaches, holds, and procedures. Students appreciate his ability to stay cool under pressure and make complex material approachable.",
+      "As a Stage Check Instructor at Speedway, Eric plays a key role in evaluating student progress and ensuring readiness for FAA standards. His structured training sessions help maintain consistency across the curriculum, and his attention to detail helps students build confidence before critical evaluations."
     ],
     image: "/src/assets/profile-silhouette.png",
     alt: "CFII Eric Schafhauser at Speedway Flight Training",
@@ -113,18 +126,6 @@ export const flightTeam = [
     ],
     image: "/src/assets/profile-silhouette.png",
     alt: "CFI Sammy Shlapak at Speedway Flight Training",
-  },
-  {
-    name: "Jordan Morris",
-    title: "Flight Instructor",
-    subtitle: "Certificates & Ratings: Commercial ASEL, CFI",
-    bio: [
-      "<strong>Jordan Morris</strong> is passionate about making aviation accessible and rewarding for every student. He brings an encouraging tone to each lesson and adapts quickly to meet the needs of diverse learners.",
-      "Jordan emphasizes strong preflight habits, situational awareness, and sound aeronautical decision-making. He works closely with students to help them identify their personal learning styles, building strategies that work for each pilot-in-training.",
-      "Whether working on VFR maneuvers or teaching cross-country procedures, Jordan prioritizes clarity, consistency, and real-world relevance."
-    ],
-    image: "/src/assets/profile-silhouette.png",
-    alt: "CFI Jordan Morris at Speedway Flight Training",
   },
   {
     name: "Garrett Hoffee",

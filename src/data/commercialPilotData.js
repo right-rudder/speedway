@@ -17,7 +17,7 @@ const commercialPilotData = {
     buttons: [
       {
         name: "Apply Now",
-        link: "/enroll-now",
+        link: "/enroll",
         primary: false,
       },
       {
@@ -109,7 +109,7 @@ const commercialPilotData = {
         "Advance your aviation career with expert training at Speedway Flight Training. Enroll in our Commercial Pilot License program today and gain the skills needed for professional flight operations.",
       button: {
         name: "Apply Now",
-        link: "/apply",
+        link: "/enroll",
       },
     },
 

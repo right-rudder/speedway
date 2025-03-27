@@ -17,7 +17,7 @@ const privatePilotData = {
     buttons: [
       {
         name: "Apply Now",
-        link: "/enroll-now",
+        link: "/enroll",
         primary: false,
       },
       {
@@ -108,7 +108,7 @@ const privatePilotData = {
         "Take the first step toward your dream of flying. Train with experienced instructors and earn your Private Pilot License in a structured, professional, and safety-focused environment.",
       button: {
         name: "Apply Now",
-        link: "/apply",
+        link: "/enroll",
       },
     },
 

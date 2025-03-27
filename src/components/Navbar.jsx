@@ -168,7 +168,7 @@ const Navbar = ({ pathname }) => {
                   ))}
                 </ul>
                 <a
-                  href="/"
+                  href="/#top"
                   className="relative hover:brightness-110 duration-200 ease-in-out flex-1 min-w-0 lg:w-1/3 flex justify-center"
                 >
                   <img
@@ -184,7 +184,7 @@ const Navbar = ({ pathname }) => {
                 <div
                   className="relative hover:brightness-110 duration-200 ease-in-out flex-1 min-w-0 lg:w-1/3 flex justify-end items-center"
                 >
-                  <a href="/" className={`btn-primary ${navBar || openMobile ? "btn-accent hover:bg-primary-700" : ""}`}> 
+                  <a href="/enroll" className={`btn-primary ${navBar || openMobile ? "btn-accent hover:bg-primary-700" : ""}`}> 
                    Enroll
                   </a>
                 </div>
@@ -241,8 +241,8 @@ const Navbar = ({ pathname }) => {
 
       <div
         className={`${
-          openMobile ? "max-h-screen" : "max-h-0"
-        } overflow-x-hidden duration-700 ease-in-out h-screen lg:hidden absolute w-full max-w-2xl right-0 z-20 top-0`}
+          openMobile ? "h-screen" : "max-h-0"
+        } overflow-x-hidden duration-700 ease-in-out fixed w-full right-0 z-50  bg-primary-700 ${navBar ? "top-0" : "top-12"} backdrop-blur-md`}
         id="mobile-menu"
       >
         <div className="flex justify-end pl-5 pr-[26px] py-6">
@@ -264,18 +264,16 @@ const Navbar = ({ pathname }) => {
           </svg>
         </div>
 
-        <a
-          href="/"
-          className="z-30 relative flex justify-center items-center align-middle"
-        >
-          <img
-            src={LOGO_PRIMARY}
-            alt={`${COMPANY_NAME} logo`}
-            aria-label={`${COMPANY_NAME} logo`}
-            title={COMPANY_NAME}
-            className="object-contain h-24 w-auto drop-shadow-sm"
-          />
-        </a>
+        <div className="bg-mariner-950 py-6 flex justify-center items-center">
+          <a href="/#top">
+            <img
+              src={LOGO_PRIMARY}
+              alt={`${COMPANY_NAME} logo`}
+              title={COMPANY_NAME}
+              className="h-20 w-auto object-contain"
+            />
+          </a>
+        </div>
 
         <div
           className={`absolute w-full h-48 top-0 z-20 ${
@@ -370,6 +368,15 @@ const Navbar = ({ pathname }) => {
             </li>
           ))}
         </ul>
+        
+        <div
+                  className="relative hover:brightness-110 duration-200 ease-in-out flex-1 min-w-0 w-full lg:w-1/3 flex justify-end items-center"
+                >
+                  <a href="/enroll" className={`btn-primary ${navBar || openMobile ? "btn-accent w-full" : ""}`}> 
+                   Enroll
+                  </a>
+        </div>
+
 
         <div className="font-normal flex flex-col justify-center align-middle items-center overflow-hidden bg-primary-700">
           <a

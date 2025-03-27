@@ -24,12 +24,12 @@ const galleryData = {
       buttons: [
         {
           name: "Enroll Today",
-          link: "/enroll-now",
+          link: "/enroll",
           primary: false,
         },
         {
           name: "Contact Us",
-          link: "/contact-us",
+          link: "/contact",
           primary: false,
         },
       ],

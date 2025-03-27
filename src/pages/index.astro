@@ -40,11 +40,7 @@ const welcome = {
   buttons: [
     {
       text: "About Us",
-      link: "/about",
-    },
-    {
-      text: "Gallery",
-      link: "/packages/gallery",
+      link: "/speedway",
     },
   ]
 };
@@ -52,13 +48,18 @@ const welcome = {
 const partners = [
   {
     link: "https://fsana.com/",
-    img: "/src/assets/logo-fsana-r13-600px.png",
+    img: "/src/assets/logo-fsana.png",
     alt: "Flight School Association of North America (FSANA) partner logo",
   },
   {
-    link: "https://indyjet.net/",
-    img: "/src/assets/indy-jet.png",
+    link: "/",
+    img: "/src/assets/indy-jet-2.png",
     alt: "Indy Jet FBO and aviation partner logo",
+  },
+  {
+    link: "https://stratus.finance/",
+    img: "/src/assets/Stratus_financial_logo.webp",
+    alt: "Stratus Financial partner logo",
   },
 ];
 
@@ -79,6 +80,7 @@ const { data } = homePage;
 
   <FlightTrainingSection />
   <FlightSchoolFeatures />
+  <div id="info"></div>
   <FlightTrainingAdvantages />
   <CTAColor content={CTAFastTrack} />
   <GridPrograms content={programs} />

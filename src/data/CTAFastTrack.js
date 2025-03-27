@@ -7,7 +7,7 @@ const CTAFastTrack = {
   buttons: [
     {
       name: "Apply Now",
-      link: "/apply",
+      link: "/enroll",
       primary: true,
     },
     {

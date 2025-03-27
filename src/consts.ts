@@ -21,7 +21,7 @@ export const COMPANY_NAME_CAPS = "SPEEDWAY FLIGHT TRAINING";
 export const COMPANY_NICKNAME = "Speedway";
 export const LOGO_PRIMARY = "/speedway-flight-training-written-logo.png";
 export const LOGO_SECONDARY = "/speedway-flight-training-written-logo.png";
-export const PHONE_NUMBER = "(678) 697-5647";
+export const PHONE_NUMBER = "(678) 944-7379";
 export const ADDRESS_LINE_1 = "123 Aviation Drive";
 export const ADDRESS_LINE_2 = "Hampton, GA 30228";
 export const AIRPORT = "Atlanta Speedway Airport";
@@ -31,9 +31,9 @@ export const ADDRESS_CITY = "Hampton";
 export const ADDRESS_STATE = "Georgia";
 export const ADDRESS_ZIP = "30228";
 export const GMAPS = "https://maps.app.goo.gl/example";
-export const EMAIL_ADDRESS = "info@speedwayflighttraining.com";
-export const FACEBOOK_URL = "https://www.facebook.com/speedwayflighttraining";
-export const INSTAGRAM_URL = "https://www.instagram.com/speedwayflighttraining/";
+export const EMAIL_ADDRESS = "info@SpeedwayFT.com";
+export const FACEBOOK_URL = "https://www.facebook.com/people/Speedway-Flight-Training/100063508869267/";
+export const INSTAGRAM_URL = "https://www.instagram.com/speedway_flight_training/";
 export const LINKEDIN_URL = "";
 export const X_URL = "";
 export const YOUTUBE_URL = "";
@@ -48,8 +48,8 @@ export const LOCATIONS = [
     state: "GA",
     zip: "30228",
     gMaps: "https://maps.app.goo.gl/example",
-    phone: "(678) 555-1234",
-    forwardPhone: "(678) 555-5678",
+    phone: "(678) 944-7379",
+    forwardPhone: "(678) 944-7379",
   },
 ];
 

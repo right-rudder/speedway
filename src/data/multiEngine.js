@@ -19,7 +19,7 @@ const multiEngineRating = {
       buttons: [
         {
           name: "Enroll Today",
-          link: "/enroll-now",
+          link: "/enroll",
           primary: false,
         },
         {
@@ -95,7 +95,7 @@ const multiEngineRating = {
         "Completing your Multi-Engine Rating at Speedway Flight Training expands your opportunities in the aviation industry. With advanced training, real-world scenarios, and expert instruction, you’ll be ready to take the next step in your aviation career.",
       finalButton: {
         name: "Enroll Now",
-        link: "/enroll-now",
+        link: "/enroll",
         primary: true,
       },
     },

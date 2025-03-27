@@ -29,7 +29,7 @@ if (!images[content.imagePath]) {
   <div
     class="text-accent-100 py-12 pt-20 lg:mt-0 text-right z-10 flex flex-col items-end gap-4 px-5 h-full w-full lg:pt-28 justify-end"
     data-aos="fade-left"
-    data-aos-delay="500"
+    data-aos-delay="300"
     data-aos-duration="2000"
   >
     <h3
@@ -37,11 +37,11 @@ if (!images[content.imagePath]) {
       set:html={content.headerH1}
     />
     <p
-      class="text-base lg:text-xl mt-3 font-semibold tracking-wide text-accent-200 max-w-5xl"
+      class="text-base lg:text-xl mt-3 pr-4 font-semibold tracking-wide text-accent-200 max-w-5xl"
       set:html={content.paragraph}
     />
     <div
-      class="mt-6 w-full flex flex-wrap justify-end align-middle items-center gap-6 z-10"
+      class="mt-6 pr-4 w-full flex flex-wrap justify-end align-middle items-center gap-6 z-10"
     >
       {
         content.buttons.map((btn) => (

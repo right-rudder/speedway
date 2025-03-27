@@ -8,7 +8,7 @@ export const navbarLinks = [
   {
     name: "Programs",
     link: "/programs#top",
-    mobileLink: true,
+    mobileLink: false,
     submenu: [
       {
         name: "Private Pilot",
@@ -29,6 +29,18 @@ export const navbarLinks = [
       {
         name: "CFI - Instrument",
         link: "/programs/certified-flight-instructor-instrument-cfii#top",
+      },
+      {
+        name: "Multi Engine",
+        link: "/programs/multi-engine#top",
+      },
+      {
+        name: "ME - Instructor",
+        link: "/programs/multi-engine-instructor#top",
+      },
+      {
+        name: "Spin Endorsement",
+        link: "/programs/spin-endorsement#top",
       },
     ],
   },
