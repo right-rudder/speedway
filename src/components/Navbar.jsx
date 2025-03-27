@@ -184,7 +184,7 @@ const Navbar = ({ pathname }) => {
                 <div
                   className="relative hover:brightness-110 duration-200 ease-in-out flex-1 min-w-0 lg:w-1/3 flex justify-end items-center"
                 >
-                  <a href="/#top" className={`btn-primary ${navBar || openMobile ? "btn-accent hover:bg-primary-700" : ""}`}> 
+                  <a href="/enroll" className={`btn-primary ${navBar || openMobile ? "btn-accent hover:bg-primary-700" : ""}`}> 
                    Enroll
                   </a>
                 </div>
@@ -368,6 +368,15 @@ const Navbar = ({ pathname }) => {
             </li>
           ))}
         </ul>
+        
+        <div
+                  className="relative hover:brightness-110 duration-200 ease-in-out flex-1 min-w-0 w-full lg:w-1/3 flex justify-end items-center"
+                >
+                  <a href="/enroll" className={`btn-primary ${navBar || openMobile ? "btn-accent w-full" : ""}`}> 
+                   Enroll
+                  </a>
+        </div>
+
 
         <div className="font-normal flex flex-col justify-center align-middle items-center overflow-hidden bg-primary-700">
           <a
