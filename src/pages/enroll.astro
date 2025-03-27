@@ -1,0 +1,33 @@
+---
+import EnrollComponent from "../components/Enroll.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Location from "../components/Location.astro";
+import HeaderSmall from "../components/HeaderSmall.astro";
+
+const header = {
+  imagePath: "/src/assets/0717d82c-98cc-4117-8c86-a44a99f09820.webp",
+  headerH1: "Apply to</br>Speedway Flight Training",
+  imageAlt: "Speedway Flight Training instructors and staff in front of a Cessna at KHMP",
+  paragraph:
+    "Start your journey with Speedway Flight Training. Whether you're working toward a career in aviation or pursuing a personal goal, our team is here to help you enroll in the right program and take flight.",
+  buttons: [
+    {
+      name: "Start Application",
+      link: "#contact",
+      primary: false,
+    },
+  ],
+};
+---
+
+<BaseLayout
+  siteTitle="Apply Now | Speedway Flight Training"
+  siteDescription="Apply to Speedway Flight Training in Hampton, GA. Submit your application to start training for your Private Pilot License, Instrument Rating, or career pilot program."
+  keywords="flight school application, apply flight training, Speedway Flight Training enrollment, pilot license application, flight school Hampton GA"
+>
+  <HeaderSmall content={header} />
+
+  <EnrollComponent />
+
+  <Location />
+</BaseLayout>
