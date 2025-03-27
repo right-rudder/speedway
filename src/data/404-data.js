@@ -20,7 +20,7 @@ const data404 = {
         },
         {
           name: "Contact us",
-          link: "/contact-us",
+          link: "/contact",
           primary: false,
         },
       ],
