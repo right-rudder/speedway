@@ -108,7 +108,7 @@ const fastTrackStartingAtIR = {
         "Take the next step in your aviation journey. Train with expert instructors and complete your Instrument Rating, Commercial Pilot License, and Certified Flight Instructor certification in as little as 10-15 months.",
       button: {
         name: "Apply Now",
-        link: "/apply",
+        link: "/enroll",
       },
     },
 

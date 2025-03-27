@@ -17,7 +17,7 @@ const whyData = {
     buttons: [
       {
         name: "Enroll Today",
-        link: "/apply",
+        link: "/enroll",
         primary: false,
       },
       {
@@ -93,7 +93,7 @@ const whyData = {
     },
     finalButton: {
       name: "Get Started",
-      link: "/apply",
+      link: "/enroll",
       primary: true,
     },
     imagePath: "/src/assets/cessna-172-tail-speedway-flight-training-logo-hampton-atlanta-georgia.jpg",

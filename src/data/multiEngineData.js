@@ -104,7 +104,7 @@ const multiEngineData = {
         "Get your multi-engine rating and fly with confidence. Our team is ready to guide you through every step of the process—apply today to get started.",
       button: {
         name: "Apply Now",
-        link: "/apply",
+        link: "/enroll",
       },
     },
 

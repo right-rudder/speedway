@@ -105,7 +105,7 @@ const fastTrackStartingAtCPL = {
         "Train with expert instructors and complete your Commercial Pilot License, Certified Flight Instructor, and Certified Flight Instructor - Instrument certification in as little as 8-12 months.",
       button: {
         name: "Apply Now",
-        link: "/apply",
+        link: "/enroll",
       },
     },
 

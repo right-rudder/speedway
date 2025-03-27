@@ -99,7 +99,7 @@ const multiEngineInstructorData = {
         "Gain the skills and confidence to teach multi-engine students with authority and safety. Enroll today and take the next step in your flight instructor career.",
       button: {
         name: "Apply Now",
-        link: "/apply",
+        link: "/enroll",
       },
     },
 

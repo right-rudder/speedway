@@ -108,7 +108,7 @@ const certifiedFlightInstructorData = {
         "Train the next generation of pilots with expert CFI training at Speedway Flight Training. Enroll in our Certified Flight Instructor program today and launch your aviation career.",
       button: {
         name: "Apply Now",
-        link: "/apply",
+        link: "/enroll",
       },
     },
 

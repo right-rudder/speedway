@@ -99,7 +99,7 @@ const fastTrackRoadmap = {
     "Ready to take the first step toward becoming an airline pilot? Enroll in Speedway Flight Training’s Fast Track to the Flight Deck program and accelerate your journey to the skies.",
   finalButton: {
     name: "Apply Now",
-    link: "/apply",
+    link: "/enroll",
     primary: true
   }
 };

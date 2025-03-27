@@ -17,7 +17,7 @@ const cfiiPilotData = {
     buttons: [
       {
         name: "Apply Now",
-        link: "/apply",
+        link: "/enroll",
         primary: false,
       },
       {
@@ -107,7 +107,7 @@ const cfiiPilotData = {
         "Train with Speedway Flight Training and earn your CFII in a focused, professional environment. Build your skills and prepare to guide future pilots through instrument training.",
       button: {
         name: "Apply Now",
-        link: "/apply",
+        link: "/enroll",
       },
     },
 
