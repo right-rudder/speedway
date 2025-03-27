@@ -168,7 +168,7 @@ const Navbar = ({ pathname }) => {
                   ))}
                 </ul>
                 <a
-                  href="/"
+                  href="/#top"
                   className="relative hover:brightness-110 duration-200 ease-in-out flex-1 min-w-0 lg:w-1/3 flex justify-center"
                 >
                   <img
@@ -184,7 +184,7 @@ const Navbar = ({ pathname }) => {
                 <div
                   className="relative hover:brightness-110 duration-200 ease-in-out flex-1 min-w-0 lg:w-1/3 flex justify-end items-center"
                 >
-                  <a href="/" className={`btn-primary ${navBar || openMobile ? "btn-accent hover:bg-primary-700" : ""}`}> 
+                  <a href="/#top" className={`btn-primary ${navBar || openMobile ? "btn-accent hover:bg-primary-700" : ""}`}> 
                    Enroll
                   </a>
                 </div>
@@ -265,7 +265,7 @@ const Navbar = ({ pathname }) => {
         </div>
 
         <div className="bg-mariner-950 py-6 flex justify-center items-center">
-          <a href="/">
+          <a href="/#top">
             <img
               src={LOGO_PRIMARY}
               alt={`${COMPANY_NAME} logo`}
