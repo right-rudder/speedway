@@ -19,7 +19,7 @@ const privatePilotCourse = {
       buttons: [
         {
           name: "Enroll Today",
-          link: "/enroll-now",
+          link: "/enroll",
           primary: false,
         },
         {
@@ -108,7 +108,7 @@ const privatePilotCourse = {
         "Completing your Private Pilot License at Speedway Flight Training is your first step toward exploring the skies with confidence and independence.",
       finalButton: {
         name: "Enroll Now",
-        link: "/enroll-now",
+        link: "/enroll",
         primary: true,
       },
     },

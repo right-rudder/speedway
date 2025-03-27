@@ -17,7 +17,7 @@ const fastTrackStartingAtIR = {
     buttons: [
       {
         name: "Apply Now",
-        link: "/enroll-now",
+        link: "/enroll",
         primary: false,
       },
       {

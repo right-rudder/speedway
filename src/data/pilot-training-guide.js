@@ -18,7 +18,7 @@ const pilotTrainingGuide = {
       buttons: [
         {
           name: "Start Your Journey",
-          link: "/enroll-now",
+          link: "/enroll",
           primary: false,
         },
         {

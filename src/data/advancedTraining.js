@@ -19,7 +19,7 @@ const advancedTrainings = {
       buttons: [
         {
           name: "Enroll Today",
-          link: "/enroll-now",
+          link: "/enroll",
           primary: false,
         },
         {
@@ -99,7 +99,7 @@ const advancedTrainings = {
         "Whether you’re advancing your career or enhancing personal skills, Speedway Flight Training’s advanced training provide the knowledge, experience, and confidence to excel. Join us to take your flying expertise to the next level.",
       finalButton: {
         name: "Enroll Now",
-        link: "/enroll-now",
+        link: "/enroll",
         primary: true,
       },
     },

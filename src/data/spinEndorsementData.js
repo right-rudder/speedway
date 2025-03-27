@@ -16,7 +16,7 @@ const spinEndorsementData = {
     buttons: [
       {
         name: "Apply Now",
-        link: "/enroll-now",
+        link: "/enroll",
         primary: false,
       },
       {
@@ -98,7 +98,7 @@ const spinEndorsementData = {
         "Speedway Flight Training makes it easy to complete your spin training and meet FAA CFI requirements. Schedule your one-day session and train with confidence.",
       button: {
         name: "Apply Now",
-        link: "/enroll-now",
+        link: "/enroll",
       },
     },
 

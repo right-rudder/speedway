@@ -19,7 +19,7 @@ const cfi = {
       buttons: [
         {
           name: "Enroll Today",
-          link: "/enroll-now",
+          link: "/enroll",
           primary: false,
         },
         {
@@ -95,7 +95,7 @@ const cfi = {
         "Completing your Certified Flight Instructor training is a rewarding achievement that opens the door to an impactful aviation career. At Speedway Flight Training, we help you build the confidence and skills to inspire future pilots and grow as a professional aviator.",
       finalButton: {
         name: "Enroll Now",
-        link: "/enroll-now",
+        link: "/enroll",
         primary: true,
       },
     },

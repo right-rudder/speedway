@@ -19,7 +19,7 @@ const instrumentRating = {
       buttons: [
         {
           name: "Enroll Today",
-          link: "/enroll-now",
+          link: "/enroll",
           primary: false,
         },
         {
@@ -104,7 +104,7 @@ const instrumentRating = {
         "Completing the Instrument Rating Course at Speedway Flight Training equips you with the knowledge and skills to safely and confidently fly in a variety of conditions. Take your next step toward becoming a more versatile and capable pilot.",
       finalButton: {
         name: "Enroll Now",
-        link: "/enroll-now",
+        link: "/enroll",
         primary: true,
       },
     },
