@@ -137,81 +137,92 @@ const CONTACT_US_FORM_WEBHOOK_URL = import.meta.env.CONTACT_WEBHOOK_URL;
     </div>
   </div>
   <div class="mt-10">
-    <button type="submit" class="btn-accent">Book Now</button>
+    <button type="submit" id="submit-btn" class="btn-accent">Book Now</button>
   </div>
 </form>
 
 <script define:vars={{ CONTACT_US_FORM_WEBHOOK_URL }}>
-  // Wait for the DOM content to be fully loaded
   document.addEventListener("DOMContentLoaded", function () {
-    // Get the contact form element
     const contactForm = document.getElementById("contact_form");
+    const toggle = document.getElementById("terms-toggle");
+    const thumb = document.getElementById("terms-thumb");
+    const hiddenInput = document.getElementById("agree-terms");
+    const submitBtn = document.getElementById("submit-btn");
 
-    // Check if the contact form element exists
+    let isChecked = false;
+
+    toggle.addEventListener("click", () => {
+      isChecked = !isChecked;
+      hiddenInput.value = isChecked ? "yes" : "no";
+      toggle.setAttribute("aria-checked", isChecked);
+      toggle.classList.toggle("bg-mariner-500", isChecked);
+      toggle.classList.toggle("bg-gray-200", !isChecked);
+      thumb.classList.toggle("translate-x-3.5", isChecked);
+      thumb.classList.toggle("translate-x-0", !isChecked);
+
+      // Enable or disable submit button based on toggle
+      if (isChecked) {
+        submitBtn.disabled = false;
+        submitBtn.classList.remove(
+          "cursor-not-allowed",
+          "bg-gray-400",
+          "hover:bg-gray-400",
+          "hover:text-mariner-950"
+        );
+      } else {
+        submitBtn.disabled = true;
+        submitBtn.classList.add(
+          "cursor-not-allowed",
+          "bg-gray-400",
+          "hover:bg-gray-400",
+          "hover:text-mariner-950"
+        );
+      }
+    });
+
+    // Start disabled by default
+    submitBtn.disabled = true;
+    submitBtn.classList.add(
+      "cursor-not-allowed",
+      "bg-gray-400",
+      "hover:bg-gray-400",
+      "hover:text-mariner-950"
+    );
+
+    // Handle form submission (only if allowed)
     if (contactForm !== null) {
-      // Add submit event listener to the contact form
       contactForm.addEventListener("submit", function (event) {
-        // Prevent the default form submission
         event.preventDefault();
-
-        // Serialize the form data
         const formData = new FormData(contactForm);
-
-        // Check the value of the honeypot field
         const confirmEmailValue = formData.get("confirm-email");
+
         if (confirmEmailValue === "" || confirmEmailValue === null) {
-          // If the honeypot field is empty, it's a human
-          // Set the form action to the URL for processing the form and redirecting to thank you
           contactForm.action = CONTACT_US_FORM_WEBHOOK_URL;
         }
 
-        // Convert FormData to URLSearchParams
         const urlSearchParams = new URLSearchParams();
         for (const pair of formData.entries()) {
           urlSearchParams.append(pair[0], pair[1]);
         }
 
-        const toggle = document.getElementById("terms-toggle");
-        const thumb = document.getElementById("terms-thumb");
-        const hiddenInput = document.getElementById("agree-terms");
-
-        let isChecked = false;
-
-        toggle.addEventListener("click", () => {
-          isChecked = !isChecked;
-          hiddenInput.value = isChecked ? "yes" : "no";
-          toggle.setAttribute("aria-checked", isChecked);
-          toggle.classList.toggle("bg-primary-900", isChecked);
-          toggle.classList.toggle("bg-gray-200", !isChecked);
-          thumb.classList.toggle("translate-x-3.5", isChecked);
-          thumb.classList.toggle("translate-x-0", !isChecked);
-        });
-
-        // Send an AJAX request to submit the form
         const xhr = new XMLHttpRequest();
         xhr.open("POST", contactForm.action);
         xhr.setRequestHeader(
           "Content-Type",
-          "application/x-www-form-urlencoded",
+          "application/x-www-form-urlencoded"
         );
         xhr.onload = function () {
-          // Check if the request was successful (status 200)
           if (xhr.status === 200) {
-            // Redirect the user after a successful form submission
             window.location.href = "/contact-confirmation";
           } else {
-            // Handle errors if any
             console.error("Form submission failed:", xhr.statusText);
           }
         };
         xhr.onerror = function () {
-          // Handle network errors
           console.error("Network error occurred while submitting the form.");
         };
         xhr.send(urlSearchParams);
       });
-    } else {
-      console.error("Contact form element not found.");
     }
   });
 </script>
