@@ -11,7 +11,7 @@ const cfi = {
     // Top Header
     header: {
       stars: true,
-      imagePath: "/src/assets/placeholder.jpg",
+      imagePath: "/src/assets/placeholder.webp",
       imageAlt:
         "Certified Flight Instructor training in progress at Speedway Flight Training",
       headerH1: `Certified Flight <br>Instructor</span>`,
@@ -51,7 +51,7 @@ const cfi = {
             "To begin your CFI training, you must hold a Commercial Pilot License (CPL) or Airline Transport Pilot (ATP) certificate and be at least 18 years old. You’ll also need a valid medical certificate and proficiency in English.",
             "We recommend completing the Certified Ground Instructor (CGI) certificate to complement your CFI training, although it’s not required.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Student reviewing eligibility for CFI training",
         },
         {
@@ -60,7 +60,7 @@ const cfi = {
             "Ground training emphasizes instructional techniques, advanced aerodynamics, and FAA regulations. You’ll learn how to teach complex maneuvers, evaluate students, and conduct thorough pre-flight briefings.",
             "Our comprehensive ground school ensures you are well-prepared to pass the FAA Fundamentals of Instructing (FOI) exam and excel in your teaching role.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "CFI candidate studying FAA teaching techniques",
         },
         {
@@ -69,7 +69,7 @@ const cfi = {
             "Flight training hones your ability to instruct while refining your own flying skills. You’ll practice teaching key maneuvers from the right seat, such as steep turns, stalls, emergency procedures, and landings.",
             "Our experienced instructors provide real-world insights and mentorship, helping you master the art of aviation education.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "CFI trainee practicing instructional techniques",
         },
         {
@@ -78,7 +78,7 @@ const cfi = {
             "A successful CFI is not just knowledgeable but also approachable and adaptable. During training, you’ll refine your ability to communicate effectively with diverse student personalities and learning styles.",
             "We provide you with the tools to develop your own teaching methods while ensuring adherence to FAA standards.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Instructor mentoring a student during flight training",
         },
         {
@@ -87,7 +87,7 @@ const cfi = {
             "The FAA CFI practical test includes an oral exam and a flight test where you’ll demonstrate both your knowledge and ability to teach. This rigorous evaluation ensures you’re ready to take on the responsibility of flight instruction.",
             "At Speedway Flight Training, we prepare you with mock exams, detailed feedback, and extensive practice to ensure your success on the checkride.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Pilot and examiner conducting a checkride",
         },
       ],
