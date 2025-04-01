@@ -9,7 +9,7 @@ const multiEngineInstructorData = {
 
   header: {
     stars: true,
-    imagePath: "/src/assets/stock-david-b-o27uCBOPbG0-unsplash.jpg",
+    imagePath: "/src/assets/stock-david-b-o27uCBOPbG0-unsplash.webp",
     imageAlt: "Instructor and student walking toward a multi-engine aircraft",
     headerH1: `Multi-Engine <br>Instructor</span>`,
     paragraph: `Advance your career as a professional flight instructor. Speedway’s MEI program prepares you to teach in multi-engine aircraft with confidence and precision.`,
@@ -92,7 +92,7 @@ const multiEngineInstructorData = {
     },
 
     cta: {
-      imagePath: "/src/assets/stock-chris-michals-PQXjU65EPKE-unsplash.jpg",
+      imagePath: "/src/assets/stock-chris-michals-PQXjU65EPKE-unsplash.webp",
       imageAlt: "Instructor briefing a multi-engine flight student on the tarmac",
       title: "Expand Your Instruction Capabilities",
       description:
