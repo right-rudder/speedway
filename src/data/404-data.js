@@ -8,7 +8,7 @@ const data404 = {
     pageKeywords: `404 error`,
 
     header: {
-      imagePath: "/src/assets/placeholder.jpg",
+      imagePath: "/src/assets/placeholder.webp",
       imageAlt: `${COMPANY_NAME} plane taking off`,
       headerH1: `well, this is AWKWARD!`,
       paragraph: `It appears the page you're trying to access has already taken off, if you were trying to get some useful information please inform us so we can better accommodate your needs, otherwise just head on back to landing!`,
