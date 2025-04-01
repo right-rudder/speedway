@@ -20,7 +20,7 @@ const enrollForm = {
 
     header: {
       imagePath:
-        "/src/assets/placeholder.jpg",
+        "/src/assets/placeholder.webp",
       imageAlt: `${COMPANY_NAME} Fly Over Sunset`,
       headerH1: "Enroll Now",
       paragraph:
