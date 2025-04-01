@@ -15,7 +15,7 @@ const enrollConfirmation = {
 
     header: {
       imagePath:
-        "/src/assets/placeholder.jpg",
+        "/src/assets/placeholder.webp",
       imageAlt: `${COMPANY_NAME} crew pulling plane from hangar`,
       headerH1: "THANK YOU",
       paragraph:
