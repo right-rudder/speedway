@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const FinancingTabs = () => {
-  const [currentTab, setCurrentTab] = useState("Quick Comparison");
+  const [currentTab, setCurrentTab] = useState("Stratus Financial");
 
   const stratusFinancial = (
     <>
