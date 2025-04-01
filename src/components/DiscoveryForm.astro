@@ -106,37 +106,34 @@ const CONTACT_US_FORM_WEBHOOK_URL = import.meta.env.CONTACT_WEBHOOK_URL;
       </div>
     </div>
     <div class="flex gap-x-4 sm:col-span-2">
-      <div x-data="{ isChecked: false }" class="flex h-6 items-center">
-        <!-- Enabled: "bg-gray-900", Not Enabled: "bg-gray-200" -->
+      <div class="flex h-6 items-center">
         <button
           type="button"
-          x-bind:class="{ 'bg-primary-900': isChecked, 'bg-gray-200': !isChecked }"
-          x-on:click="isChecked = !isChecked"
-          class="flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-primary-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
+          id="terms-toggle"
+          class="flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-primary-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 bg-gray-200"
           role="switch"
           aria-checked="false"
           aria-labelledby="switch-1-label"
         >
-          <span class="sr-only"
-            >I agree to terms & conditions provided by the company. By providing
-            my phone number, I agree to receive text messages from the business.</span
-          >
-          <!-- Enabled: "translate-x-3.5", Not Enabled: "translate-x-0" -->
+          <span class="sr-only">
+            I agree to terms & conditions provided by the company.
+          </span>
           <span
-            x-bind:class="{ 'translate-x-3.5': isChecked, 'translate-x-0': !isChecked }"
+            id="terms-thumb"
+            class="h-4 w-4 transform rounded-full bg-black shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out translate-x-0"
             aria-hidden="true"
-            class="h-4 w-4 transform rounded-full bg-black shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"
           ></span>
         </button>
         <input
           type="hidden"
-          x-bind:value="isChecked ? 'yes' : 'no'"
+          id="agree-terms"
           name="agree-terms"
+          value="no"
         />
       </div>
       <label class="text-sm leading-6 text-gray-200" id="switch-1-label">
-        I agree to <a href="">terms & conditions</a> provided by the company. By
-        providing my phone number, I agree to receive text messages from the business.
+        I agree to <a href="">terms & conditions</a> provided by the company.
+        By providing my phone number, I agree to receive text messages from the business.
       </label>
     </div>
   </div>
