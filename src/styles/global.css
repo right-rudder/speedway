@@ -71,7 +71,7 @@
   }
 
   .bg-financing {
-    background-image: url(../assets/atlanta-airport-Speedway-Flight-Training-152.jpg);
+    background-image: url(../assets/atlanta-airport-Speedway-Flight-Training-152.webp);
     background-position: 70%;
   }
 
@@ -90,7 +90,7 @@
   }
 
   .bg-df-cta {
-    background-image:linear-gradient(to top, #000c1a3b 0%, #000c1a3b 100%), url(../assets/inside-cockpit-flight-training-speedway-ga.jpg);
+    background-image:linear-gradient(to top, #000c1a3b 0%, #000c1a3b 100%), url(../assets/inside-cockpit-flight-training-speedway-ga.webp);
   }
 
   .bg-roadmap {
