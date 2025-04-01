@@ -9,7 +9,7 @@ const spinEndorsementData = {
 
   header: {
     stars: false,
-    imagePath: "/src/assets/stock-victor-zhuk-3MYtBMg8Ex4-unsplash.jpg",
+    imagePath: "/src/assets/stock-victor-zhuk-3MYtBMg8Ex4-unsplash.webp",
     imageAlt: "Student and instructor performing spin training in certified aircraft",
     headerH1: `Spin </br>Endorsement`,
     paragraph: `Meet the FAA requirement for your flight instructor certificate and sharpen your stall/spin recovery skills. Speedway’s Spin Endorsement program offers a focused, one-day course with expert instruction and certified aircraft.`,
@@ -91,7 +91,7 @@ const spinEndorsementData = {
     },
 
     cta: {
-      imagePath: "/src/assets/stock-victor-zhuk-3MYtBMg8Ex4-unsplash.jpg",
+      imagePath: "/src/assets/stock-victor-zhuk-3MYtBMg8Ex4-unsplash.webp",
       imageAlt: "Speedway aircraft parked outside hangar at KHMP",
       title: "Ready to Earn Your Spin Endorsement?",
       description:
