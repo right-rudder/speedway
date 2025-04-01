@@ -10,7 +10,7 @@ const commercialPilotData = {
   // Top Header
   header: {
     stars: true,
-    imagePath: "/src/assets/stock-rod-long-YUUUrkTzdgQ-unsplash.jpg",
+    imagePath: "/src/assets/stock-rod-long-YUUUrkTzdgQ-unsplash.webp",
     imageAlt: "Speedway Flight Training commercial pilot student preparing for a flight",
     headerH1: `Commercial Pilot <br>LICENSE</span>`,
     paragraph: `Advance your aviation career with structured commercial flight training. This program enhances your flight proficiency and prepares you for real-world professional operations.`,
@@ -102,7 +102,7 @@ const commercialPilotData = {
     },
 
     cta: {
-      imagePath: "/src/assets/stock-koon-chakhatrakan-SA-ALYhGjj8-unsplash.jpg",
+      imagePath: "/src/assets/stock-koon-chakhatrakan-SA-ALYhGjj8-unsplash.webp",
       imageAlt: "Speedway Flight Training commercial pilot student in flight",
       title: "Fast Track Your Career with a Commercial Pilot License",
       description:
