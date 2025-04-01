@@ -16,7 +16,7 @@ const advantagesInfo = {
       description: "We partner with aviation professionals and financing programs like Stratus to help students advance their careers efficiently.",
     },
   ],
-  imagePath: "/src/assets/instructor-guiding-student-flight-training-speedway.jpg", // Update with actual image path
+  imagePath: "/src/assets/instructor-guiding-student-flight-training-speedway.webp", // Update with actual image path
   imageAlt: "Cessna 172 parked at Speedway Flight Training during sunset",
 };
 
