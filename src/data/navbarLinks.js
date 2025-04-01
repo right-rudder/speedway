@@ -61,6 +61,10 @@ export const navbarLinks = [
         name: "Blog",
         link: "/blog#top",
       },
+      {
+        name: "Financing",
+        link: "/speedway/financing#top",
+      },
     ],
   },
 ];
