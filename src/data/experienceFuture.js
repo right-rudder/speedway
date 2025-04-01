@@ -1,5 +1,5 @@
 const content = {
-  imagePath: "/src/assets/placeholder.jpg",
+  imagePath: "/src/assets/placeholder.webp",
   imageAlt: "Speedway Flight Training student posing for first solo flight",
   headerH1: `Do you have what it takes to become a Pilot?`,
   paragraph:
