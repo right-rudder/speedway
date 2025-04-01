@@ -11,7 +11,7 @@ const privatePilotCourse = {
     // Top Header
     header: {
       stars: true,
-      imagePath: "/src/assets/placeholder.jpg",
+      imagePath: "/src/assets/placeholder.webp",
       imageAlt:
         "Speedway Flight Training student preparing for their first solo flight at Atlanta Speedway Airport",
       headerH1: `Private <br>Pilot Course</span>`,
@@ -50,7 +50,7 @@ const privatePilotCourse = {
           paragraphs: [
             "To begin your Private Pilot training, you must meet basic FAA requirements, including being at least 17 years old, obtaining a third-class medical certificate, and demonstrating proficiency in English. At Speedway Flight Training, we guide you through the process to ensure a smooth start.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Speedway Flight Training CFI enrolling a new student",
         },
         {
@@ -58,7 +58,7 @@ const privatePilotCourse = {
           paragraphs: [
             "Our ground school equips you with essential knowledge in aerodynamics, navigation, weather, regulations, and more. With expert instructors and tailored study materials, you'll be prepared to ace the FAA Knowledge Test and build a solid foundation for flight training.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Speedway Flight Training students during a ground school session",
         },
         {
@@ -66,7 +66,7 @@ const privatePilotCourse = {
           paragraphs: [
             "Learn to fly at Atlanta Speedway Airport with experienced instructors. Our program includes 40 hours of flight training, covering takeoffs, landings, maneuvers, and emergency procedures. Night flying and simulated instrument training are also integrated to ensure well-rounded skill development.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt:
             "Student pilot and instructor preparing for flight at Hampton",
         },
@@ -75,7 +75,7 @@ const privatePilotCourse = {
           paragraphs: [
             "Experience the thrill of flying solo! Under your instructor's guidance, you'll gain the confidence to act as pilot in command, practicing maneuvers and cross-country flights independently.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Speedway Flight Training student on their first solo flight",
         },
         {
@@ -83,7 +83,7 @@ const privatePilotCourse = {
           paragraphs: [
             "Prepare for cross-country and night flying with structured lessons designed to build confidence and proficiency. Navigate to unfamiliar airports, communicate with ATC, and operate safely in low-visibility conditions.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt:
             "Speedway Flight Training aircraft on a cross-country training flight",
         },
@@ -92,7 +92,7 @@ const privatePilotCourse = {
           paragraphs: [
             "Our ground school and study materials thoroughly prepare you for the FAA Knowledge Test, ensuring you have the knowledge and confidence to pass on your first attempt.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Student taking the FAA Knowledge Test",
         },
         {
@@ -100,7 +100,7 @@ const privatePilotCourse = {
           paragraphs: [
             "The final step is the FAA checkride, where you'll demonstrate your knowledge and skills to an examiner. At Speedway Flight Training, we provide mock checkrides and detailed feedback to help you succeed with confidence.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Pilot and examiner conducting a checkride",
         },
       ],
