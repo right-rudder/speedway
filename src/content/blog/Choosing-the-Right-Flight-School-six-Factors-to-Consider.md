@@ -3,7 +3,7 @@ pubDate: "March 23, 2025"
 author: Eric Schafhauser
 title: "Choosing The Right Flight School – Six Factors To Consider"
 description: "Thinking about becoming a pilot? Here are six key things to look for when choosing a flight school — and how Speedway Flight Training checks every box."
-heroImage: "/blog/stock-annie-spratt-caYF83o3BYQ-unsplash.webp"
+heroImage: "/blog/stock-annie-spratt-caYF83o3BYQ-unsplash.jpg"
 readingTime: 4
 category: "Articles"
 tags: ["Choosing a Flight School", "Flight Training", "Part 61 Schools", "Aviation Career", "Pilot Certification"]
