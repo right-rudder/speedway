@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { COMPANY_NICKNAME, COMPANY_NAME } from "../consts";
 
 const FinancingTabs = () => {
   const [currentTab, setCurrentTab] = useState("Stratus Financial");
@@ -17,14 +18,14 @@ const FinancingTabs = () => {
               </h3>
             </div>
             <img
-              src="/stratus-logo-2.webp"
+              src="/src/assets/stratus-logo-2.webp"
               alt="Stratus Financial logo"
               className="h-16 md:h-20"
             />
           </div>
           <div className="tracking-wider flex flex-col items-center">
             <p className="pt-5">
-              LA Flight Academy is proud to partner with Stratus Financial to
+              {COMPANY_NAME} is proud to partner with Stratus Financial to
               make flight training more accessible for aspiring pilots. Take
               advantage of flexible loan structures and achieve your aviation
               dreams.
@@ -377,7 +378,7 @@ const FinancingTabs = () => {
 
   return (
     <div>
-      <div className="sm:hidden">
+      <div className="hidden">
         <label htmlFor="tabs" className="sr-only">
           Select a tab
         </label>
@@ -394,7 +395,7 @@ const FinancingTabs = () => {
         </select>
       </div>
 
-      <div className="hidden sm:block">
+      <div className="hidden">
         <div
           className="isolate flex divide-x divide-gray-200 rounded-lg shadow"
           aria-label="Tabs"
