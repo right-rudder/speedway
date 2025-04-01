@@ -14,7 +14,7 @@ const resultA = {
 
     header: {
       imagePath:
-        "/src/assets/placeholder.jpg",
+        "/src/assets/placeholder.webp",
       imageAlt: `${COMPANY_NAME} CFI watching as student prepares to take first solo flight`,
       headerH1: "Sky's the Limit!",
       paragraph:
