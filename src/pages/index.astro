@@ -20,6 +20,8 @@ import FlightTrainingSection from "../components/FlightTrainingSection.astro";
 import FlightSchoolFeatures from "../components/FlightSchoolFeatures.astro";
 import FlightTrainingAdvantages from "../components/FlightTrainingAdvantages.astro";
 import Partners from "../components/Partners.astro";
+import AirlinesCloud from "../components/AirlinesCloud.astro";
+
 
 const blogfeed = {
   upperHeading: "Our Blog",
@@ -63,6 +65,24 @@ const partners = [
   },
 ];
 
+const partners2 = [
+  {
+    imagePath: "/src/assets/logo-fsana-r13-600px.png",
+    imageAlt: "Flight School Association of North America (FSANA) partner logo",
+    link: "https://fsana.com/",
+  },
+  {
+    imagePath: "/src/assets/indy-jet.png",
+    imageAlt: "Indy Jet FBO and aviation partner logo",
+    link: "/",
+  },
+  {
+    imagePath: "/src/assets/stratus-logo-2.webp",
+    imageAlt: "Stratus Financial partner logo",
+    link: "https://stratus.finance/",
+  },
+];
+
 const { data } = homePage;
 ---
 
@@ -73,10 +93,11 @@ const { data } = homePage;
 >
   <HomeHeader imagePath="/src/assets/speedway-checkered-flag-atlanta-hampton-georgia.webp"/>
   
-  <Partners content={partners} />
+  <!-- <Partners content={partners} /> -->
   
   <Welcome content={welcome} />
-  
+
+  <AirlinesCloud data={partners2} />
 
   <FlightTrainingSection />
   <FlightSchoolFeatures />
