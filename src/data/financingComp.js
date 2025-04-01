@@ -1,5 +1,5 @@
 const financing = {
-  imagePath: "/src/assets/student-pilot-training-in-cockpit-speedway-ga.jpg",
+  imagePath: "/src/assets/student-pilot-training-in-cockpit-speedway-ga.webp",
   imageAlt: "Speedway Flight Training student pulling plane out of hangar",
   headerH1: `<span class="text-primary-700">Affordable</span>&nbsp Paths&nbsp to&nbsp Your&nbsp Pilot&nbsp License&nbsp`,
   paragraph:
