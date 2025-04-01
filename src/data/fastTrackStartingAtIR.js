@@ -10,7 +10,7 @@ const fastTrackStartingAtIR = {
   // Top Header
   header: {
     stars: true,
-    imagePath: "/src/assets/fast-track-instrument-rating-speedway.jpg",
+    imagePath: "/src/assets/fast-track-instrument-rating-speedway.webp",
     imageAlt: "Speedway Flight Training students in a simulator session",
     headerH1: `Fast Track to <br>the Flight Deck</span>`,
     paragraph: `For pilots with a Private Pilot License (PPL), this program provides an efficient and structured path to earning your Instrument Rating, Commercial Pilot License, and Certified Flight Instructor certification.`,
@@ -101,7 +101,7 @@ const fastTrackStartingAtIR = {
     },
 
     cta: {
-      imagePath: "/src/assets/speedway-fast-track-instrument.jpg",
+      imagePath: "/src/assets/speedway-fast-track-instrument.webp",
       imageAlt: "Speedway Flight Training student in a flight simulator",
       title: "Advance Your Career with Structured Training",
       description:
