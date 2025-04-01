@@ -10,7 +10,7 @@ const instrumentRatingData = {
   // Top Header
   header: {
     stars: true,
-    imagePath: "/src/assets/stock-kristina-delp-xx7EiLeralM-unsplash.jpg",
+    imagePath: "/src/assets/stock-kristina-delp-xx7EiLeralM-unsplash.webp",
     imageAlt: "Speedway Flight Training aircraft flying in instrument conditions",
     headerH1: `Instrument <br>RATING</span>`,
     paragraph: `Expand your flight skills and master IFR procedures with Speedway Flight Training’s Instrument Rating program. Train with expert instructors and gain confidence flying in low-visibility conditions.`,
@@ -101,7 +101,7 @@ const instrumentRatingData = {
     },
 
     cta: {
-      imagePath: "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.jpg",
+      imagePath: "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.webp",
       imageAlt: "Speedway Flight Training student practicing IFR navigation",
       title: "Advance Your Flight Skills with an Instrument Rating",
       description:
