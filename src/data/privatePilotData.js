@@ -10,7 +10,7 @@ const privatePilotData = {
   // Top Header
   header: {
     stars: true,
-    imagePath: "/src/assets/stock-avery-murray-pz0sXiMIxgw-unsplash.jpg",
+    imagePath: "/src/assets/stock-avery-murray-pz0sXiMIxgw-unsplash.webp",
     imageAlt: "Speedway Flight Training aircraft on the runway at Atlanta Speedway Airport",
     headerH1: `Private Pilot <br>LICENSE</span>`,
     paragraph: `The foundation of your aviation journey. Train with expert instructors, gain real-world flight experience, and complete your Private Pilot License in as little as 8 weeks with Speedway Flight Training.`,
@@ -101,7 +101,7 @@ const privatePilotData = {
     },
 
     cta: {
-      imagePath: "/src/assets/stock-yves-scheuber-Hn2t_74pp3Q-unsplash.jpg",
+      imagePath: "/src/assets/stock-yves-scheuber-Hn2t_74pp3Q-unsplash.webp",
       imageAlt: "Speedway Flight Training student preflighting a Cessna 172",
       title: "Fast Track Your Aviation Journey",
       description:
