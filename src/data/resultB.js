@@ -13,7 +13,7 @@ const resultB = {
 
     header: {
       imagePath:
-      "/src/assets/placeholder.jpg",
+      "/src/assets/placeholder.webp",
       imageAlt: `${COMPANY_NAME} CFI watching as student prepares to take first solo flight`,
       headerH1: "The Perfectionist Pilot",
       paragraph:
