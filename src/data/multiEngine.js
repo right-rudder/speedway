@@ -11,7 +11,7 @@ const multiEngineRating = {
     // Top Header
     header: {
       stars: true,
-      imagePath: "/src/assets/placeholder.jpg",
+      imagePath: "/src/assets/placeholder.webp",
       imageAlt:
         "Speedway Flight Training student flying a multi-engine Piper Seminole aircraft",
       headerH1: `Multi-Engine <br>Rating</span>`,
@@ -51,7 +51,7 @@ const multiEngineRating = {
             "To begin training, you must hold a valid Private Pilot License (PPL) or higher. Instrument proficiency is recommended to enhance your training experience, although it is not required.",
             "Training in our Beechcraft Baron allows you to earn your Multi-Engine rating, Complex endorsement, and High-Performance endorsement—all in one. Unlike many twin-engine trainers with lower horsepower, our Baron’s 260 HP per engine ensures you meet high-performance aircraft requirements while gaining valuable multi-engine experience.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Speedway plane, Beechcraft Twin-Engine outside hangar at KATL",
         },
         {
@@ -60,7 +60,7 @@ const multiEngineRating = {
             "Ground school covers critical concepts such as multi-engine aerodynamics, weight and balance, single-engine operations, and system failures. You’ll learn how to handle emergencies like engine-out scenarios and how to manage asymmetric thrust.",
             "This foundational knowledge prepares you to safely and confidently operate multi-engine aircraft in all phases of flight.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Students in a classroom discussing multi-engine theory",
         },
         {
@@ -69,7 +69,7 @@ const multiEngineRating = {
             "You’ll conduct hands-on training in one of our multi-engine aircraft, such as the Piper Seminole, gaining experience with advanced systems like twin-engine performance, variable pitch propellers, and retractable gear.",
             "Our instructors will guide you through critical maneuvers, including engine-out procedures, VMC demonstrations, and precision landings, ensuring you’re confident in the cockpit of a twin-engine aircraft.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Instructor and student flying a multi-engine aircraft",
         },
         {
@@ -78,7 +78,7 @@ const multiEngineRating = {
             "A key aspect of multi-engine training involves mastering engine-out operations. You’ll learn to maintain control during single-engine flight, troubleshoot system failures, and safely navigate to an airport.",
             "This training ensures you can effectively manage emergencies, increasing your proficiency and safety as a multi-engine pilot.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Student practicing single-engine procedures in flight",
         },
         {
@@ -87,7 +87,7 @@ const multiEngineRating = {
             "The final step in earning your Multi-Engine Rating is passing the FAA Practical Test. This checkride includes an oral exam and a flight test where you’ll demonstrate your knowledge and skills in multi-engine operations.",
             "Our program prepares you with mock checkrides, personalized feedback, and advanced flight practice to ensure you pass with confidence.",
           ],
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Pilot and examiner conducting a checkride",
         },
       ],
