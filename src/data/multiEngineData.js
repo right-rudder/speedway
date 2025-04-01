@@ -10,7 +10,7 @@ const multiEngineData = {
   // Top Header
   header: {
     stars: false,
-    imagePath: "/src/assets/stock-chris-michals-PQXjU65EPKE-unsplash.jpg",
+    imagePath: "/src/assets/stock-chris-michals-PQXjU65EPKE-unsplash.webp",
     imageAlt: "Multi-engine aircraft at Speedway Flight Training",
     headerH1: `Multi-Engine <br>ADD-ON`,
     paragraph: `Expand your capabilities and career options. Our Multi-Engine Add-On is designed for pilots looking to build time, meet airline requirements, and operate complex aircraft with confidence.`,
@@ -97,7 +97,7 @@ const multiEngineData = {
     },
 
     cta: {
-      imagePath: "/src/assets/stock-david-b-o27uCBOPbG0-unsplash.jpg",
+      imagePath: "/src/assets/stock-david-b-o27uCBOPbG0-unsplash.webp",
       imageAlt: "Multi-engine cockpit view at Speedway Flight Training",
       title: "Advance Your Aviation Career",
       description:
