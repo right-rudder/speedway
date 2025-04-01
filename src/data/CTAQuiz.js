@@ -1,5 +1,5 @@
 const CTAQuiz = {
-  imagePath: "/src/assets/sunset-discovery-flight-speedway-flight-training.jpg",
+  imagePath: "/src/assets/sunset-discovery-flight-speedway-flight-training.webp",
   imageAlt: "Speedway Flight Training student posing for first solo flight",
   headerH1: `Do you have what it takes to become a Pilot?`,
   paragraph:
