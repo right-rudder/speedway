@@ -4,6 +4,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import FinancingTabs from "../../components/FinancingTabs";
 import CTAQuiz from "../../components/CTAQuiz.astro";
 import CTAQuizData from "../../data/CTAQuiz";
+import { COMPANY_NICKNAME, COMPANY_NAME } from "../../consts";
 ---
 
 <BaseLayout
@@ -21,8 +22,8 @@ import CTAQuizData from "../../data/CTAQuiz";
     <div
       class="text-white text-center z-10 flex flex-col items-center gap-8 px-5"
     >
-      <h1 class="text-3xl md:text-5xl font-bold tracking-tight">
-        How to Access Financing at Speedway Flight Training
+      <h1 class="text-3xl md:text-6xl font-bold -skew-x-12 font-sans2 tracking-tight">
+        How to Access Financing at<br/>{COMPANY_NAME}
       </h1>
       <h2 class="text-xl md:text-3xl tracking-wide">
         Helping our students fund their pilot training
@@ -48,3 +49,4 @@ import CTAQuizData from "../../data/CTAQuiz";
   <!-- Contact Us Form -->
   <ContactUs />
 </BaseLayout>
+e
