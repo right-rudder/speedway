@@ -17,7 +17,7 @@ const galleryData = {
     // Top Header
     header: {
       stars: false,
-      imagePath: "/src/assets/placeholder.jpg",
+      imagePath: "/src/assets/placeholder.webp",
       imageAlt: "The inside of one of our planes",
       headerH1: `Gallery <br><span>Snapshots of Speedway</span>`,
       paragraph: `Step inside Speedway Flight Training through our photo gallery. From well-maintained aircraft to moments of achievement and camaraderie, these snapshots capture the essence of our aviation community.`,
