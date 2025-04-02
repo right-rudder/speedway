@@ -16,7 +16,7 @@ const programsIndex = {
     buttons: [
       {
         name: "Get Started",
-        link: "/contact",
+        link: "/enroll",
         primary: false,
       },
     ],
