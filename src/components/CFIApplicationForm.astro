@@ -58,19 +58,25 @@ const CONTACT_US_FORM_WEBHOOK_URL = import.meta.env.CONTACT_WEBHOOK_URL;
       </label>
     </p>
     <div class="sm:col-span-2">
-      <!-- <label for="phone-number" class="block text-sm leading-6 text-accent-100">Phone number</label> -->
-      <div class="relative mt-2.5">
-        <input
-          type="tel"
-          name="phone-number"
-          id="phone-number"
-          autocomplete="tel"
-          placeholder="Phone Number"
+      <!-- <label for="message" class="block text-sm leading-6 text-accent-100">How can we help?</label> -->
+      <div class="mt-2.5">
+        <!-- Need to get align bottom... -->
+        <label for="interest-program" class="block mb-0 font-extralight text-accent-100">
+          What position are you interested in?
+        </label>
+        <select
           required
-          class="block w-full py-2 text-accent-100 shadow-sm ring-inset ring-gray-300 placeholder:text-gray-300 bg-transparent border-b-[1px] border-gray-300 sm:text-sm sm:leading-6 outline-none"
-        />
+          id="interest-program"
+          name="interest-program"
+          class="block font-extralight w-full py-2 text-accent-100 shadow-sm ring-inset ring-gray-300 placeholder:text-gray-300 bg-transparent border-b-[1px] border-gray-300 sm:text-sm sm:leading-6 outline-none"
+        >
+          <option class="bg-accent-950">Admin Crew</option>
+          <option class="bg-accent-950">Flight Crew</option>
+          <option class="bg-accent-950">Dispatcher</option>
+        </select>
       </div>
     </div>
+    <div class="sm:col-span-2">
       <div class="mt-2.5">
         <!-- Need to get align bottom... -->
         <textarea
