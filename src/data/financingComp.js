@@ -7,7 +7,7 @@ const financing = {
   buttons: [
     {
       name: "More Info",
-      link: "/contact",
+      link: "/speedway/financing",
       primary: true,
     },
   ],
