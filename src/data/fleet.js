@@ -2,7 +2,7 @@ export const fleet = [
   {
     name: "N7350G",
     slug: "n7350g",
-    rentalPrice: "$190/hr wet",
+    rentalPrice: null,
     usableFuel: "38 gal",
     model: "Cessna 172K",
     equipment: [
@@ -23,7 +23,7 @@ export const fleet = [
   {
     name: "N3940Q",
     slug: "n3940q",
-    rentalPrice: "$190/hr wet",
+    rentalPrice: null,
     usableFuel: "38 gal",
     model: "Cessna 172L (TAA)",
     equipment: [
@@ -45,7 +45,7 @@ export const fleet = [
   {
     name: "N46269",
     slug: "n46269",
-    rentalPrice: "$190/hr wet",
+    rentalPrice: null,
     usableFuel: "38 gal",
     model: "Cessna 172I",
     equipment: [
@@ -66,7 +66,7 @@ export const fleet = [
   {
     name: "N21648",
     slug: "n21648",
-    rentalPrice: "$190/hr wet",
+    rentalPrice: null,
     usableFuel: "38 gal",
     model: "Cessna 172M (TAA)",
     equipment: [
