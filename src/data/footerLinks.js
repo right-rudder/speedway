@@ -11,8 +11,8 @@ export const footerLinks = [
         link: "/discovery-flight",
       },
       {
-        name: "Career Path",
-        link: "/path",
+        name: "Fast-Track",
+        link: "/fast-track-program",
       },
       {
         name: "Flight Training",
@@ -23,8 +23,8 @@ export const footerLinks = [
         link: "/contact",
       },
       {
-        name: "Quiz",
-        link: "/quiz",
+        name: "Join the Team",
+        link: "/join-the-team#top",
       },
     ],
   },
@@ -32,28 +32,36 @@ export const footerLinks = [
     title: "Programs",
     links: [
       {
-        name: "Private Pilot",
-        link: "/programs/private-pilot-course",
+        name: "PPL",
+        link: "/programs/private-pilot",
       },
       {
-        name: "Instrument Rating",
+        name: "IR",
         link: "/programs/instrument-rating",
       },
       {
-        name: "Commercial Pilot",
+        name: "CPL",
         link: "/programs/commercial-pilot",
       },
       {
-        name: "Multi-Engine Rating",
-        link: "/programs/multi-engine-rating",
+        name: "ME",
+        link: "/programs/multi-engine",
       },
       {
-        name: "Flight Instructor",
+        name: "CFI",
         link: "/programs/certified-flight-instructor",
       },
       {
-        name: "Advanced Training",
-        link: "/programs/advanced-trainings",
+        name: "CFII",
+        link: "/programs/certified-flight-instructor-instrument-cfii",
+      },
+      {
+        name: "MEI",
+        link: "/programs/multi-engine-instructor",
+      },
+      {
+        name: "Spin",
+        link: "/programs/spin-endorsement",
       },
     ],
   },
@@ -62,27 +70,19 @@ export const footerLinks = [
     links: [
       {
         name: "About Us",
-        link: "/about",
+        link: "/speedway",
       },
       {
-        name: "Instructors",
-        link: "/packages/crew",
+        name: "Crew",
+        link: "/speedway/crew",
       },
       {
         name: "Fleet",
-        link: "/packages/fleet",
+        link: "/speedway/fleet",
       },
       {
         name: "Financing",
-        link: "/financing",
-      },
-      {
-        name: "Insurance",
-        link: "https://www.avemco.com/products/renter?partner=LA16",
-      },
-      {
-        name: "Gallery",
-        link: "/packages/gallery",
+        link: "/speedway/financing",
       },
       {
         name: "Blog",
