@@ -21,7 +21,7 @@ const fastTrackZeroToCFIData = {
         primary: false,
       },
       {
-        name: "More Info",
+        name: "Roadmap",
         link: "#info",
         primary: false,
       },
