@@ -1,0 +1,42 @@
+---
+import ProgramDetails from "../components/ProgramDetails.astro";
+import fastTrackZeroToCFIData from "../data/fastTrackZeroToCFIData.js";
+import fastTrackStartingAtIR from "../data/fastTrackStartingAtIR.js";
+import fastTrackStartingAtCPL from "../data/fastTrackStartingAtCPL.js";
+---
+
+<section class="pt-20 pb-10 bg-accent-100" x-data="{ selected: 'zero' }" xmlns:x="http://www.w3.org/1999/xhtml">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="flex justify-center mb-10 gap-4 flex-wrap">
+      <button
+        class="px-5 py-2 text-sm font-semibold rounded-full transition-all duration-300 border"
+        :class="selected === 'zero' ? 'bg-primary-700 text-white border-primary-700' : 'bg-white text-primary-700 border-primary-700 hover:bg-primary-100'"
+        @click="selected = 'zero'"
+      >Zero to CFI</button>
+      <button
+        class="px-5 py-2 text-sm font-semibold rounded-full transition-all duration-300 border"
+        :class="selected === 'ir' ? 'bg-primary-700 text-white border-primary-700' : 'bg-white text-primary-700 border-primary-700 hover:bg-primary-100'"
+        @click="selected = 'ir'"
+      >Start at Instrument</button>
+      <button
+        class="px-5 py-2 text-sm font-semibold rounded-full transition-all duration-300 border"
+        :class="selected === 'cpl' ? 'bg-primary-700 text-white border-primary-700' : 'bg-white text-primary-700 border-primary-700 hover:bg-primary-100'"
+        @click="selected = 'cpl'"
+      >Start at Commercial</button>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md p-6">
+      <div x-show="selected === 'zero'" x-cloak>
+        <ProgramDetails program={fastTrackZeroToCFIData.details} />
+      </div>
+      <div x-show="selected === 'ir'" x-cloak>
+        <ProgramDetails program={fastTrackStartingAtIR.details} />
+      </div>
+      <div x-show="selected === 'cpl'" x-cloak>
+        <ProgramDetails program={fastTrackStartingAtCPL.details} />
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
