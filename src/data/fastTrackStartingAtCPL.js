@@ -10,7 +10,7 @@ const fastTrackStartingAtCPL = {
   // Top Header
   header: {
     stars: true,
-    imagePath: "/src/assets/fast-track-commercial-speedway.webp",
+    imagePath: "/src/assets/stock-adrien-brun-L87clzV761M-unsplash.webp",
     imageAlt: "Speedway Flight Training commercial pilot student preparing for a checkride",
     headerH1: `Fast Track to <br>the Flight Deck</span>`,
     paragraph: `For pilots with an Instrument Rating (IR), this program provides a structured path to earning your Commercial Pilot License (CPL), Certified Flight Instructor (CFI), and Certified Flight Instructor - Instrument (CFII) certification.`,
@@ -98,7 +98,7 @@ const fastTrackStartingAtCPL = {
     },
 
     cta: {
-      imagePath: "/src/assets/speedway-fast-track-cpl.webp",
+      imagePath: "/src/assets/stock-victor-zhuk-3MYtBMg8Ex4-unsplash.webp",
       imageAlt: "Speedway Flight Training student preparing for a commercial flight checkride",
       title: "Accelerate Your Career with Structured Training",
       description:
