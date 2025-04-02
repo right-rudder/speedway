@@ -23,7 +23,7 @@ const FinancingTabs = () => {
               className="h-16 md:h-20"
             />
           </div>
-          <div className="tracking-wider flex flex-col items-center">
+          <div className="tracking-wider w-full flex flex-col items-center">
             <p className="pt-5">
               {COMPANY_NAME} is proud to partner with Stratus Financial to
               make flight training more accessible for aspiring pilots. Take
@@ -31,13 +31,20 @@ const FinancingTabs = () => {
               dreams.
             </p>
             <a
-              href="https://stratus.finance/apply/laflightacademy1303242/"
+              href="https://apply.stratus.finance/speedwayflighttraining3236722/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary m-8"
             >
               Apply Now
             </a>
+          </div>
+        </div>
+      </section>
+      <img src="/src/assets/Speedway-Flight-Training-LLC_New-FB-Template.webp" alt="Stratus Financial Banner" className="hidden md:block w-screen h-auto"></img>
+      <section className="flex flex-col items-center bg-gradient-to-br from-white to-gray-200">
+        <div className="max-w-7xl px-10 flex flex-col items-center py-10">
+          <div className="flex flex-col-reverse lg:flex-row items-center w-full justify-around py-10 gap-10">
             <div className="flex flex-col md:flex-row w-full gap-5">
               <div className="flex-1">
                 <p className="pt-5 font-semibold">Student Requirements</p>
@@ -115,7 +122,7 @@ const FinancingTabs = () => {
             <p className="font-semibold pt-5">How are the funds transferred?</p>
             <p>Stratus Financial pays the funds directly to LA Flight Academy.</p>
           </div>
-          {/* <div className="pt-10 self-start">
+          <div className="pt-10 self-start">
             <h3 className="font-semibold text-xl">Additional Resources</h3>
             <ul className="list-disc pl-10">
               <li>
@@ -146,9 +153,9 @@ const FinancingTabs = () => {
                 </a>
               </li>
             </ul>
-          </div> */}
+          </div>
           <a
-            href="https://stratus.finance/apply/laflightacademy1303242/"
+            href="https://apply.stratus.finance/speedwayflighttraining3236722/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary m-8"
