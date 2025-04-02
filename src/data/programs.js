@@ -45,7 +45,7 @@ const programs = {
       link: "/programs/certified-flight-instructor-instrument-cfii#top",
     },
     {
-      title: "Multi-Engine Add-On",
+      title: "Multi-Engine Add-On (ME)",
       imagePath: "/src/assets/stock-chris-michals-PQXjU65EPKE-unsplash.webp",
       imageAlt: "Speedway multi-engine aircraft on the taxiway",
       description:
