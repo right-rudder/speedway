@@ -8,25 +8,22 @@ const jobCards = [
     title: "Admin Crew",
     description:
       "Support flight operations, scheduling, and student services from the front office.",
-    status: "Now Hiring",
-    statusColor: "bg-green-600",
-    link: "/downloads/job-description-admin-crew.pdf",
+    hiring: true,
+    link: "/files/speedway-flight-training-admin-crew-job-description.pdf",
   },
   {
     title: "Flight Crew",
     description:
       "Join our team of Certified Flight Instructors and help train the next generation of pilots.",
-    status: "Now Hiring",
-    statusColor: "bg-green-600",
-    link: "/downloads/job-description-flight-crew.pdf",
+    hiring: false,
+    link: "/files/speedway-flight-training-flight-crew-job-description.pdf",
   },
   {
     title: "Dispatcher",
     description:
       "Coordinate aircraft movements, student dispatch, and flight tracking for daily operations.",
-    status: "Not Hiring",
-    statusColor: "bg-gray-400",
-    link: "/downloads/job-description-dispatcher.pdf",
+    hiring: false,
+    link: "/files/speedway-flight-training-dispatcher-job-description.pdf",
   },
 ];
 ---
@@ -36,7 +33,7 @@ const jobCards = [
   siteDescription="Explore career opportunities at Speedway Flight Training in Hampton, GA. We’re hiring passionate aviation professionals to join our flight crew, admin staff, and dispatcher team."
   keywords="flight school jobs Georgia, CFI positions, aviation careers Hampton GA, flight instructor openings, aviation admin jobs, dispatcher hiring"
 >
-  <section class="relative z-10 bg-checkered bg-fixed text-accent-100 scroll-my-20 lg:scroll-my-28 pt-36 pb-8">
+  <section class="relative mt-28 z-10 bg-checkered bg-fixed text-accent-100 scroll-my-20 lg:scroll-my-28 pt-36 pb-8">
     <div class="max-w-7xl mx-auto px-6">
       <h1 class="text-center text-4xl lg:text-6xl font-sans2 -skew-x-12 font-bold mb-12">Career Opportunities at Speedway</h1>
       <div class="grid gap-10 md:grid-cols-3">
@@ -47,16 +44,23 @@ const jobCards = [
               <p class="mb-8 text-sm text-accent-100">{card.description}</p>
             </div>
             <div class="mt-auto flex flex-col gap-2">
-              <span class={`inline-block w-max text-white text-xs px-3 py-1 rounded-full ${card.statusColor}`}>
-                {card.status}
-              </span>
-              <a
-                href={card.link}
-                target="_blank"
-                class="text-primary-300 hover:underline text-sm"
+              <span
+                class={`inline-block w-max text-white text-xs px-3 py-1 rounded-full ${
+                  card.hiring ? "bg-mariner-500" : "bg-gray-400"
+                }`}
               >
-                Download Job Description
-              </a>
+                {card.hiring ? "Now Hiring" : "Not Hiring"}
+              </span>
+
+              {card.hiring && (
+                <a
+                  href={card.link}
+                  target="_blank"
+                  class="text-primary-300 hover:underline text-sm"
+                >
+                  Download Job Description
+                </a>
+              )}
             </div>
           </div>
         ))}
