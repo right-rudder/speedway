@@ -6,7 +6,7 @@ const financing = {
     "Pursuing your dream of becoming a pilot is now more accessible than ever with our flexible financing options. Whether you're just starting or advancing your certifications, we've partnered with trusted financial providers to help you achieve your goals. Explore our financing solutions and make your aviation ambitions a reality today!",
   buttons: [
     {
-      name: "More Info",
+      name: "Financing Page",
       link: "/speedway/financing",
       primary: true,
     },
