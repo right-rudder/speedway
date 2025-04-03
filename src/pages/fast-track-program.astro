@@ -15,6 +15,8 @@ import programData from "../data/fastTrackZeroToCFIData.js";
 import CTAFinancing from "../components/CTAFinancing.astro";
 import financingCompData from "../data/financingComp";
 
+import TestimonialsSwiper from "../components/TestimonialsSwiper.astro";
+import testimonialsSwiper from "../data/testimonialsSwiper";
 ---
 <BaseLayout
   siteTitle={programData.pageTitle}
@@ -29,6 +31,8 @@ import financingCompData from "../data/financingComp";
   <TrainingRoadmap content={roadmap} />
 
   <CTAFinancing content={financingCompData} />
+  <TestimonialsSwiper content={testimonialsSwiper} />
   <CTAColor content={CTAFlight} />
-
+  
+  <script src="../scripts/creativeSwiper.js"></script>
 </BaseLayout>
