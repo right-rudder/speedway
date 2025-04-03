@@ -10,10 +10,12 @@ export const fleet = [
       "Dual Garmin G5",
       "IFR Certified",
     ],
-    imagePath: "/src/assets/stock-yves-scheuber-Hn2t_74pp3Q-unsplash.webp",
+    imagePath: "/src/assets/N7330G-4.webp",
     imagesArray: [
-      "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.webp",
-      "/src/assets/inside-cockpit-flight-training-speedway-ga.webp",
+      "/src/assets/N7330G-4.webp",
+      "/src/assets/N7330G-3.webp",
+      "/src/assets/N7330G-2.webp",
+      "/src/assets/N7330G-1.webp",
     ],
     description: [
       "N7350G is a dependable Cessna 172K ideal for both student pilots and time-building renters. Its predictable handling characteristics and steady performance make it a go-to option for primary flight instruction.",
@@ -32,10 +34,12 @@ export const fleet = [
       "GFC 500 Autopilot",
       "IFR Certified",
     ],
-    imagePath: "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.webp",
+    imagePath: "/src/assets/N3940Q_0202.webp",
     imagesArray: [
-      "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.webp",
-      "/src/assets/inside-cockpit-flight-training-speedway-ga.webp",
+      "/src/assets/N3940Q_0202.webp",
+      "/src/assets/N3940Q_0199.webp",
+      "/src/assets/N3940Q_0200.webp",
+      "/src/assets/N3940Q_0201.webp",
     ],
     description: [
       "Designated as a Technically Advanced Aircraft (TAA), N3940Q is an excellent platform for instrument, commercial, and CFI training. Its avionics suite mirrors the workflow of larger glass cockpit systems used in the airline and charter environment.",
@@ -53,10 +57,12 @@ export const fleet = [
       "Dual Garmin G5",
       "IFR Certified",
     ],
-    imagePath: "/src/assets/inside-cockpit-flight-training-speedway-ga.webp",
+    imagePath: "/src/assets/N46269-4.webp",
     imagesArray: [
-      "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.webp",
-      "/src/assets/inside-cockpit-flight-training-speedway-ga.webp",
+      "/src/assets/N46269-4.webp",
+      "/src/assets/N46269-3.webp", 
+      "/src/assets/N46269-2.webp", 
+      "/src/assets/N46269-1.webp", 
     ],
     description: [
       "N46269 blends the timeless reliability of the 172I airframe with a full avionics upgrade for modern training needs. It’s an excellent choice for private, instrument, or recurrent training.",
@@ -75,10 +81,12 @@ export const fleet = [
       "GFC 500 Autopilot",
       "IFR Certified",
     ],
-    imagePath: "/src/assets/stock-yves-scheuber-Hn2t_74pp3Q-unsplash.webp",
+    imagePath: "/src/assets/N21648_3642.webp",
     imagesArray: [
-      "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.webp",
-      "/src/assets/inside-cockpit-flight-training-speedway-ga.webp",
+      "/src/assets/N21648_3642.webp",
+      "/src/assets/N21648_3640.webp",
+      "/src/assets/N21648_3643.webp",
+      "/src/assets/N21648_3641.webp",
     ],
     description: [
       "N21648 is a fully equipped Cessna 172M with Technically Advanced Aircraft (TAA) designation. It’s a high-performing platform for instrument and commercial students ready to operate in a complex avionics environment.",
