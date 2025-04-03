@@ -101,7 +101,7 @@ const fastTrackStartingAtIR = {
     },
 
     cta: {
-      imagePath: "/src/assets/stock-victor-zhuk-3MYtBMg8Ex4-unsplash.webp",
+      imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-126.webp",
       imageAlt: "Speedway Flight Training student in a flight simulator",
       title: "Advance Your Career with Structured Training",
       description:
