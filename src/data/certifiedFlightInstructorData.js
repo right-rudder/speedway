@@ -10,7 +10,7 @@ const certifiedFlightInstructorData = {
   // Top Header
   header: {
     stars: true,
-    imagePath: "/src/assets/cessna-172-in-flight-over-hampton-ga.webp",
+    imagePath: "/src/assets/cessna-172-in-flight-over-hampton-ga-croped.webp",
     imageAlt: "Speedway Flight Training instructor guiding a student pilot",
     headerH1: `Certified Flight <br>INSTRUCTOR (CFI)</span>`,
     paragraph: `Turn your passion for aviation into a rewarding career. Our Certified Flight Instructor program equips you with the skills, techniques, and knowledge to train the next generation of pilots.`,
