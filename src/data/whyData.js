@@ -10,7 +10,7 @@ const whyData = {
   // Top Header
   header: {
     stars: true,
-    imagePath: "/src/assets/stock-annie-spratt-caYF83o3BYQ-unsplash.webp",
+    imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-141.webp",
     imageAlt: "Speedway Flight Training student pilot celebrating her first solo flight",
     headerH1: `Why Choose <br>Speedway?</span>`,
     paragraph: `At Speedway Flight Training, our mission is to deliver high-quality flight training in a supportive and professional environment. From your first flight to your commercial career, we’re here to guide your journey with integrity, safety, and passion.`,
@@ -96,7 +96,7 @@ const whyData = {
       link: "/enroll",
       primary: true,
     },
-    imagePath: "/src/assets/cessna-172-tail-speedway-flight-training-logo-hampton-atlanta-georgia.webp",
+    imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-43.webp",
     imageAlt:
       "Speedway Flight Training student and instructor reviewing preflight checklist at Atlanta Speedway Airport",
   },
