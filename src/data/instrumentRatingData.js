@@ -101,7 +101,7 @@ const instrumentRatingData = {
     },
 
     cta: {
-      imagePath: "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.webp",
+      imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-129.webp",
       imageAlt: "Speedway Flight Training student practicing IFR navigation",
       title: "Advance Your Flight Skills with an Instrument Rating",
       description:

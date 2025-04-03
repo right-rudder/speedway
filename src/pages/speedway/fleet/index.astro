@@ -2,13 +2,13 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import HeaderSmall from "../../../components/HeaderSmall.astro";
 import { Image } from "astro:assets";
-import Intro from "../../../assets/student-pilot-training-in-cockpit-speedway-ga.webp";
+import Intro from "../../../assets/atlanta-airport-Speedway-Flight-Training-134-croped.webp";
 import { fleet } from "../../../data/fleet";
 import PlaneCard from "../../../components/PlaneCard.astro";
 import ContactUs from "../../../components/ContactUs.astro";
 
 const header = {
-  imagePath: "/src/assets/stock-mateusz-suski-ilz44HzYh5I-unsplash.webp",
+  imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-116.webp",
   headerH1: "Our Fleet",
   imageAlt: "Speedway Flight Training aircraft lined up at Atlanta Speedway Airport",
   paragraph: "Explore Speedway Flight Training’s modern, well-maintained fleet based in Hampton, GA. From Cessna 172s to TAA-equipped aircraft, our lineup is designed to support students through every stage of flight training.",
@@ -36,6 +36,8 @@ const header = {
           class="pr-6"
           src={Intro}
           alt="Speedway Flight Training tail view of a Cessna"
+          widths={[240, 540, 720, 1080, 1440, 1980]}
+          sizes={`(max-width: 240px) 240px, (max-width: 540px) 540px, (max-width: 720px) 720px, (max-width: 1080px) 1080px, (max-width: 1440px) 1440px, 1920px`}      
         />
         <div class="h-3/4 bg-primary-600 absolute -z-10 -right-0 w-20 top-[12.5%]"></div>
       </div>

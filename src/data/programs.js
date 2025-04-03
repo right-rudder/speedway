@@ -62,7 +62,7 @@ const programs = {
     },
     {
       title: "Spin Endorsement",
-      imagePath: "/src/assets/stock-rod-long-YUUUrkTzdgQ-unsplash.webp",
+      imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-96.webp",
       imageAlt: "Flight instructor performing spin recovery maneuver",
       description:
         "Earn your FAA-required spin endorsement in a single day. Ideal for future CFIs and pilots seeking stall/spin recovery proficiency.",

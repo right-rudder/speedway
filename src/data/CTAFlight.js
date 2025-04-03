@@ -1,5 +1,5 @@
 const CTAFlight = {
-  imagePath: "/src/assets/inside-cockpit-flight-training-speedway-ga.webp",
+  imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-104-croped.webp",
   imageAlt: "Speedway Flight Training student flying over Atlanta Motor Speedway",
   headerH1: `Take the First Step</br>With a <span class="text-primary-700">Discovery Flight</span>`,
   paragraph:
