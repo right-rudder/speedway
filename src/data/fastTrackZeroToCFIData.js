@@ -10,7 +10,7 @@ const fastTrackZeroToCFIData = {
   // Top Header
   header: {
     stars: true,
-    imagePath: "/src/assets/stock-adrien-brun-L87clzV761M-unsplash.webp",
+    imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-120.webp",
     imageAlt: "Speedway Flight Training students and instructors preparing for flights",
     headerH1: `Fast Track to <br>the Flight Deck</span>`,
     paragraph: `An all-inclusive, structured program designed to take you from zero experience to a Certified Flight Instructor (CFI). Build flight hours, gain real-world experience, and launch your professional aviation career.`,
