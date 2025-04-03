@@ -79,8 +79,8 @@ const Navbar = ({ pathname }) => {
     <nav className="w-full h-0 sticky inset-0 z-50 font-sans2">
       <div
         className={`${
-          navBar || openMobile ? "bg-mariner-950/90 backdrop-blur-sm" : "pb-10"
-        } duration-500`}
+          navBar || openMobile ? "bg-mariner-950/90 " : "bg-mariner-950/50"
+        } duration-500 backdrop-blur-sm`}
       >
         <div className="px-5 w-full top-0 pb-2">
           <div
@@ -114,7 +114,7 @@ const Navbar = ({ pathname }) => {
                       )}
                       {item.submenu && item.submenu.length > 0 && (
                         <ul
-                          className={`${navBar || openMobile ? "text-accent-100 bg-mariner-950/90 backdrop-blur-sm" : "text-accent-100 "} absolute top-16 whitespace-nowrap text-accent-100 font-bold font-sans -left-4 duration-400 ease-in-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
+                          className={`${navBar || openMobile ? "bg-mariner-950/90" : "bg-mariner-950/50 backdrop-blur-sm"} absolute top-16 whitespace-nowrap text-accent-100 font-bold font-sans -left-4 duration-400 ease-in-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
                         >
                           {item.submenu.map((subitem, subIndex) => (
                             <li

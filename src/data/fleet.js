@@ -2,7 +2,7 @@ export const fleet = [
   {
     name: "N7350G",
     slug: "n7350g",
-    rentalPrice: "$190/hr wet",
+    rentalPrice: null,
     usableFuel: "38 gal",
     model: "Cessna 172K",
     equipment: [
@@ -10,10 +10,10 @@ export const fleet = [
       "Dual Garmin G5",
       "IFR Certified",
     ],
-    imagePath: "/src/assets/stock-yves-scheuber-Hn2t_74pp3Q-unsplash.jpg",
+    imagePath: "/src/assets/stock-yves-scheuber-Hn2t_74pp3Q-unsplash.webp",
     imagesArray: [
-      "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.jpg",
-      "/src/assets/inside-cockpit-flight-training-speedway-ga.jpg",
+      "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.webp",
+      "/src/assets/inside-cockpit-flight-training-speedway-ga.webp",
     ],
     description: [
       "N7350G is a dependable Cessna 172K ideal for both student pilots and time-building renters. Its predictable handling characteristics and steady performance make it a go-to option for primary flight instruction.",
@@ -23,7 +23,7 @@ export const fleet = [
   {
     name: "N3940Q",
     slug: "n3940q",
-    rentalPrice: "$190/hr wet",
+    rentalPrice: null,
     usableFuel: "38 gal",
     model: "Cessna 172L (TAA)",
     equipment: [
@@ -32,10 +32,10 @@ export const fleet = [
       "GFC 500 Autopilot",
       "IFR Certified",
     ],
-    imagePath: "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.jpg",
+    imagePath: "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.webp",
     imagesArray: [
-      "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.jpg",
-      "/src/assets/inside-cockpit-flight-training-speedway-ga.jpg",
+      "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.webp",
+      "/src/assets/inside-cockpit-flight-training-speedway-ga.webp",
     ],
     description: [
       "Designated as a Technically Advanced Aircraft (TAA), N3940Q is an excellent platform for instrument, commercial, and CFI training. Its avionics suite mirrors the workflow of larger glass cockpit systems used in the airline and charter environment.",
@@ -45,7 +45,7 @@ export const fleet = [
   {
     name: "N46269",
     slug: "n46269",
-    rentalPrice: "$190/hr wet",
+    rentalPrice: null,
     usableFuel: "38 gal",
     model: "Cessna 172I",
     equipment: [
@@ -53,10 +53,10 @@ export const fleet = [
       "Dual Garmin G5",
       "IFR Certified",
     ],
-    imagePath: "/src/assets/inside-cockpit-flight-training-speedway-ga.jpg",
+    imagePath: "/src/assets/inside-cockpit-flight-training-speedway-ga.webp",
     imagesArray: [
-      "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.jpg",
-      "/src/assets/inside-cockpit-flight-training-speedway-ga.jpg",
+      "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.webp",
+      "/src/assets/inside-cockpit-flight-training-speedway-ga.webp",
     ],
     description: [
       "N46269 blends the timeless reliability of the 172I airframe with a full avionics upgrade for modern training needs. It’s an excellent choice for private, instrument, or recurrent training.",
@@ -66,7 +66,7 @@ export const fleet = [
   {
     name: "N21648",
     slug: "n21648",
-    rentalPrice: "$190/hr wet",
+    rentalPrice: null,
     usableFuel: "38 gal",
     model: "Cessna 172M (TAA)",
     equipment: [
@@ -75,10 +75,10 @@ export const fleet = [
       "GFC 500 Autopilot",
       "IFR Certified",
     ],
-    imagePath: "/src/assets/stock-yves-scheuber-Hn2t_74pp3Q-unsplash.jpg",
+    imagePath: "/src/assets/stock-yves-scheuber-Hn2t_74pp3Q-unsplash.webp",
     imagesArray: [
-      "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.jpg",
-      "/src/assets/inside-cockpit-flight-training-speedway-ga.jpg",
+      "/src/assets/stock-charlie-westwood-DLPF0708j9I-unsplash.webp",
+      "/src/assets/inside-cockpit-flight-training-speedway-ga.webp",
     ],
     description: [
       "N21648 is a fully equipped Cessna 172M with Technically Advanced Aircraft (TAA) designation. It’s a high-performing platform for instrument and commercial students ready to operate in a complex avionics environment.",

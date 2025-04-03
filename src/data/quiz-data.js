@@ -21,7 +21,7 @@ const quizPage = {
     header: {
       stars: true,
       imagePath:
-        "/src/assets/placeholder.jpg",
+        "/src/assets/placeholder.webp",
       imageAlt: `${COMPANY_NAME} logo`,
       headerH1: `Quiz</br>${COMPANY_NAME}`,
       paragraph:

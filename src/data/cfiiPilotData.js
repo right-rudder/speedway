@@ -10,7 +10,7 @@ const cfiiPilotData = {
   // Top Header
   header: {
     stars: true,
-    imagePath: "/src/assets/stock-koon-chakhatrakan-SA-ALYhGjj8-unsplash.jpg",
+    imagePath: "/src/assets/stock-koon-chakhatrakan-SA-ALYhGjj8-unsplash.webp",
     imageAlt: "Speedway Flight Training CFII student and instructor during IFR simulator training",
     headerH1: `Flight Instructor <br>INSTRUMENT (CFII)</span>`,
     paragraph: `Take your instructional skills to the next level with Speedway’s CFII program. Learn to teach instrument flight techniques and expand your professional opportunities in aviation education.`,
@@ -100,7 +100,7 @@ const cfiiPilotData = {
 
     // CTA
     cta: {
-      imagePath: "/src/assets/stock-koon-chakhatrakan-SA-ALYhGjj8-unsplash.jpg",
+      imagePath: "/src/assets/stock-koon-chakhatrakan-SA-ALYhGjj8-unsplash.webp",
       imageAlt: "Speedway CFII instructor preparing student for checkride",
       title: "Expand Your Career as an Instrument Instructor",
       description:

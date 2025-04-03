@@ -1,5 +1,5 @@
 const CTAFastTrack = {
-  imagePath: "/src/assets/sunset-discovery-flight-speedway-flight-training.jpg",
+  imagePath: "/src/assets/sunset-discovery-flight-speedway-flight-training.webp",
   imageAlt: "Speedway Flight Training student preparing for a commercial flight",
   headerH1: `Fast Track Your Career</br>With <span class="text-primary-700">Accelerated Pilot Training</span>`,
   paragraph:

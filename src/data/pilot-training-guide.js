@@ -10,7 +10,7 @@ const pilotTrainingGuide = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/placeholder.jpg",
+      imagePath: "/src/assets/placeholder.webp",
       imageAlt:
         "Speedway Flight Training student pilot and CFI flying in a Beechcraft Twin Engine",
       headerH1: `PATHWAY TO <br>COMMERCIAL AIRLINE PILOT`,
@@ -37,7 +37,7 @@ const pilotTrainingGuide = {
         {
           stepNumber: 1,
           title: "Earn Your Private Pilot License (PPL)",
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Student pilot in training for their private pilot license",
           description:
             "The first step to becoming a professional pilot is earning your PPL. This license allows you to fly for personal or recreational purposes and builds the foundation for all advanced certifications.",
@@ -46,7 +46,7 @@ const pilotTrainingGuide = {
         {
           stepNumber: 2,
           title: "Add Your Instrument Rating (IR)",
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Cockpit during instrument training at Speedway",
           description:
             "The Instrument Rating teaches you to fly in various weather conditions and is essential for advancing to commercial-level training.",
@@ -55,7 +55,7 @@ const pilotTrainingGuide = {
         {
           stepNumber: 3,
           title: "Earn Your Commercial Pilot License (CPL)",
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Twin-engine aircraft preparing for commercial training",
           description:
             "The Commercial Pilot License qualifies you to be paid as a pilot and is the gateway to a professional flying career.",
@@ -64,7 +64,7 @@ const pilotTrainingGuide = {
         {
           stepNumber: 4,
           title: "Obtain Your Multi-Engine Rating (ME)",
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Multi-engine aircraft during a training session",
           description:
             "The Multi-Engine Rating is critical for aspiring airline pilots, allowing you to fly planes with more than one engine safely and efficiently.",
@@ -73,7 +73,7 @@ const pilotTrainingGuide = {
         {
           stepNumber: 5,
           title: "Build Flight Hours",
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Pilot logging flight hours over Georgia skies",
           description:
             "Most airlines require a minimum number of hours before hiring. Build time by working as a Certified Flight Instructor (CFI) or other time-building opportunities.",
@@ -82,7 +82,7 @@ const pilotTrainingGuide = {
         {
           stepNumber: 6,
           title: "Earn Your Airline Transport Pilot Certificate (ATP)",
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "ATP training session at Speedway",
           description:
             "The ATP certificate is the highest level of pilot certification and a mandatory requirement to fly for airlines. Speedway offers accelerated ATP programs to help you achieve this milestone.",
@@ -91,7 +91,7 @@ const pilotTrainingGuide = {
         {
           stepNumber: 7,
           title: "Land a Job with a Commercial Airline",
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Commercial airline cockpit view",
           description:
             "With the right training, flight hours, and certifications, you’ll be ready to apply for your first airline job and launch your professional pilot career.",

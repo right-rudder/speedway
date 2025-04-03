@@ -20,6 +20,8 @@ import FlightTrainingSection from "../components/FlightTrainingSection.astro";
 import FlightSchoolFeatures from "../components/FlightSchoolFeatures.astro";
 import FlightTrainingAdvantages from "../components/FlightTrainingAdvantages.astro";
 import Partners from "../components/Partners.astro";
+import AirlinesCloud from "../components/AirlinesCloud.astro";
+
 
 const blogfeed = {
   upperHeading: "Our Blog",
@@ -35,7 +37,7 @@ const welcome = {
     "Based in Hampton, GA, at Atlanta Speedway Airport, we provide a safe, structured, and supportive environment for all aspiring pilots.",
     "Whether you’re training for recreational flying or preparing for a professional aviation career, we offer personalized instruction, modern equipment, and comprehensive programs to help you achieve your goals.",
   ],
-  imagePath: "/src/assets/speedway-flight-training-cessna-172-hampton-ga.jpg",
+  imagePath: "/src/assets/speedway-flight-training-cessna-172-hampton-ga.webp",
   imageAlt: "Cessna 172 at Atlanta Speedway Airport in Hampton, GA, during sunset. Speedway Flight Training's well-maintained fleet provides professional pilot training near Atlanta, offering private, instrument, and commercial flight courses.",
   buttons: [
     {
@@ -63,6 +65,24 @@ const partners = [
   },
 ];
 
+const partners2 = [
+  {
+    imagePath: "/src/assets/logo-fsana-r13-600px.png",
+    imageAlt: "Flight School Association of North America (FSANA) partner logo",
+    link: "https://fsana.com/",
+  },
+  {
+    imagePath: "/src/assets/indy-jet.png",
+    imageAlt: "Indy Jet FBO and aviation partner logo",
+    link: "/",
+  },
+  {
+    imagePath: "/src/assets/stratus-logo-2.webp",
+    imageAlt: "Stratus Financial partner logo",
+    link: "https://stratus.finance/",
+  },
+];
+
 const { data } = homePage;
 ---
 
@@ -71,12 +91,13 @@ const { data } = homePage;
   siteDescription={data.pageDescription}
   keywords={data.pageKeywords}
 >
-  <HomeHeader imagePath="/src/assets/speedway-checkered-flag-atlanta-hampton-georgia.jpg"/>
+  <HomeHeader imagePath="/src/assets/speedway-checkered-flag-atlanta-hampton-georgia.webp"/>
   
-  <Partners content={partners} />
+  <!-- <Partners content={partners} /> -->
   
   <Welcome content={welcome} />
-  
+
+  <AirlinesCloud data={partners2} />
 
   <FlightTrainingSection />
   <FlightSchoolFeatures />

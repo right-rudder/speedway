@@ -10,7 +10,7 @@ const coursesIndex = {
     // Top Header
     header: {
       stars: true,
-      imagePath: "/src/assets/placeholder.jpg",
+      imagePath: "/src/assets/placeholder.webp",
       imageAlt:
         "Photograph of an Speedway Flight Training plane flying over mountains",
       headerH1: `Pilot <br>PROGRAMS</span>`,

@@ -2,7 +2,7 @@ const financingData = {
   header: "Loan/financing options available",
   button: {
     text: "More Info",
-    link: "https://stratus.finance/apply/laflightacademy1303242/"
+    link: "https://apply.stratus.finance/speedwayflighttraining3236722/"
   }
 }
 

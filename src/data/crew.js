@@ -11,7 +11,7 @@ const crew = {
 
     // Top Header
     header: {
-      imagePath: "/src/assets/placeholder.jpg",
+      imagePath: "/src/assets/placeholder.webp",
       imageAlt: "Speedway Flight Training CFIs",
       headerH1: `Experience</br><span>Excellence in Flight Training</span>`,
       paragraph:
@@ -31,7 +31,7 @@ const crew = {
     },
 
     staffGrid: {
-      imagePath: "/src/assets/placeholder.jpg",
+      imagePath: "/src/assets/placeholder.webp",
       imageAlt: "Speedway Flight Training team standing near aircraft",
       upperHeading: "Meet Our Team",
       heading: "About Us",
@@ -50,47 +50,47 @@ const crew = {
       members: [
         {
           name: `Alex Feldman<br><small class="text-accent-100 font-normal text-sm">Chief Pilot, CFI-I, MEI</small>`,
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Alex Feldman, Chief Pilot, CFI-I, and MEI of Speedway Flight Training",
         },
         {
           name: `Cameron Diamond<br><small class="text-accent-100 font-normal text-sm">Asst Chief Pilot, CFI-I, MEI</small>`,
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Cameron Diamond, Asst Chief Pilot, CFI-I, MEI at Speedway Flight Training",
         },
         {
           name: `Parker Capp<br><small class="text-accent-100 font-normal text-sm">CFI</small>`,
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Parker Capp, CFI at Speedway Flight Training",
         },
         {
           name: `Dror Waissengrin<br><small class="text-accent-100 font-normal text-sm">CFI-I</small>`,
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Dror Waissengrin, CFI-I at Speedway Flight Training",
         },
         {
           name: `Matthew Ronder-Seid<br><small class="text-accent-100 font-normal text-sm">CFI</small>`,
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Matthew Ronder-Seid, CFI at Speedway Flight Training",
         },
         {
           name: `Jack Keshishian<br><small class="text-accent-100 font-normal text-sm">CFI</small>`,
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Jack Keshishian, CFI at Speedway Flight Training",
         },
         {
           name: `Chris Ghazarian<br><small class="text-accent-100 font-normal text-sm">CFI</small>`,
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Chris Ghazarian, CFI at Speedway Flight Training",
         },
         {
           name: `Andre Dassin<br><small class="text-accent-100 font-normal text-sm">CFI</small>`,
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Andre Dassin, CFI at Speedway Flight Training",
         },
         {
           name: `Mason Morrow<br><small class="text-accent-100 font-normal text-sm">CFI-I</small>`,
-          imagePath: "/src/assets/placeholder.jpg",
+          imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Mason Morrow, CFI-I at Speedway Flight Training",
         },
       ],

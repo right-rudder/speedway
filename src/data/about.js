@@ -11,7 +11,7 @@ const about = {
 
     // Top Header
     header: {
-      imagePath: "/src/assets/placeholder.jpg",
+      imagePath: "/src/assets/placeholder.webp",
       imageAlt: "Aircraft inside Speedway Flight Training hangar at Atlanta Speedway Airport",
       headerH1: `ABOUT US`,
       paragraph:

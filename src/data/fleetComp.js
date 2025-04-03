@@ -10,7 +10,7 @@ const fleetCompData = {
     // Top Header
     header: {
       stars: true,
-      imagePath: "/src/assets/placeholder.jpg",
+      imagePath: "/src/assets/placeholder.webp",
       imageAlt: "Three Speedway Flight Training aircraft on the patio",
       headerH1: `Our <br><span>FLEET</span>`,
       paragraph: `Speedway Flight Training’s fleet is meticulously maintained to provide a safe, modern, and reliable training environment. Explore our range of Cessna and Piper aircraft, ideal for both beginners and advanced pilots.`,
@@ -23,7 +23,7 @@ const fleetCompData = {
       ],
     },
   },
-  imagePath: "/src/assets/placeholder.jpg",
+  imagePath: "/src/assets/placeholder.webp",
   imageAlt: "Inside of an Speedway Flight Training aircraft on the runway",
   header: `Our Fleet`,
   fleet: [
@@ -32,7 +32,7 @@ const fleetCompData = {
       rates: "($380hr/$350 block)",
       description:
         "This 260hp fuel Injected aircraft is ideal for Commercial Multi-Engine and MEI Training.",
-      image: "/src/assets/placeholder.jpg",
+      image: "/src/assets/placeholder.webp",
       details: [
         "1962 Beechcraft 95-A55 Twin Engine",
         "260hp per Engine — Fuel Injected",
@@ -50,7 +50,7 @@ const fleetCompData = {
       rates: "($185hr/$175 block)",
       description:
         "This 180HP fuel injected four seat aircraft is ideal for Instrument, Commercial and CFI training. Manufactured in 1999.",
-      image: "/src/assets/placeholder.jpg",
+      image: "/src/assets/placeholder.webp",
       details: [
         "1999 Cessna 172S",
         "180hp — Fuel Injected",
@@ -68,7 +68,7 @@ const fleetCompData = {
       rates: "($165hr/$155 block)",
       description:
         "This aircraft is ideal for Private Pilot, Commercial, CFI and Spin Training.",
-      image: "/src/assets/placeholder.jpg",
+      image: "/src/assets/placeholder.webp",
       details: [
         "1976 Cessna 172N",
         "160hp Carbureted",
@@ -84,7 +84,7 @@ const fleetCompData = {
       rates: "($175hr/$165 block)",
       description:
         "This Piper Archer II PA28-181 is a four seat, 180HP, low wing aircraft that is ideal for Private Pilot, Instrument, Commercial and CFI Training.",
-      image: "/src/assets/placeholder.jpg",
+      image: "/src/assets/placeholder.webp",
       details: [
         "1975 Piper Archer II PA28-181",
         "180hp Carbureted",
@@ -101,7 +101,7 @@ const fleetCompData = {
       rates: "($175HR/$165 block)",
       description:
         "This Piper Archer II is a reliable and versatile piston-single aircraft, ideal for Private Pilot and Time-Building training. Manufactured in 1978.",
-      image: "/src/assets/placeholder.jpg",
+      image: "/src/assets/placeholder.webp",
       details: [
         "1978 Piper Archer II PA28-181",
         "180hp — Piston-Single",
@@ -118,7 +118,7 @@ const fleetCompData = {
       rates: "($165HR/$155 block)",
       description:
         "This Piper Warrior II is a reliable and versatile piston-single aircraft, ideal for Private Pilot and Time-Building training. Manufactured in 1979.",
-      image: "/src/assets/placeholder.jpg",
+      image: "/src/assets/placeholder.webp",
       details: [
         "1979 Piper Warrior II PA28-161",
         "160hp — Piston-Single",

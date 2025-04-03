@@ -21,7 +21,7 @@ const contactPage = {
     header: {
       stars: true,
       imagePath:
-        "/src/assets/placeholder.jpg",
+        "/src/assets/placeholder.webp",
       imageAlt: `${COMPANY_NAME} logo`,
       headerH1: `Contact</br>${COMPANY_NAME}`,
       paragraph:
