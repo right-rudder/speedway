@@ -17,7 +17,7 @@ const data500 = {
 
     header: {
       imagePath:
-        "/src/assets/placeholder.webp",
+        "/src/assets/atlanta-airport-Speedway-Flight-Training-50.webp",
       imageAlt: `${COMPANY_NAME} plane taking off`,
       headerH1: `well, this is AWKWARD`,
       paragraph:
