@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { COMPANY_NICKNAME, COMPANY_NAME } from "../consts";
+import stratusLogo from "../assets/stratus-logo-2.webp";
+import stratusBanner from "../assets/Speedway-Flight-Training-LLC_New-FB-Template.webp";
 
 const FinancingTabs = () => {
   const [currentTab, setCurrentTab] = useState("Stratus Financial");
@@ -18,7 +20,7 @@ const FinancingTabs = () => {
               </h3>
             </div>
             <img
-              src="/src/assets/stratus-logo-2.webp"
+              src={stratusLogo}
               alt="Stratus Financial logo"
               className="h-16 md:h-20"
             />
@@ -41,7 +43,7 @@ const FinancingTabs = () => {
           </div>
         </div>
       </section>
-      <img src="/src/assets/Speedway-Flight-Training-LLC_New-FB-Template.webp" alt="Stratus Financial Banner" className="hidden md:block w-screen h-auto"></img>
+      <img src={stratusBanner} alt="Stratus Financial Banner" className="hidden md:block w-screen h-auto"></img>
       <section className="flex flex-col items-center bg-gradient-to-br from-white to-gray-200">
         <div className="max-w-7xl px-10 flex flex-col items-center py-10">
           <div className="flex flex-col-reverse lg:flex-row items-center w-full justify-around py-10 gap-10">
