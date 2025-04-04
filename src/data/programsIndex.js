@@ -9,7 +9,7 @@ const programsIndex = {
 
   header: {
     stars: true,
-    imagePath: "/src/assets/0717d82c-98cc-4117-8c86-a44a99f09820-color.webp",
+    imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-80.webp",
     imageAlt: "Speedway Flight Training aircraft lineup at the airport",
     headerH1: `Flight Training <br>PROGRAMS</span>`,
     paragraph: `Speedway Flight Training offers structured flight programs designed for both aspiring and advancing pilots. Whether you're starting your journey or preparing for a professional aviation career, our expert instructors and well-maintained fleet provide the best environment for success.`,
