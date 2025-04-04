@@ -22,15 +22,15 @@ export const COMPANY_NICKNAME = "Speedway";
 export const LOGO_PRIMARY = "/speedway-flight-training-written-logo.png";
 export const LOGO_SECONDARY = "/speedway-flight-training-written-logo.png";
 export const PHONE_NUMBER = "(678) 944-7379";
-export const ADDRESS_LINE_1 = "123 Aviation Drive";
+export const ADDRESS_LINE_1 = "474 Speedway Blvd";
 export const ADDRESS_LINE_2 = "Hampton, GA 30228";
 export const AIRPORT = "Atlanta Speedway Airport";
 export const AIRPORT_CODE = "ATL";
-export const ADDRESS = "123 Aviation Drive, Hampton, GA 30228";
+export const ADDRESS = "474 Speedway Blvd, Hampton, GA 30228";
 export const ADDRESS_CITY = "Hampton";
 export const ADDRESS_STATE = "Georgia";
 export const ADDRESS_ZIP = "30228";
-export const GMAPS = "https://maps.app.goo.gl/example";
+export const GMAPS = "https://maps.app.goo.gl/jgGYGrkLEd8Mjuu19";
 export const EMAIL_ADDRESS = "info@SpeedwayFT.com";
 export const FACEBOOK_URL = "https://www.facebook.com/people/Speedway-Flight-Training/100063508869267/";
 export const INSTAGRAM_URL = "https://www.instagram.com/speedway_flight_training/";
@@ -43,11 +43,11 @@ export const GITHUB_URL = "";
 export const LOCATIONS = [
   {
     title: `Atlanta Speedway Airport<br><small class="text-xs -mt-3">ATL</small>`,
-    address: "123 Aviation Drive",
+    address: "474 Speedway Blvd",
     city: "Hampton",
     state: "GA",
     zip: "30228",
-    gMaps: "https://maps.app.goo.gl/example",
+    gMaps: "https://maps.app.goo.gl/jgGYGrkLEd8Mjuu19",
     phone: "(678) 944-7379",
     forwardPhone: "(678) 944-7379",
   },
