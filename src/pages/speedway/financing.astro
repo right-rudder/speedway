@@ -20,7 +20,7 @@ import { COMPANY_NICKNAME, COMPANY_NAME } from "../../consts";
     <div class="absolute -z-30 inset-0" aria-hidden="true">
       <ImageComp
         imagePath="/src/assets/atlanta-airport-Speedway-Flight-Training-152.webp"
-        imageAlt="LA flight academy aircraft flying over Los Angeles, California"
+        imageAlt="Speedway aircraft flying over Los Angeles, California"
         loading="eager"
         styles="object-cover h-full w-full object-left-30 lg:object-top"
         widths={[540, 720, 1080, 1440, 1980, 2048, 2560, 2880, 3200, 3840]}
@@ -42,10 +42,12 @@ import { COMPANY_NICKNAME, COMPANY_NAME } from "../../consts";
       <div
         class="flex items-center gap-1 md:gap-5 bg-white/70 px-5 py-10 rounded-lg"
       >
-        <img
-          src="/src/assets/stratus-logo-2.webp"
-          alt="Stratus Financial logo"
-          class="h-10 lg:h-16"
+        <ImageComp
+          imagePath="/src/assets/stratus-logo-2.webp"
+          imageAlt="Stratus Financial logo"
+          styles="h-10 lg:h-16 w-auto"
+          widths={[540, 720, 1080, 1440, 1980, 2048, 2560, 2880, 3200, 3840]}
+          sizes={`(max-width: 240px) 540px, (max-width: 540px) 720px, (max-width: 720px) 1080px, (max-width: 1080px) 1440px, (max-width: 1440px) 1920px, (max-width: 1980px) 2048px, (max-width: 2048px) 2560px, (max-width: 2560px) 2880px, (max-width: 2880px) 3200px, 3840px`}
         />
       </div>
     </div>
