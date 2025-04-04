@@ -20,7 +20,7 @@ const featuresInfo = {
     {
       title: "Start from CPL: Commercial to CFII",
       description:
-        "If you’ve already earned your Commercial certificate, complete your CFI and CFII with Speedway’s accelerated training model — in as little as 8–12 months.",
+        "If you’ve already earned your Instrument Rating, complete your CPL to CFII with Speedway’s accelerated training model — in as little as 8–12 months.",
       link: "/fast-track-program?tab=cpl#info",
       linkText: "Get Started",
     },
