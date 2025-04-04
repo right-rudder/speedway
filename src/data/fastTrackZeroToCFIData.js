@@ -84,8 +84,6 @@ const fastTrackZeroToCFIData = {
         "Noise-canceling aviation headset (~$600 - $1,100; Recommended: Bose, Lightspeed, David Clark)",
         "iPad with GPS (~$500 - $700; Cellular capable, no data plan required)",
         "Aircraft rental insurance (~$600/year; Required for training flights)",
-        "FAA Designated Pilot Examiner (DPE) practical exam fees (~$800 - $1,200)",
-        "FAA written exam fees (~$175)",
         "ForeFlight subscription (~$250/year; Flight planning & in-flight navigation)",
         "FAA 1st Class Medical clearance (~$150; Required for professional pilots)",
       ],
