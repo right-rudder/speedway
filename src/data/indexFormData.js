@@ -11,7 +11,7 @@ const indexFormData = {
   redirect_url: "/contact-confirmation",
   form_h: "Get in Touch",
   form_p1: "Whether you have questions about flight training programs, scheduling a discovery flight, or enrollment requirements, our team is here to help. At Speedway Flight Training, we’re committed to supporting you at every step of your aviation journey.",
-  form_p2: "Conveniently located at Atlanta Speedway Airport, we proudly serve aspiring pilots and aviation enthusiasts in the greater Los Angeles area and beyond. Fill out the contact form, and one of our team members will reach out to assist you with your inquiry or booking.",
+  form_p2: "Conveniently located at Atlanta Speedway Airport, we proudly serve aspiring pilots and aviation enthusiasts in the greater Hampton area and beyond. Fill out the contact form, and one of our team members will reach out to assist you with your inquiry or booking.",
   address_1: ADDRESS_LINE_1,
   address_2: ADDRESS_LINE_2,
   gmaps: GMAPS,

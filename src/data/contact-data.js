@@ -15,7 +15,7 @@ const contactPage = {
     pageDescription:
       `Get in touch with ${COMPANY_NAME} for all your flight training, aircraft maintenance, and aviation service needs. Our team is ready to assist you with any questions and help guide you on your aviation journey. Contact us today to learn more or to book a service!`,
     pageKeywords:
-      `${KEYWORDS}, contact ${COMPANY_NAME}, flight training inquiries, aviation services, aircraft maintenance booking, los angeles, van nuys, venice,  aviation support, contact flight school, los angeles, van nuys, venice,  aviation maintenance`,
+      `${KEYWORDS}, contact ${COMPANY_NAME}, flight training inquiries, aviation services, aircraft maintenance booking, Hampton, van nuys, venice,  aviation support, contact flight school, Hampton, van nuys, venice,  aviation maintenance`,
 
 
     header: {

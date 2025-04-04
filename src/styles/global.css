@@ -41,12 +41,12 @@
 
   .CTA-flight-bg {
     background-image: linear-gradient(to right, #a5acaf9f 0%, #a5acaf9f 100%),
-      url(../assets/LAFA-CTA-bg.webp);
+      url(../assets/Speedway-CTA-bg.webp);
   }
 
   .welcome-bg {
     background-image: linear-gradient(to right, #a5acaf9f 0%, #a5acaf9f 100%),
-      url(../assets/LAFA-welcome-inside-plane.webp);
+      url(../assets/Speedway-welcome-inside-plane.webp);
   }
 
   .object-left-30 {

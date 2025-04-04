@@ -203,10 +203,10 @@ const Navbar = ({ pathname }) => {
                 <span className="sr-only">Open main menu</span>
 
                 <svg
-                  className={`${openMobile ? "hidden" : "block"} ${navBar ? "text-accent-100" : "text-primary-900"} h-6 w-6 `}
+                  className={`${openMobile ? "hidden" : "block"} ${navBar ? "text-accent-100" : "text-primary-800"} h-6 w-6 `}
                   fill="none"
                   viewBox="0 0 24 24"
-                  strokeWidth="2.0"
+                  strokeWidth="2.5"
                   stroke="currentColor"
                   aria-hidden="true"
                   id="x-icon"
@@ -247,7 +247,7 @@ const Navbar = ({ pathname }) => {
       >
         <div className="flex justify-end pl-5 pr-[26px] py-6">
           <svg
-            className={`${openMobile ? "opacity-100" : "opacity-0"} h-6 w-6 text-primary-800 cursor-pointer z-30 text-primary-900-50 duration-300`}
+            className={`${openMobile ? "opacity-100" : "opacity-0"} h-6 w-6 text-mariner-950 cursor-pointer z-30 text-primary-900-50 duration-300`}
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth="2.5"
@@ -283,7 +283,7 @@ const Navbar = ({ pathname }) => {
           } delay-500 duration-500 ease-in-out`}
         ></div>
 
-        <ul className="px-3 pb-3 mt-6 pt-2 flex flex-col align-middle items-center bg-primary-700">
+        <ul className="px-3 pb-3 mt-6 pt-2 flex flex-col align-middle font-semibold items-center bg-primary-700">
           {navbarLinks.map((item, index) => (
             <li
               key={index}
@@ -294,7 +294,7 @@ const Navbar = ({ pathname }) => {
                 <a
                   href={item.link}
                   target={`${item.link.includes("http") ? "_blank" : "_self"}`}
-                  className="font-normal text-xl block py-3 duration-300 whitespace-nowrap"
+                  className="text-xl block py-3 duration-300 whitespace-nowrap"
                 >
                   {item.name}
                 </a>
@@ -323,7 +323,7 @@ const Navbar = ({ pathname }) => {
                     >
                       {subitem.link ? (
                         <a
-                          className="p-1 block font-thin text-accent-100 py-2 text-lg"
+                          className="p-1 block font-medium text-accent-100 py-2 text-lg"
                           href={subitem.link}
                           target={`${subitem.link.includes("http") ? "_blank" : "_self"}`}
                         >

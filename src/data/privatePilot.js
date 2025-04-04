@@ -6,7 +6,7 @@ const privatePilotCourse = {
     pageDescription:
       "Begin your aviation journey with Speedway Flight Training's Private Pilot Course. Train with experienced instructors at Atlanta Speedway Airport and earn your Private Pilot License (PPL) to take your first step toward the skies.",
     pageKeywords:
-      "Private Pilot Course, PPL training Los Angeles, learn to fly Georgia, flight school Hampton, private pilot license, pilot training for beginners",
+      "Private Pilot Course, PPL training Hampton, learn to fly Georgia, flight school Hampton, private pilot license, pilot training for beginners",
 
     // Top Header
     header: {

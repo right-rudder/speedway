@@ -7,7 +7,7 @@ const about = {
     pageDescription:
       "Learn about Speedway Flight Training, the premier flight school at Atlanta Speedway Airport offering exceptional training programs, a cohesive team of expert instructors, and a modern fleet. With a 100% checkride pass rate and over 1,000 graduates, we are committed to helping you achieve your aviation goals.",
     pageKeywords:
-      "Speedway Flight Training, Hampton flight school, 100% checkride pass rate, modern aircraft fleet, pilot training Los Angeles, aviation school in Georgia",
+      "Speedway Flight Training, Hampton flight school, 100% checkride pass rate, modern aircraft fleet, pilot training Hampton, aviation school in Georgia",
 
     // Top Header
     header: {

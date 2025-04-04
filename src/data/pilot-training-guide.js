@@ -5,7 +5,7 @@ const pilotTrainingGuide = {
     pageDescription:
       "Follow Speedway Flight Training’s step-by-step guide to becoming a professional pilot. From earning your Private Pilot License to landing a job with a commercial airline, discover the complete pathway to success in aviation.",
     pageKeywords:
-      "Pilot Training Guide, ascend flight training, professional pilot pathway, private pilot license, commercial pilot training, become an airline pilot Los Angeles, step-by-step pilot career guide",
+      "Pilot Training Guide, ascend flight training, professional pilot pathway, private pilot license, commercial pilot training, become an airline pilot Hampton, step-by-step pilot career guide",
 
     //top header
     header: {

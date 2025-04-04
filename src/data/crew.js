@@ -7,7 +7,7 @@ const crew = {
     pageDescription:
       "Learn about Speedway Flight Training's CFI team, the premier flight school at Atlanta Speedway Airport offering exceptional training programs, a cohesive team of expert instructors, and a modern fleet. With a 100% checkride pass rate and over 1,000 graduates, we are committed to helping you achieve your aviation goals.",
     pageKeywords:
-      "Speedway Flight Training, Hampton flight school, 100% checkride pass rate, modern aircraft fleet, pilot training Los Angeles, aviation school in Georgia",
+      "Speedway Flight Training, Hampton flight school, 100% checkride pass rate, modern aircraft fleet, pilot training Hampton, aviation school in Georgia",
 
     // Top Header
     header: {
@@ -36,7 +36,7 @@ const crew = {
       upperHeading: "Meet Our Team",
       heading: "About Us",
       description: `
-        Speedway Flight Training (Speedway) was established at Atlanta Speedway Airport with a vision to provide high-quality flight training in the competitive Los Angeles area. What started as a passion project quickly evolved into a leading flight school with over 1,000 graduates and a 100% checkride pass rate.<br>
+        Speedway Flight Training (Speedway) was established at Atlanta Speedway Airport with a vision to provide high-quality flight training in the competitive Hampton area. What started as a passion project quickly evolved into a leading flight school with over 1,000 graduates and a 100% checkride pass rate.<br>
 
         Our commitment to excellence is reflected in our carefully curated team of experienced Certified Flight Instructors (CFIs), who have a combined 13,000+ flight hours and bring a wealth of real-world aviation expertise. Many of our instructors are trained in-house, ensuring a cohesive, family-like atmosphere that supports student success.<br>
 

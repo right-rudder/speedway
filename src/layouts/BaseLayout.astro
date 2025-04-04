@@ -28,9 +28,10 @@ import 'aos/dist/aos.css';
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MV9ZQVKS"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-  
-    <Banner />
-    <Navbar pathname={pathname} client:load />
+    <header>
+      <Banner />
+      <Navbar pathname={pathname} client:load />
+    </header>
     <main>
       <slot />
     </main>
