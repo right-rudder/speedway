@@ -67,7 +67,7 @@ export const flightTeam = [
       "He is known for simplifying difficult concepts and helping students improve quickly through small refinements and consistent feedback. Sammy’s flight instruction is structured and focused—whether it’s maneuvers, checkride prep, or daily dual lessons.",
       "In addition to flying, he works behind the scenes on instructor onboarding and quality control, ensuring that every student receives consistent, high-quality training."
     ],
-    image: "/profile-silhouette.png",
+    image: "/speedway-cfi-Sammy-Shlapak.webp",
     alt: "CFI Sammy Shlapak at Speedway Flight Training",
     email: "email@speedwayft.com",
     phone: "(123) 456-7890 ext. 123",
