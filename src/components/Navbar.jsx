@@ -76,7 +76,7 @@ const Navbar = ({ pathname }) => {
   };
 
   return (
-    <nav className="w-full h-0 sticky inset-0 z-50 font-sans2">
+    <nav className="">
       <div
         className={`${
           navBar || openMobile ? "bg-mariner-950/90 " : "bg-mariner-950/50"
@@ -84,7 +84,7 @@ const Navbar = ({ pathname }) => {
       >
         <div className="px-5 w-full top-0 pb-2">
           <div
-            className={`${navBar || openMobile ? "lg:h-20" : "lg:h-28"} relative w-full flex h-20 align-middle justify-between transition-all`}
+            className={`${navBar || openMobile ? "lg:h-20" : "lg:h-28"} w-full flex h-20 align-middle justify-between transition-all`}
             id="navbar"
           >
             <div className="flex w-full items-center justify-between flex-auto">
