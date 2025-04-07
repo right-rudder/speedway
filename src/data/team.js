@@ -8,7 +8,7 @@ export const leadershipTeam = [
       "His background includes a long career in business leadership before earning his CFI and CFII ratings to train his own children. That mission grew into Speedway’s professional pilot pathway, and Joe continues to play a hands-on role in training oversight, instructor development, and student mentorship.",
       "He sets the instructional tone for the entire team, emphasizing high standards, steady growth, and one-on-one attention. Joe believes in building competent, confident pilots from day one—and holding the school to the same high expectations he holds for himself and his instructors."
     ],
-    image: "/profile-silhouette.png",
+    image: "/Speedway-founder-Joe-Gilroy.webp",
     alt: "Founder Joe Gilroy at Speedway Flight Training",
     email: "email@speedwayft.com",
     phone: "(123) 456-7890 ext. 123",
@@ -50,7 +50,7 @@ export const leadershipTeam = [
       "Jordan is known for his practical, no-nonsense approach to training. His lessons emphasize systems knowledge, situational awareness, and a mindset of continuous improvement.",
       "He works closely with students across all phases of training—from their first solo to CFI checkrides—building up technical precision and pilot confidence with a clear, structured approach. As Chief Instructor, Jordan ensures that every CFI teaches to the highest instructional standards."
     ],
-    image: "/profile-silhouette.png",
+    image: "/Speedway-chief-cfi-Jordan-Morris.webp",
     alt: "CFI Jordan Morris at Speedway Flight Training",
     email: "email@speedwayft.com",
     phone: "(123) 456-7890 ext. 123",
