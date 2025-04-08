@@ -45,7 +45,7 @@ We’re committed to fair, **competitive pricing**. You can use our **price calc
 
 Great schools go beyond just flight lessons. They should offer career guidance, support with testing, and a strong sense of community.
 
-At Speedway, we’re a close-knit team. Instructors, students, and staff all support each other. We’re part of the **FAA WINGS program**, use the **Gleim syllabus**, and have strong connections with DPEs to help students feel confident going into checkrides.
+At Speedway, we’re a close-knit team. Instructors, students, and staff all support each other. We participate actively in the **FAA WINGS program**, use the FAA-approved **Gleim brand syllabus** to ensure standardized, comprehensive course content, and have strong connections with DPEs to help students feel confident going into checkrides.
 
 ## Why Choose Speedway?
 
@@ -57,4 +57,4 @@ With updated aircraft, friendly instructors, flexible schedules, and a welcoming
 
 Choosing a flight school is a big step. We’re here to make it easier. Contact us today or schedule a **Discovery Flight** and see why so many pilots choose Speedway.
 
-[Contact Us](https://speedwayflighttraining.com/contact) or call **(251) 786-7868**.
+[Contact Us](https://speedwayflighttraining.com/contact) or call [(678) 944-7379](tel:6789447379).
