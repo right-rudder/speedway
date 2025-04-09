@@ -1,11 +1,10 @@
-import { COMPANY_NAME } from "../consts";
+import { COMPANY_NAME, PRIMARY_KEYWORDS, LOCATION_KEYWORDS } from "../consts";
 
 const programsIndex = {
-  pageTitle: `Flight Training Programs | ${COMPANY_NAME}`,
+  pageTitle: `Pilot Training Programs | Flight School Atlanta | ${COMPANY_NAME}`,
   pageDescription:
-    "Explore Speedway Flight Training’s comprehensive flight programs, from Private Pilot License to advanced ratings. Train with expert instructors and accelerate your path to an aviation career.",
-  pageKeywords:
-    "flight training programs, private pilot license, instrument rating, commercial pilot, multi-engine rating, certified flight instructor, aviation school Atlanta, pilot training Georgia",
+    "Complete flight training programs from Private Pilot to Certified Flight Instructor at Atlanta Speedway Airport. Accelerated courses, modern aircraft, and financing options make Speedway your ideal flight training partner.",
+  pageKeywords: `${PRIMARY_KEYWORDS.commercial}, ${PRIMARY_KEYWORDS.informational}, ${LOCATION_KEYWORDS.primary}, ${LOCATION_KEYWORDS.secondary}, flight school program options, pilot certification pathway, aviation career training Georgia, accelerated flight programs, zero to hero pilot training, flight school with financing, complete pilot license programs, professional pilot training, flight instructor certification, multi-engine training Atlanta, part 61 training programs`,
 
   header: {
     stars: true,

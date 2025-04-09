@@ -11,7 +11,8 @@ const fleetCompData = {
     header: {
       stars: true,
       imagePath: "/src/assets/placeholder.webp",
-      imageAlt: "Three Speedway Flight Training aircraft on the patio",
+      imageAlt:
+        "Speedway Flight Training's modern fleet of training aircraft at Atlanta Speedway Airport in Hampton, GA",
       headerH1: `Our <br><span>FLEET</span>`,
       paragraph: `Speedway Flight Training’s fleet is meticulously maintained to provide a safe, modern, and reliable training environment. Explore our range of Cessna and Piper aircraft, ideal for both beginners and advanced pilots.`,
       buttons: [
@@ -24,7 +25,8 @@ const fleetCompData = {
     },
   },
   imagePath: "/src/assets/placeholder.webp",
-  imageAlt: "Inside of an Speedway Flight Training aircraft on the runway",
+  imageAlt:
+    "Cockpit view of a Speedway Flight Training aircraft with Garmin avionics during flight over Georgia",
   header: `Our Fleet`,
   fleet: [
     {
@@ -44,6 +46,8 @@ const fleetCompData = {
         "$380/hour (wet)",
         "$350/hour 10 hour block (wet)",
       ],
+      imageAlt:
+        "Beechcraft 95-A55 Twin Engine aircraft (N120B) at Speedway Flight Training for multi-engine certification",
     },
     {
       name: "N252SP",
@@ -62,6 +66,8 @@ const fleetCompData = {
         "$185/hour (wet)",
         "$175/hour 10 hour block (wet)",
       ],
+      imageAlt:
+        "1999 Cessna 172S (N252SP) with Garmin 750 GPS and dual G5s at Atlanta Speedway Airport",
     },
     {
       name: "N76015",
@@ -78,6 +84,8 @@ const fleetCompData = {
         "$165/hour (wet)",
         "$155/hour 10 hour block (wet)",
       ],
+      imageAlt:
+        "1976 Cessna 172N (N76015) used for Private Pilot and CFI training at Speedway Flight Training",
     },
     {
       name: "N7901C",
@@ -95,6 +103,8 @@ const fleetCompData = {
         "$175/hour (wet)",
         "$165/hour 10 hour block (wet)",
       ],
+      imageAlt:
+        "1975 Piper Archer II (N7901C) with Garmin 430 GPS used for instrument training in Hampton, GA",
     },
     {
       name: "N4313F",
@@ -112,6 +122,8 @@ const fleetCompData = {
         "$175/hour (wet)",
         "$165/hour 10 hour block (wet)",
       ],
+      imageAlt:
+        "1978 Piper Archer II (N4313F) training aircraft at Speedway Flight Training's Hampton, GA location",
     },
     {
       name: "N8156R",
@@ -129,6 +141,8 @@ const fleetCompData = {
         "$165/hour (wet)",
         "$155/hour 10 hour block (wet)",
       ],
+      imageAlt:
+        "1979 Piper Warrior II (N8156R) with Garmin 650 GPS for private pilot training at Atlanta Speedway Airport",
     },
   ],
   buttons: [

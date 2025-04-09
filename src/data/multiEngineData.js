@@ -1,11 +1,15 @@
-import { COMPANY_NAME } from "../consts";
+import {
+  COMPANY_NAME,
+  PROGRAM_KEYWORDS,
+  LOCATION_KEYWORDS,
+  PRIMARY_KEYWORDS,
+} from "../consts";
 
 const multiEngineData = {
-  pageTitle: `Multi-Engine Add-On | ${COMPANY_NAME}`,
+  pageTitle: `Multi-Engine Rating in 3 Weeks | Twin Engine Certification | ${COMPANY_NAME}`,
   pageDescription:
-    "Enhance your flight skills and advance your aviation career with Speedway Flight Training’s Multi-Engine Add-On. Learn multi-engine operations, emergency procedures, and prepare for complex aircraft environments.",
-  pageKeywords:
-    "multi-engine add-on, ME rating Georgia, flight school Hampton, aviation career upgrade, airline pilot training, twin engine certification",
+    "Get your Multi-Engine Rating in just 3-5 weeks at Atlanta Speedway Airport! Build the twin-engine time required for airlines with our accelerated program featuring hands-on training and emergency procedure mastery. Financing available.",
+  pageKeywords: `${PROGRAM_KEYWORDS.multiEngine}, ${LOCATION_KEYWORDS.primary}, twin engine certification Georgia, accelerated ME rating, airline pilot requirements, complex aircraft endorsement, multi-engine commercial pilot, Vmc demonstration training, engine-out procedures, multi-engine checkride preparation, Beechcraft twin training, 3-week multi-engine course, twin time building`,
 
   // Top Header
   header: {
