@@ -1,17 +1,22 @@
-import { COMPANY_NAME } from "../consts";
+import {
+  COMPANY_NAME,
+  PROGRAM_KEYWORDS,
+  LOCATION_KEYWORDS,
+  PRIMARY_KEYWORDS,
+} from "../consts";
 
 const instrumentRatingData = {
-  pageTitle: `Instrument Rating | ${COMPANY_NAME}`,
+  pageTitle: `Instrument Rating Training | IFR Certification | ${COMPANY_NAME}`,
   pageDescription:
-    "Expand your skills and fly in all weather conditions with confidence. Speedway Flight Training’s Instrument Rating (IR) program provides advanced IFR training to make you a safer and more capable pilot.",
-  pageKeywords:
-    "instrument rating Georgia, IFR training, flight school Hampton, instrument flight, aviation school Atlanta, advanced pilot training, instrument certification",
+    "Master IFR flying in just 6-8 weeks at Atlanta Speedway Airport! Our Instrument Rating program features advanced avionics training, simulator sessions, and one-on-one instruction designed for real-world conditions. Financing available.",
+  pageKeywords: `${PROGRAM_KEYWORDS.instrument}, ${LOCATION_KEYWORDS.primary}, IFR certification Hampton GA, all-weather flying training, Garmin G1000 IFR training, instrument approach procedures Georgia, FAA instrument checkride prep, IFR cross-country training, IMC flying certification, advanced avionics training Atlanta, instrument pilot certification, 6-week IFR program, affordable instrument rating`,
 
   // Top Header
   header: {
     stars: true,
     imagePath: "/src/assets/stock-kristina-delp-xx7EiLeralM-unsplash.webp",
-    imageAlt: "Speedway Flight Training aircraft flying in instrument conditions",
+    imageAlt:
+      "Speedway Flight Training aircraft flying in instrument conditions",
     headerH1: `Instrument <br>RATING</span>`,
     paragraph: `Expand your flight skills and master IFR procedures with Speedway Flight Training’s Instrument Rating program. Train with expert instructors and gain confidence flying in low-visibility conditions.`,
     buttons: [
@@ -99,7 +104,8 @@ const instrumentRatingData = {
     },
 
     cta: {
-      imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-129.webp",
+      imagePath:
+        "/src/assets/atlanta-airport-Speedway-Flight-Training-129.webp",
       imageAlt: "Speedway Flight Training student practicing IFR navigation",
       title: "Advance Your Flight Skills with an Instrument Rating",
       description:

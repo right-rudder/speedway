@@ -1,11 +1,15 @@
-import { COMPANY_NAME } from "../consts";
+import {
+  COMPANY_NAME,
+  PROGRAM_KEYWORDS,
+  LOCATION_KEYWORDS,
+  PRIMARY_KEYWORDS,
+} from "../consts";
 
 const certifiedFlightInstructorData = {
-  pageTitle: `Certified Flight Instructor (CFI) | ${COMPANY_NAME}`,
+  pageTitle: `Become a Certified Flight Instructor (CFI) | Build Flight Hours | ${COMPANY_NAME}`,
   pageDescription:
-    "Turn your passion for aviation into a career with Speedway Flight Training’s Certified Flight Instructor (CFI) program. Gain advanced instructional skills and prepare to teach the next generation of pilots.",
-  pageKeywords:
-    "certified flight instructor Georgia, CFI training, flight school Hampton, become a flight instructor, aviation school Atlanta, professional pilot training, flight instructor certification",
+    "Earn your CFI certificate in just 4-6 weeks and launch your aviation teaching career! Our specialized program includes FOI preparation, one-on-one mentorship, and employment opportunities with 100% job placement. Financing available.",
+  pageKeywords: `${PROGRAM_KEYWORDS.flightInstructor}, ${LOCATION_KEYWORDS.primary}, flight instructor jobs Georgia, build flight hours teaching, CFI certification Atlanta, flight instructor career path, FOI exam preparation, teaching methodology aviation, CFI checkride preparation, how to become a flight instructor, build hours for airlines, aviation instructor training, 4-week CFI program`,
 
   // Top Header
   header: {
@@ -99,8 +103,10 @@ const certifiedFlightInstructorData = {
     },
 
     cta: {
-      imagePath: "/src/assets/speedway-flight-training-aircraft-maintenance-check.webp",
-      imageAlt: "Speedway Flight Training instructor preparing a student for flight",
+      imagePath:
+        "/src/assets/speedway-flight-training-aircraft-maintenance-check.webp",
+      imageAlt:
+        "Speedway Flight Training instructor preparing a student for flight",
       title: "Start Your Career as a Flight Instructor",
       description:
         "Train the next generation of pilots with expert CFI training at Speedway Flight Training. Enroll in our Certified Flight Instructor program today and launch your aviation career.",
@@ -113,7 +119,8 @@ const certifiedFlightInstructorData = {
     // FAQs
     faqs: [
       {
-        question: "How long does it take to earn my Certified Flight Instructor (CFI) certificate?",
+        question:
+          "How long does it take to earn my Certified Flight Instructor (CFI) certificate?",
         answer:
           "With our accelerated program, students can complete training in <strong>4-6 weeks</strong>. A self-paced program is also available for those needing more scheduling flexibility.",
       },

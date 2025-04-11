@@ -1,17 +1,22 @@
-import { COMPANY_NAME } from "../consts";
+import {
+  COMPANY_NAME,
+  PROGRAM_KEYWORDS,
+  LOCATION_KEYWORDS,
+  PRIMARY_KEYWORDS,
+} from "../consts";
 
 const commercialPilotData = {
-  pageTitle: `Commercial Pilot License | ${COMPANY_NAME}`,
+  pageTitle: `Commercial Pilot License Training | Professional Pilot Career | ${COMPANY_NAME}`,
   pageDescription:
-    "Advance your aviation career with Speedway Flight Training’s Commercial Pilot License (CPL) program. Train with expert instructors and gain the flight experience needed for professional pilot operations.",
-  pageKeywords:
-    "commercial pilot license Georgia, CPL training, flight school Hampton, professional pilot training, aviation school Atlanta, advanced flight training, commercial aviation certification",
+    "Turn your passion into a profession with our 6-8 month Commercial Pilot License program at Atlanta Speedway Airport. Real-world scenario training, advanced maneuvers, and guaranteed airline interview preparation. Financing available!",
+  pageKeywords: `${PROGRAM_KEYWORDS.commercial}, ${LOCATION_KEYWORDS.primary}, professional pilot pathway Georgia, airline career preparation Atlanta, commercial pilot checkride prep Hampton, 250 flight hours program, CPL training with financing, advanced flight maneuvers, real-world scenario training, Garmin avionics training, complex aircraft endorsement, commercial pilot job preparation`,
 
   // Top Header
   header: {
     stars: true,
     imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-71.webp",
-    imageAlt: "Speedway Flight Training commercial pilot student preparing for a flight",
+    imageAlt:
+      "Speedway Flight Training commercial pilot student preparing for a flight",
     headerH1: `Commercial Pilot <br>LICENSE</span>`,
     paragraph: `Advance your aviation career with structured commercial flight training. This program enhances your flight proficiency and prepares you for real-world professional operations.`,
     buttons: [
@@ -100,7 +105,8 @@ const commercialPilotData = {
     },
 
     cta: {
-      imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-133.webp",
+      imagePath:
+        "/src/assets/atlanta-airport-Speedway-Flight-Training-133.webp",
       imageAlt: "Speedway Flight Training commercial pilot student in flight",
       title: "Fast Track Your Career with a Commercial Pilot License",
       description:

@@ -1,17 +1,23 @@
-import { COMPANY_NAME } from "../consts";
+import {
+  COMPANY_NAME,
+  PROGRAM_KEYWORDS,
+  LOCATION_KEYWORDS,
+  PRIMARY_KEYWORDS,
+} from "../consts";
 
 const privatePilotData = {
-  pageTitle: `Private Pilot License | ${COMPANY_NAME}`,
+  pageTitle: `Private Pilot License in 8 Weeks | Hampton GA Flight School | ${COMPANY_NAME}`,
   pageDescription:
-    "Start your aviation journey with Speedway Flight Training’s Private Pilot License (PPL) program. Train with expert instructors, a well-maintained fleet, and a structured learning path designed to help you earn your wings efficiently.",
-  pageKeywords:
-    "private pilot license Georgia, flight school Hampton, learn to fly, PPL certification, aviation school Atlanta, beginner pilot training, accelerated flight training",
+    "Get your Private Pilot License (PPL) in just 8 weeks at Atlanta Speedway Airport! Our accelerated program includes one-on-one training, modern Cessna aircraft, and 100% checkride success rate. Financing options available.",
+  pageKeywords: `${PROGRAM_KEYWORDS.privatePilot}, ${LOCATION_KEYWORDS.primary}, accelerated PPL training Hampton, 8-week pilot license Georgia, private pilot checkride preparation, Cessna 172 training Hampton, flight school financing options, FAA private pilot requirements, best pilot training Atlanta area, learn to fly KHMP airport, introductory flight lessons Georgia`,
 
   // Top Header
   header: {
     stars: true,
-    imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-132-croped.webp",
-    imageAlt: "Speedway Flight Training aircraft on the runway at Atlanta Speedway Airport",
+    imagePath:
+      "/src/assets/atlanta-airport-Speedway-Flight-Training-132-croped.webp",
+    imageAlt:
+      "Speedway Flight Training aircraft on the runway at Atlanta Speedway Airport",
     headerH1: `Private Pilot <br>LICENSE</span>`,
     paragraph: `The foundation of your aviation journey. Train with expert instructors, gain real-world flight experience, and complete your Private Pilot License in as little as 8 weeks with Speedway Flight Training.`,
     buttons: [
@@ -99,7 +105,8 @@ const privatePilotData = {
     },
 
     cta: {
-      imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-130.webp",
+      imagePath:
+        "/src/assets/atlanta-airport-Speedway-Flight-Training-130.webp",
       imageAlt: "Speedway Flight Training student preflighting a Cessna 172",
       title: "Fast Track Your Aviation Journey",
       description:

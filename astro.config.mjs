@@ -6,6 +6,6 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://www.speedwayflighttraining.com/',
+  site: "https://www.speedwayft.com/",
   integrations: [tailwind(), partytown(), sitemap(), react()],
 });
