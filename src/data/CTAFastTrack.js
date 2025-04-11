@@ -11,7 +11,7 @@ const CTAFastTrack = {
       primary: true,
     },
     {
-      name: "Learn More",
+      name: "Fast-Track Page",
       link: "/fast-track-program",
       primary: false,
     },
