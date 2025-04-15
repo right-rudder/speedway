@@ -60,7 +60,13 @@ export const LOCATION_KEYWORDS = {
 };
 
 export const OG_IMAGE =
-  "/speedway-flight-training-hampton-georgia-logo-red.png";
+  "/speedway-flight-training-hampton-georgia-logo-color.webp";
+
+export const LOGO =
+  "/speedway-flight-training-hampton-georgia-logo-color.webp";
+
+export const LOGO_ASSETS =
+  "/src/assets/speedway-flight-training-hampton-georgia-logo-color.webp";
 
 // CHANGE client business info
 export const COMPANY_NAME = "Speedway Flight Training";
@@ -80,7 +86,7 @@ export const ADDRESS_ZIP = "30228";
 export const GMAPS = "https://maps.app.goo.gl/jgGYGrkLEd8Mjuu19";
 export const EMAIL_ADDRESS = "info@SpeedwayFT.com";
 export const FACEBOOK_URL =
-  "https://www.facebook.com/people/Speedway-Flight-Training/100063508869267/";
+  "https://www.facebook.com/people/Speedway-Flight-Training/61574840653146/#";
 export const INSTAGRAM_URL =
   "https://www.instagram.com/speedway_flight_training/";
 export const LINKEDIN_URL = "";
