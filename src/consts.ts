@@ -60,7 +60,13 @@ export const LOCATION_KEYWORDS = {
 };
 
 export const OG_IMAGE =
-  "/speedway-flight-training-hampton-georgia-logo-red.png";
+  "/speedway-flight-training-hampton-georgia-logo-color.webp";
+
+export const LOGO =
+  "/speedway-flight-training-hampton-georgia-logo-color.webp";
+
+export const LOGO_ASSETS =
+  "/src/assets/speedway-flight-training-hampton-georgia-logo-color.webp";
 
 // CHANGE client business info
 export const COMPANY_NAME = "Speedway Flight Training";
