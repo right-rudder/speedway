@@ -48,19 +48,19 @@ export const footerLinks = [
         link: "/programs/multi-engine",
       },
       {
-        name: "Instructor",
+        name: "Flight Instructor",
         link: "/programs/certified-flight-instructor",
       },
       {
-        name: "Instrument Instructor",
+        name: "CFI Instrument",
         link: "/programs/certified-flight-instructor-instrument-cfii",
       },
       {
-        name: "Multi-Engine Instructor",
+        name: "ME Instructor",
         link: "/programs/multi-engine-instructor",
       },
       {
-        name: "Spin",
+        name: "Spin Endorsement",
         link: "/programs/spin-endorsement",
       },
     ],
