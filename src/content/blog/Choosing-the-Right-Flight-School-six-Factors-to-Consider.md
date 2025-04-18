@@ -1,5 +1,5 @@
 ---
-pubDate: "March 23, 2025"
+pubDate: "April 18, 2025"
 author: Eric Schafhauser
 title: "Choosing The Right Flight School – Six Factors To Consider"
 description: "Thinking about becoming a pilot? Here are six key things to look for when choosing a flight school — and how Speedway Flight Training checks every box."
@@ -11,50 +11,69 @@ tags: ["Choosing a Flight School", "Flight Training", "Part 61 Schools", "Aviati
 
 Choosing the right flight school is a big decision when you're starting your aviation journey. Here are six important things to think about — and how **Speedway Flight Training** makes each one count.
 
-## 1. **FAA Certification**
+---
+
+## Quick Summary
+
+Here’s a quick breakdown of the six key factors to consider when evaluating a flight school:
+
+- [FAA Certification](#1-faa-certification)  
+- [Instructor Quality](#2-good-instructors)  
+- [Aircraft and Equipment](#3-safe-reliable-aircraft)  
+- [Program Flexibility](#4-programs-that-fit-your-needs)  
+- [Cost and Financing](#5-cost-transparency-and-payment-options)  
+- [Community and Support](#6-a-supportive-community)
+
+---
+
+## 1. FAA Certification
 
 Make sure the flight school is certified by the FAA. This means they follow proper rules and safety standards.
 
-Speedway Flight Training is a **Part 61** school with plans to become **Part 141**. This means students get flexible training that fits different schedules, while still learning the right way.
+Speedway Flight Training is a **Part 61** school and is actively pursuing **Part 141** certification. This gives students flexible training options while maintaining a professional standard.
 
-## 2. **Good Instructors**
+## 2. Good Instructors
 
-Your instructors should be experienced and helpful. They guide you through lessons, help you build strong habits, and prepare you for checkrides.
+Your instructors should be experienced, approachable, and committed to student progress.
 
-At Speedway, our instructors are **CFIs and CFIIs** who truly care about each student. Many of them trained here and now teach others. Some even hold **Gold Seal Instructor** status, which is earned through student success.
+At Speedway, all instructors are **CFIs or CFIIs**, and several hold **Gold Seal Instructor** status — a recognition awarded for student success. Many of our team trained here themselves and understand how to guide students from first flight to final checkride.
 
-## 3. **Safe, Reliable Aircraft**
+## 3. Safe, Reliable Aircraft
 
-A good flight school has well-maintained aircraft with updated equipment. This helps you train in real-world conditions.
+You want to train in clean, well-maintained aircraft with modern avionics.
 
-Our fleet includes **four Cessna 172s**, all **IFR certified** and equipped with **Garmin 650XI**, **dual G5s**, and two planes with **GFC 500 autopilot**. These aircraft are clean, consistent, and perfect for both new and advanced students.
+Our fleet includes **four IFR-certified Cessna 172s**, each equipped with **Garmin G5s**, **650Xi GPS**, and **GFC 500 autopilot** (in two aircraft). These are ideal for private pilot students, instrument training, and even commercial maneuvers.
 
-## 4. **Programs That Fit Your Needs**
+## 4. Programs That Fit Your Needs
 
-You’ll want options for training — whether you're just starting or working toward a career. Scheduling should be flexible too.
+Whether you’re looking to fly recreationally or start a professional career, the school should offer a clear path.
 
-Speedway offers training for **Private, Instrument, Commercial, CFI, CFII**, and more. We also offer a **Professional Pilot Program** called **Fast Track to the Flight Deck (FTFD)**. Lessons are scheduled from **6 AM to 11:30 PM**, so you can fly when it works best for you.
+We offer training for **Private Pilot, Instrument, Commercial, Multi-Engine, CFI, CFII**, and a full **Fast Track to the Flight Deck** program. Lessons are available daily from **6 AM to 11:30 PM** for maximum scheduling flexibility.
 
-## 5. **Cost and Payment Options**
+## 5. Cost Transparency and Payment Options
 
-Flight training is a big investment. Look for schools that are open about pricing and offer ways to help you manage costs.
+A trustworthy school will be upfront about pricing and support students with financing options.
 
-We’re committed to fair, **competitive pricing**. You can use our **price calculator**, and we’re working to bring on partners like **Stratus Financial** to help students fund their training.
+At Speedway, we keep pricing competitive and transparent. Our **flight training cost calculator** helps you estimate your total investment. We're also building partnerships with providers like **Stratus Financial** to help make aviation more accessible.
 
-## 6. **Extra Support and Community**
+## 6. A Supportive Community
 
-Great schools go beyond just flight lessons. They should offer career guidance, support with testing, and a strong sense of community.
+Beyond technical instruction, a great school creates a culture of support and mentorship.
 
-At Speedway, we’re a close-knit team. Instructors, students, and staff all support each other. We participate actively in the **FAA WINGS program**, use the FAA-approved **Gleim brand syllabus** to ensure standardized, comprehensive course content, and have strong connections with DPEs to help students feel confident going into checkrides.
+Speedway isn’t just a training center — it’s a tight-knit aviation community. We use the **FAA WINGS program**, follow the **Gleim syllabus**, and work closely with DPEs to keep students confident and prepared.
+
+---
 
 ## Why Choose Speedway?
 
-Speedway Flight Training started as a family project and grew into a full flight school based at **KHMP (Hampton, GA)**. We’re near the **Atlanta Motor Speedway**, with easy access to practice areas and nearby **Class B airspace** for advanced training.
+Located at **Atlanta Speedway Airport (KHMP)** in Hampton, GA, Speedway Flight Training offers a quiet training environment near active Class B airspace. From scenic views of the Atlanta Motor Speedway to nearby practice areas, our location is ideal for beginner and advanced students alike.
 
-With updated aircraft, friendly instructors, flexible schedules, and a welcoming feel, Speedway is the right choice whether you’re flying for fun or starting your career.
+Whether you're just exploring aviation or aiming for the airlines, Speedway has the team, tools, and structure to help you succeed.
+
+---
 
 ## Ready to Get Started?
 
-Choosing a flight school is a big step. We’re here to make it easier. Contact us today or schedule a **Discovery Flight** and see why so many pilots choose Speedway.
+Want to experience what flight training is like before committing? A Discovery Flight is a great way to get a feel for the process.
 
-[Contact Us](https://speedwayflighttraining.com/contact) or call [(678) 944-7379](tel:6789447379).
+[Schedule a Discovery Flight](https://www.speedwayft.com/discovery-flight) or [contact us](https://www.speedwayft.com/contact) to learn more.
