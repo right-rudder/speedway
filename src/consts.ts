@@ -4,7 +4,7 @@ export const SITE_TITLE =
 
 // CHANGE default meta description -> should only be used in homepage technically, but is there for a fallback in case a page is missed
 export const SITE_DESCRIPTION =
-  "Speedway Flight Training, based in Hampton, Georgia, at Atlanta Speedway Airport, provides high-quality flight training for aspiring and experienced pilots. Serving the greater Atlanta area, including McDonough, Griffin, Peachtree City, Stockbridge, and Fayetteville, we offer private pilot, instrument, and commercial training with experienced instructors and a well-maintained fleet. Whether you're beginning your aviation journey or advancing your skills, our safe and professional training environment prepares you for success. Explore our programs, take a discovery flight, or start your pilot training today.";
+  "Speedway Flight Training provides professional, flexible, and accelerated Part 61 and Part 141 flight training at Atlanta Speedway Airport in Hampton, Georgia. Based in Henry County, we proudly serve the greater Atlanta area, including McDonough, Stockbridge, Griffin, Fayetteville, Peachtree City, Newnan, Locust Grove, Lovejoy, and communities across Clayton, Fayette, Spalding, Coweta, and Butts counties. Whether you're starting with a Discovery Flight or pursuing your Private Pilot Certificate, Instrument Rating, Commercial Pilot License, or beyond, our experienced instructors and FAA-approved training programs offer a safe, supportive, and high-quality learning environment. Begin your aviation journey today with one of Georgia’s fastest-growing flight schools.";
 
 // SEO tip -> keyword + city 1
 // Should have between 5-10 different localities to mix and match keywords
