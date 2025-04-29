@@ -2,11 +2,13 @@ export const leadershipTeam = [
   {
     name: "Joe Gilroy",
     title: "Founder & Director of Training",
-    subtitle: "Certificates & Ratings: Commercial ASEL, CFI, CFII",
+    subtitle: "Veteran Airline Captain, FAA Line Check Airman, and Gold Seal CFII",
     bio: [
-      "<strong>Joe Gilroy</strong> founded Speedway Flight Training to offer structured, safety-first aviation education to a close-knit community of students. With decades of experience in both business and aviation, Joe brings a rare blend of operational discipline and instructional clarity to every aspect of the school.",
-      "His background includes a long career in business leadership before earning his CFI and CFII ratings to train his own children. That mission grew into Speedway’s professional pilot pathway, and Joe continues to play a hands-on role in training oversight, instructor development, and student mentorship.",
-      "He sets the instructional tone for the entire team, emphasizing high standards, steady growth, and one-on-one attention. Joe believes in building competent, confident pilots from day one—and holding the school to the same high expectations he holds for himself and his instructors."
+      "<strong>Joe Gilroy</strong> is a seasoned professional pilot and aviation educator with over 45 years of experience and more than 26,000 incident-free flight hours. As the founder of Speedway Flight Training, LLC, Joe brings an unparalleled depth of knowledge, skill, and leadership to the aviation community.",
+      "He holds an Airline Transport Pilot (ATP) certificate for both airplanes and helicopters, with type ratings in nine turbojet aircraft—from Cessna Citations to the Airbus A350. Joe’s formal education includes a Bachelor of Science in Aeronautical Science from Embry-Riddle Aeronautical University, and he is currently completing a Master’s Degree in Aviation Education.",
+      "Joe is a Gold Seal Certified Flight Instructor (CFII), rated for Single and Multi-Engine Land Aircraft, Instrument Airplane, Helicopter, and Helicopter Instrument. His vast instructional experience spans thousands of hours in dozens of aircraft types, and he has mentored countless aspiring pilots throughout their careers.",
+      "As an FAA-appointed Training Center Evaluator (TCE), Aircrew Program Designee (APD), and Lead Line Check Airman (LLCA), Joe is entrusted with evaluating and certifying pilots to the highest FAA standards. His distinguished airline career includes serving as captain on Lockheed, Convair, McDonnell Douglas, Boeing, and Airbus aircraft, flying missions across the globe.",
+      "Joe's unwavering commitment to safety, proficiency, and professionalism has made him a respected leader in the aviation industry. Whether in the cockpit of a commercial airliner or in the classroom training future aviators, his passion for aviation and dedication to excellence continue to inspire and elevate those around him."
     ],
     image: "/Speedway-founder-Joe-Gilroy.webp",
     alt: "Founder Joe Gilroy at Speedway Flight Training",
@@ -16,11 +18,13 @@ export const leadershipTeam = [
   {
     name: "Marriner Smith",
     title: "Director of Operations",
-    subtitle: "Certificates & Ratings: Commercial ASEL, CFI",
+    subtitle: "Airline Captain, Certified Flight Instructor, Director of Maintenance",
     bio: [
-      "<strong>Marriner Smith</strong> is the Director of Operations at Speedway Flight Training and a dedicated CFI with a focus on systems, structure, and accountability.",
-      "Marriner’s professional background includes executive leadership, engineering, and aviation operations. As the school’s compliance and planning lead, he ensures smooth coordination across scheduling, dispatch, and instructor coverage.",
-      "He brings his analytical mindset to every challenge—balancing resources and efficiency while keeping student and instructor experience top-of-mind. Whether behind the scenes or in the right seat, Marriner is committed to maintaining a safe, professional environment where students can thrive."
+      "<strong>Marriner Smith</strong> is a highly respected aviation professional with over 37 years of experience flying for both regional carriers and major Part 121 airlines. A graduate of Auburn University’s renowned School of Aviation, Marriner brings deep industry expertise and leadership to his role as co-owner of Speedway Flight Training.",
+      "Currently, Marriner serves as a Line Check Airman and Airbus A330 instructor for a leading Atlanta-based airline, where he mentors and certifies the next generation of airline pilots. Previously designated by the FAA as an Aircrew Program Designee (APD), he was authorized to issue pilot certificates to those completing advanced simulator training—a testament to the FAA’s trust in his skill and judgment.",
+      "Marriner holds Certified Flight Instructor ratings in Airplane Single Engine Land and Instrument Airplane, and continues to share his knowledge through one-on-one instruction and mentorship. An accomplished aircraft builder, he’s known for his beautifully maintained Vans RV-14, often seen flying above the Speedway airport.",
+      "In his role as Director of Maintenance at Speedway, Marriner oversees all aspects of aircraft maintenance and airworthiness. His meticulous attention to detail ensures every aircraft in the fleet operates at peak performance, safely and reliably.",
+      "Whether in the air, in the classroom, or in the hangar, Marriner Smith embodies Speedway’s commitment to safety, professionalism, and excellence in aviation training."
     ],
     image: "/profile-silhouette.png",
     alt: "Director Marriner Smith at Speedway Flight Training",
@@ -28,27 +32,14 @@ export const leadershipTeam = [
     phone: "(123) 456-7890 ext. 123",
   },
   {
-    name: "Paul C. Nugent",
-    title: "Stage Check Instructor & Senior Advisor",
-    subtitle: "Certificates & Ratings: Commercial ASEL, CFI, CFII",
-    bio: [
-      "<strong>Paul C. Nugent</strong> is a veteran instructor with over four decades of experience in both military and civilian aviation. At Speedway, he plays a key role in conducting stage checks, mentoring instructors, and upholding a high standard of student performance.",
-      "Paul is a retired U.S. Navy pilot, former FAA examiner, and active CFII who brings unmatched insight into flight safety, evaluation standards, and scenario-based instruction.",
-      "As a senior advisor, Paul helps align Speedway’s curriculum and check protocols with real-world expectations—ensuring every student receives both accurate technical guidance and the personal accountability required to succeed in aviation."
-    ],
-    image: "/profile-silhouette.png",
-    alt: "Stage Check Instructor Paul Nugent at Speedway Flight Training",
-    email: "email@speedwayft.com",
-    phone: "(123) 456-7890 ext. 123",
-  },
-  {
     name: "Jordan Morris",
     title: "Chief Flight Instructor",
-    subtitle: "Certificates & Ratings: Commercial ASEL, CFI",
+    subtitle: "Gold Seal CFI/CFI-I, Aviation Mentor & Leader",
     bio: [
-      "<strong>Jordan Morris</strong> serves as the Chief Flight Instructor at Speedway Flight Training, where he leads instructor development, standardization, and student progression planning.",
-      "Jordan is known for his practical, no-nonsense approach to training. His lessons emphasize systems knowledge, situational awareness, and a mindset of continuous improvement.",
-      "He works closely with students across all phases of training—from their first solo to CFI checkrides—building up technical precision and pilot confidence with a clear, structured approach. As Chief Instructor, Jordan ensures that every CFI teaches to the highest instructional standards."
+      "As the Chief Flight Instructor at Speedway Flight Training, Jordan Morris plays a pivotal role in shaping both students and instructors into skilled, confident aviators. A Gold Seal Certified Flight Instructor (CFI/CFI-I), Jordan has logged over 1,300 hours of instructional time, demonstrating his deep commitment to pilot development and safety.",
+      "Jordan’s aviation journey began at Liberty University in Virginia, where he earned a Bachelor of Science in Aviation. Since launching his flight career in 2019, he has developed a reputation for excellence in training, mentorship, and leadership. From day one at Speedway Flight Training, Jordan has been instrumental in building the school’s instructional culture, ensuring that every student receives top-tier, airline-focused training as part of the Fast Track to Flight Deck program.",
+      "Beyond instructing, Jordan is a dedicated mentor to Speedway’s flight instructors, helping them refine their teaching techniques and uphold the highest industry standards. His unwavering professionalism and passion for aviation education drive his mission to help students reach their full potential and transition seamlessly into professional aviation careers.",
+      "Under Jordan’s leadership, Speedway Flight Training continues to set the bar for excellence in flight instruction, preparing the next generation of airline pilots with precision, safety, and real-world expertise."
     ],
     image: "/Speedway-chief-cfi-Jordan-Morris.webp",
     alt: "CFI Jordan Morris at Speedway Flight Training",
@@ -73,6 +64,20 @@ export const flightTeam = [
     phone: "(123) 456-7890 ext. 123",
   },
   {
+    name: "Paul C. Nugent",
+    title: "Stage Check Instructor",
+    subtitle: "Certificates & Ratings: Commercial ASEL, CFI, CFII",
+    bio: [
+      "<strong>Paul C. Nugent</strong> is a veteran instructor with over four decades of experience in both military and civilian aviation. At Speedway, he plays a key role in conducting stage checks, mentoring instructors, and upholding a high standard of student performance.",
+      "Paul is a retired U.S. Navy pilot, former FAA examiner, and active CFII who brings unmatched insight into flight safety, evaluation standards, and scenario-based instruction.",
+      "As a senior advisor, Paul helps align Speedway’s curriculum and check protocols with real-world expectations—ensuring every student receives both accurate technical guidance and the personal accountability required to succeed in aviation."
+    ],
+    image: "/profile-silhouette.png",
+    alt: "Stage Check Instructor Paul Nugent at Speedway Flight Training",
+    email: "email@speedwayft.com",
+    phone: "(123) 456-7890 ext. 123",
+  },
+{
     name: "Eric Schafhauser",
     title: "Chief Standards Captain – Boeing 717",
     subtitle: "Airline Captain & Aviation Educator",
