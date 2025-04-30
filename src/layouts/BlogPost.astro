@@ -5,6 +5,7 @@ import BaseLayout from "./BaseLayout.astro";
 import { KEYWORDS } from "../consts";
 import CTAColor from "../components/CTAColor.astro";
 import flyWithUsCTA from "../data/CTAFlight";
+import ImageComp from "../components/ImageComp.astro";
 
 type Props = CollectionEntry<"blog">["data"];
 
@@ -38,10 +39,11 @@ const {
       >
         {
           heroImage && (
-            <img
-              class="object-cover h-full w-full bg-white"
-              src={heroImage}
-              alt={title}
+          <ImageComp
+              imagePath={heroImage}
+              imageAlt={title}
+              loading="eager"
+              styles="object-cover h-full w-full bg-white"
             />
           )
         }
