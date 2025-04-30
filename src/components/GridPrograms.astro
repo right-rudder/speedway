@@ -31,7 +31,7 @@ const { content } = Astro.props;
       }
     </div>
     <div class="mx-auto max-w-6xl">
-      <ul role="list" class="flex flex-wrap justify-center gap-6">
+      <div class="flex flex-wrap justify-center gap-6">
         {
           content.cards.map((program) => (
             <ProgramCard
@@ -44,7 +44,7 @@ const { content } = Astro.props;
             />
           ))
         }
-      </ul>
+      </div>
     </div>
   </div>
 </section>
