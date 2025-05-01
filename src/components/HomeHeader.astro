@@ -1,6 +1,8 @@
 ---
 import { ADDRESS_CITY, ADDRESS_STATE, AIRPORT } from "../consts";
 import ImageComp from "./ImageComp.astro";
+import { Image } from "astro:assets";
+import HeroImage from "../assets/speedway-checkered-flag-atlanta-hampton-georgia-plane-3.webp";
 const {imagePath, imageAlt, loading, styles, widths, sizes} = Astro.props;
 ---
 
@@ -11,15 +13,25 @@ const {imagePath, imageAlt, loading, styles, widths, sizes} = Astro.props;
 
   {imagePath && (
     <div class="absolute -z-30 inset-0" aria-hidden="true">
-      <ImageComp
-        imagePath={imagePath}
-        imageAlt="Speedway Flight Training aircraft flying over Hampton, Georgia"
-        loading="eager"
-        styles="object-cover h-full w-full object-left-30 lg:object-center contrast-125 opacity-30"
-        fetchpriority="high"
-        widths={[540, 720, 1080, 1440, 1980, 2440]}
-        sizes={`(max-width: 540px) 540px, (max-width: 720px) 720px, (max-width: 1080px) 1080px, (max-width: 1440px) 1440px, (max-width: 1920px) 1920px, 2440px`}
-      />
+        <Image
+          src={HeroImage}
+          alt="Speedway Flight Training aircraft flying over Hampton, Georgia"
+          width={2440}
+          loading="eager"
+          fetchpriority="high"
+          class="object-cover h-full w-full object-left-30 lg:object-center contrast-125 opacity-30"
+          widths={[540, 720, 1080, 1440, 1920, 2440]}
+          sizes="100vw"
+        />
+        {/* <ImageComp
+          imagePath={imagePath}
+          imageAlt="Speedway Flight Training aircraft flying over Hampton, Georgia"
+          loading="eager"
+          styles="object-cover h-full w-full object-left-30 lg:object-center contrast-125 opacity-30"
+          fetchpriority="high"
+          widths={[540, 720, 1080, 1440, 1980, 2440]}
+          sizes={`(max-width: 540px) 540px, (max-width: 720px) 720px, (max-width: 1080px) 1080px, (max-width: 1440px) 1440px, (max-width: 1920px) 1920px, 2440px`}
+        /> */}
     </div>
   )}
 
