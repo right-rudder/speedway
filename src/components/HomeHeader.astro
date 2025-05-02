@@ -31,11 +31,10 @@ const data = {
           src={HeroImage}
           alt={data.imageAlt}
           width={2440}
-          loading="eager"
           fetchpriority="high"
           class="object-cover h-full w-full object-left-30 lg:object-center contrast-125 opacity-30"
-          widths={[540, 720, 1080, 1440, 1920, 2440]}
-          sizes="100vw"
+          widths={[540, 720, 1080, 1440, 1980, 2440]}
+          sizes={`(max-width: 540px) 540px, (max-width: 720px) 720px, (max-width: 1080px) 1080px, (max-width: 1440px) 1440px, (max-width: 1920px) 1920px, 2440px`}
         />
     </div>
   )}
