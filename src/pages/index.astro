@@ -21,6 +21,7 @@ import FlightSchoolFeatures from "../components/FlightSchoolFeatures.astro";
 import FlightTrainingAdvantages from "../components/FlightTrainingAdvantages.astro";
 import Partners from "../components/Partners.astro";
 import AirlinesCloud from "../components/AirlinesCloud.astro";
+import PromoModal from "../components/PromoModal.astro";
 
 
 const blogfeed = {
@@ -91,6 +92,8 @@ const { data } = homePage;
   siteDescription={data.pageDescription}
   keywords={data.pageKeywords}
 >
+  <PromoModal />
+
   <HomeHeader />
   
   <!-- <Partners content={partners} /> -->
