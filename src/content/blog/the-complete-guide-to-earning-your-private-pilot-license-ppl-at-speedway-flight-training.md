@@ -1,8 +1,8 @@
 ---
 pubDate: "May 13, 2025"
 author: Eric Schafhauser
-title: "The Complete Guide To Earning Your Private Pilot License (ppl) At Speedway Flight Training"
-description: "TDiscover the complete path to earning your Private Pilot License (PPL) at Speedway Flight Training in Hampton, Georgia. Learn about training requirements, flight hours, ground school, and the certifications that follow, including Instrument Rating, Commercial Pilot License, and more. Start your aviation journey with confidence and the support of experienced instructors. Enroll today!"
+title: "The Complete Guide To Earning Your Private Pilot License (PPL) At Speedway Flight Training"
+description: "Discover the complete path to earning your Private Pilot License (PPL) at Speedway Flight Training in Hampton, Georgia. Learn about training requirements, flight hours, ground school, and the certifications that follow, including Instrument Rating, Commercial Pilot License, and more. Start your aviation journey with confidence and the support of experienced instructors. Enroll today!"
 heroImage: "/src/assets/blog/Speedway-flight-training-blog-complete-ppl-guide.webp"
 readingTime: 4
 category: "Training"
