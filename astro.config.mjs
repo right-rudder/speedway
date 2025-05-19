@@ -8,4 +8,6 @@ import react from "@astrojs/react";
 export default defineConfig({
   site: "https://www.speedwayft.com/",
   integrations: [tailwind(), partytown(), sitemap(), react()],
-});
+  redirects: {
+    "/fast-track": "/fast-track-program",
+  },});
