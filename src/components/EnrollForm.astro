@@ -1,14 +1,9 @@
 ---
 const ENROLL_FORM_WEBHOOK_URL = import.meta.env.ENROLL_WEBHOOK_URL;
+const PORTAL_API_KEY = import.meta.env.PORTAL_API_KEY;
 ---
 
-<form
-  class="mx-auto max-w-xl pb-10"
-  method="POST"
-  id="contact_form"
-  action=""
-  data-astro-reload
->
+<form class="mx-auto max-w-xl pb-10" id="contact_form">
   <div class="grid grid-cols-1 gap-x-8 gap-y-2 sm:grid-cols-2">
     <div>
       <!-- <label for="first-name" class="block text-sm leading-6 text-accent-100">First name</label> -->
@@ -75,7 +70,10 @@ const ENROLL_FORM_WEBHOOK_URL = import.meta.env.ENROLL_WEBHOOK_URL;
       <!-- <label for="message" class="block text-sm leading-6 text-accent-100">How can we help?</label> -->
       <div class="mt-2.5">
         <!-- Need to get align bottom... -->
-        <label for="interest-program" class="block mb-0 font-extralight text-accent-100">
+        <label
+          for="interest-program"
+          class="block mb-0 font-extralight text-accent-100"
+        >
           To which program are you interested in enrolling?
         </label>
         <select
@@ -89,10 +87,12 @@ const ENROLL_FORM_WEBHOOK_URL = import.meta.env.ENROLL_WEBHOOK_URL;
           <option class="bg-accent-950">Instrument Rating (IR)</option>
           <option class="bg-accent-950">Commercial Pilot License (CPL)</option>
           <option class="bg-accent-950">Multi-Engine Rating (ME)</option>
-          <option class="bg-accent-950">Certified Flight Instructor (CFI)</option>
+          <option class="bg-accent-950"
+            >Certified Flight Instructor (CFI)</option
+          >
           <option class="bg-accent-950">Other</option>
         </select>
-  </div>
+      </div>
       <div class="mt-2.5">
         <!-- Need to get align bottom... -->
         <textarea
@@ -120,19 +120,23 @@ const ENROLL_FORM_WEBHOOK_URL = import.meta.env.ENROLL_WEBHOOK_URL;
           <span
             id="terms-thumb"
             class="h-4 w-4 transform rounded-full bg-black shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out translate-x-0"
-            aria-hidden="true"
-          ></span>
+            aria-hidden="true"></span>
         </button>
-        <input
-          type="hidden"
-          id="agree-terms"
-          name="agree-terms"
-          value="no"
-        />
+        <input type="hidden" id="agree-terms" name="agree-terms" value="no" />
       </div>
       <label class="text-sm leading-6 text-gray-200" id="switch-1-label">
-        I agree to the <a href="/privacy-policy" target="_blank" class="text-primary-700 hover:text-mariner-700 font-semibold">Privacy Policy</a> and <a href="/terms-of-service" target="_blank" class="text-primary-700 hover:text-mariner-700 font-semibold">Terms of Service</a> provided by the company.
-        By providing my phone number, I agree to receive text messages from the business.
+        I agree to the <a
+          href="/privacy-policy"
+          target="_blank"
+          class="text-primary-700 hover:text-mariner-700 font-semibold"
+          >Privacy Policy</a
+        > and <a
+          href="/terms-of-service"
+          target="_blank"
+          class="text-primary-700 hover:text-mariner-700 font-semibold"
+          >Terms of Service</a
+        > provided by the company. By providing my phone number, I agree to receive
+        text messages from the business.
       </label>
     </div>
   </div>
@@ -141,89 +145,126 @@ const ENROLL_FORM_WEBHOOK_URL = import.meta.env.ENROLL_WEBHOOK_URL;
   </div>
 </form>
 
-<script define:vars={{ ENROLL_FORM_WEBHOOK_URL }}>
-  document.addEventListener("DOMContentLoaded", function () {
-    const contactForm = document.getElementById("contact_form");
-    const toggle = document.getElementById("terms-toggle");
-    const thumb = document.getElementById("terms-thumb");
-    const hiddenInput = document.getElementById("agree-terms");
-    const submitBtn = document.getElementById("submit-btn");
+<script define:vars={{ ENROLL_FORM_WEBHOOK_URL, PORTAL_API_KEY }}>
+  const toggle = document.getElementById("terms-toggle");
+  const thumb = document.getElementById("terms-thumb");
+  const hiddenInput = document.getElementById("agree-terms");
+  const submitBtn = document.getElementById("submit-btn");
 
-    let isChecked = false;
+  let isChecked = false;
 
-    toggle.addEventListener("click", () => {
-      isChecked = !isChecked;
-      hiddenInput.value = isChecked ? "yes" : "no";
-      toggle.setAttribute("aria-checked", isChecked);
-      toggle.classList.toggle("bg-mariner-500", isChecked);
-      toggle.classList.toggle("bg-gray-200", !isChecked);
-      thumb.classList.toggle("translate-x-3.5", isChecked);
-      thumb.classList.toggle("translate-x-0", !isChecked);
+  toggle.addEventListener("click", () => {
+    isChecked = !isChecked;
+    hiddenInput.value = isChecked ? "yes" : "no";
+    toggle.setAttribute("aria-checked", isChecked);
+    toggle.classList.toggle("bg-mariner-500", isChecked);
+    toggle.classList.toggle("bg-gray-200", !isChecked);
+    thumb.classList.toggle("translate-x-3.5", isChecked);
+    thumb.classList.toggle("translate-x-0", !isChecked);
 
-      // Enable or disable submit button based on toggle
-      if (isChecked) {
-        submitBtn.disabled = false;
-        submitBtn.classList.remove(
-          "cursor-not-allowed",
-          "bg-gray-400",
-          "hover:bg-gray-400",
-          "hover:text-mariner-950"
-        );
-      } else {
-        submitBtn.disabled = true;
-        submitBtn.classList.add(
-          "cursor-not-allowed",
-          "bg-gray-400",
-          "hover:bg-gray-400",
-          "hover:text-mariner-950"
-        );
+    if (isChecked) {
+      submitBtn.disabled = false;
+      submitBtn.classList.remove(
+        "cursor-not-allowed",
+        "bg-gray-400",
+        "hover:bg-gray-400",
+        "hover:text-mariner-950",
+      );
+    } else {
+      submitBtn.disabled = true;
+      submitBtn.classList.add(
+        "cursor-not-allowed",
+        "bg-gray-400",
+        "hover:bg-gray-400",
+        "hover:text-mariner-950",
+      );
+    }
+  });
+  submitBtn.disabled = true;
+  submitBtn.classList.add(
+    "cursor-not-allowed",
+    "bg-gray-400",
+    "hover:bg-gray-400",
+    "hover:text-mariner-950",
+  );
+  document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("contact_form");
+    if (!form) {
+      console.error("Form element not found.");
+      return;
+    }
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+
+      const formData = new FormData(form);
+      const confirmEmail = formData.get("confirm-email")?.trim();
+      if (confirmEmail) return;
+
+      const webhookURL = ENROLL_FORM_WEBHOOK_URL;
+      const apiKey = PORTAL_API_KEY;
+
+      const urlEncodedBody = new URLSearchParams(formData).toString();
+
+      const excludedFields = [
+        "first-name",
+        "last-name",
+        "email",
+        "phone-number",
+        "confirm-email",
+        "agree-terms",
+      ];
+
+      const metadata = {};
+
+      for (const [key, value] of formData.entries()) {
+        if (!excludedFields.includes(key)) {
+          metadata[key] = value?.trim?.() ?? value;
+        }
+      }
+
+      const jsonBody = {
+        first_name: formData.get("first-name")?.trim() || "",
+        last_name: formData.get("last-name")?.trim() || "",
+        email: formData.get("email")?.trim() || "",
+        phone: formData.get("phone-number")?.trim() || "",
+        campaign: "enrollment",
+        account_random_id: "ac_x378a6p2",
+        metadata: metadata,
+      };
+
+      try {
+        const [ghlRes, portalRes] = await Promise.all([
+          fetch(webhookURL, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: urlEncodedBody,
+          }),
+          fetch("https://portal.rightruddermarketing.com/api/leads", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Accept: "application/json",
+              "x-api-key": apiKey,
+            },
+            body: JSON.stringify(jsonBody),
+          }),
+        ]);
+
+        if (ghlRes.ok && portalRes.ok) {
+          window.location.href = "/contact-confirmation";
+        } else {
+          console.error("Submission failed", {
+            ghlStatus: ghlRes.status,
+            portalStatus: portalRes.status,
+          });
+        }
+      } catch (err) {
+        console.error("Submission error:", err);
       }
     });
-
-    // Start disabled by default
-    submitBtn.disabled = true;
-    submitBtn.classList.add(
-      "cursor-not-allowed",
-      "bg-gray-400",
-      "hover:bg-gray-400",
-      "hover:text-mariner-950"
-    );
-
-    // Handle form submission (only if allowed)
-    if (contactForm !== null) {
-      contactForm.addEventListener("submit", function (event) {
-        event.preventDefault();
-        const formData = new FormData(contactForm);
-        const confirmEmailValue = formData.get("confirm-email");
-
-        if (confirmEmailValue === "" || confirmEmailValue === null) {
-          contactForm.action = ENROLL_FORM_WEBHOOK_URL;
-        }
-
-        const urlSearchParams = new URLSearchParams();
-        for (const pair of formData.entries()) {
-          urlSearchParams.append(pair[0], pair[1]);
-        }
-
-        const xhr = new XMLHttpRequest();
-        xhr.open("POST", contactForm.action);
-        xhr.setRequestHeader(
-          "Content-Type",
-          "application/x-www-form-urlencoded"
-        );
-        xhr.onload = function () {
-          if (xhr.status === 200) {
-            window.location.href = "/contact-confirmation";
-          } else {
-            console.error("Form submission failed:", xhr.statusText);
-          }
-        };
-        xhr.onerror = function () {
-          console.error("Network error occurred while submitting the form.");
-        };
-        xhr.send(urlSearchParams);
-      });
-    }
   });
 </script>
 
