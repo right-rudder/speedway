@@ -11,13 +11,13 @@
       ×
     </button>
 
-    <h2 class="text-2xl font-bold mb-4 text-center">🚀 May Flight Specials</h2>
+    <h2 class="text-2xl font-bold mb-4 text-center">🚀 <span class="current-month"></span> Flight Specials</h2>
 
     <div class="mb-6">
       <h3 class="text-xl font-semibold text-primary-800">🎉 $99 Discovery Flight – “Try the Skies”</h3>
       <p class="mt-1 text-base">
         Ever wondered what it’s like to fly a plane? Now’s your chance.
-        All May long, first-time Discovery Flights are just <strong>$99</strong> (tax included).
+        All <span class="current-month"></span> long, first-time Discovery Flights are just <strong>$99</strong> (tax included).
         <br />
         <span class="text-sm text-gray-600 italic">Limit one per person. FAA eligibility required.</span>
       </p>
@@ -27,7 +27,7 @@
       <h3 class="text-xl font-semibold text-primary-800">💡 “Fly Now, Train Later” Credit</h3>
       <p class="mt-1 text-base">
         Take the controls, fall in love with flight, and we’ll put <strong>$75</strong> of your Discovery Flight toward your first lesson.
-        Book a $150 Discovery Flight and enroll in May or June to claim your credit!
+        Book a $150 Discovery Flight and enroll in <span class="current-month"></span> or <span class="next-month"></span> to claim your credit!
       </p>
     </div>
 
@@ -65,5 +65,21 @@
   // Close on Escape
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") closeModal();
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const now = new Date();
+    const currentMonth = now.toLocaleString("default", { month: "long" });
+
+    const next = new Date(now);
+    next.setMonth(next.getMonth() + 1);
+    const nextMonth = next.toLocaleString("default", { month: "long" });
+
+    document.querySelectorAll(".current-month")
+      .forEach(el => el.textContent = currentMonth);
+
+    document.querySelectorAll(".next-month")
+      .forEach(el => el.textContent = nextMonth);
   });
 </script>
