@@ -31,7 +31,7 @@ const cfiiPilotData = {
   // Program Details
   details: {
     upperHeading: "Advance Your Instructor Credentials with a",
-    heading: "Certified Flight Instructor – Instrument (CFII)",
+    heading: "Certified Flight Instructor – Instrument (CFII) Rating",
     subHeading:
       "Speedway’s CFII program prepares you to instruct aspiring pilots in IFR procedures, giving you more teaching opportunities and making you a more versatile flight instructor.",
 
