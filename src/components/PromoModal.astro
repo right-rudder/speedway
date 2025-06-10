@@ -59,7 +59,7 @@
 
   // Close on outside click
   modal?.addEventListener("click", (e) => {
-    if (!box.contains(e.target)) closeModal();
+    if (!box.contains(e.target as Node)) closeModal();
   });
 
   // Close on Escape
