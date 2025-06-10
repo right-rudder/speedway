@@ -34,8 +34,8 @@ const certifiedFlightInstructorData = {
 
   // Program Details
   details: {
-    upperHeading: "Train to Become a",
-    heading: "Certified Flight Instructor",
+    upperHeading: "Train to Earn a",
+    heading: "Certified Flight Instructor License",
     subHeading:
       "Advance your aviation career by becoming a flight instructor. Gain valuable teaching skills, master advanced maneuvers, and help new pilots achieve their dreams.",
 
