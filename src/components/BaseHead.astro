@@ -1,6 +1,12 @@
 ---
 import "../styles/global.css";
-import { COMPANY_NAME, INSTAGRAM_URL, PHONE_NUMBER, OG_IMAGE } from "../consts";
+import {
+  COMPANY_NAME,
+  INSTAGRAM_URL,
+  PHONE_NUMBER,
+  OG_IMAGE,
+  FAVICON,
+} from "../consts";
 
 interface Props {
   title: string;
@@ -36,11 +42,7 @@ const { title, description, keywords, image = OG_IMAGE } = Astro.props;
     Nice to see you here.  Find new student pilots with Right Rudder Marketing.  https://rightruddermarketing.com/contact-us -->
 
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link
-  rel="icon"
-  type="image/svg+xml"
-  href={OG_IMAGE}
-/>
+<link rel="icon" type="image/svg+xml" href={FAVICON} />
 <meta name="generator" content={Astro.generator} />
 
 <!-- Canonical URL -->
@@ -79,10 +81,12 @@ const { title, description, keywords, image = OG_IMAGE } = Astro.props;
   src="https://www.googletagmanager.com/gtag/js?id=G-DS9NE5XMD9"></script>
 <script type="text/partytown">
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
-  gtag('config', 'G-DS9NE5XMD9');
+  gtag("config", "G-DS9NE5XMD9");
 </script>
 
 <!-- NEED TO UPDATE SCHEMA -->
