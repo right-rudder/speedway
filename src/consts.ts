@@ -59,11 +59,11 @@ export const LOCATION_KEYWORDS = {
     "McDonough flight lessons, Griffin aviation school, Peachtree City pilot training, Stockbridge flight instruction, Fayetteville flying lessons, Atlanta south metro flight school",
 };
 
-export const OG_IMAGE =
-  "/speedway-flight-training-hampton-georgia-logo-color.webp";
+export const OG_IMAGE = "/Speedway-OG-image.png";
 
-export const LOGO =
-  "/speedway-flight-training-hampton-georgia-logo-color.webp";
+export const FAVICON = "/speedway-flight-training-hampton-georgia-logo-red.png";
+
+export const LOGO = "/speedway-flight-training-hampton-georgia-logo-color.webp";
 
 export const LOGO_ASSETS =
   "/src/assets/speedway-flight-training-hampton-georgia-logo-color.webp";
