@@ -38,7 +38,7 @@ const spinEndorsementData = {
       Speedway Flight Training’s <strong>Spin Endorsement program</strong> is designed for aspiring flight instructors and pilots seeking greater confidence in stall/spin scenarios.
       <br/><br/>
       🛩 <strong>Accelerated Format:</strong> Complete in as little as <strong>1 day</strong>.<br/>
-      💰 <strong>Estimated Cost:</strong> <strong>$700</strong> (Includes 2 hours of flight instruction).<br/>
+      💰 <strong>Estimated Cost:</strong> <strong>$575</strong> (Includes 1.5 hours of flight instruction / spin recovery & 1.5 hours ground lesson).<br/>
       📍 <strong>Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
       📜 <strong>FAA Requirement:</strong> Endorsement required for CFIs under <strong>14 CFR §61.183(i)</strong>.<br/>
       ✈️ <strong>Aircraft:</strong> Certified for spin maneuvers with dual controls.<br/>
