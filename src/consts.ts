@@ -61,7 +61,7 @@ export const LOCATION_KEYWORDS = {
 
 export const OG_IMAGE = "/Speedway-OG-image.png";
 
-export const FAVICON = "/speedway-flight-training-hampton-georgia-logo-color.png";
+export const FAVICON = "/speedway-flight-training-hampton-georgia-logo-color.webp";
 
 export const LOGO = "/speedway-flight-training-hampton-georgia-logo-color.webp";
 
