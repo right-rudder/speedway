@@ -1,0 +1,31 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeaderSmall from "../../components/HeaderSmall.astro";
+import CTAColor from "../../components/CTAColor.astro";
+import CTAFlight from "../../data/CTAFlight.js";
+
+import TrainingRoadmap from "../../components/TrainingRoadmap.astro";
+import { scholarship, scholarshipPage } from "../../data/scholarship";
+
+import CTAFinancing from "../../components/CTAFinancing.astro";
+import donateScholarshipCTA from "../../data/scholarshipDonateCTA";
+
+
+---
+<BaseLayout
+  siteTitle={scholarshipPage.pageTitle}
+  siteDescription={scholarshipPage.pageDescription}
+  keywords={scholarshipPage.pageKeywords}
+  >
+  
+  <HeaderSmall content={scholarshipPage.header} />
+  
+  <div id="info" class="scroll-my-20"></div>
+  <TrainingRoadmap content={scholarship} />
+
+  <CTAFinancing content={donateScholarshipCTA} />
+
+  <!-- <CTAColor content={CTAFlight} /> -->
+  
+  <!-- <script src="../scripts/creativeSwiper.js"></script> -->
+</BaseLayout>
