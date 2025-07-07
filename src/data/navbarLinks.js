@@ -70,6 +70,10 @@ export const navbarLinks = [
         link: "/speedway/financing#top",
       },
       {
+        name: "Partners",
+        link: "/speedway/partners#top",
+      },
+      {
         name: "Join the Team",
         link: "/join-the-team#top",
       },
