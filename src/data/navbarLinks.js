@@ -62,6 +62,10 @@ export const navbarLinks = [
         link: "/blog#top",
       },
       {
+        name: "Scholarship",
+        link: "/speedway/scholarship#top",
+      },
+      {
         name: "Financing",
         link: "/speedway/financing#top",
       },
