@@ -12,16 +12,11 @@ export const scholarshipPage = {
     stars: true,
     imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-120-croped.webp",
     imageAlt: "Speedway Flight Training students and instructors preparing for flights",
-    headerH1: `Supporting Future Aviators<br><span class="text-primary-700">Speedway Scholarship Fund</span>`,
-    paragraph: `The Speedway Scholarship Fund was created to make flight training more accessible for passionate, driven individuals who need financial assistance. Whether you're applying or looking to donate, your involvement helps change lives and elevate futures in aviation.`,
+    headerH1: `Speedway Scholarship Fund`,
+    paragraph: `The Speedway Scholarship Fund was created to make flight training more accessible individuals who need financial assistance. Whether you're applying or looking to donate, your involvement helps change lives and elevate futures in aviation.`,
     buttons: [
       {
-        name: "Apply for the Scholarship",
-        link: "https://speedwayscholarship.com/apply",
-        primary: false,
-      },
-      {
-        name: "Check out the Scholarship",
+        name: "The Scholarship",
         link: "https://speedwayscholarship.com",
         primary: false,
       },
