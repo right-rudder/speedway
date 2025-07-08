@@ -95,12 +95,12 @@ const partnersAffiliates = {
           imageAlt: "Stratus Financial partner logo",
           link: "https://stratus.finance/",
         },
-        // {
-        //   name: "Gleim",
-        //   imagePath: "/src/assets/stratus-logo-2.webp",
-        //   imageAlt: "",
-        //   link: "",
-        // },
+        {
+          name: "Gleim Aviation",
+          imagePath: "/src/assets/partner_GleimAviation_HorizontalLogo_Red_RGB.webp",
+          imageAlt: "Gleim Aviation logo",
+          link: "https://www.gleimaviation.com",
+        },
       ],
     },
 
