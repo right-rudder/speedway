@@ -7,7 +7,7 @@ const donateScholarshipCTA = {
   buttons: [
     {
       name: "Donate to the Scholarship Fund",
-      link: "/scholarship#donate",
+      link: "https://speedwayscholarship.com/donate/",
       primary: true,
     },
   ],

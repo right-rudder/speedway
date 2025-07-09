@@ -17,7 +17,7 @@ const partnersAffiliates = {
     buttons: [
             {
             name: "Become a Student",
-            link: "/admissions",
+            link: "/enroll",
             primary: false,
             },
         ],
@@ -100,26 +100,6 @@ const partnersAffiliates = {
           imagePath: "/src/assets/partner_GleimAviation_HorizontalLogo_Red_RGB.webp",
           imageAlt: "Gleim Aviation logo",
           link: "https://www.gleimaviation.com",
-        },
-      ],
-    },
-
-    flyWithUsCTA: {
-      imagePath: "/src/assets/speedway-flight-training-cessna-172-hampton-ga.webp",
-      imageAlt: "Right Rudder Marketing team on the runway",
-      headerH1: `<span class="text-primary">Fly with digital marketing</br> experts</span> that know the flight training industry.`,
-      paragraph:
-        "We are a team of pilots that know the flight training industry. Because if your marketing team doesn't know what the pilot training experience is like, then how can they be successful for you? See what we're talking about by booking a call now!",
-      buttons: [
-        {
-          name: "Get Our Free Book",
-          link: "/resources/flight-school-handbook",
-          primary: false,
-        },
-        {
-          name: "Book a Strategy Call",
-          link: "/schedule-call",
-          primary: false,
         },
       ],
     },
