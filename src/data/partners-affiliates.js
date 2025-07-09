@@ -52,27 +52,6 @@ const partnersAffiliates = {
       ],
     },
 
-
-    keywordsCTA: {
-      imagePath: "/src/assets/speedway-flight-training-cessna-172-hampton-ga.webp",
-      imageAlt: "The Complete Flight School SEO Keywords Guide",
-      heading: `The Complete Flight School SEO Keywords Guide`,
-      description:
-        "Download our keyword guide to get you the most commonly searched keywords for flight schools and pilot training. Use the guide to formulate the appropriate keywords to focus on in your flight school's website and Google Business profile.",
-      buttons: [
-        {
-          name: "Download Now",
-          link: "/resources/flight-school-keywords",
-          accent: true,
-        },
-        {
-          name: "Learn More",
-          link: "/resources/flight-school-keywords",
-          accent: false,
-        },
-      ],
-    },
-
     affiliates: {
       heading: "Speedway Flight Training is a partner affiliate with the following organizations:",
       description: "",
@@ -87,7 +66,7 @@ const partnersAffiliates = {
           name: "Indy Jet",
             imagePath: "/src/assets/indy-jet.png",
             imageAlt: "Indy Jet FBO and aviation partner logo",
-            link: "/",
+            link: "https://indyjetservices.com",
         },
         {
           name: "Stratus Financial",
