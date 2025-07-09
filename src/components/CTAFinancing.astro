@@ -45,6 +45,8 @@ if (!images[content.imagePath]) {
           <a
             href={btn.link}
             class={`${btn.primary ? "btn-primary" : "btn-accent"} w-full lg:px-12 text-2xl md:w-auto`}
+            target={btn.link.includes("http") ? "_blank" : ""}
+            rel={btn.link.includes("http") ? "noopener noreferrer" : ""}
           >
             {btn.name}
           </a>

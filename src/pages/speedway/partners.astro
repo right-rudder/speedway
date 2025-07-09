@@ -1,0 +1,63 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+import HeaderScreen from "../../components/HeaderScreen.astro";
+import PageSummary from "../../components/PageSummary.astro";
+import Affiliates from "../../components/Affiliates.astro";
+import AirlinesCloud from "../../components/AirlinesCloud.astro";
+
+import CTAColor from "../../components/CTAColor.astro";
+import CTAFinancing from "../../components/CTAFinancing.astro";
+
+import partnersAffiliates from "../../data/partners-affiliates.js";
+import CTAFlight from "../../data/CTAFlight.js";
+import financingCompData from "../../data/financingComp";
+
+
+const { data } = partnersAffiliates;
+
+const partners2 = [
+  {
+    imagePath: "/src/assets/logo-fsana-r13-600px.png",
+    imageAlt: "Flight School Association of North America (FSANA) partner logo",
+    link: "https://fsana.com/",
+  },
+  {
+    imagePath: "/src/assets/indy-jet.png",
+    imageAlt: "Indy Jet FBO and aviation partner logo",
+    link: "https://indyjetservices.com",
+  },
+  {
+    imagePath: "/src/assets/stratus-logo-2.webp",
+    imageAlt: "Stratus Financial partner logo",
+    link: "https://stratus.finance/",
+  },
+  {
+    imagePath: "/src/assets/partner_GleimAviation_HorizontalLogo_Red_RGB.webp",
+    imageAlt: "Gleim Aviation logo",
+    link: "https://www.gleimaviation.com",
+  },
+];
+---
+
+<BaseLayout
+  siteTitle={data.pageTitle}
+  siteDescription={data.pageDescription}
+  keywords={data.pageKeywords}
+>
+  <!-- HEADER -->
+  <HeaderScreen content={data.header} />
+
+  <PageSummary content={data.pageSummary} />
+
+  <AirlinesCloud data={partners2} />
+
+  <CTAColor content={financingCompData} />
+
+  <Affiliates
+    heading={data.affiliates.heading}
+    organizations={data.affiliates.organizations}
+  />
+
+  <CTAColor content={CTAFlight} />
+</BaseLayout>

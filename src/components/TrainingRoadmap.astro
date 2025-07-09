@@ -104,6 +104,8 @@ const { content } = Astro.props;
             <a
               href={content.finalButton.link}
               class={`${content.finalButton.primary ? "btn-primary" : "btn-white"} w-full md:w-auto`}
+              target={content.finalButton.link.includes("http") ? "_blank" : ""}
+              rel={content.finalButton.link.includes("http") ? "noopener noreferrer" : ""}
             >
               {content.finalButton.name}
             </a>

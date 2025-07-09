@@ -2,18 +2,23 @@ const airlinesCloud = {
   airlines: [
     {
       imagePath: "/src/assets/logo-fsana-r13-600px.png",
-      imageAlt: "Southwest Airlines Logo",
-      link: "https://www.southwest.com/",
+      imageAlt: "FSANA Logo",
+      link: "https://fsana.com/",
     },
     {
       imagePath: "/src/assets/indy-jet.png",
-      imageAlt: "Allegiant Airlines Logo",
-      link: "https://www.allegiantair.com/",
+      imageAlt: "Indy Jet Logo",
+      link: "https://indyjetservices.com",
     },
     {
       imagePath: "/src/assets/stratus-logo-2.webp",
       imageAlt: "Frontier Airlines Logo",
-      link: "https://www.flyfrontier.com/",
+      link: "https://stratus.finance/",
+    },
+    {
+      imagePath: "/src/assets/partner_GleimAviation_HorizontalLogo_Red_RGB.webp",
+      imageAlt: "Gleim Aviation logo",
+      link: "https://www.gleimaviation.com",
     },
   ],
 };
