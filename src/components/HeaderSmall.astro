@@ -49,6 +49,8 @@ if (!images[content.imagePath]) {
             <a
               href={btn.link}
               class={`${btn.primary ? "btn-primary" : "btn-accent"} w-full md:w-auto`}
+              target={btn.link.includes("http") ? "_blank" : ""}
+              rel={btn.link.includes("http") ? "noopener noreferrer" : ""}
             >
               <span class="drop-shadow-sm">{btn.name}</span>
             </a>
