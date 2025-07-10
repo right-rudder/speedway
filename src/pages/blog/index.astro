@@ -33,9 +33,13 @@ const posts = (await getCollection("blog")).sort(
 ---
 
 <BaseLayout
-  pageTitle="Blog | Speedway Flight Training"
-  pageDescription="Get tips, insights, and updates from Speedway Flight Training. Learn more about becoming a pilot and staying on track with your training near Atlanta, GA."
-  pageKeywords="Speedway Flight Training blog, aviation articles, how to become a pilot Georgia, Cessna 172, IFR training, flight training Hampton GA"
+  siteTitle="Blog | Speedway Flight Training"
+  siteDescription="Get tips, insights, and updates from Speedway Flight Training. Learn more about becoming a pilot and staying on track with your training near Atlanta, GA."
+  keywords="Speedway Flight Training blog, aviation articles, how to become a pilot Georgia, Cessna 172, IFR training, flight training Hampton GA"
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Blog", url: "/blog" },
+  ]}
 >
   <HeaderSmall content={data.header} />
 
