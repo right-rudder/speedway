@@ -10,8 +10,55 @@ export const SITE_DESCRIPTION =
 // Should have between 5-10 different localities to mix and match keywords
 // typical keywords = how to become a pilot, flight school near, private pilot, discovery flight, introductory flight, instrument rating, commercial certificate, certified flight instructor, airline programs, how to become an airline pilot
 // CHANGE default keywords -> should only be used in homepage technically, but is there for a fallback in case a page is missed
-export const KEYWORDS =
-  "Speedway Flight Training, Atlanta flight school, Hampton GA pilot training, how to become a pilot in Georgia, best flight school near Atlanta, private pilot license Hampton, discovery flight Atlanta Speedway, PPL training Georgia, instrument rating certification, commercial pilot license Georgia, certified flight instructor program, airline career preparation, zero to hero pilot training, accelerated flight training Georgia, Cessna 172 training aircraft, modern avionics training, Garmin G1000 flight training, IFR training near Atlanta, advanced pilot ratings Hampton, multi-engine rating Georgia, flight instructor jobs Atlanta, checkride preparation Hampton, part 61 flight school, aviation school Georgia, affordable flight training Atlanta, pilot school with financing, flight training McDonough, Griffin aviation training, Peachtree City flight lessons, Stockbridge flight school";
+export const KEYWORDS = [
+  "Speedway Flight Training",
+  "Atlanta flight school",
+  "Hampton GA pilot training",
+  "how to become a pilot in Georgia",
+  "best flight school near Atlanta",
+  "private pilot license Hampton",
+  "discovery flight Atlanta Speedway",
+  "PPL training Georgia",
+  "instrument rating certification",
+  "commercial pilot license Georgia",
+  "certified flight instructor program",
+  "airline career preparation",
+  "zero to hero pilot training",
+  "accelerated flight training Georgia",
+  "Cessna 172 training aircraft",
+  "modern avionics training",
+  "Garmin G1000 flight training",
+  "IFR training near Atlanta",
+  "advanced pilot ratings Hampton",
+  "multi-engine rating Georgia",
+  "flight instructor jobs Atlanta",
+  "checkride preparation Hampton",
+  "part 61 flight school",
+  "aviation school Georgia",
+  "affordable flight training Atlanta",
+  "pilot school with financing",
+  "flight training McDonough",
+  "Griffin aviation training",
+  "Peachtree City flight lessons",
+  "Stockbridge flight school",
+  // Upgraded/added keywords for 2025
+  "FAA approved flight school Georgia",
+  "accelerated pilot training Atlanta",
+  "flight school with job placement Georgia",
+  "aviation scholarships Georgia",
+  "flight school reviews Atlanta",
+  "best pilot school for career changers",
+  "flight training for veterans Georgia",
+  "aviation degree programs Atlanta",
+  "flight school open house Atlanta",
+  "flight school financing options Georgia",
+  "private pilot ground school Atlanta",
+  "flight instructor academy Georgia",
+  "aviation English training Atlanta",
+  "student pilot resources Georgia",
+  "flight school near Hartsfield-Jackson",
+  "pilot training for international students Georgia",
+].join(", ");
 
 // Primary keywords by search intent
 export const PRIMARY_KEYWORDS = {
@@ -61,7 +108,8 @@ export const LOCATION_KEYWORDS = {
 
 export const OG_IMAGE = "/Speedway-OG-image.png";
 
-export const FAVICON = "/speedway-flight-training-hampton-georgia-logo-color.webp";
+export const FAVICON =
+  "/speedway-flight-training-hampton-georgia-logo-color.webp";
 
 export const LOGO = "/speedway-flight-training-hampton-georgia-logo-color.webp";
 

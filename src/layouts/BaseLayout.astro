@@ -6,11 +6,13 @@ import "@fontsource-variable/montserrat";
 import "@fontsource/bebas-neue";
 import "@fontsource-variable/quicksand";
 import Navbar from "../components/Navbar";
-const { pathname } = Astro.url;
-const { siteTitle, siteDescription, keywords, ogImage } = Astro.props;
+import Breadcrumbs from "../components/Breadcrumbs.astro";
 import Banner from "../components/Banner.astro";
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 
+const { pathname } = Astro.url;
+const { siteTitle, siteDescription, keywords, ogImage, breadcrumbs } =
+  Astro.props;
 ---
 
 <!doctype html>
@@ -29,6 +31,11 @@ import 'aos/dist/aos.css';
       <Navbar pathname={pathname} client:load />
     </header>
     <main>
+      {
+        breadcrumbs && Array.isArray(breadcrumbs) && breadcrumbs.length > 0 ? (
+          <Breadcrumbs crumbs={breadcrumbs} />
+        ) : null
+      }
       <slot />
     </main>
     <Footer />

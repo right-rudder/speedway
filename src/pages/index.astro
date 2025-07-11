@@ -23,7 +23,6 @@ import Partners from "../components/Partners.astro";
 import AirlinesCloud from "../components/AirlinesCloud.astro";
 import PromoModal from "../components/PromoModal.astro";
 
-
 const blogfeed = {
   upperHeading: "Our Blog",
   heading: "Speedway Flight Training News",
@@ -39,13 +38,14 @@ const welcome = {
     "Whether you’re training for recreational flying or preparing for a professional aviation career, we offer personalized instruction, modern equipment, and comprehensive programs to help you achieve your goals.",
   ],
   imagePath: "/src/assets/speedway-flight-training-cessna-172-hampton-ga.webp",
-  imageAlt: "Cessna 172 at Atlanta Speedway Airport in Hampton, GA, during sunset. Speedway Flight Training's well-maintained fleet provides professional pilot training near Atlanta, offering private, instrument, and commercial flight courses.",
+  imageAlt:
+    "Cessna 172 at Atlanta Speedway Airport in Hampton, GA, during sunset. Speedway Flight Training's well-maintained fleet provides professional pilot training near Atlanta, offering private, instrument, and commercial flight courses.",
   buttons: [
     {
       text: "About Us",
       link: "/speedway",
     },
-  ]
+  ],
 };
 
 const partners = [
@@ -96,13 +96,14 @@ const { data } = homePage;
   siteTitle={data.pageTitle}
   siteDescription={data.pageDescription}
   keywords={data.pageKeywords}
+  breadcrumbs={[{ name: "Home", url: "/" }]}
 >
   <PromoModal />
 
   <HomeHeader />
-  
+
   <!-- <Partners content={partners} /> -->
-  
+
   <Welcome content={welcome} />
 
   <AirlinesCloud data={partners2} />

@@ -16,7 +16,8 @@ const GeneralFAQs = () => {
         "Our business hours are 9:00 AM - 4:00 PM. Flight training is available daily from 6:00 AM - 11:30 PM. For inquiries outside business hours, please contact us directly.",
     },
     {
-      question: "What pilot training programs does Speedway Flight Training offer?",
+      question:
+        "What pilot training programs does Speedway Flight Training offer?",
       answer:
         "<ul className='list-disc ml-5'><li>Private Pilot License (PPL)</li><li>Instrument Rating (IR)</li><li>Commercial Pilot License (CPL)</li><li>Certified Flight Instructor (CFI & CFII)</li><li>Instrument Proficiency Check (IPC)</li><li>Biennial Flight Review (BFR)</li><li>Professional Pilot Program (Zero to Commercial)</li></ul>",
     },
@@ -81,9 +82,9 @@ const GeneralFAQs = () => {
         "Starting is simple! Book a discovery flight, gather your required materials, and contact us to schedule your first lesson.",
     },
   ];
-  
+
   const [openQuestions, setOpenQuestions] = useState(
-    new Array(faqs.length).fill(false)
+    new Array(faqs.length).fill(false),
   );
   const [showAll, setShowAll] = useState(false);
 
@@ -95,8 +96,29 @@ const GeneralFAQs = () => {
 
   const visibleFAQs = showAll ? faqs : faqs.slice(0, 7);
 
+  // Generate FAQPage schema
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          typeof faq.answer === "string"
+            ? faq.answer.replace(/<[^>]+>/g, "")
+            : "",
+      },
+    })),
+  };
+
   return (
     <div className="flex flex-col gap-5 max-w-3xl mt-10 lg:mt-0 mx-5">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <h2 className="uppercase text-mariner-950/80 tracking-widest text-center">
         FAQ's
       </h2>
@@ -105,22 +127,22 @@ const GeneralFAQs = () => {
       </h3>
       <div className="flex flex-col gap-5 w-full">
         {visibleFAQs.map((faq, index) => (
-          <div key={index} className="border-b border-main-black/30 pb-2" data-aos="fade up">
+          <div
+            key={index}
+            className="border-b border-main-black/30 pb-2"
+            data-aos="fade up"
+          >
             <button
               onClick={() => toggleFAQ(index)}
               className="text-xl lg:text-2xl w-full text-left flex justify-between py-3 text-mariner-950/90 hover:text-main-blue"
             >
               {faq.question}
               <IoIosArrowForward
-                className={`${
-                  openQuestions[index] ? "-rotate-90" : "rotate-90"
-                } size-5 duration-200 shrink-0`}
+                className={`$${openQuestions[index] ? "-rotate-90" : "rotate-90"} size-5 duration-200 shrink-0`}
               />
             </button>
             <div
-              className={`duration-500 overflow-hidden ${
-                openQuestions[index] ? "max-h-min" : "max-h-0"
-              }`}
+              className={`duration-500 overflow-hidden ${openQuestions[index] ? "max-h-min" : "max-h-0"}`}
             >
               <div className="text-accent-900/80 text-lg lg:text-xl pl-5">
                 {parse(faq.answer)}

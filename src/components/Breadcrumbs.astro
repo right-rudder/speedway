@@ -1,0 +1,35 @@
+---
+// Breadcrumbs.astro: Generates UI and schema.org structured data for breadcrumbs
+
+// Usage: <Breadcrumbs crumbs={[{ name: 'Home', url: '/' }, ...]} />
+
+const { crumbs } = Astro.props;
+
+const itemListElement = crumbs.map((crumb, idx) => ({
+  '@type': 'ListItem',
+  position: idx + 1,
+  name: crumb.name,
+  item: crumb.url,
+}));
+---
+<nav aria-label="Breadcrumb" class="hidden text-sm my-4">
+  <ol class="flex flex-wrap gap-1 items-center">
+    {crumbs.map((crumb, idx) => (
+      <li class="flex items-center">
+        {idx > 0 && <span class="mx-1">/</span>}
+        {idx < crumbs.length - 1 ? (
+          <a href={crumb.url} class="text-blue-600 hover:underline">{crumb.name}</a>
+        ) : (
+          <span class="text-gray-700 font-semibold">{crumb.name}</span>
+        )}
+      </li>
+    ))}
+  </ol>
+  <script type="application/ld+json">
+    {JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement,
+    })}
+  </script>
+</nav>
