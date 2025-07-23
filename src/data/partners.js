@@ -11,12 +11,13 @@ const airlinesCloud = {
       link: "https://indyjetservices.com",
     },
     {
-      imagePath: "/src/assets/stratus-logo-2.webp",
-      imageAlt: "Frontier Airlines Logo",
+      imagePath: "/src/assets/stratus-logo.png",
+      imageAlt: "Stratus Financial Logo",
       link: "https://stratus.finance/",
     },
     {
-      imagePath: "/src/assets/partner_GleimAviation_HorizontalLogo_Red_RGB.webp",
+      imagePath:
+        "/src/assets/partner_GleimAviation_HorizontalLogo_Red_RGB.webp",
       imageAlt: "Gleim Aviation logo",
       link: "https://www.gleimaviation.com",
     },

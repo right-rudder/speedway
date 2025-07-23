@@ -18,15 +18,15 @@ const FinancingTabs = () => {
               </h3>
             </div>
             <img
-              src="/stratus-logo-2.webp"
+              src="/stratus-logo.png"
               alt="Stratus Financial logo"
               className="h-16 md:h-20"
             />
           </div>
           <div className="tracking-wider w-full flex flex-col items-center">
             <p className="pt-5">
-              {COMPANY_NAME} is proud to partner with Stratus Financial to
-              make flight training more accessible for aspiring pilots. Take
+              {COMPANY_NAME} is proud to partner with Stratus Financial to make
+              flight training more accessible for aspiring pilots. Take
               advantage of flexible loan structures and achieve your aviation
               dreams.
             </p>
@@ -41,7 +41,11 @@ const FinancingTabs = () => {
           </div>
         </div>
       </section>
-      <img src="/Speedway-Flight-Training-LLC_New-FB-Template.webp" alt="Stratus Financial Banner" className="hidden md:block w-screen h-auto"></img>
+      <img
+        src="/Speedway-Flight-Training-LLC_New-FB-Template.webp"
+        alt="Stratus Financial Banner"
+        className="hidden md:block w-screen h-auto"
+      ></img>
       <section className="flex flex-col items-center bg-gradient-to-br from-white to-gray-200">
         <div className="max-w-7xl px-10 flex flex-col items-center py-10">
           <div className="flex flex-col-reverse lg:flex-row items-center w-full justify-around py-10 gap-10">
@@ -111,7 +115,9 @@ const FinancingTabs = () => {
             <p className="font-semibold pt-5">
               Will there be a penalty for early loan repayment?
             </p>
-            <p>No, you may repay the loan in full or in part without penalty.</p>
+            <p>
+              No, you may repay the loan in full or in part without penalty.
+            </p>
             <p className="font-semibold pt-5">
               Are there prerequisites for applying for a loan?
             </p>
@@ -120,7 +126,10 @@ const FinancingTabs = () => {
               the provided information, a co-borrower may be required.
             </p>
             <p className="font-semibold pt-5">How are the funds transferred?</p>
-            <p>Stratus Financial pays the funds directly to Speedway Flight Training.</p>
+            <p>
+              Stratus Financial pays the funds directly to Speedway Flight
+              Training.
+            </p>
           </div>
           <div className="pt-10 self-start">
             <h3 className="font-semibold text-xl">Additional Resources</h3>
@@ -242,8 +251,8 @@ const FinancingTabs = () => {
           </p>
           <p className="pt-5">
             Don't let financial barriers hold you back from reaching new
-            heights. Start your journey with Speedway Flight Training and Flight Training
-            Finance.
+            heights. Start your journey with Speedway Flight Training and Flight
+            Training Finance.
           </p>
 
           {/* <p className="pt-10 font-semibold text-xl">Additional Resources</p>
@@ -269,7 +278,7 @@ const FinancingTabs = () => {
           </ul> */}
         </div>
       </div>
-      
+
       <a
         href="https://www.flighttrainingfinancellc.com/"
         target="_blank"
@@ -278,7 +287,6 @@ const FinancingTabs = () => {
       >
         Apply Now
       </a>
-
     </section>
   );
   const quickComparison = (
