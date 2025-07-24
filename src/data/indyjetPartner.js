@@ -1,7 +1,7 @@
 const indyJetParner = {
   title: `Experience <span class="">SPEED</span> and Opportunity with <span class="text-mariner-700">Speedway</span> Flight Training & <span class="text-yellow-400">Indy Jets</span>`,
   description:
-    "Speedway Flight Training pairs expert instruction with a clear path to a jet career through our exclusive flow-up program with Indy Jets. Train in a structured, safe environment with top-tier instructors and aircraft — and launch your future in turbine operations before hitting 1500 hours.",
+    "Speedway Flight Training pairs expert instruction with a clear path to a jet career through our exclusive flow-up program with Indy Jets. Train in a structured, safe environment with top-tier instructors and aircraft - and launch your future in turbine operations before hitting 1500 hours.",
   bullets: [
     "Train with experienced instructors and a modern fleet at Atlanta Speedway Airport.",
     "Earn your hours with structured guidance and real-world aviation exposure.",
