@@ -5,6 +5,7 @@ import HeaderScreen from "../../components/HeaderScreen.astro";
 import PageSummary from "../../components/PageSummary.astro";
 import Affiliates from "../../components/Affiliates.astro";
 import AirlinesCloud from "../../components/AirlinesCloud.astro";
+import IndyJetPartner from "../../components/IndyJetPartner.astro";
 
 import CTAColor from "../../components/CTAColor.astro";
 import CTAFinancing from "../../components/CTAFinancing.astro";
@@ -50,8 +51,9 @@ const partners2 = [
   <PageSummary content={data.pageSummary} />
 
   <AirlinesCloud data={partners2} />
-
-  <CTAColor content={financingCompData} />
+  <CTAFinancing content={financingCompData} />
+  <!-- <CTAColor content={financingCompData} /> -->
+  <IndyJetPartner />
 
   <Affiliates
     heading={data.affiliates.heading}
