@@ -10,8 +10,10 @@ export const scholarshipPage = {
   // Top Header
   header: {
     stars: true,
-    imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-120-croped.webp",
-    imageAlt: "Speedway Flight Training students and instructors preparing for flights",
+    imagePath:
+      "/src/assets/atlanta-airport-Speedway-Flight-Training-120-croped.webp",
+    imageAlt:
+      "Speedway Flight Training students and instructors preparing for flights",
     headerH1: `Speedway Scholarship Fund`,
     paragraph: `The Speedway Scholarship Fund was created to make flight training more accessible individuals who need financial assistance. Whether you're applying or looking to donate, your involvement helps change lives and elevate futures in aviation.`,
     buttons: [
@@ -31,9 +33,10 @@ export const scholarshipPage = {
 
 export const scholarship = {
   upperHeading: "Scholarship",
-  heading: "Speedway Scholarship Fund – Empowering the Next Generation of Pilots",
+  heading:
+    "Speedway Scholarship Fund – Empowering the Next Generation of Pilots",
   descriptions: [
-    `At ${COMPANY_NAME}, we believe that financial limitations should never stand in the way of achieving your dream of flight. The Speedway Scholarship Fund was established to support passionate, motivated individuals pursuing a career in aviation, providing financial assistance for training and certification costs.`
+    `At ${COMPANY_NAME}, we believe that financial limitations should never stand in the way of achieving your dream of flight. The Speedway Scholarship Fund was established to support passionate, motivated individuals pursuing a career in aviation, providing financial assistance for training and certification costs.`,
   ],
   steps: [
     {
@@ -41,38 +44,41 @@ export const scholarship = {
       link: "https://speedwayscholarship.com/#requirements",
       paragraphs: [
         "The Speedway Scholarship Fund is open to aspiring pilots who demonstrate a strong passion for aviation, academic promise, and financial need.",
-        "Applicants must be at least 17 years old, eligible to study and train in the United States, and committed to completing a full training program at Speedway Flight Training."
+        "Applicants must be at least 17 years old, eligible to study and train in the United States, and committed to completing a full training program at Speedway Flight Training.",
       ],
-      imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-132.webp",
-      imageAlt: "Speedway Flight Training student after their first solo flight"
+      imagePath:
+        "/src/assets/atlanta-airport-Speedway-Flight-Training-132.webp",
+      imageAlt:
+        "Speedway Flight Training student after their first solo flight",
     },
     {
       title: "What Does the Scholarship Cover?",
       link: "https://speedwayscholarship.com/#program",
       paragraphs: [
-        "Scholarship awards may cover partial or full tuition for key certification programs, including the Private Pilot License (PPL), Instrument Rating, Commercial Pilot License (CPL), and Flight Instructor certifications (CFI/CFII).",
-        "Award amounts vary based on available funding and individual applicant qualifications. In some cases, the scholarship may also cover materials, checkride fees, or other training-related costs."
+        "This all-inclusive scholarship fully funds your journey to earning a Private Pilot License (PPL) - from your first ground school lesson to your final checkride. Designed to remove financial barriers, the award covers every essential step of the PPL training process, making it easier for aspiring aviators to take flight.",
+        "This covers a full Gleim Deluxe Training Kit - complete with online ground school, FAA test prep, flight tools, and more. As well as flight instruction and aircraft rental at Speedway Flight Training, LLC in Hampton, GA. It also covers first-attempt fees for both the FAA Knowledge Exam and the checkride.",
+        "Note: The scholarship does not cover retest fees or additional certifications beyond the PPL.",
       ],
       imagePath: "/src/assets/stock-kristina-delp-xx7EiLeralM-unsplash.webp",
-      imageAlt: "Speedway student practicing IFR flight techniques"
+      imageAlt: "Speedway student practicing IFR flight techniques",
     },
     {
       title: "How to Apply",
       link: "https://speedwayscholarship.com/#program",
       paragraphs: [
         "To apply, complete our online scholarship application form and submit a personal statement outlining your aviation goals, background, and financial need. You’ll also need to provide two letters of recommendation and academic transcripts (if available).",
-        "Applications are reviewed on a rolling basis. Selected candidates may be invited for an interview or discovery flight as part of the final selection process."
+        "Applications are reviewed on a rolling basis. Selected candidates may be invited for an interview or discovery flight as part of the final selection process.",
       ],
       imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-71.webp",
-      imageAlt: "Speedway Flight Training student practicing commercial maneuvers"
-    }
+      imageAlt:
+        "Speedway Flight Training student practicing commercial maneuvers",
+    },
   ],
   finalParagraph:
     "The Speedway Scholarship Fund is more than just financial aid — it's a commitment to your future in aviation. Whether you're just starting or ready to take the next step, we’re here to help make your dreams of flight take off.",
   finalButton: {
     name: "Apply for the Scholarship",
     link: "https://speedwayscholarship.com/apply/",
-    primary: true
-  }
+    primary: true,
+  },
 };
-
