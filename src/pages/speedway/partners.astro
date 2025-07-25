@@ -13,6 +13,7 @@ import CTAFinancing from "../../components/CTAFinancing.astro";
 import partnersAffiliates from "../../data/partners-affiliates.js";
 import CTAFlight from "../../data/CTAFlight.js";
 import financingCompData from "../../data/financingComp";
+import ChamberCommercePartner from "../../components/ChamberCommercePartner.astro";
 
 const { data } = partnersAffiliates;
 
@@ -37,6 +38,11 @@ const partners2 = [
     imageAlt: "Gleim Aviation logo",
     link: "https://www.gleimaviation.com",
   },
+  {
+    imagePath: "/src/assets/Partner_Chamber_of_Commerce.png",
+    imageAlt: "Chamber Commerce logo",
+    link: "/speedway/partners#chamber-commerce",
+  },
 ];
 ---
 
@@ -50,15 +56,16 @@ const partners2 = [
 
   <PageSummary content={data.pageSummary} />
 
-  <AirlinesCloud data={partners2} />
-  <CTAFinancing content={financingCompData} />
-  <!-- <CTAColor content={financingCompData} /> -->
-  <IndyJetPartner />
-
+  <!-- <AirlinesCloud data={partners2} /> -->
   <Affiliates
     heading={data.affiliates.heading}
     organizations={data.affiliates.organizations}
   />
+  <IndyJetPartner />
+
+  <CTAFinancing content={financingCompData} />
+  <ChamberCommercePartner />
+  <!-- <CTAColor content={financingCompData} /> -->
 
   <CTAColor content={CTAFlight} />
 </BaseLayout>
