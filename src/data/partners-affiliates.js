@@ -82,6 +82,11 @@ const partnersAffiliates = {
           imageAlt: "Gleim Aviation logo",
           link: "https://www.gleimaviation.com",
         },
+        {
+          imagePath: "/src/assets/Partner_Chamber_of_Commerce.png",
+          imageAlt: "Chamber Commerce logo",
+          link: "https://www.henrycounty.com",
+        },
       ],
     },
   },
