@@ -3,7 +3,7 @@ pubDate: "July 29, 2025"
 author: Eric Schafhauser
 title: "Virtual Reality Takes Flight: How New Simulation Technology is Transforming Pilot Training"
 description: "Explore how virtual reality is changing the landscape of pilot training. Discover the benefits of FAA-qualified VR simulators, including enhanced safety, accessibility, and immersive learning experiences"
-authorImage: "/src/assets/blog/virtual-simulator.jpg"
+heroImage: "/src/assets/blog/virtual-simulator.jpg"
 readingTime: 4
 category: "Training"
 tags:
