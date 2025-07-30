@@ -1,6 +1,17 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeaderSmall from "../../components/HeaderSmall.astro";
+import Welcome from "../../components/Welcome.astro";
+import FlightTrainingSection from "../../components/FlightTrainingSection.astro";
+import FlightSchoolFeatures from "../../components/FlightSchoolFeatures.astro";
+import FlightTrainingAdvantages from "../../components/FlightTrainingAdvantages.astro";
+import GridPrograms from "../../components/GridPrograms.astro";
+import GeneralFAQs from "../../components/GeneralFAQs";
+import Testimonials from "../../components/Testimonials.astro";
+import CTAColor from "../../components/CTAColor.astro";
+
+import CTAFlight from "../../data/CTAFlight.js";
 
 import {
   COMPANY_NAME,
@@ -364,4 +375,9 @@ const data = {
   siteTitle={data.data.pageTitle}
   siteDescription={data.data.pageDescription}
   keywords={data.data.pageKeywords}
-/>
+>
+  <!-- <HeaderSmall content={programData.header} /> -->
+
+  <CTAColor content={CTAFlight} />
+  <BaseLayout />
+</BaseLayout>
