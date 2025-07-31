@@ -14,7 +14,7 @@ const programs = {
     },
     {
       title: "Instrument Rating (IR)",
-      imagePath: "/src/assets/stock-ben-knight--r4CK5tFND8-unsplash.webp",
+      imagePath: "/src/assets/speedway-ft-fleet-n7350g-new-panel-hampton-pilot-training.webp",
       imageAlt: "Close-up of modern avionics in a Speedway Flight Training aircraft",
       description:
         "Train to fly in low-visibility and IFR conditions with our Instrument Rating program, designed for confident, safe pilots.",
@@ -38,7 +38,7 @@ const programs = {
     },
     {
       title: "Instrument Instructor (CFII)",
-      imagePath: "/src/assets/stock-kristina-delp-xx7EiLeralM-unsplash.webp",
+      imagePath: "/src/assets/speedway-ft-fleet-n7350g-new-panel-hampton-pilot-training-CFII.webp",
       imageAlt: "Instructor training a student on instrument procedures in flight",
       description:
         "Expand your instructor qualifications with a CFII and teach instrument procedures to the next generation of pilots.",
