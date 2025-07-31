@@ -14,7 +14,7 @@ const instrumentRatingData = {
   // Top Header
   header: {
     stars: true,
-    imagePath: "/src/assets/stock-kristina-delp-xx7EiLeralM-unsplash.webp",
+    imagePath: "/src/assets/speedway-ft-fleet-n7350g-new-panel-hampton-pilot-training-IMG_2587.jpg",
     imageAlt:
       "Speedway Flight Training aircraft flying in instrument conditions",
     headerH1: `Instrument <br>RATING</span>`,
