@@ -13,7 +13,7 @@ export const fleet = [
     imagePath: "/src/assets/N7330G-4.webp",
     imagesArray: [
       "/src/assets/N7330G-4.webp",
-      "/src/assets/N7330G-3.webp",
+      "/src/assets/speedway-ft-fleet-n7350g-new-panel-hampton-pilot-training.webp",
       "/src/assets/N7330G-2.webp",
       "/src/assets/N7330G-1.webp",
     ],
