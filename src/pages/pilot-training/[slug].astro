@@ -40,6 +40,7 @@ const location = Astro.props;
 const locationCity = location.data.city || "your area";
 const locationStateShort = location.data.stateShort || "your state";
 const locationStateLong = location.data.stateLong || "your state";
+const baseLocation = location.data.baseLocation || "speedway airport";
 const locationDescription =
   location.data.description ||
   "A great place with unique attractions and a welcoming community.";
@@ -111,115 +112,110 @@ const data = {
         },
       ],
     },
-    roadmap: {
-      upperHeading: "Roadmap",
-      heading: "Fast Track to the Flight Deck – Your Path to an Airline Career",
+    speedway: {
+      upperHeading: "Speedway Flight Training",
+      heading: `Fast Track to the Flight Deck <br> Your Path to an <strong class="text-primary-600">Pilot Career</strong> Near <strong class="text-primary-600">${locationCity}, ${locationStateShort} </strong>`,
       descriptions: [
-        `Achieve your dream of becoming an airline pilot with ${COMPANY_NAME}. Our Fast Track to the Flight Deck program provides an efficient and structured path from zero experience to a professional aviation career.`,
+        `Achieve your dream of becoming an airline pilot with ${COMPANY_NAME}. Our Fast Track to the Flight Deck program near ${locationCity}, ${locationStateShort} provides an efficient and structured path from zero experience to a professional aviation career.`,
       ],
       steps: [
         {
           title: "Earn a Private Pilot License (PPL)",
           link: "/programs/private-pilot",
           paragraphs: [
-            "The journey begins with earning your Private Pilot License (PPL). This certification introduces you to aviation fundamentals, including aircraft operations, flight navigation, and air traffic communication.",
-            "At Speedway Flight Training, our PPL course is designed to give you hands-on flight experience with expert one-on-one instruction. This is your first major milestone toward becoming a professional pilot.",
+            `Begin your aviation journey in ${locationCity} by earning your Private Pilot License (PPL). Learn core aviation skills, from aircraft operations to communication with air traffic control.`,
+            `${COMPANY_NAME} provides hands-on instruction and real-world flight experience near ${locationKeyPlace1} in a personalized and structured program.`,
           ],
           imagePath:
             "/src/assets/atlanta-airport-Speedway-Flight-Training-132.webp",
-          imageAlt:
-            "Speedway Flight Training student after their first solo flight",
+          imageAlt: `Student pilot near ${locationCity}, ${locationStateShort} after their first solo flight.`,
         },
         {
           title: "Add an Instrument Rating (IR)",
           link: "/programs/instrument-rating",
           paragraphs: [
-            "An Instrument Rating (IR) is your next step, allowing you to fly in various weather conditions and under Instrument Flight Rules (IFR). This is an essential qualification for any pilot pursuing a career in commercial aviation.",
-            "Our IR program at Speedway focuses on precision, advanced navigation, and decision-making skills in IFR environments, preparing you for professional operations.",
+            `Take your skills further with an Instrument Rating and learn to fly in low-visibility weather under Instrument Flight Rules (IFR).`,
+            `Training near ${locationCity} gives you exposure to Class B airspace while avoiding major airport congestion—perfect for building IFR confidence.`,
           ],
           imagePath:
             "/src/assets/stock-kristina-delp-xx7EiLeralM-unsplash.webp",
-          imageAlt: "Speedway student practicing IFR flight techniques",
+          imageAlt: `Student practicing instrument flight techniques near ${locationCity}.`,
         },
         {
           title: "Earn a Commercial Pilot License (CPL)",
           link: "/programs/commercial-pilot",
           paragraphs: [
-            "With your PPL and IR completed, the next step is obtaining a Commercial Pilot License (CPL), which allows you to fly professionally and be compensated for your flights.",
-            "At Speedway, our CPL training emphasizes advanced maneuvers, professionalism, and flight proficiency. This certification sets the foundation for commercial airline careers.",
+            `With your PPL and IR in hand, it's time to earn your Commercial Pilot License (CPL), enabling you to fly professionally.`,
+            `Train in ${locationCity}, ${locationStateShort}, where you’ll refine advanced maneuvers and prepare for real-world aviation careers.`,
           ],
           imagePath:
             "/src/assets/atlanta-airport-Speedway-Flight-Training-71.webp",
-          imageAlt:
-            "Speedway Flight Training student practicing commercial maneuvers",
+          imageAlt: `Commercial flight training session near ${locationKeyPlace2}.`,
         },
         {
           title: "Earn a Flight Instructor Certificate (CFI)",
           link: "/programs/certified-flight-instructor",
           paragraphs: [
-            "Becoming a Certified Flight Instructor (CFI) is a strategic step for building flight hours efficiently while earning income. This role strengthens your aviation knowledge and instructional skills.",
-            "At Speedway, we offer a structured CFI program that prepares you to train the next generation of pilots while working toward your ultimate career goals.",
+            `Becoming a Certified Flight Instructor (CFI) allows you to earn income while building hours. It’s one of the fastest ways to reach airline minimums.`,
+            `At ${COMPANY_NAME} near ${locationCity}, you’ll receive structured instruction to help you train future aviators.`,
           ],
           imagePath:
             "/src/assets/atlanta-airport-Speedway-Flight-Training-125.webp",
-          imageAlt: "Speedway instructor and student in a pre-flight briefing",
+          imageAlt: `Pre-flight instructor briefing at ${baseLocation}.`,
         },
         {
           title: "Add a Certified Flight Instructor - Instrument (CFII)",
           link: "/programs/certified-flight-instructor",
           paragraphs: [
-            "Enhancing your credentials with a Certified Flight Instructor - Instrument (CFII) rating allows you to train students in instrument flight procedures, further increasing your flight hours and expertise.",
-            "At Speedway, our CFII program refines your instructional techniques and prepares you to mentor pilots through IFR training.",
+            `Expand your teaching credentials with a CFII rating, allowing you to instruct on instrument procedures.`,
+            `Our CFII program near ${locationCity}, ${locationStateShort}, prepares you to guide students through IFR environments with confidence.`,
           ],
           imagePath:
             "/src/assets/atlanta-airport-Speedway-Flight-Training-129.webp",
-          imageAlt:
-            "Speedway instructor reviewing instrument navigation techniques",
+          imageAlt: `Instructor teaching instrument procedures near ${locationCity}, ${locationStateShort}.`,
         },
         {
           title: "Optional: Add a Multi-Engine Rating (ME)",
           link: "/programs/multi-engine#top",
           paragraphs: [
-            "Adding a Multi-Engine Rating (ME) enhances your capabilities and opens doors to airline, corporate, and charter operations. It's a valuable credential that demonstrates your ability to handle more complex aircraft.",
-            "Speedway’s Multi-Engine Add-On program is designed to be completed in just 3–5 weeks and includes advanced maneuvers, emergency procedures, and full checkride preparation in a modern twin-engine aircraft.",
+            `Enhance your credentials with a Multi-Engine Add-On — a valuable asset for airline and charter careers.`,
+            `Train in ${locationCounty} with expert instructors and advanced twin-engine aircraft in just 3–5 weeks.`,
           ],
           imagePath: "/src/assets/stock-david-b-o27uCBOPbG0-unsplash.webp",
-          imageAlt: "Speedway student pilot in a multi-engine aircraft",
+          imageAlt: `Student in multi-engine aircraft near ${locationCity}, ${locationStateShort}.`,
         },
         {
           title: "Build Flight Hours & Gain Experience",
           paragraphs: [
-            "After completing your instructor ratings (and optionally, your Multi-Engine Rating), the focus shifts to time-building. You’ll work toward meeting the 1,500-hour requirement for the Airline Transport Pilot (ATP) certificate.",
-            "Speedway students often build hours as instructors or by flying in charter operations. Through our partnership with Indy Jet, eligible graduates can be referred to their charter operation — providing a direct path to commercial experience and turbine time.",
+            `After earning your CFI/CFII (and optionally your Multi-Engine Rating), focus on reaching 1,500 hours—the requirement for your Airline Transport Pilot (ATP) certificate.`,
+            `Instructors at ${COMPANY_NAME} build hours efficiently while mentoring others, with some advancing through our partnership with Indy Jet and charter operations.`,
           ],
           imagePath:
             "/src/assets/atlanta-airport-Speedway-Flight-Training-38.webp",
-          imageAlt: "Speedway graduate logging flight hours as a CFI",
+          imageAlt: `CFI candidate building hours near ${locationKeyPlace1}.`,
         },
         {
           title: "Interview with Airlines & Begin ATP Training",
           paragraphs: [
-            "When you reach 1,500 flight hours, you're eligible for the Airline Transport Pilot (ATP) certificate, the final requirement for becoming an airline pilot.",
-            "Airline interviews assess your technical knowledge, decision-making skills, and readiness for commercial operations. Successful candidates receive conditional job offers and formal ATP training with their airline.",
+            `Once you’ve logged 1,500 hours, you’re eligible to interview with regional airlines and begin ATP training.`,
+            `Our graduates near ${locationCity} have successfully entered commercial aviation through a structured, fast-paced training journey.`,
           ],
           imagePath:
             "/src/assets/cessna-172-runway-takeoff-speedway-flight-training.webp",
-          imageAlt: "Speedway graduate at an airline interview session",
+          imageAlt: `Speedway graduate attending airline interview in ${locationStateLong}.`,
         },
         {
           title: "Begin Your Airline Career",
           paragraphs: [
-            "After meeting ATP requirements, you'll begin your career as a First Officer at a regional airline. This is your opportunity to gain real-world airline experience, preparing you for long-term success.",
-            "With continuous training and experience, you can progress to Captain and eventually transition to major airlines, achieving your goal of flying for a commercial airline.",
+            `With your ATP certificate in hand, start flying as a First Officer for a regional airline. Build turbine time and grow your experience in commercial operations.`,
+            `From your first flight in ${locationCity} to the airline flight deck, ${COMPANY_NAME} supports every step of your journey.`,
           ],
           imagePath:
             "/src/assets/atlanta-airport-Speedway-Flight-Training-134.webp",
-          imageAlt:
-            "First Officer preparing for a flight in an airline cockpit",
+          imageAlt: `Airline First Officer preparing flight plan after training in ${locationCity}, ${locationStateShort}.`,
         },
       ],
-      finalParagraph:
-        "Ready to take the first step toward becoming an airline pilot? Enroll in Speedway Flight Training’s Fast Track to the Flight Deck program and accelerate your journey to the skies.",
+      finalParagraph: `Start your aviation journey with ${COMPANY_NAME} at ${baseLocation} in ${locationCity}, ${locationStateShort}. Enroll today and fast-track your path to a rewarding airline career.`,
       finalButton: {
         name: "Apply Now",
         link: "/enroll",
@@ -238,7 +234,7 @@ const data = {
   <HeaderSmall content={data.data.header} />
 
   <Welcome content={data.data.welcome} />
-  <TrainingRoadmap content={data.data.roadmap} />
+  <TrainingRoadmap content={data.data.speedway} />
   <GridPrograms content={programs} />
   <section class="py-14 bg-accent-100">
     <div class="max-w-7xl mx-auto flex justify-center">
