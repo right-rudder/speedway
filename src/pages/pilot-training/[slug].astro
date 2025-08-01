@@ -95,16 +95,15 @@ const data = {
       ],
     },
     welcome: {
-      title: "Welcome to Speedway Flight Training",
+      title: `Welcome to ${COMPANY_NAME}`,
       paragraphs: [
-        "At Speedway Flight Training, we’re proud to offer high-quality instruction with a well-maintained fleet in the Greater Atlanta area.",
-        "Based in Hampton, GA, at Atlanta Speedway Airport, we provide a safe, structured, and supportive environment for all aspiring pilots.",
-        "Whether you’re training for recreational flying or preparing for a professional aviation career, we offer personalized instruction, modern equipment, and comprehensive programs to help you achieve your goals.",
+        `${COMPANY_NAME} is committed to helping you become a safe, confident, and professional pilot—fast.`,
+        `Located at ${baseLocation} near ${locationCity}, ${locationStateShort}, we provide top-tier flight instruction with a well-maintained fleet and a clear path from Private Pilot to Certified Flight Instructor.`,
+        `Whether you're just starting out or advancing your certifications, our experienced instructors, modern aircraft, and supportive environment near ${locationKeyPlace1} and ${locationKeyPlace2} will guide you every step of the way.`,
       ],
       imagePath:
         "/src/assets/speedway-flight-training-cessna-172-hampton-ga.webp",
-      imageAlt:
-        "Cessna 172 at Atlanta Speedway Airport in Hampton, GA, during sunset. Speedway Flight Training's well-maintained fleet provides professional pilot training near Atlanta, offering private, instrument, and commercial flight courses.",
+      imageAlt: `Cessna 172 at ${baseLocation} in ${locationCity}, ${locationStateShort}, during sunset. ${COMPANY_NAME}'s well-maintained fleet provides professional pilot training near ${locationKeyPlace1} and ${locationKeyPlace2}, offering private, instrument, and commercial flight courses.`,
       buttons: [
         {
           text: "About Us",
@@ -215,12 +214,26 @@ const data = {
           imageAlt: `Airline First Officer preparing flight plan after training in ${locationCity}, ${locationStateShort}.`,
         },
       ],
-      finalParagraph: `Start your aviation journey with ${COMPANY_NAME} at ${baseLocation} in ${locationCity}, ${locationStateShort}. Enroll today and fast-track your path to a rewarding airline career.`,
+      finalParagraph: `Start your aviation journey with ${COMPANY_NAME} at ${baseLocation} near ${locationCity}, ${locationStateShort}. Enroll today and fast-track your path to a rewarding airline career.`,
       finalButton: {
         name: "Apply Now",
         link: "/enroll",
         primary: true,
       },
+    },
+    ctaFlight: {
+      imagePath:
+        "/src/assets/atlanta-airport-Speedway-Flight-Training-104-croped.webp",
+      imageAlt: `${COMPANY_NAME} student flying near ${baseLocation}, with aerial views of ${locationKeyPlace1} and ${locationKeyPlace2}`,
+      headerH1: `Take the First Step<br>With a <span class="text-primary-700">Discovery Flight</span>`,
+      paragraph: `Experience the thrill of flying with a Discovery Flight at ${COMPANY_NAME}. Whether you're exploring aviation as a passion or considering a career in flight, this hands-on experience lets you take the controls under the guidance of a certified instructor. Fly over landmarks like <strong>${locationKeyPlace1}</strong>, <strong>${locationKeyPlace2}</strong>, and the surrounding ${locationCity}, ${locationStateShort} area as you begin your aviation journey.`,
+      buttons: [
+        {
+          name: "Book Now",
+          link: "/discovery-flight",
+          primary: true,
+        },
+      ],
     },
   },
 };
@@ -241,5 +254,5 @@ const data = {
       <GeneralFAQs client:visible />
     </div>
   </section>
-  <CTAColor content={CTAFlight} />
+  <CTAColor content={data.data.ctaFlight} />
 </BaseLayout>
