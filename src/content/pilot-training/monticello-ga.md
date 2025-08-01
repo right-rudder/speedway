@@ -3,16 +3,16 @@ city: "Monticello"
 stateShort: "GA"
 stateLong: "Georgia"
 description: "A peaceful small town with Southern charm and scenic countryside, perfect for quiet living."
-baseLocation: "Jasper County"
+baseLocation: "Atlanta Speedway Airport"
 keyPlace1: "Monticello Historic Square"
 keyPlace2: "Charlie Elliott Wildlife Center"
 
 headerImages:
-  - "/src/assets/placeholder.webp"
-  - "/src/assets/placeholder.webp"
-  - "/src/assets/placeholder.webp"
-  - "/src/assets/placeholder.webp"
-  - "/src/assets/placeholder.webp"
+  - "/src/assets/speedway-checkered-flag-atlanta-hampton-georgia-plane-3.webp"
+  - "/src/assets/stock-david-b-o27uCBOPbG0-unsplash.webp"
+  - "/src/assets/atlanta-airport-Speedway-Flight-Training-71.webp"
+  - "/src/assets/atlanta-airport-Speedway-Flight-Training-132-croped.webp"
+  - "/src/assets/atlanta-airport-Speedway-Flight-Training-141.webp"
 
 headlines:
   - "Learn to Fly in Peaceful {{city}}, {{stateShort}}"

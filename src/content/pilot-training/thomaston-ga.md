@@ -3,16 +3,16 @@ city: "Thomaston"
 stateShort: "GA"
 stateLong: "Georgia"
 description: "A welcoming city nestled in west-central Georgia, offering history, parks, and small-town warmth."
-baseLocation: "Upson County"
+baseLocation: "Atlanta Speedway Airport"
 keyPlace1: "Thomaston-Upson Civic Center"
 keyPlace2: "Sprewell Bluff Park"
 
 headerImages:
-  - "/src/assets/placeholder.webp"
-  - "/src/assets/placeholder.webp"
-  - "/src/assets/placeholder.webp"
-  - "/src/assets/placeholder.webp"
-  - "/src/assets/placeholder.webp"
+  - "/src/assets/speedway-checkered-flag-atlanta-hampton-georgia-plane-3.webp"
+  - "/src/assets/stock-david-b-o27uCBOPbG0-unsplash.webp"
+  - "/src/assets/atlanta-airport-Speedway-Flight-Training-71.webp"
+  - "/src/assets/atlanta-airport-Speedway-Flight-Training-132-croped.webp"
+  - "/src/assets/atlanta-airport-Speedway-Flight-Training-141.webp"
 
 headlines:
   - "Learn to Fly in Friendly {{city}}, {{stateShort}}"
