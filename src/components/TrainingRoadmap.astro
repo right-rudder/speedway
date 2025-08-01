@@ -20,7 +20,7 @@ const { content } = Astro.props;
       {
         content.heading && (
           <h2 class="mx-auto px-5 lg:px-0 mb-3 text-3xl lg:text-5xl font-sans2 font-bold tracking-tight text-accent-200">
-            {content.heading}
+            <Fragment set:html={content.heading} />
           </h2>
         )
       }
@@ -105,7 +105,11 @@ const { content } = Astro.props;
               href={content.finalButton.link}
               class={`${content.finalButton.primary ? "btn-primary" : "btn-white"} w-full md:w-auto`}
               target={content.finalButton.link.includes("http") ? "_blank" : ""}
-              rel={content.finalButton.link.includes("http") ? "noopener noreferrer" : ""}
+              rel={
+                content.finalButton.link.includes("http")
+                  ? "noopener noreferrer"
+                  : ""
+              }
             >
               {content.finalButton.name}
             </a>
