@@ -98,5 +98,5 @@ Choose your next step:
 
 Our team is here to answer questions, compare pathways, and get you flying. Enroll today or reach out to plan your first lesson—let’s get you in the air.
 
-Your journey to the skies starts here. [Contact us](/contact) or [call us at (678) 944-7379](tel:+16789447379) to learn more about our [flight training programs](/programs).**
+Your journey to the skies starts here. [Contact us](/contact) or [call us at (678) 944-7379](tel:+16789447379) to learn more about our [flight training programs](/programs).
 
