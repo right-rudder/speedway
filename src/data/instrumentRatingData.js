@@ -16,7 +16,7 @@ const instrumentRatingData = {
     imagePath: "/src/assets/speedway-ft-fleet-n7350g-new-panel-hampton-pilot-training-IMG_2587.jpg",
     imageAlt: "Speedway Flight Training aircraft flying in instrument conditions",
     headerH1: `Instrument <br>RATING`,
-    paragraph: `Expand your flight skills and master IFR procedures with Speedway Flight Training’s Instrument Rating program. Train with expert instructors and gain confidence flying in low-visibility conditions.`,
+    paragraph: `Expand your skills and fly in all weather conditions with confidence. This program provides advanced training in instrument navigation, flight planning, and situational awareness to make you a safer and more capable pilot.`,
     buttons: [
       { name: "Apply Now", link: "/enroll", primary: false },
       { name: "Request Info", link: "/contact", primary: false },
@@ -36,7 +36,7 @@ const instrumentRatingData = {
       <ul class="list-disc list-inside space-y-2">
         <li><strong>Accelerated Program:</strong> Complete in as little as 6–8 weeks</li>
         <li><strong>Flexible Option:</strong> Train at your own pace</li>
-        <li><strong>Estimated Cost:</strong> $13,925 (based on 40 flight instruction hours and 18.5 ground lesson hours) — Additional expenses apply</li>
+        <li><strong>Estimated Cost: $13,925</strong> (Based on 40 flight instruction hours and 18.5 ground lesson hours) – Additional expenses apply (see below). – Additional expenses apply (see below)</li>
         <li><strong>Training Location:</strong> Speedway Flight Training facilities</li>
         <li><strong>Aircraft Used:</strong> Modern, well-maintained fleet equipped for IFR training</li>
         <li><strong>FAA Minimum Requirements:</strong> 40 hours of instrument flight training, including simulated instrument training and cross-country flight time</li>
@@ -69,6 +69,8 @@ const instrumentRatingData = {
 
     additionalCosts: {
       heading: "What’s Not Included (Additional Student Costs)?",
+      subHeading:
+        "To ensure transparency, students should budget for the following additional items:",
       items: [
         "Noise-canceling aviation headset (~$600 - $1,200 – Recommended brands: Bose, Lightspeed, David Clark)",
         "iPad with GPS (~$500 - $700 – Cellular capable, no cellular plan required)",
