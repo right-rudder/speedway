@@ -37,38 +37,40 @@ const fastTrackZeroToCFIData = {
 
     title: "Overview",
     description: `
-      Speedway Flight Training’s <strong>Fast Track to the Flight Deck</strong> program is designed for students looking to complete their training efficiently and advance toward a career in aviation.
-      <br/><br/>
-      🚀 <strong>Accelerated Program:</strong> Complete from <strong>zero to CFI in 12-18 months</strong>.<br/>
-      📆 <strong>Flexible Training:</strong> Choose a self-paced option if needed.<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
-      💰 <strong>Estimated Cost:</strong> <strong>$86,125</strong> (based on <strong>265 total flight hours</strong>; additional expenses apply).<br/>
-      🛩 <strong>Aircraft Used:</strong> Modern, well-maintained <strong>Cessna 172 fleet</strong>.<br/>
-      📜 <strong>FAA Requirements:</strong> Includes all required licenses and ratings for professional pilot training.<br/>
-      <br/>
-      This program provides <strong>one-on-one mentorship, scenario-based training, and full checkride preparation</strong> to ensure you graduate ready for a successful aviation career.
+      Speedway Flight Training’s <strong>Fast Track to the Flight Deck</strong> program is built for students who want to efficiently transition from zero flight hours to CFI certification. This immersive training experience prioritizes safety, professionalism, and structured progress.
+
+      <ul class="list-disc list-inside space-y-2 mt-4 mb-4">
+        <li><strong>Accelerated Program:</strong> Complete from <strong>zero to CFI in as little as 12–18 months</strong></li>
+        <li><strong>Estimated Cost:</strong> <strong>$91,900</strong> (Based on 268 total flight hours and ground school time with Instructor Pilot; additional expenses apply)</li>
+        <li><strong>Training Location:</strong> Speedway Flight Training facilities at Atlanta Speedway Airport (KHMP)</li>
+        <li><strong>Aircraft Used:</strong> Modern, well-maintained training fleet</li>
+        <li><strong>Flight Time Breakdown:</strong> PPL – 50 hrs, IR – 40 hrs, CPL – 160 hrs, CFI – 18 hrs</li>
+        <li><strong>FAA Requirements:</strong> Meets all certification steps for a career in aviation</li>
+      </ul>
+
+      This program offers <strong>structured ground school, real-world training scenarios, mock exams, and one-on-one mentorship</strong> to prepare students for a successful and professional future in aviation.
     `,
 
     keyPoints: [
-      "Complete Training from Zero to CFI in 12-18 Months",
+      "Complete Training from Zero to CFI in 12–18 Months",
       "Includes PPL, Instrument, CPL, and CFI Ratings",
-      "265 Flight Hours with One-on-One Instructor Mentorship",
-      "Hands-On Experience in Modern, Well-Maintained Aircraft",
+      "268 Flight Hours with One-on-One Instructor Mentorship",
+      "Mock Oral Exams and Pre/Post Ground with Instructor Pilot",
       "Structured Ground School & FAA Exam Preparation",
-      "Comprehensive Checkride Preparation",
+      "Real-World Flight Training and Scenario-Based Instruction",
     ],
 
-    // What's Included
     included: {
       heading: "What’s Included in Your Training Package?",
       items: [
-        "265 flight training hours",
+        "268 flight hours of training",
         "One-on-one instructor mentorship",
+        "Mock Oral Exams and Pre/Post Ground with Instructor Pilot",
         "Ground school & exam preparation",
         "Gleim Deluxe Private Pilot Kit",
         "Gleim Instrument Pilot Materials",
         "Gleim Commercial Pilot Materials",
-        "Gleim Flight/Ground Instructor + FOI Kit",
+        "Gleim Flight/Ground Instructor + FOI Materials",
         "Foggles (for instrument training)",
         "Fuel tester",
         "Advanced flight maneuvers and scenario-based training",
@@ -77,31 +79,33 @@ const fastTrackZeroToCFIData = {
       ],
     },
 
-    // Additional Costs
     additionalCosts: {
       heading: "What’s Not Included (Additional Student Costs)?",
       items: [
-        "Noise-canceling aviation headset (~$600 - $1,100; Recommended: Bose, Lightspeed, David Clark)",
-        "iPad with GPS (~$500 - $700; Cellular capable, no data plan required)",
+        "Noise-canceling aviation headset (~$600–$1,200; Recommended brands: Bose, Lightspeed, David Clark)",
+        "iPad with GPS (~$500–$700; Cellular capable, no cellular plan required)",
         "Aircraft rental insurance (~$600/year; Required for training flights)",
-        "ForeFlight subscription (~$250/year; Flight planning & in-flight navigation)",
+        "FAA Designated Pilot Examiner (DPE) practical exam fees (~$800–$1,200)",
+        "FAA written exam fees (~$175)",
+        "ForeFlight subscription (~$250/year; Flight planning and navigation)",
         "FAA 1st Class Medical clearance (~$150; Required for professional pilots)",
+        "Applicable Sales Taxes",
       ],
     },
 
-    // Benefits
     benefits: {
       heading: "Why Train with Speedway?",
       items: [
-        "Structured, Accelerated Program for Career-Oriented Pilots",
-        "Comprehensive Training from Zero Experience to CFI",
-        "Expert Instructors and One-on-One Mentorship",
-        "Real-World Scenario-Based Training & Advanced Flight Maneuvers",
-        "State-of-the-Art Training Fleet and Safety-Focused Environment",
-        "Comprehensive Checkride Preparation for Every Certification Level",
+        "Accelerated Path from Zero to CFI Certification",
+        "Personalized One-on-One Mentorship",
+        "Structured, FAA-Aligned Curriculum",
+        "Scenario-Based Instruction for Real-World Readiness",
+        "Highly Maintained Fleet of Modern Aircraft",
+        "Culture of Safety, Integrity, and Professionalism",
       ],
     },
 
+    // Preserved original CTA
     cta: {
       imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-128.webp",
       imageAlt: "Speedway Flight Training students in a classroom session",
@@ -114,12 +118,11 @@ const fastTrackZeroToCFIData = {
       },
     },
 
-    // FAQs
     faqs: [
       {
         question: "How long does it take to complete the Fast Track to the Flight Deck program?",
         answer:
-          "Our accelerated program allows students to complete training in <strong>12-18 months</strong>. A self-paced option is also available for those needing more flexibility.",
+          "Our accelerated program allows students to complete training in <strong>12–18 months</strong>. A self-paced option is also available for those needing more flexibility.",
       },
       {
         question: "Can I finance my training?",
