@@ -18,7 +18,7 @@ const privatePilotData = {
     imageAlt:
       "Speedway Flight Training aircraft on the runway at Atlanta Speedway Airport",
     headerH1: `Private Pilot <br>LICENSE</span>`,
-    paragraph: `The foundation of your aviation journey. Train with expert instructors, gain real-world flight experience, and complete your Private Pilot License in as little as 8 weeks with Speedway Flight Training.`,
+    paragraph: `The foundation of your aviation journey. This program provides you with the essential skills and knowledge to become a certified Private Pilot, while equipping you with high-quality training materials and tools to enhance your learning experience.`,
     buttons: [
       {
         name: "Apply Now",
@@ -47,9 +47,9 @@ const privatePilotData = {
         <li><strong>Accelerated Program:</strong> Complete in as little as <strong>8 weeks</strong></li>
         <li><strong>Flexible Option:</strong> Train at your own pace</li>
         <li><strong>Estimated Cost:</strong> <strong>$17,175</strong> (Based on 50 flight training hours and 18.5 ground lesson hours – additional expenses apply)</li>
-        <li><strong>Aircraft Used:</strong> Modern, well-maintained fleet</li>
         <li><strong>Training Location:</strong> Speedway Flight Training facilities at <strong>Atlanta Speedway Airport (KHMP)</strong></li>
-        <li><strong>FAA Minimum Requirements:</strong> 40 flight hours (students typically require 50+ hours)</li>
+        <li><strong>Aircraft Used:</strong> Modern, well-maintained fleet</li>
+        <li><strong>FAA Minimum Requirements:</strong> 40 hours of flight time, but students typically require 50+ hours</li>
       </ul>
       <br/>
       If you're looking to earn your wings in a structured, fast-paced, and safety-driven environment, this is your launchpad. Our instructors are passionate about aviation and fully committed to your success, on the checkride and beyond.
@@ -81,6 +81,8 @@ const privatePilotData = {
 
     additionalCosts: {
       heading: "What’s Not Included (Additional Student Costs)?",
+      subHeading:
+        "To ensure transparency, students should budget for the following additional items:",
       items: [
         "Noise-canceling aviation headset (~$600 - $1,200 – Recommended brands: Bose, Lightspeed, David Clark)",
         "iPad with GPS (~$500 - $700 – Cellular capable, no cellular plan required)",
