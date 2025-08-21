@@ -33,19 +33,26 @@ const fastTrackZeroToCFIData = {
     upperHeading: "Accelerate Your Aviation Career",
     heading: "Fast Track to the Flight Deck",
     subHeading:
-      "For aspiring pilots who want an efficient and structured path to becoming a professional pilot, this all-inclusive program takes students from zero flight hours to Certified Flight Instructor (CFI).",
+      "Designed for aspiring pilots looking for an efficient and structured path to a professional aviation career, Speedway’s all-inclusive program takes students from zero flight hours to Certified Flight Instructor (CFI)",
 
     title: "Overview",
     description: `
       Speedway Flight Training’s <strong>Fast Track to the Flight Deck</strong> program is built for students who want to efficiently transition from zero flight hours to CFI certification. This immersive training experience prioritizes safety, professionalism, and structured progress.
 
       <ul class="list-disc list-inside space-y-2 mt-4 mb-4">
-        <li><strong>Accelerated Program:</strong> Complete from <strong>zero to CFI in as little as 12–18 months</strong></li>
-        <li><strong>Estimated Cost:</strong> <strong>$91,900</strong> (Based on 268 total flight hours and ground school time with Instructor Pilot; additional expenses apply)</li>
-        <li><strong>Training Location:</strong> Speedway Flight Training facilities at Atlanta Speedway Airport (KHMP)</li>
+        <li><strong>Accelerated Program:</strong> Complete in as little as <strong>12–18 months</strong></li>
+        <li><strong>Estimated Cost:</strong> <strong>$91,900</strong> (Based on 268 total flight hours and ground school time with Instructor Pilot) – Additional expenses apply (see below)</li>
+        <li><strong>Training Location:</strong> Speedway Flight Training facilities</li>
         <li><strong>Aircraft Used:</strong> Modern, well-maintained training fleet</li>
-        <li><strong>Flight Time Breakdown:</strong> PPL – 50 hrs, IR – 40 hrs, CPL – 160 hrs, CFI – 18 hrs</li>
-        <li><strong>FAA Requirements:</strong> Meets all certification steps for a career in aviation</li>
+        <li>
+          <strong>Average Flight Time Requirements:</strong>
+          <ul class="list-[circle] list-inside ml-6 mt-1 space-y-1">
+            <li><strong>Private Pilot License (PPL)</strong> – 50 hours</li>
+            <li><strong>Instrument Rating (IR)</strong> – 40 hours</li>
+            <li><strong>Commercial Pilot License (CPL)</strong> – 160 hours</li>
+            <li><strong>Certified Flight Instructor (CFI)</strong> – 18 hours</li>
+          </ul>
+        </li>
       </ul>
 
       This program offers <strong>structured ground school, real-world training scenarios, mock exams, and one-on-one mentorship</strong> to prepare students for a successful and professional future in aviation.
@@ -81,6 +88,8 @@ const fastTrackZeroToCFIData = {
 
     additionalCosts: {
       heading: "What’s Not Included (Additional Student Costs)?",
+      subHeading:
+        "To ensure transparency, students should budget for the following additional items:",
       items: [
         "Noise-canceling aviation headset (~$600–$1,200; Recommended brands: Bose, Lightspeed, David Clark)",
         "iPad with GPS (~$500–$700; Cellular capable, no cellular plan required)",
@@ -88,7 +97,7 @@ const fastTrackZeroToCFIData = {
         "FAA Designated Pilot Examiner (DPE) practical exam fees (~$800–$1,200)",
         "FAA written exam fees (~$175)",
         "ForeFlight subscription (~$250/year; Flight planning and navigation)",
-        "FAA 1st Class Medical clearance (~$150; Required for professional pilots)",
+        "FAA 1st Class Medical clearance  (~$150  -  Required for those pursuing a professional pilot career)",
         "Applicable Sales Taxes",
       ],
     },
