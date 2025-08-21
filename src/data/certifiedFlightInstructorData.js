@@ -8,7 +8,7 @@ import {
 const certifiedFlightInstructorData = {
   pageTitle: `Become a Certified Flight Instructor (CFI) | Build Flight Hours | ${COMPANY_NAME}`,
   pageDescription:
-    "Earn your CFI certificate in just 4-6 weeks and launch your aviation teaching career! Our specialized program includes FOI preparation, one-on-one mentorship, and employment opportunities with 100% job placement. Financing available.",
+    "Turn your passion for aviation into a teaching career. Complete your CFI training in 4–6 weeks with personalized instruction, mentorship, and checkride prep. Financing available.",
   pageKeywords: `${PROGRAM_KEYWORDS.flightInstructor}, ${LOCATION_KEYWORDS.primary}, flight instructor jobs Georgia, build flight hours teaching, CFI certification Atlanta, flight instructor career path, FOI exam preparation, teaching methodology aviation, CFI checkride preparation, how to become a flight instructor, build hours for airlines, aviation instructor training, 4-week CFI program`,
 
   // Top Header
@@ -17,7 +17,7 @@ const certifiedFlightInstructorData = {
     imagePath: "/src/assets/cessna-172-in-flight-over-hampton-ga-croped.webp",
     imageAlt: "Speedway Flight Training instructor guiding a student pilot",
     headerH1: `Certified Flight <br>INSTRUCTOR (CFI)</span>`,
-    paragraph: `Turn your passion for aviation into a rewarding career. Our Certified Flight Instructor program equips you with the skills, techniques, and knowledge to train the next generation of pilots.`,
+    paragraph: `Turn your passion for aviation into a career with Speedway’s Certified Flight Instructor program. This course is designed to refine your flying skills, enhance your instructional techniques, and prepare you to teach the next generation of pilots.`,
     buttons: [
       {
         name: "Apply Now",
@@ -34,39 +34,41 @@ const certifiedFlightInstructorData = {
 
   // Program Details
   details: {
-    upperHeading: "Train to Earn a",
-    heading: "Certified Flight Instructor License",
+    upperHeading: "Train to Become a",
+    heading: "Certified Flight Instructor",
     subHeading:
-      "Advance your aviation career by becoming a flight instructor. Gain valuable teaching skills, master advanced maneuvers, and help new pilots achieve their dreams.",
+      "Accelerate your aviation career by becoming a flight instructor. Gain teaching experience and help future pilots reach their goals.",
 
     title: "Overview",
     description: `
-      Speedway Flight Training’s <strong>Certified Flight Instructor (CFI) program</strong> is designed for pilots looking to <strong>transition into aviation instruction</strong>. This structured program refines your flying skills, enhances your instructional techniques, and prepares you to train new pilots.
-      <br/><br/>
-      🚀 <strong>Accelerated Program:</strong> Earn your CFI in <strong>4-6 weeks</strong>.<br/>
-      📆 <strong>Flexible Training:</strong> Train at your own pace.<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
-      💰 <strong>Estimated Cost:</strong> <strong>$4,875</strong> (based on <strong>15 flight training hours</strong>; additional expenses apply).<br/>
-      🛩 <strong>Aircraft Used:</strong> Modern, well-maintained <strong>Cessna 172 fleet</strong>.<br/>
-      📜 <strong>FAA Requirements:</strong> Minimum <strong>15 hours of flight training</strong> and successful completion of the <strong>Fundamentals of Instruction (FOI) and Certified Flight Instructor (CFI) exams</strong>.<br/>
-      <br/>
-      This program includes <strong>advanced instructional training, one-on-one mentorship, and full checkride preparation</strong> to ensure you're ready to launch your career as a flight instructor.
+      Becoming a Certified Flight Instructor (CFI) is the gateway to building time, refining your skills, and launching a career in aviation. Whether you plan to teach full-time or just need to build hours toward your next rating, Speedway Flight Training offers a flexible, structured path to success.
+      <ul class="list-disc list-inside space-y-2 mt-4 mb-4">
+        <li><strong>Accelerated Program:</strong> Complete in as little as <strong>4–6 weeks</strong>.</li>
+        <li><strong>Flexible Option:</strong> Train at your own pace.</li>
+        <li><strong>Estimated Cost:</strong> <strong>$7,100</strong> (based on <strong>18 flight hours & 25 ground hours</strong> – additional expenses apply).</li>
+        <li><strong>Training Location:</strong> Speedway Flight Training facilities.</li>
+        <li><strong>Aircraft Used:</strong> Modern, well-maintained fleet.</li>
+        <li><strong>FAA Minimums:</strong> 15 flight hours plus successful completion of the FOI & CFI exams.</li>
+      </ul>
+
+      All CFI applicants must hold a Commercial Pilot Certificate and Instrument Rating. Our program prepares you not only for the practical test, but for success in the real world of flight instruction.
     `,
 
     keyPoints: [
-      "Master Advanced Maneuvers & Instructional Techniques",
-      "Scenario-Based Teaching for Real-World Training",
-      "Comprehensive Ground School & FAA Exam Preparation",
-      "One-on-One Mentorship with Experienced CFIs",
-      "Refine Leadership & Communication Skills",
-      "Emphasis on Safety, Student Development & Instructional Quality",
+      "Master instructional techniques & advanced maneuvers",
+      "25 hours of ground school with Instructor Pilot",
+      "Mock orals and pre/post ground included",
+      "Gleim FOI + Instructor kit included",
+      "Scenario-based instruction methodology",
+      "Emphasis on safety, leadership & instructional quality",
     ],
 
-    // What's Included
     included: {
       heading: "What’s Included in Your Training Package?",
       items: [
-        "15 flight hours of training (FAA minimum: 10 hours)",
+        "18 flight hours of training (FAA minimum: 15 hours)",
+        "25 ground school hours with Instructor Pilot",
+        "Mock Oral Exams and Pre/Post Ground with Instructor Pilot",
         "Gleim Flight/Ground Instructor + FOI Kit",
         "Advanced maneuvers and instructional proficiency training",
         "One-on-one instructor mentorship",
@@ -77,72 +79,69 @@ const certifiedFlightInstructorData = {
       ],
     },
 
-    // Additional Costs
     additionalCosts: {
       heading: "What’s Not Included (Additional Student Costs)?",
       items: [
-        "Noise-canceling aviation headset (~$600 - $1,100; Recommended: Bose, Lightspeed, David Clark)",
-        "iPad with GPS (~$500 - $700; Cellular capable, no data plan required)",
-        "Aircraft rental insurance (~$600/year; Required for training flights)",
-        "ForeFlight subscription (~$250/year; Flight planning & in-flight navigation)",
-        "FAA 1st Class Medical clearance (~$150; Required for professional pilots)",
+        "Noise-canceling aviation headset (~$600–$1,200 — Recommended: Bose, Lightspeed, David Clark)",
+        "iPad with GPS (~$500–$700 — Cellular capable, no plan required)",
+        "Aircraft rental insurance (~$600/year — Required for training flights)",
+        "FAA Designated Pilot Examiner (DPE) practical exam fees (~$1,000–$1,500)",
+        "FAA written exam fees (~$175)",
+        "ForeFlight subscription (~$250/year — Flight planning & in-flight navigation)",
+        "FAA 1st Class Medical (~$150 — Required for pro pilot track)",
+        "Applicable sales taxes",
       ],
     },
 
-    // Benefits
     benefits: {
       heading: "Why Train with Speedway?",
       items: [
-        "Accelerated Training: Earn your CFI in just 4-6 weeks",
-        "Expert Instructors: One-on-one mentorship from experienced CFIs",
-        "Comprehensive Training: Ground school, teaching techniques, and advanced flight maneuvers",
-        "State-of-the-Art Training Fleet: Learn on modern, well-maintained aircraft",
-        "Career Readiness: Gain the experience needed to instruct students and advance in aviation",
-        "Commitment to Safety & Leadership: Learn instructional quality, student development, and leadership principles",
+        "Accelerated or flexible training options",
+        "One-on-one mentorship with experienced instructors",
+        "Includes 18 hours of flight and 25 hours of ground instruction",
+        "Scenario-based learning and real-world teaching prep",
+        "Modern aircraft fleet and immersive learning environment",
+        "Pathway to employment and hour-building opportunities",
       ],
     },
 
     cta: {
-      imagePath:
-        "/src/assets/speedway-flight-training-aircraft-maintenance-check.webp",
-      imageAlt:
-        "Speedway Flight Training instructor preparing a student for flight",
-      title: "Start Your Career as a Flight Instructor",
+      imagePath: "/src/assets/speedway-flight-training-aircraft-maintenance-check.webp",
+      imageAlt: "Speedway Flight Training instructor preparing a student for flight",
+      title: "Fast Track to the Flight Deck – Apply Today!",
       description:
-        "Train the next generation of pilots with expert CFI training at Speedway Flight Training. Enroll in our Certified Flight Instructor program today and launch your aviation career.",
+        "Get started on your aviation career with Speedway Flight Training. Our CFI program is designed to prepare you to instruct with confidence. Reach out to our team and secure your spot today!",
       button: {
         name: "Apply Now",
         link: "/enroll",
       },
     },
 
-    // FAQs
     faqs: [
       {
-        question:
-          "How long does it take to earn my Certified Flight Instructor (CFI) certificate?",
+        question: "How long does it take to complete CFI training?",
         answer:
-          "With our accelerated program, students can complete training in <strong>4-6 weeks</strong>. A self-paced program is also available for those needing more scheduling flexibility.",
+          "Most students finish in <strong>4–6 weeks</strong> with our accelerated program. A flexible, self-paced option is also available.",
       },
       {
-        question: "Can I finance my training?",
+        question: "Can I finance my CFI program?",
         answer:
-          "Yes! We partner with <a href='https://stratus.finance' target='_blank' class='hover:brightness-125 text-primary-600'>Stratus Financial</a> to offer financing options. Contact us to learn more about making your flight training affordable.",
+          "Yes. Financing is available through <a href='https://stratus.finance' target='_blank' class='hover:brightness-125 text-primary-600'>Stratus Financial</a>. Contact us to explore affordable monthly payments.",
       },
       {
-        question: "What kind of aircraft will I train on?",
+        question: "What aircraft will I train on?",
         answer:
-          "Students train on <strong>modern, well-maintained Cessna 172 aircraft</strong>, suitable for instructional flight training.",
+          "You'll train in our <strong>modern, well-maintained fleet</strong> of Cessna 172 aircraft.",
       },
       {
-        question: "Will I be ready for my checkride after training?",
+        question: "Will this prepare me for my CFI checkride?",
         answer:
-          "Yes! Our program includes <strong>comprehensive checkride preparation</strong> and <strong>scenario-based instructional training</strong> to ensure you're fully prepared.",
+          "Absolutely. The program includes mock orals, checkride prep flights, and one-on-one coaching to make sure you're ready.",
       },
       {
-        question: "What happens after I become a Certified Flight Instructor?",
+        question: "What happens after I earn my CFI certificate?",
         answer:
-          "Many students begin their career as a flight instructor to build flight hours and gain experience before advancing to commercial aviation or airline careers.",
+          "Many graduates begin instructing to build hours and move toward commercial and airline opportunities. Ask about job placement support.",
       },
     ],
   },
