@@ -11,29 +11,18 @@ const instrumentRatingData = {
     "Master IFR flying in just 6-8 weeks at Atlanta Speedway Airport! Our Instrument Rating program features advanced avionics training, simulator sessions, and one-on-one instruction designed for real-world conditions. Financing available.",
   pageKeywords: `${PROGRAM_KEYWORDS.instrument}, ${LOCATION_KEYWORDS.primary}, IFR certification Hampton GA, all-weather flying training, Garmin G1000 IFR training, instrument approach procedures Georgia, FAA instrument checkride prep, IFR cross-country training, IMC flying certification, advanced avionics training Atlanta, instrument pilot certification, 6-week IFR program, affordable instrument rating`,
 
-  // Top Header
   header: {
     stars: true,
     imagePath: "/src/assets/speedway-ft-fleet-n7350g-new-panel-hampton-pilot-training-IMG_2587.jpg",
-    imageAlt:
-      "Speedway Flight Training aircraft flying in instrument conditions",
-    headerH1: `Instrument <br>RATING</span>`,
-    paragraph: `Expand your flight skills and master IFR procedures with Speedway Flight Training’s Instrument Rating program. Train with expert instructors and gain confidence flying in low-visibility conditions.`,
+    imageAlt: "Speedway Flight Training aircraft flying in instrument conditions",
+    headerH1: `Instrument <br>RATING`,
+    paragraph: `Expand your skills and fly in all weather conditions with confidence. This program provides advanced training in instrument navigation, flight planning, and situational awareness to make you a safer and more capable pilot.`,
     buttons: [
-      {
-        name: "Apply Now",
-        link: "/enroll",
-        primary: false,
-      },
-      {
-        name: "Request Info",
-        link: "/contact",
-        primary: false,
-      },
+      { name: "Apply Now", link: "/enroll", primary: false },
+      { name: "Request Info", link: "/contact", primary: false },
     ],
   },
 
-  // Program Details
   details: {
     upperHeading: "Take Your Training Further With an",
     heading: "Instrument Rating",
@@ -42,16 +31,16 @@ const instrumentRatingData = {
 
     title: "Overview",
     description: `
-      Speedway Flight Training’s <strong>Instrument Rating (IR) program</strong> is designed for pilots who want to <strong>expand their flight capabilities</strong> and gain the skills to fly safely under IFR conditions.
+      <strong>Expand your skills and fly in all weather conditions with confidence.</strong> This program provides advanced training in instrument navigation, flight planning, and situational awareness to make you a safer and more capable pilot.
       <br/><br/>
-      🚀 <strong>Accelerated Program:</strong> Earn your IR in <strong>6-8 weeks</strong>.<br/>
-      📆 <strong>Flexible Training:</strong> Self-paced option available.<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
-      💰 <strong>Estimated Cost:</strong> <strong>$13,000</strong> (based on <strong>40 flight training hours</strong>; additional expenses apply).<br/>
-      🛩 <strong>Aircraft Used:</strong> Modern, well-maintained <strong>IFR-certified fleet</strong>.<br/>
-      📜 <strong>FAA Requirements:</strong> Minimum <strong>40 hours of instrument flight training</strong>, including simulated instrument training and cross-country time.<br/>
-      <br/>
-      This program includes <strong>one-on-one instruction with experienced CFIs</strong>, comprehensive <strong>ground school training</strong>, and full <strong>checkride preparation</strong> to ensure you pass your FAA exam with confidence.
+      <ul class="list-disc list-inside space-y-2">
+        <li><strong>Accelerated Program:</strong> Complete in as little as 6–8 weeks</li>
+        <li><strong>Flexible Option:</strong> Train at your own pace</li>
+        <li><strong>Estimated Cost: $13,925</strong> (Based on 40 flight instruction hours and 18.5 ground lesson hours) – Additional expenses apply (see below). – Additional expenses apply (see below)</li>
+        <li><strong>Training Location:</strong> Speedway Flight Training facilities</li>
+        <li><strong>Aircraft Used:</strong> Modern, well-maintained fleet equipped for IFR training</li>
+        <li><strong>FAA Minimum Requirements:</strong> 40 hours of instrument flight training, including simulated instrument training and cross-country flight time</li>
+      </ul>
     `,
 
     keyPoints: [
@@ -63,12 +52,12 @@ const instrumentRatingData = {
       "Emphasis on Safety-First Decision Making",
     ],
 
-    // What's Included
     included: {
       heading: "What’s Included in Your Training Package?",
       items: [
-        "Instrument training with one-on-one instructor guidance",
-        "Gleim Deluxe Instrument Pilot Kit with audio review",
+        "Instrument training with one-on-one Instructor Pilot guidance",
+        "Mock Oral Exams and Pre/Post Ground with Instructor Pilot",
+        "Gleim Deluxe Instrument Pilot Kit",
         "Foggles (for simulated instrument training)",
         "Fuel tester",
         "Advanced ground school & exam preparation (covers IFR flight procedures, weather interpretation, and emergency scenarios)",
@@ -78,23 +67,26 @@ const instrumentRatingData = {
       ],
     },
 
-    // Additional Costs
     additionalCosts: {
       heading: "What’s Not Included (Additional Student Costs)?",
+      subHeading:
+        "To ensure transparency, students should budget for the following additional items:",
       items: [
-        "Noise-canceling aviation headset (~$600 - $1,100; Recommended: Bose, Lightspeed, David Clark)",
-        "iPad with GPS (~$500 - $700; Cellular capable, no data plan required)",
-        "Aircraft rental insurance (~$600/year; Required for training flights)",
-        "ForeFlight subscription (~$250/year; Flight planning & in-flight navigation)",
-        "FAA 1st Class Medical clearance (~$150; Required for professional pilots)",
+        "Noise-canceling aviation headset (~$600 - $1,200 – Recommended brands: Bose, Lightspeed, David Clark)",
+        "iPad with GPS (~$500 - $700 – Cellular capable, no cellular plan required)",
+        "Aircraft rental insurance (~$600/year – Required for training flights)",
+        "FAA Designated Pilot Examiner (DPE) practical exam fees (~$800-$1,200)",
+        "FAA written exam fees (~$175)",
+        "ForeFlight subscription (~$250/year – For flight planning and in-flight navigation)",
+        "FAA 1st Class Medical clearance (~$150 – Required for those pursuing a professional pilot career)",
+        "Applicable Sales Taxes",
       ],
     },
 
-    // Benefits
     benefits: {
       heading: "Why Train with Speedway?",
       items: [
-        "Accelerated Training: Earn your Instrument Rating in 6-8 weeks",
+        "Accelerated Training: Earn your Instrument Rating in 6–8 weeks",
         "Expert Instructors: Personalized one-on-one IFR mentorship",
         "Comprehensive Training: Ground school, simulators, and real-world IFR flights",
         "State-of-the-Art Training Fleet: Learn on modern, well-maintained IFR aircraft",
@@ -104,8 +96,7 @@ const instrumentRatingData = {
     },
 
     cta: {
-      imagePath:
-        "/src/assets/atlanta-airport-Speedway-Flight-Training-129.webp",
+      imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-129.webp",
       imageAlt: "Speedway Flight Training student practicing IFR navigation",
       title: "Advance Your Flight Skills with an Instrument Rating",
       description:
@@ -116,12 +107,11 @@ const instrumentRatingData = {
       },
     },
 
-    // FAQs
     faqs: [
       {
         question: "How long does it take to earn my Instrument Rating?",
         answer:
-          "With our accelerated program, students can complete training in <strong>6-8 weeks</strong>. A self-paced program is also available for those needing more scheduling flexibility.",
+          "With our accelerated program, students can complete training in <strong>6–8 weeks</strong>. A self-paced program is also available for those needing more scheduling flexibility.",
       },
       {
         question: "Can I finance my training?",

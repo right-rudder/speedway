@@ -13,7 +13,7 @@ const fastTrackStartingAtIR = {
     imagePath: "/src/assets/stock-adrien-brun-L87clzV761M-unsplash.webp",
     imageAlt: "Speedway Flight Training students in a simulator session",
     headerH1: `Fast Track to <br>the Flight Deck</span>`,
-    paragraph: `For pilots with a Private Pilot License (PPL), this program provides an efficient and structured path to earning your Instrument Rating, Commercial Pilot License, and Certified Flight Instructor certification.`,
+    paragraph: `For pilots who already have their Private Pilot License (PPL) and are looking to complete their training efficiently, Speedway’s all-inclusive program takes students from Instrument Rating (IR) through Commercial Pilot License (CPL) and Certified Flight Instructor (CFI)`,
     buttons: [
       {
         name: "Apply Now",
@@ -38,14 +38,22 @@ const fastTrackStartingAtIR = {
     title: "Overview",
     description: `
       Speedway Flight Training’s <strong>Fast Track to the Flight Deck</strong> program is designed for pilots who already hold a Private Pilot License and want to complete their training efficiently.
-      <br/><br/>
-      🚀 <strong>Accelerated Program:</strong> Complete from <strong>Instrument Rating to CFI in 10-15 months</strong>.<br/>
-      📆 <strong>Flexible Training:</strong> Choose a self-paced option if needed.<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
-      💰 <strong>Estimated Cost:</strong> <strong>$69,875</strong> (based on <strong>215 total flight hours</strong>; additional expenses apply).<br/>
-      🛩 <strong>Aircraft Used:</strong> Modern, well-maintained <strong>Cessna 172 fleet</strong>.<br/>
-      📜 <strong>FAA Requirements:</strong> Includes all necessary flight hours for IR, CPL, and CFI.<br/>
-      <br/>
+
+      <ul class="list-disc list-inside space-y-2 mt-4 mb-4">
+        <li><strong>Accelerated Program:</strong> Complete in as little as <strong>10-15 months</strong></li>
+        <li><strong>Estimated Cost:</strong> <strong>$74,725</strong> (Based on 218 total flight hours and ground school time with Instructor Pilot) – Additional expenses apply (see below)</li>
+        <li><strong>Training Location:</strong> Speedway Flight Training facilities</li>
+        <li><strong>Aircraft Used:</strong> Modern, well-maintained training fleet</li>
+        <li>
+          <strong>Average Flight Time Requirements:</strong>
+          <ul class="list-[circle] list-inside ml-6 mt-1 space-y-1">
+            <li><strong>Instrument Rating (IR)</strong> – 40 hours</li>
+            <li><strong>Commercial Pilot License (CPL)</strong> – 160 hours</li>
+            <li><strong>Certified Flight Instructor (CFI)</strong> – 18 hours</li>
+          </ul>
+        </li>
+      </ul>
+
       This program provides <strong>one-on-one mentorship, advanced scenario-based training, and full checkride preparation</strong> to ensure you're ready for a successful aviation career.
     `,
 
@@ -61,12 +69,13 @@ const fastTrackStartingAtIR = {
     included: {
       heading: "What’s Included in Your Training Package?",
       items: [
-        "215 flight training hours",
+        "218 flight hours of training",
         "One-on-one instructor mentorship",
+        "Mock Oral Exams and Pre/Post Ground with Instructor Pilot",
         "Ground school & exam preparation",
-        "Gleim Deluxe Instrument Pilot Kit",
-        "Gleim Deluxe Commercial Pilot Kit",
-        "Gleim Flight/Ground Instructor + FOI Kit",
+        "Gleim Instrument Pilot Materials",
+        "Gleim Commercial Pilot Materials",
+        "Gleim Flight/Ground Instructor + FOI Materials",
         "Foggles (for instrument training)",
         "Fuel tester",
         "Advanced flight maneuvers and scenario-based training",
@@ -77,12 +86,17 @@ const fastTrackStartingAtIR = {
 
     additionalCosts: {
       heading: "What’s Not Included (Additional Student Costs)?",
+      subHeading:
+        "To ensure transparency, students should budget for the following additional items:",
       items: [
-        "Noise-canceling aviation headset (~$600 - $1,100; Recommended: Bose, Lightspeed, David Clark)",
-        "iPad with GPS (~$500 - $700; Cellular capable, no data plan required)",
+        "Noise-canceling aviation headset (~$600–$1,200; Recommended brands: Bose, Lightspeed, David Clark)",
+        "iPad with GPS (~$500–$700; Cellular capable, no cellular plan required)",
         "Aircraft rental insurance (~$600/year; Required for training flights)",
-        "ForeFlight subscription (~$250/year; Flight planning & in-flight navigation)",
-        "FAA 1st Class Medical clearance (~$150; Required for professional pilots)",
+        "FAA Designated Pilot Examiner (DPE) practical exam fees (~$800–$1,200)",
+        "FAA written exam fees (~$175)",
+        "ForeFlight subscription (~$250/year; Flight planning and navigation)",
+        "FAA 1st Class Medical clearance  (~$150  -  Required for those pursuing a professional pilot career)",
+        "Applicable Sales Taxes",
       ],
     },
 
