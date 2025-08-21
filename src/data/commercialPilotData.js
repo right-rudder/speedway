@@ -18,7 +18,8 @@ const commercialPilotData = {
     imageAlt:
       "Speedway Flight Training commercial pilot student preparing for a flight",
     headerH1: `Commercial Pilot <br>LICENSE</span>`,
-    paragraph: `Advance your aviation career with structured commercial flight training. This program enhances your flight proficiency and prepares you for real-world professional operations.`,
+    paragraph:
+      "Advance your aviation career with structured commercial flight training. This program enhances your flight proficiency and prepares you for real-world professional operations.",
     buttons: [
       {
         name: "Apply Now",
@@ -43,70 +44,72 @@ const commercialPilotData = {
     title: "Overview",
     description: `
       Speedway Flight Training’s <strong>Commercial Pilot License (CPL) program</strong> is designed for pilots looking to <strong>turn their passion into a career</strong>. This structured program refines your flying skills, improves decision-making, and prepares you for commercial aviation.
-      <br/><br/>
-      🚀 <strong>Accelerated Program:</strong> Earn your CPL in <strong>6-8 months</strong>.<br/>
-      📆 <strong>Flexible Training:</strong> Train at your own pace.<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
-      💰 <strong>Estimated Cost:</strong> <strong>$52,000</strong> (based on <strong>160 flight training hours</strong>; additional expenses apply).<br/>
-      🛩 <strong>Aircraft Used:</strong> Modern, well-maintained <strong>Cessna 172 fleet</strong>.<br/>
-      📜 <strong>FAA Requirements:</strong> Minimum <strong>250 total flight hours</strong>, including <strong>100 hours as pilot-in-command (PIC)</strong> and <strong>50 hours of cross-country flight time</strong>.<br/>
-      <br/>
-      This program includes <strong>advanced flight training, real-world scenario-based instruction, and full checkride preparation</strong> to ensure you're ready for a professional aviation career.
+
+      <ul class="list-disc list-inside space-y-2 mt-4 mb-4">
+        <li><strong>Accelerated Program:</strong> Complete in as little as <strong>6–8 months</strong></li>
+        <li><strong>Flexible Option:</strong> Train at your own pace</li>
+        <li><strong>Estimated Cost:</strong> <strong>$53,700</strong> (based on 160 flight hours; additional costs apply)</li>
+        <li><strong>Training Location:</strong> Speedway Flight Training facilities at Atlanta Speedway Airport (KHMP)</li>
+        <li><strong>Aircraft Used:</strong> Modern, well-maintained Cessna 172 fleet</li>
+        <li><strong>FAA Minimum Requirements:</strong> 250 total flight hours, including 100 hours as pilot-in-command (PIC) and 50 hours cross-country</li>
+      </ul>
+
+      This program includes <strong>advanced maneuvers, mock exams, flight proficiency training, and full checkride prep</strong>—all designed to launch your professional pilot career.
     `,
 
     keyPoints: [
-      "Advanced Flight Training for Professional Aviation Careers",
-      "Master Commercial Maneuvers and Flight Proficiency",
-      "Scenario-Based Training for Real-World Flight Operations",
-      "Structured Ground School & FAA Exam Preparation",
+      "Accelerated Commercial Pilot License in 6–8 Months",
+      "Master Advanced Maneuvers and Flight Proficiency",
+      "Scenario-Based Training for Real-World Flight Ops",
+      "Structured Ground School and FAA Exam Prep",
       "Build PIC and Cross-Country Hours for Career Readiness",
-      "Comprehensive Checkride Preparation",
+      "Mock Oral Exams and Full Checkride Preparation",
     ],
 
-    // What's Included
     included: {
       heading: "What’s Included in Your Training Package?",
       items: [
         "160 flight training hours (FAA minimum: 250 total flight hours required)",
+        "Commercial training with one-on-one Instructor Pilot guidance",
+        "Mock Oral Exams and Pre/Post Ground with Instructor Pilot",
         "Gleim Deluxe Commercial Pilot Kit",
         "Foggles (for simulated instrument training)",
         "Fuel tester",
         "Advanced maneuvers and flight proficiency training",
-        "One-on-one instructor mentorship",
         "Ground school & exam preparation",
         "Scenario-based training for real-world commercial flight operations",
         "Pre-checkride preparation and evaluation",
       ],
     },
 
-    // Additional Costs
     additionalCosts: {
       heading: "What’s Not Included (Additional Student Costs)?",
       items: [
-        "Noise-canceling aviation headset (~$600 - $1,100; Recommended: Bose, Lightspeed, David Clark)",
-        "iPad with GPS (~$500 - $700; Cellular capable, no data plan required)",
+        "Noise-canceling aviation headset (~$600–$1,200; Recommended: Bose, Lightspeed, David Clark)",
+        "iPad with GPS (~$500–$700; Cellular capable, no cellular plan required)",
         "Aircraft rental insurance (~$600/year; Required for training flights)",
-        "ForeFlight subscription (~$250/year; Flight planning & in-flight navigation)",
+        "FAA Designated Pilot Examiner (DPE) practical exam fees (~$800–$1,200)",
+        "FAA written exam fees (~$175)",
+        "ForeFlight subscription (~$250/year; Flight planning and navigation)",
         "FAA 1st Class Medical clearance (~$150; Required for professional pilots)",
+        "Applicable sales tax on course materials and equipment",
       ],
     },
 
-    // Benefits
     benefits: {
       heading: "Why Train with Speedway?",
       items: [
-        "Accelerated Training: Earn your CPL in just 6-8 months",
-        "Expert Instructors: Personalized mentorship from commercial flight instructors",
-        "Comprehensive Training: Advanced maneuvers, flight proficiency, and real-world scenarios",
-        "State-of-the-Art Training Fleet: Learn on modern, well-maintained aircraft",
-        "Career Readiness: Build experience to transition into commercial or airline careers",
-        "Commitment to Safety & Integrity: Structured, safety-first training environment",
+        "Accelerated timeline — earn your CPL in 6–8 months",
+        "Personalized training from experienced commercial instructors",
+        "Scenario-based training prepares you for real-world operations",
+        "Modern fleet with glass cockpit avionics and ADS-B in/out",
+        "Mentorship to guide you into your next step: ME or CFI",
+        "Safe, structured, and professional flight school environment",
       ],
     },
 
     cta: {
-      imagePath:
-        "/src/assets/atlanta-airport-Speedway-Flight-Training-133.webp",
+      imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-133.webp",
       imageAlt: "Speedway Flight Training commercial pilot student in flight",
       title: "Fast Track Your Career with a Commercial Pilot License",
       description:
@@ -117,32 +120,31 @@ const commercialPilotData = {
       },
     },
 
-    // FAQs
     faqs: [
       {
         question: "How long does it take to earn my Commercial Pilot License?",
         answer:
-          "With our accelerated program, students can complete training in <strong>6-8 months</strong>. A self-paced program is also available for those needing more scheduling flexibility.",
+          "With our accelerated program, students can complete training in <strong>6–8 months</strong>. A self-paced program is also available for those needing more flexibility.",
       },
       {
         question: "Can I finance my training?",
         answer:
-          "Yes! We partner with <a href='https://stratus.finance' target='_blank' class='hover:brightness-125 text-primary-600'>Stratus Financial</a> to offer financing options. Contact us to learn more about making your flight training affordable.",
+          "Yes! We partner with <a href='https://stratus.finance' target='_blank' class='hover:brightness-125 text-primary-600'>Stratus Financial</a> to offer flexible flight training financing options. Contact us to learn more.",
       },
       {
         question: "What kind of aircraft will I train on?",
         answer:
-          "Students train on <strong>modern, well-maintained Cessna 172 aircraft</strong>, equipped for commercial training.",
+          "Students train on our <strong>modern Cessna 172 fleet</strong>, equipped with Garmin G5, Garmin 650Xi, and GFC 500 autopilot (in select aircraft).",
       },
       {
         question: "Will I be ready for my checkride after training?",
         answer:
-          "Yes! Our program includes <strong>comprehensive checkride preparation</strong> and <strong>scenario-based commercial flight training</strong> to ensure you're fully prepared.",
+          "Yes. We include <strong>mock oral exams, scenario-based flight training</strong>, and pre-checkride evaluations to make sure you're fully prepared.",
       },
       {
         question: "What happens after I get my CPL?",
         answer:
-          "After earning your CPL, many students continue their training for a <strong>Multi-Engine Rating (ME)</strong> or <strong>Certified Flight Instructor (CFI)</strong> certification to build experience before airline careers.",
+          "Most students continue with a <strong>Multi-Engine Rating</strong> and/or <strong>CFI Certification</strong> to build time and gain experience toward airline careers.",
       },
     ],
   },
