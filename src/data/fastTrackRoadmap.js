@@ -4,8 +4,18 @@ const fastTrackRoadmap = {
   upperHeading: "Roadmap",
   heading: "Fast Track to the Flight Deck – Your Path to an Airline Career",
   descriptions: [
+    `At Speedway Flight Training, we are committed to providing a comprehensive and efficient training program designed to take you from zero experience to a certified pilot as quickly and safely as possible. Our structured curriculum ensures that you receive high-quality training, hands-on experience, and full preparation for your checkride.`,
     `Achieve your dream of becoming an airline pilot with ${COMPANY_NAME}. Our Fast Track to the Flight Deck program provides an efficient and structured path from zero experience to a professional aviation career.`
   ],
+  valueList: [
+    "Safety First – We prioritize safety in every aspect of our program, from flight operations to ground instruction, ensuring our students, instructors, and staff are protected at all times.",
+    "Quality Training – Our dedicated, experienced instructors provide personalized training to equip students with the skills, knowledge, and confidence they need to succeed.",
+    "Well-Maintained Aircraft – We take pride in our meticulously maintained aircraft, ensuring every student flies in a safe and reliable environment.",
+    "Integrity – Transparency and professionalism are at the heart of everything we do, fostering a culture of trust and accountability.",
+    "Passion for Aviation – We share a deep love for flying and are committed to inspiring and empowering future pilots.",
+    "Continuous Improvement – We embrace a culture of learning and growth, ensuring our training techniques, equipment, and operations meet the highest industry standards."
+  ],
+
   steps: [
     {
       title: "Earn a Private Pilot License (PPL)",
