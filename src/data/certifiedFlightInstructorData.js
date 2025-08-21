@@ -17,7 +17,7 @@ const certifiedFlightInstructorData = {
     imagePath: "/src/assets/cessna-172-in-flight-over-hampton-ga-croped.webp",
     imageAlt: "Speedway Flight Training instructor guiding a student pilot",
     headerH1: `Certified Flight <br>INSTRUCTOR (CFI)</span>`,
-    paragraph: `Turn your passion for aviation into a career with Speedway’s Certified Flight Instructor program. This course is designed to refine your flying skills, enhance your instructional techniques, and prepare you to teach the next generation of pilots.`,
+    paragraph: `Turn your passion for aviation into a career with Speedway’s Certified Flight Instructor program. This course is designed to refine your flying skills, enhance your instructional techniques, and prepare you to teach the next generation of pilots`,
     buttons: [
       {
         name: "Apply Now",
@@ -45,10 +45,10 @@ const certifiedFlightInstructorData = {
       <ul class="list-disc list-inside space-y-2 mt-4 mb-4">
         <li><strong>Accelerated Program:</strong> Complete in as little as <strong>4–6 weeks</strong>.</li>
         <li><strong>Flexible Option:</strong> Train at your own pace.</li>
-        <li><strong>Estimated Cost:</strong> <strong>$7,100</strong> (based on <strong>18 flight hours & 25 ground hours</strong> – additional expenses apply).</li>
-        <li><strong>Training Location:</strong> Speedway Flight Training facilities.</li>
-        <li><strong>Aircraft Used:</strong> Modern, well-maintained fleet.</li>
-        <li><strong>FAA Minimums:</strong> 15 flight hours plus successful completion of the FOI & CFI exams.</li>
+        <li><strong>Estimated Cost:</strong> <strong>$7,100</strong> (Based on 18 flight lesson hours & 25 ground lesson hours) – Additional expenses apply (see below)</li>
+        <li><strong>Training Location:</strong> Speedway Flight Training facilities</li>
+        <li><strong>Aircraft Used:</strong> Modern, well-maintained fleet</li>
+        <li><strong>FAA Minimum Requirements:</strong> 15 hours of flight training and successful completion of the Fundamentals of Instruction (FOI) and Certified Flight Instructor (CFI) exams</li>
       </ul>
 
       All CFI applicants must hold a Commercial Pilot Certificate and Instrument Rating. Our program prepares you not only for the practical test, but for success in the real world of flight instruction.
@@ -81,6 +81,8 @@ const certifiedFlightInstructorData = {
 
     additionalCosts: {
       heading: "What’s Not Included (Additional Student Costs)?",
+      subHeading:
+        "To ensure transparency, students should budget for the following additional items:",
       items: [
         "Noise-canceling aviation headset (~$600–$1,200 — Recommended: Bose, Lightspeed, David Clark)",
         "iPad with GPS (~$500–$700 — Cellular capable, no plan required)",
