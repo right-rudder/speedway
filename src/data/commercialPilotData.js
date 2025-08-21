@@ -19,7 +19,7 @@ const commercialPilotData = {
       "Speedway Flight Training commercial pilot student preparing for a flight",
     headerH1: `Commercial Pilot <br>LICENSE</span>`,
     paragraph:
-      "Advance your aviation career with structured commercial flight training. This program enhances your flight proficiency and prepares you for real-world professional operations.",
+      "Advance your aviation career with our structured Commercial Pilot training program. This course refines your skills and prepares you for professional flight operations.",
     buttons: [
       {
         name: "Apply Now",
@@ -48,9 +48,9 @@ const commercialPilotData = {
       <ul class="list-disc list-inside space-y-2 mt-4 mb-4">
         <li><strong>Accelerated Program:</strong> Complete in as little as <strong>6–8 months</strong></li>
         <li><strong>Flexible Option:</strong> Train at your own pace</li>
-        <li><strong>Estimated Cost:</strong> <strong>$53,700</strong> (based on 160 flight hours; additional costs apply)</li>
-        <li><strong>Training Location:</strong> Speedway Flight Training facilities at Atlanta Speedway Airport (KHMP)</li>
-        <li><strong>Aircraft Used:</strong> Modern, well-maintained Cessna 172 fleet</li>
+        <li><strong>Estimated Cost:</strong> <strong>$53,700</strong> (Based on 160 flight hours) – Additional expenses apply (see below)</li>
+        <li><strong>Training Location:</strong> Speedway Flight Training facilities</li>
+        <li><strong>Aircraft Used:</strong> Modern, well-maintained fleet</li>
         <li><strong>FAA Minimum Requirements:</strong> 250 total flight hours, including 100 hours as pilot-in-command (PIC) and 50 hours cross-country</li>
       </ul>
 
@@ -69,13 +69,13 @@ const commercialPilotData = {
     included: {
       heading: "What’s Included in Your Training Package?",
       items: [
-        "160 flight training hours (FAA minimum: 250 total flight hours required)",
         "Commercial training with one-on-one Instructor Pilot guidance",
         "Mock Oral Exams and Pre/Post Ground with Instructor Pilot",
         "Gleim Deluxe Commercial Pilot Kit",
         "Foggles (for simulated instrument training)",
         "Fuel tester",
         "Advanced maneuvers and flight proficiency training",
+        "One-on-one instructor mentorship",
         "Ground school & exam preparation",
         "Scenario-based training for real-world commercial flight operations",
         "Pre-checkride preparation and evaluation",
