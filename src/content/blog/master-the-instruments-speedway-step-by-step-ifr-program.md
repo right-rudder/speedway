@@ -88,13 +88,13 @@ _Pro tip: The fastest-moving students front-load their studying, chair-fly proce
 Choose your next step:
 
 - Book a Discovery Flight to meet the team, tour the fleet, and build a game plan for your rating.
-**[Book your Discovery Flight now](https://www.speedwayft.com/discovery-flight/)**
+**[Book your Discovery Flight now](/discovery-flight/)**
 
 - Explore the Instrument Rating program to see requirements, training flow, and the latest cost estimate.
-**[Explore the Instrument Rating program](https://www.speedwayft.com/instrument-rating/)**
+**[Explore the Instrument Rating program](/programs/instrument-rating#top)**
 
 - Fast-track your career by mapping your IR → CPL → CFI/CFII sequence with an admissions advisor.
-**[Map your career path](https://www.speedwayft.com/admissions/)**
+**[Map your career path](/contact)**
 
 Our team is here to answer questions, compare pathways, and get you flying. Enroll today or reach out to plan your first lesson—let’s get you in the air.
 
