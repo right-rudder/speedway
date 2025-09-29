@@ -123,11 +123,11 @@ export const COMPANY_NICKNAME = "Speedway";
 export const LOGO_PRIMARY = "/speedway-flight-training-written-logo.png";
 export const LOGO_SECONDARY = "/speedway-flight-training-written-logo.png";
 export const PHONE_NUMBER = "(678) 944-7379";
-export const ADDRESS_LINE_1 = "474 Speedway Blvd Hanger C-1";
+export const ADDRESS_LINE_1 = "552 Speedway Blvd Hanger C-1";
 export const ADDRESS_LINE_2 = "Hampton, GA 30228";
 export const AIRPORT = "Atlanta Speedway Airport";
 export const AIRPORT_CODE = "ATL";
-export const ADDRESS = "474 Speedway Blvd Hanger C-1, Hampton, GA 30228";
+export const ADDRESS = "552 Speedway Blvd Hanger C-1, Hampton, GA 30228";
 export const ADDRESS_CITY = "Hampton";
 export const ADDRESS_STATE = "Georgia";
 export const ADDRESS_ZIP = "30228";
@@ -146,7 +146,7 @@ export const GITHUB_URL = "";
 export const LOCATIONS = [
   {
     title: `Atlanta Speedway Airport<br><small class="text-xs -mt-3">ATL</small>`,
-    address: "474 Speedway Blvd",
+    address: "552 Speedway Blvd",
     hanger: "Hanger C-1",
     city: "Hampton",
     state: "GA",
