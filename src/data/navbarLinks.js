@@ -42,6 +42,10 @@ export const navbarLinks = [
         name: "Spin Endorsement",
         link: "/programs/spin-endorsement#top",
       },
+      {
+        name: "single Engine Add-On",
+        link: "/programs/single-engine-add-on#top",
+      },
     ],
   },
   {

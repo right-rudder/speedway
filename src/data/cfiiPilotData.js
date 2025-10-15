@@ -3,9 +3,9 @@ import { COMPANY_NAME } from "../consts";
 const cfiiPilotData = {
   pageTitle: `Certified Flight Instructor – Instrument (CFII) | ${COMPANY_NAME}`,
   pageDescription:
-    "Advance your aviation career with Speedway Flight Training’s Certified Flight Instructor – Instrument (CFII) program. Learn to teach instrument flight procedures and expand your opportunities in aviation education.",
+    "Take your instructional skills to the next level with Speedway Flight Training’s Certified Flight Instructor – Instrument (CFII) program. Learn to teach instrument flight procedures and expand your career opportunities as an aviation educator.",
   pageKeywords:
-    "certified flight instructor instrument, CFII training Georgia, IFR instructor course, flight instructor rating, aviation education Atlanta, teach instrument flight, CFII program",
+    "certified flight instructor instrument, CFII training Georgia, IFR instructor course, CFII Atlanta, teach instrument flight, CFII program, instructor flight training Georgia",
 
   // Top Header
   header: {
@@ -33,37 +33,37 @@ const cfiiPilotData = {
     upperHeading: "Advance Your Instructor Credentials with a",
     heading: "Certified Flight Instructor – Instrument (CFII) Rating",
     subHeading:
-      "Speedway’s CFII program prepares you to instruct aspiring pilots in IFR procedures, giving you more teaching opportunities and making you a more versatile flight instructor.",
+      "Speedway’s CFII program builds on your existing flight instructor experience, preparing you to teach instrument flight training and expand your aviation career opportunities.",
 
     title: "Overview",
     description: `
-      Speedway Flight Training’s <strong>Certified Flight Instructor – Instrument (CFII) program</strong> is ideal for current CFIs looking to expand their credentials and teach instrument students.
+      Speedway Flight Training’s <strong>Certified Flight Instructor – Instrument (CFII)</strong> program is designed for current CFIs who want to expand their teaching capabilities to include instrument flight instruction.
       <br/><br/>
-      🚀 <strong>Accelerated Program:</strong> Complete your CFII in as little as <strong>4–6 weeks</strong>.<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
-      💰 <strong>Estimated Cost:</strong> <strong>$8,125</strong> (based on <strong>25 flight training hours</strong>; additional expenses apply).<br/>
+      🚀 <strong>Accelerated Program:</strong> Complete in as little as <strong>2–3 weeks</strong>.<br/>
+      💰 <strong>Estimated Cost:</strong> <strong>$3,700</strong> (based on <strong>8 flight training hours</strong> and <strong>15 ground lesson hours</strong>; additional expenses apply).<br/>
+      ✈️ <strong>Training Location:</strong> Speedway Flight Training facilities.<br/>
       🛩 <strong>Aircraft Used:</strong> Modern, well-maintained fleet equipped for <strong>IFR training</strong>.<br/>
-      📜 <strong>FAA Requirements:</strong> <strong>25 hours</strong> of instrument instructor flight training.<br/>
+      📜 <strong>Minimum Requirements:</strong> <strong>8 hours</strong> of instrument flight instructor training.<br/>
       <br/>
-      This course includes <strong>advanced IFR instruction techniques, scenario-based training, and simulator practice</strong> to fully prepare you to train instrument-rated pilots.
+      This course focuses on <strong>advanced IFR instruction techniques, scenario-based training, and simulator practice</strong> to prepare you for teaching instrument-rated students and enhancing your professional credentials.
     `,
 
     keyPoints: [
-      "Complete in 4–6 weeks with accelerated training",
-      "Train one-on-one with experienced CFII instructors",
-      "Use of modern aircraft and IFR-capable simulators",
+      "Accelerated CFII program completed in as little as 2–3 weeks",
+      "8 hours of instrument flight training and 15 hours of ground instruction",
+      "One-on-one mentorship from experienced CFII instructors",
       "Scenario-based teaching methods for real-world preparation",
-      "Ground school and FAA exam prep included",
-      "Comprehensive checkride preparation and evaluation",
+      "Ground school and FAA exam preparation included",
+      "Comprehensive pre-checkride evaluation and preparation",
     ],
 
     // What's Included
     included: {
       heading: "What’s Included in Your Training Package?",
       items: [
-        "25 flight hours of instrument instructor training",
+        "8 flight hours of instrument instructor training and 15 hours of ground lessons",
         "One-on-one instruction with experienced CFII mentors",
-        "Ground school & FAA exam preparation",
+        "Ground school & exam preparation",
         "Gleim Flight/Ground Instructor + FOI Kit",
         "Advanced instrument instruction techniques and simulator training",
         "Scenario-based IFR teaching methodologies",
@@ -75,11 +75,13 @@ const cfiiPilotData = {
     additionalCosts: {
       heading: "What’s Not Included (Additional Student Costs)?",
       items: [
-        "Noise-canceling aviation headset (~$600 - $1,100; Recommended brands: Bose, Lightspeed, David Clark)",
-        "iPad with GPS (~$500 - $700; Cellular capable, no data plan required)",
+        "Noise-canceling aviation headset (~$600 - $1,200; Recommended: Bose, Lightspeed, David Clark)",
+        "iPad with GPS (~$500 - $700; Cellular capable, no cellular plan required)",
         "Aircraft rental insurance (~$600/year; Required for training flights)",
-        "ForeFlight subscription (~$250/year; For flight planning and in-flight navigation)",
-        "FAA 1st Class Medical clearance (~$150; Required for those pursuing a professional pilot career)",
+        "FAA Designated Pilot Examiner (DPE) practical exam fees (~$800 - $1,200)",
+        "FAA written exam fees (~$175)",
+        "ForeFlight subscription (~$250/year; Flight planning & in-flight navigation)",
+        "FAA 1st Class Medical clearance (~$150; Required for professional pilots)",
       ],
     },
 
@@ -87,12 +89,12 @@ const cfiiPilotData = {
     benefits: {
       heading: "Why Train with Speedway?",
       items: [
-        "Accelerated CFII training in as little as 4–6 weeks",
-        "Mentorship from experienced, active CFII instructors",
+        "Accelerated CFII training in as little as 2–3 weeks",
+        "Mentorship from active, experienced CFII instructors",
         "Access to IFR-equipped aircraft and simulators",
         "Scenario-based instruction and advanced teaching techniques",
-        "Supportive, safety-first learning environment",
-        "Preparation for real-world instrument training scenarios",
+        "Safety-first training environment focused on professionalism",
+        "Comprehensive checkride preparation for instrument instructor certification",
       ],
     },
 
@@ -114,27 +116,27 @@ const cfiiPilotData = {
       {
         question: "How long does it take to complete the CFII program?",
         answer:
-          "With our accelerated structure, most students complete the CFII program in <strong>4–6 weeks</strong> depending on their schedule and availability.",
+          "With our accelerated training model, most students complete the CFII program in <strong>2–3 weeks</strong>, depending on their schedule and proficiency.",
       },
       {
         question: "What are the prerequisites for this program?",
         answer:
-          "You must already hold a Commercial Pilot License with an Instrument Rating and be a Certified Flight Instructor (CFI) before starting CFII training.",
+          "You must already hold a <strong>Commercial Pilot License with Instrument Rating</strong> and a <strong>Certified Flight Instructor (CFI)</strong> certificate before beginning CFII training.",
       },
       {
         question: "Is simulator training included?",
         answer:
-          "Yes! We include simulator-based instruction alongside real-world flight training to prepare you for teaching in IFR conditions.",
+          "Yes. The program integrates <strong>simulator-based IFR instruction</strong> alongside real-world flight training to prepare you for advanced instrument instruction.",
       },
       {
         question: "Can I teach IFR students after earning my CFII?",
         answer:
-          "Absolutely. Earning your CFII qualifies you to instruct students working toward their Instrument Rating under both Part 61 and Part 141 (if the school is approved).",
+          "Absolutely. The CFII rating authorizes you to train students pursuing their <strong>Instrument Rating</strong> under Part 61 or Part 141 (if applicable).",
       },
       {
         question: "Do you offer financing options?",
         answer:
-          "Yes! We partner with <a href='https://stratus.finance' target='_blank' class='hover:brightness-125 text-primary-600'>Stratus Financial</a> to help students fund their flight training programs.",
+          "Yes! Speedway partners with <a href='https://stratus.finance' target='_blank' class='hover:brightness-125 text-primary-600'>Stratus Financial</a> to provide flexible financing solutions for flight training students.",
       },
     ],
   },
