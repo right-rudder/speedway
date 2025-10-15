@@ -48,8 +48,8 @@ const singleEngineAddOn = {
         <li><strong>Accelerated Program:</strong> Complete in <strong>2–3 weeks</strong></li>
         <li><strong>Estimated Cost:</strong> <strong>$2,800</strong> (Based on 7 flight hours and 6 hours of ground instruction – additional expenses apply)</li>
         <li><strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong></li>
-        <li><strong>Aircraft Used:</strong> IFR-certified single-engine aircraft with Garmin G5 and 650XI avionics</li>
-        <li><strong>Minimum Requirements:</strong> Must hold commercial multi-engine certificate (or equivalent)</li>
+        <li><strong>Aircraft Used:</strong> Modern, well-maintained fleet equipped for IFR training</li>
+        <li><strong>Minimum Requirements:</strong> 7 flight hours of single-engine training</li>
       </ul>
       <br/>
       If you're looking for an efficient way to add this critical rating to your certificate, our program is structured to move you quickly from training to checkride — without compromising quality or safety.
@@ -84,9 +84,9 @@ const singleEngineAddOn = {
         "iPad with GPS (~$500 - $700 – cellular version, no data plan needed)",
         "Aircraft rental insurance (~$600/year – required for training flights)",
         "FAA Designated Pilot Examiner (DPE) practical exam fees (~$800–$1,200)",
+        "FAA written exam fees (~$175)",
         "ForeFlight subscription (~$250/year – for charts, EFB, and flight planning)",
         "FAA 1st Class Medical clearance (~$150 – for career-track pilots)",
-        "Applicable Sales Taxes",
       ],
     },
 
