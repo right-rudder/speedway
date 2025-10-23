@@ -1,0 +1,385 @@
+---
+const CRM_FORM_WEBHOOK_URL = import.meta.env.ENROLL_WEBHOOK_URL;
+const PORTAL_API_KEY = import.meta.env.PORTAL_API_KEY;
+---
+
+<form class="mx-auto max-w-xl pb-10" id="career_fair_form" autocomplete="off">
+  <div class="grid grid-cols-1 gap-x-8 gap-y-2 sm:grid-cols-2">
+    <div>
+      <!-- <label for="first_name" class="block text-sm leading-6 text-accent-100">First name</label> -->
+      <div class="mt-2.5">
+        <input
+          type="text"
+          name="first_name"
+          id="first_name"
+          placeholder="First Name"
+          required
+          class="block w-full py-2 text-accent-100 shadow-sm ring-inset ring-gray-300 placeholder:text-gray-300 bg-transparent border-b-[1px] border-gray-300 sm:text-sm sm:leading-6 outline-none"
+        />
+      </div>
+    </div>
+    <div>
+      <!-- <label for="last_name" class="block text-sm leading-6 text-accent-100">Last name</label> -->
+      <div class="mt-2.5">
+        <input
+          type="text"
+          name="last_name"
+          id="last_name"
+          placeholder="Last Name"
+          required
+          class="block w-full py-2 text-accent-100 shadow-sm ring-inset ring-gray-300 placeholder:text-gray-300 bg-transparent border-b-[1px] border-gray-300 sm:text-sm sm:leading-6 outline-none"
+        />
+      </div>
+    </div>
+    <div class="sm:col-span-2">
+      <!-- <label for="email" class="block text-sm leading-6 text-accent-100">Email</label> -->
+      <div class="mt-2.5">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email Address"
+          required
+          class="block w-full py-2 text-accent-100 shadow-sm ring-inset ring-gray-300 placeholder:text-gray-300 bg-transparent border-b-[1px] border-gray-300 sm:text-sm sm:leading-6 outline-none"
+        />
+      </div>
+    </div>
+    <p class="hidden">
+      <label>
+        Don't fill this out if you're human: <input name="confirm_email" />
+      </label>
+    </p>
+    <div class="sm:col-span-2">
+      <!-- <label for="phone" class="block text-sm leading-6 text-accent-100">Phone number</label> -->
+      <div class="relative mt-2.5">
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Phone Number"
+          required
+          class="block w-full py-2 text-accent-100 shadow-sm ring-inset ring-gray-300 placeholder:text-gray-300 bg-transparent border-b-[1px] border-gray-300 sm:text-sm sm:leading-6 outline-none"
+        />
+      </div>
+    </div>
+    <div class="sm:col-span-2">
+      <!-- <label for="age" class="block text-sm leading-6 text-accent-100">Age</label> -->
+      <div class="relative mt-2.5">
+        <input
+          type="number"
+          name="age"
+          id="age"
+          placeholder="Age"
+          required
+          class="block w-full py-2 text-accent-100 shadow-sm ring-inset ring-gray-300 placeholder:text-gray-300 bg-transparent border-b-[1px] border-gray-300 sm:text-sm sm:leading-6 outline-none"
+          min="12"
+          max="20"
+        />
+      </div>
+    </div>
+    <div class="sm:col-span-2">
+      <div class="mt-2.5">
+        <textarea
+          name="message"
+          id="message"
+          rows="4"
+          placeholder="Extra Information (Optional)"
+          class="block w-full py-2 text-accent-100 shadow-sm ring-inset ring-gray-300 placeholder:text-gray-300 bg-transparent border-b-[1px] border-gray-300 sm:text-sm sm:leading-6 outline-none"
+        ></textarea>
+      </div>
+    </div>
+    <div class="flex gap-x-4 sm:col-span-2">
+      <div class="flex h-6 items-center">
+        <button
+          type="button"
+          id="terms_toggle"
+          class="flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-primary-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 bg-gray-200"
+          role="switch"
+          aria-checked="false"
+          aria-labelledby="switch-1-label"
+        >
+          <span class="sr-only"> I agree to terms & conditions provided by the company. </span>
+          <span
+            id="terms_thumb"
+            class="h-4 w-4 transform rounded-full bg-black shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out translate-x-0"
+            aria-hidden="true"></span>
+        </button>
+        <input type="hidden" id="agree_terms" name="agree_terms" value="no" />
+      </div>
+      <label class="text-sm leading-6 text-gray-200" id="switch-1-label">
+        I agree to the <span class="text-primary-700 font-semibold">Privacy Policy</span> and <span
+          class="text-primary-700 font-semibold"
+        >
+          Terms of Service
+        </span> provided by the company. By providing my phone number, I agree to receive text messages from the business.
+      </label>
+    </div>
+  </div>
+  <div class="mt-10 flex justify-center">
+    <button
+      type="submit"
+      disabled
+      id="submit_btn"
+      class="btn-accent cursor-not-allowed bg-gray-400 hover:bg-gray-400 hover:text-mariner-950 translate-x-3.5"
+      >Submit</button
+    >
+  </div>
+
+  <el-dialog>
+    <dialog
+      id="dialog"
+      aria-labelledby="dialog-title"
+      class="fixed inset-0 size-auto max-h-none max-w-none overflow-y-auto bg-transparent backdrop:bg-transparent"
+    >
+      <el-dialog-backdrop
+        class="fixed inset-0 bg-gray-500/75 transition-opacity data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in"
+      ></el-dialog-backdrop>
+
+      <div
+        tabindex="0"
+        class="flex min-h-full items-end justify-center p-4 text-center focus:outline-none sm:items-center sm:p-0"
+      >
+        <el-dialog-panel
+          class="relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all data-closed:translate-y-4 data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in sm:my-8 sm:w-full sm:max-w-sm sm:p-6 data-closed:sm:translate-y-0 data-closed:sm:scale-95"
+        >
+          <div>
+            <div class="mx-auto flex size-12 items-center justify-center rounded-full bg-green-100">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                data-slot="icon"
+                aria-hidden="true"
+                class="size-6 text-green-600"
+              >
+                <path d="m4.5 12.75 6 6 9-13.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+            <div class="mt-3 text-center sm:mt-5">
+              <h3 id="dialog-title" class="text-base font-semibold text-gray-900 font-xl">Success!</h3>
+              <div class="mt-2">
+                <p class="text-md text-gray-500">
+                  Your message has been sent and will be reviewed as soon as possible.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 sm:mt-6">
+            <button id="dialog_close_btn" type="button" class="btn-accent w-full">Ok</button>
+          </div>
+        </el-dialog-panel>
+      </div>
+    </dialog>
+  </el-dialog>
+</form>
+
+<script define:vars={{ CRM_FORM_WEBHOOK_URL, PORTAL_API_KEY }}>
+  const toggle = document.getElementById("terms_toggle");
+  const thumb = document.getElementById("terms_thumb");
+  const hiddenInput = document.getElementById("agree_terms");
+  const submitBtn = document.getElementById("submit_btn");
+  const form = document.getElementById("career_fair_form");
+  const dialog = document.getElementById("dialog");
+  const closeDialogButton = document.getElementById("dialog_close_btn");
+
+  let isChecked = false;
+  let isSubmitting = false;
+
+  document.addEventListener("DOMContentLoaded", () => {
+    function generatePortalPostBody(body) {
+      const portalBody = JSON.parse(JSON.stringify(body));
+      const excludedFields = ["first_name", "last_name", "email", "phone", "confirm_email", "agree_terms"];
+      const metadata = {};
+
+      for (const key in portalBody) {
+        const value = portalBody[key];
+        if (!excludedFields.includes(key)) {
+          metadata[key] = value?.trim?.() ?? value;
+        }
+      }
+
+      portalBody.campaign = "hampton_high_school_career_fair";
+      portalBody.account_random_id = "ac_x378a6p2";
+      portalBody.metadata = metadata;
+
+      return portalBody;
+    }
+
+    function updateSubmitButtonState(enabled, text) {
+      submitBtn.disabled = !enabled;
+      if (text) {
+        submitBtn.textContent = text;
+      }
+
+      if (enabled) {
+        submitBtn.classList.remove("cursor-not-allowed", "bg-gray-400", "hover:bg-gray-400", "hover:text-mariner-950");
+      } else {
+        submitBtn.classList.add("cursor-not-allowed", "bg-gray-400", "hover:bg-gray-400", "hover:text-mariner-950");
+      }
+    }
+
+    function showDialog() {
+      dialog.showModal();
+      requestAnimationFrame(() => {
+        dialog.classList.add("open-dialog");
+      });
+    }
+
+    function clearForm() {
+      form.reset();
+      updateTermsToggle(false);
+    }
+
+    function updateTermsToggle(state) {
+      state = state;
+      hiddenInput.value = state ? "yes" : "no";
+      toggle.setAttribute("aria-checked", state);
+      toggle.classList.toggle("bg-mariner-500", state);
+      toggle.classList.toggle("bg-gray-200", !state);
+      thumb.classList.toggle("translate-x-3.5", state);
+      thumb.classList.toggle("translate-x-0", !state);
+
+      updateSubmitButtonState(state);
+    }
+
+    if (!form) {
+      console.error("Form element not found.");
+      return;
+    }
+
+    toggle.addEventListener("click", () => {
+      updateTermsToggle(!isChecked);
+    });
+
+    closeDialogButton.addEventListener("click", () => {
+      clearForm();
+      dialog.classList.remove("open-dialog");
+
+      dialog.addEventListener(
+        "animationend",
+        () => {
+          dialog.close();
+        },
+        { once: true }
+      );
+    });
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+
+      if (isSubmitting) return;
+
+      const formData = new FormData(form);
+      const data = Object.fromEntries(formData.entries());
+      if (data["confirm_email"]) return;
+
+      const portalBody = generatePortalPostBody(data);
+
+      try {
+        isSubmitting = true;
+        updateSubmitButtonState(false, "Submitting...");
+
+        showDialog();
+        /* const [crmResponse, portalResponse] = await Promise.all([
+          fetch(CRM_FORM_WEBHOOK_URL, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: JSON.stringify(data),
+          }),
+          fetch("https://portal.rightruddermarketing.com/api/leads", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Accept: "application/json",
+              "x-api-key": PORTAL_API_KEY,
+            },
+            body: JSON.stringify(portalBody),
+          }),
+        ]);
+
+        if (crmResponse.ok && portalResponse.ok) {
+          showDialog();
+        } else {
+          console.error("Submission failed", {
+            crmError: {
+              status: crmResponse.status,
+              body: await crmResponse.json(),
+            },
+            portal: {
+              status: portalResponse.status,
+              body: await portalResponse.json(),
+            },
+          });
+          alert("There was an error submitting your form. Please try again or contact us directly.");
+        } */
+      } catch (err) {
+        console.error("Submission error:", err);
+        alert("There was an error submitting your form. Please try again or contact us directly.");
+      } finally {
+        isSubmitting = false;
+        updateSubmitButtonState(false, "Submit");
+      }
+    });
+  });
+</script>
+
+<style>
+  #dialog {
+    animation: 0.3s ease-in-out 0s 1 forwards closeDialog;
+  }
+
+  #dialog el-dialog-panel {
+    animation: 0.3s ease-in-out 0s 1 forwards closeDialogContent;
+  }
+
+  #dialog.open-dialog {
+    animation: 0.3s ease-in-out 0s 1 forwards showDialog;
+  }
+
+  #dialog.open-dialog el-dialog-panel {
+    animation: 0.3s ease-in-out 0s 1 forwards showDialogContent;
+  }
+
+  @keyframes showDialog {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes showDialogContent {
+    0% {
+      transform: scale(0.9);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes closeDialog {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes closeDialogContent {
+    0% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(0.9);
+    }
+  }
+</style>
