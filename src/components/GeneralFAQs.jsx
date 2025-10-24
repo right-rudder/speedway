@@ -131,6 +131,7 @@ const GeneralFAQs = () => {
             key={index}
             className="border-b border-main-black/30 pb-2"
             data-aos="fade up"
+            data-aos-offset="200"
           >
             <button
               onClick={() => toggleFAQ(index)}
@@ -138,11 +139,11 @@ const GeneralFAQs = () => {
             >
               {faq.question}
               <IoIosArrowForward
-                className={`$${openQuestions[index] ? "-rotate-90" : "rotate-90"} size-5 duration-200 shrink-0`}
+                className={`${openQuestions[index] ? "rotate-90" : "rotate-0"} size-5 duration-300 shrink-0`}
               />
             </button>
             <div
-              className={`duration-500 overflow-hidden ${openQuestions[index] ? "max-h-min" : "max-h-0"}`}
+              className={`transition-all duration-500 overflow-hidden ${openQuestions[index] ? "max-h-screen" : "max-h-0"}`}
             >
               <div className="text-accent-900/80 text-lg lg:text-xl pl-5">
                 {parse(faq.answer)}

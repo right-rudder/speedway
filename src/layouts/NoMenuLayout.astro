@@ -1,0 +1,32 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import { SITE_TITLE, SITE_DESCRIPTION, KEYWORDS, OG_IMAGE } from "../consts";
+import "@fontsource-variable/montserrat";
+import "@fontsource/bebas-neue";
+import "@fontsource-variable/quicksand";
+import Banner from "../components/Banner.astro";
+import "aos/dist/aos.css";
+
+const { siteTitle, siteDescription, keywords, ogImage } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <BaseHead
+      title={siteTitle || SITE_TITLE}
+      description={siteDescription || SITE_DESCRIPTION}
+      keywords={keywords || KEYWORDS}
+      image={ogImage || OG_IMAGE}
+    />
+  </head>
+  <body class="font-sans2 bg-mariner-950 bg-checkered bg-fixed">
+    <main>
+      <slot />
+    </main>
+    <script>
+      import AOS from "aos";
+      AOS.init();
+    </script>
+  </body>
+</html>
