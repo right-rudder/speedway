@@ -1,9 +1,9 @@
 ---
-const CRM_FORM_WEBHOOK_URL = import.meta.env.ENROLL_WEBHOOK_URL;
+const CRM_FORM_WEBHOOK_URL = import.meta.env.CAREER_FAIR_WEBHOOK_URL;
 const PORTAL_API_KEY = import.meta.env.PORTAL_API_KEY;
 ---
 
-<form class="mx-auto max-w-xl pb-10" id="career_fair_form" autocomplete="off">
+<form class="mx-auto max-w-xl" id="career_fair_form" autocomplete="off">
   <div class="grid grid-cols-1 gap-x-8 gap-y-2 sm:grid-cols-2">
     <div>
       <!-- <label for="first_name" class="block text-sm leading-6 text-accent-100">First name</label> -->
@@ -59,6 +59,7 @@ const PORTAL_API_KEY = import.meta.env.PORTAL_API_KEY;
           placeholder="Phone Number"
           required
           class="block w-full py-2 text-accent-100 shadow-sm ring-inset ring-gray-300 placeholder:text-gray-300 bg-transparent border-b-[1px] border-gray-300 sm:text-sm sm:leading-6 outline-none"
+          maxlength="20"
         />
       </div>
     </div>
@@ -73,7 +74,7 @@ const PORTAL_API_KEY = import.meta.env.PORTAL_API_KEY;
           required
           class="block w-full py-2 text-accent-100 shadow-sm ring-inset ring-gray-300 placeholder:text-gray-300 bg-transparent border-b-[1px] border-gray-300 sm:text-sm sm:leading-6 outline-none"
           min="12"
-          max="20"
+          max="50"
         />
       </div>
     </div>
@@ -85,7 +86,7 @@ const PORTAL_API_KEY = import.meta.env.PORTAL_API_KEY;
           rows="4"
           placeholder="Extra Information (Optional)"
           class="block w-full py-2 text-accent-100 shadow-sm ring-inset ring-gray-300 placeholder:text-gray-300 bg-transparent border-b-[1px] border-gray-300 sm:text-sm sm:leading-6 outline-none"
-        ></textarea>
+          maxlength="3000"></textarea>
       </div>
     </div>
     <div class="flex gap-x-4 sm:col-span-2">
@@ -253,7 +254,6 @@ const PORTAL_API_KEY = import.meta.env.PORTAL_API_KEY;
     });
 
     closeDialogButton.addEventListener("click", () => {
-      clearForm();
       dialog.classList.remove("open-dialog");
 
       dialog.addEventListener(
@@ -280,12 +280,11 @@ const PORTAL_API_KEY = import.meta.env.PORTAL_API_KEY;
         isSubmitting = true;
         updateSubmitButtonState(false, "Submitting...");
 
-        showDialog();
-        /* const [crmResponse, portalResponse] = await Promise.all([
+        const [crmResponse, portalResponse] = await Promise.all([
           fetch(CRM_FORM_WEBHOOK_URL, {
             method: "POST",
             headers: {
-              "Content-Type": "application/x-www-form-urlencoded",
+              "Content-Type": "application/json",
             },
             body: JSON.stringify(data),
           }),
@@ -314,13 +313,14 @@ const PORTAL_API_KEY = import.meta.env.PORTAL_API_KEY;
             },
           });
           alert("There was an error submitting your form. Please try again or contact us directly.");
-        } */
+        }
       } catch (err) {
         console.error("Submission error:", err);
         alert("There was an error submitting your form. Please try again or contact us directly.");
       } finally {
         isSubmitting = false;
         updateSubmitButtonState(false, "Submit");
+        clearForm();
       }
     });
   });
