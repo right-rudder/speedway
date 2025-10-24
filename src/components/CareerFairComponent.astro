@@ -1,24 +1,33 @@
 ---
 import CareerFairForm from "./CareerFairForm.astro";
 import ImageComp from "./ImageComp.astro";
+import { COMPANY_NAME, LOGO_ASSETS } from "../consts";
 ---
 
-<section
-  class="relative h-screen z-10 bg-checkered bg-fixed text-accent-100 scroll-my-20 flex items-center justify-center lg:scroll-my-28"
->
-  <div class="relative z-10 max-w-7xl p-8">
-    <div class="w-full flex flex-col items-center">
-      <h2 class="text-center text-3xl font-semibold uppercase py-5">Start Your Flying Journey</h2>
-      <div class="bg-primary-800 w-48 h-1 mb-8"></div>
-    </div>
+<section class="relative h-full text-accent-100 scroll-my-20 lg:scroll-my-28">
+  <ImageComp
+    imagePath={LOGO_ASSETS}
+    imageAlt=`${COMPANY_NAME} logo`
+    styles="object-contain h-48 w-auto px-5 drop-shadow-lg mx-auto mt-5 lg:px-0"
+    widths={[240, 540, 720, 1080, 1440, 1980]}
+    sizes={`(max-width: 240px) 240px, (max-width: 540px) 540px, (max-width: 720px) 720px, (max-width: 1080px) 1080px, (max-width: 1440px) 1440px, 1920px`}
+  />
 
-    <div class="relative w-full rounded-lg py-8 px-12 overflow-hidden">
-      <ImageComp
-        imagePath="/src/assets/atlanta-airport-Speedway-Flight-Training-103.webp"
-        imageAlt="Airplane flying above river"
-        styles="absolute h-full w-full top-0 left-0 object-cover object-center -z-10 grayscale brightness-50"
-      />
-      <CareerFairForm />
+  <div class="w-full flex flex-col items-center mt-5">
+    <h2 class="text-center text-3xl font-semibold uppercase py-5">Start Your Flying Journey</h2>
+    <div class="bg-primary-800 w-48 h-1 mb-5"></div>
+  </div>
+
+  <div class="flex items-center justify-center">
+    <div class="relative z-10 w-full max-w-7xl p-0 md:w-auto md:p-8">
+      <div class="relative w-full rounded-none p-6 overflow-hidden sm:p-8 md:px-12 md:rounded-lg">
+        <ImageComp
+          imagePath="/src/assets/atlanta-airport-Speedway-Flight-Training-103.webp"
+          imageAlt="Airplane flying above river"
+          styles="absolute h-full w-full top-0 left-0 object-cover object-center -z-10 grayscale brightness-50"
+        />
+        <CareerFairForm />
+      </div>
     </div>
   </div>
 </section>
