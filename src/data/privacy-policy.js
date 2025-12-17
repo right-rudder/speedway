@@ -64,7 +64,7 @@ const privacyPolicies = {
       {
         heading: "Contact Us",
         paragraphs: [
-          "If you have questions or concerns about this Privacy Policy, please contact us at info@speedwayft.com.",
+          "If you have questions or concerns about this Privacy Policy, please contact us at info@mail.speedwayft.com.",
         ],
       },
     ],
