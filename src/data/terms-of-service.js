@@ -66,7 +66,7 @@ const terms = {
       {
         heading: "Contact Us",
         paragraphs: [
-          "If you have questions or feedback about our Terms of Service, please reach out to us at info@speedwayft.com.",
+          "If you have questions or feedback about our Terms of Service, please reach out to us at info@mail.speedwayft.com.",
         ],
       },
     ],
