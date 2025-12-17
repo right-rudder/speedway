@@ -128,11 +128,11 @@ export const ADDRESS_LINE_2 = "Hampton, GA 30228";
 export const AIRPORT = "Atlanta Speedway Airport";
 export const AIRPORT_CODE = "ATL";
 export const ADDRESS = "552 Speedway Blvd Hanger C-1, Hampton, GA 30228";
-export const ADDRESS_CITY = "Hampton";
+export const ADDRESS_CITY = "Atlanta";
 export const ADDRESS_STATE = "Georgia";
 export const ADDRESS_ZIP = "30228";
 export const GMAPS = "https://maps.app.goo.gl/jgGYGrkLEd8Mjuu19";
-export const EMAIL_ADDRESS = "info@SpeedwayFT.com";
+export const EMAIL_ADDRESS = "info@mail.speedwayft.com";
 export const FACEBOOK_URL =
   "https://www.facebook.com/people/Speedway-Flight-Training/61574840653146/#";
 export const INSTAGRAM_URL =
