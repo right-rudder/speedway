@@ -6,15 +6,15 @@ import HeroImage from "../assets/speedway-checkered-flag-atlanta-hampton-georgia
 const data = {
   imageAlt: "Speedway Flight Training aircraft flying over Hampton, Georgia",
   catch: "Fly Fast",
-  title: `Accelerated Flight Training Programs in ${AIRPORT || `${ADDRESS_CITY}, ${ADDRESS_STATE}`}`,
+  title: `Accelerated Flight Training Programs in ${`${ADDRESS_CITY}, ${ADDRESS_STATE}` || AIRPORT}`,
   buttons: [
     {
       text: "Discovery flight",
       link: "/discovery-flight",
     },
     {
-      text: "More Info",
-      link: "#info",
+      text: "Enroll Now",
+      link: "/enroll",
     },
   ],
 };
