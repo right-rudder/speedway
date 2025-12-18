@@ -11,7 +11,7 @@ const data = {
     {
       title: "Multi Engine Rating Special",
       bullets: [
-        "ME Introductory $5,995 (normally $7,495). MEI Introductory $8,995 (normally $10,495).Introductory $8,995 (normally $10,495).  Call, email, text us to reserve your spot!!",
+        `<a href="/programs/multi-engine#top" class="text-primary-700 font-semibold">ME Introductory $5,995</a> (normally $7,495). <a href="/programs/multi-engine-instructor#top"  class="text-primary-700 font-semibold">MEI Introductory $8,995 </a>(normally $10,495).  Call, email, text us to reserve your spot!!`,
         "up to 10 hours flight instruction (ME) and up to 15 hours (MEI) non-refundable)",
         "housing available at additional cost",
       ],
@@ -66,7 +66,7 @@ const data = {
                 {/* <h2 class="uppercase text-lg py-2 h-xl">{offer.title}</h2> */}
                 <ul class="list-disc list-inside text-left text-sm lg:text-base ">
                   {offer.bullets.map((bullet) => (
-                    <li>{bullet}</li>
+                    <li set:html={bullet} />
                   ))}
                 </ul>
                 {/* <a
