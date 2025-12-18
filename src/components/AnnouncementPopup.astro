@@ -107,7 +107,7 @@ const data = {
       const storageKey = `ht-banner:${sectionKey}:shown`;
 
       // If already shown this session for this section, do nothing.
-      // if (sessionStorage.getItem(storageKey) === "1") return;
+      if (sessionStorage.getItem(storageKey) === "1") return;
 
       const wrapper = this.querySelector('[role="region"]');
       const button = this.querySelector(`#${CSS.escape(btnId)}`);
@@ -115,7 +115,7 @@ const data = {
       // Show after ~5 seconds
       setTimeout(() => {
         // Double-check: maybe another instance already showed
-        // if (sessionStorage.getItem(storageKey) === "1") return;
+        if (sessionStorage.getItem(storageKey) === "1") return;
         if (wrapper) {
           wrapper.classList.replace("opacity-0", "opacity-1");
           wrapper.classList.replace("translate-y-full", "-translate-y-10");
