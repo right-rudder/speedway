@@ -6,10 +6,10 @@ import {
 } from "../consts";
 
 const multiEngineData = {
-  pageTitle: `Multi-Engine Rating in 3 Weeks | Twin Engine Certification | ${COMPANY_NAME}`,
+  pageTitle: `Multi-Engine Add-On Package | Twin Engine Training | ${COMPANY_NAME}`,
   pageDescription:
-    "Get your Multi-Engine Rating in just 3-5 weeks at Atlanta Speedway Airport! Build the twin-engine time required for airlines with our accelerated program featuring hands-on training and emergency procedure mastery. Financing available.",
-  pageKeywords: `${PROGRAM_KEYWORDS.multiEngine}, ${LOCATION_KEYWORDS.primary}, twin engine certification Georgia, accelerated ME rating, airline pilot requirements, complex aircraft endorsement, multi-engine commercial pilot, Vmc demonstration training, engine-out procedures, multi-engine checkride preparation, Beechcraft twin training, 3-week multi-engine course, twin time building`,
+    "Enhance your skills and expand your career opportunities with Speedway’s Multi-Engine Add-On Package. Accelerated one-week training in the Tecnam P2006T, designed for airline and corporate pilot preparation.",
+  pageKeywords: `${PROGRAM_KEYWORDS.multiEngine}, ${LOCATION_KEYWORDS.primary}, multi-engine add-on, twin engine training Georgia, Tecnam P2006T training, accelerated multi-engine course, airline pilot preparation, corporate pilot training, multi-engine checkride prep`,
 
   // Top Header
   header: {
@@ -17,7 +17,7 @@ const multiEngineData = {
     imagePath: "/src/assets/stock-chris-michals-PQXjU65EPKE-unsplash.webp",
     imageAlt: "Multi-engine aircraft at Speedway Flight Training",
     headerH1: `Multi-Engine <br>ADD-ON`,
-    paragraph: `Expand your capabilities and career options. Our Multi-Engine Add-On is designed for pilots looking to build time, meet airline requirements, and operate complex aircraft with confidence.`,
+    paragraph: `Enhance your skills and expand your career opportunities with Speedway’s Multi-Engine Add-On program. This accelerated course prepares pilots for airline and corporate flight operations with advanced multi-engine training.`,
     buttons: [
       {
         name: "Apply Now",
@@ -34,44 +34,40 @@ const multiEngineData = {
 
   // Program Details
   details: {
-    upperHeading: "Expand Your Capabilities With a",
-    heading: "Multi-Engine Add-On",
+    upperHeading: "Enhance Your Skills With the",
+    heading: "Multi-Engine Add-On Package",
     subHeading:
-      "Train for complex, high-performance aircraft and build multi-engine time with personalized instruction at Speedway Flight Training.",
+      "Advanced multi-engine training designed to prepare pilots for professional airline and corporate operations.",
 
-    title: "Overview",
+    title: "Program Overview",
     description: `
-      Speedway’s <strong>Multi-Engine Add-On</strong> program is perfect for pilots ready to <strong>advance into commercial or airline operations</strong>. With experienced instructors and modern twin-engine aircraft, you’ll gain the confidence and skills to pass your ME checkride and operate more complex platforms.
+      Speedway’s <strong>Multi-Engine Add-On Package</strong> is designed for pilots looking to <strong>expand their qualifications and career opportunities</strong> through focused, professional-level training.
       <br/><br/>
-      🚀 <strong>Accelerated Program:</strong> Complete in <strong>3–5 weeks</strong><br/>
-      📆 <strong>Flexible Scheduling:</strong> Train on your time<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong><br/>
-      💰 <strong>Estimated Cost:</strong> <strong>$15,000</strong> (based on 25 flight hours; additional expenses apply)<br/>
-      🛩 <strong>Aircraft Used:</strong> Modern, well-maintained multi-engine aircraft<br/>
-      📜 <strong>FAA Requirements:</strong> Minimum <strong>25 hours of multi-engine training</strong><br/>
+      🚀 <strong>Accelerated Program:</strong> Designed to be completed in <strong>1 week</strong><br/>
+      ✈️ <strong>Training Location:</strong> Speedway Flight Training facilities<br/>
+      💰 <strong>Cost:</strong> <strong>$6,000</strong> (includes up to <strong>10 flight instruction hours</strong>; additional expenses apply)<br/>
+      🛩 <strong>Aircraft Used:</strong> <strong>Tecnam P2006T</strong> with <strong>G1000 avionics suite</strong><br/>
       <br/>
-      The program includes <strong>advanced flight maneuvers</strong>, <strong>engine-out procedures</strong>, <strong>Vmc demos</strong>, and <strong>checkride prep</strong>—all with one-on-one mentorship.
+      This course emphasizes <strong>advanced multi-engine maneuvers</strong>, <strong>emergency procedures</strong>, and <strong>checkride readiness</strong> with one-on-one instruction from experienced multi-engine instructors.
     `,
 
     keyPoints: [
-      "Accelerated Multi-Engine Training in 3–5 Weeks",
+      "Accelerated One-Week Multi-Engine Add-On Program",
+      "Up to 10 Flight Hours in a Tecnam P2006T (G1000)",
       "One-on-One Instruction with Experienced ME Instructors",
-      "Advanced Engine-Out & Emergency Procedures",
-      "Hands-On Flight Time in Modern Multi-Engine Aircraft",
-      "Full Checkride Prep Included",
-      "Ideal for Pilots Pursuing Airline or Corporate Careers",
+      "Advanced Multi-Engine Maneuvers & Emergency Procedures",
+      "Focused Pre-Checkride Preparation",
+      "Designed for Airline & Corporate Pilot Career Paths",
     ],
 
     included: {
       heading: "What’s Included in Your Training Package?",
       items: [
-        "Up to 25 hours of multi-engine flight training",
+        "Up to 10 flight hours of multi-engine training",
         "One-on-one instruction with experienced multi-engine instructors",
         "Ground school & exam preparation",
-        "Training in advanced multi-engine maneuvers and emergency procedures",
-        "Gleim multi-engine training materials",
-        "Pre-checkride evaluation and maneuver review",
-        "Scenario-based training focused on real-world decision-making",
+        "Advanced multi-engine flight maneuvers and emergency procedures",
+        "Pre-checkride preparation and evaluation",
       ],
     },
 
@@ -79,31 +75,33 @@ const multiEngineData = {
       heading: "What’s Not Included (Additional Student Costs)?",
       items: [
         "Noise-canceling aviation headset (~$600 - $1,100; Recommended: Bose, Lightspeed, David Clark)",
-        "iPad with GPS (~$500 - $700; Cellular capable, no data plan required)",
+        "iPad with GPS (~$500 - $700; Cellular capable, no cellular plan required)",
         "Aircraft rental insurance (~$600/year; Required for training flights)",
+        "FAA Designated Pilot Examiner (DPE) practical exam fees (~$800 - $1,200)",
+        "FAA written exam fees (~$175)",
         "ForeFlight subscription (~$250/year; Flight planning & in-flight navigation)",
-        "FAA 1st Class Medical clearance (~$150; Required for professional pilots)",
+        "FAA 1st Class Medical clearance (~$150; Required for professional pilot career paths)",
       ],
     },
 
     benefits: {
-      heading: "Why Add a Multi-Engine Rating at Speedway?",
+      heading: "Why Choose Speedway’s Multi-Engine Add-On?",
       items: [
-        " Get Multi-Engine Certified in Just 3–5 Weeks",
-        " Train with Instructors Who Specialize in ME Checkride Prep",
-        " Learn in a Controlled, Low-Traffic Training Environment (KHMP)",
-        " Build Complex Aircraft Time for Airline Applications",
-        " Boost Your Confidence & Emergency Procedure Mastery",
-        " Join a Community That Supports Your Aviation Goals",
+        "Complete Your Multi-Engine Add-On in Just One Week",
+        "Train in a Modern Tecnam P2006T with G1000 Avionics",
+        "Professional-Level Instruction Focused on Real-World Operations",
+        "Ideal Preparation for Airline and Corporate Flying",
+        "Focused Checkride Preparation with Experienced Instructors",
+        "Train in a Supportive, Career-Oriented Aviation Environment",
       ],
     },
 
     cta: {
       imagePath: "/src/assets/stock-david-b-o27uCBOPbG0-unsplash.webp",
       imageAlt: "Multi-engine cockpit view at Speedway Flight Training",
-      title: "Advance Your Aviation Career",
+      title: "Fast Track to the Flight Deck",
       description:
-        "Get your multi-engine rating and fly with confidence. Our team is ready to guide you through every step of the process—apply today to get started.",
+        "Apply today and take the next step toward your professional aviation career. Our team is ready to help you secure your spot and succeed in multi-engine operations.",
       button: {
         name: "Apply Now",
         link: "/enroll",
@@ -114,27 +112,27 @@ const multiEngineData = {
       {
         question: "How long does the Multi-Engine Add-On take?",
         answer:
-          "The program is designed to be completed in <strong>as little as 3–5 weeks</strong>, depending on scheduling and student availability.",
+          "This program is designed to be completed in <strong>approximately one week</strong>, depending on scheduling and weather conditions.",
       },
       {
-        question: "Can I finance my multi-engine training?",
+        question: "How much does the Multi-Engine Add-On cost?",
         answer:
-          "Yes. We work with <a href='https://stratus.finance' target='_blank' class='hover:brightness-125 text-primary-600'>Stratus Financial</a> and other partners to help you finance your program.",
+          "The total cost is <strong>$6,000</strong>, which includes up to <strong>10 flight instruction hours</strong>. Additional student expenses apply.",
       },
       {
-        question: "Is multi-engine training required for airline jobs?",
+        question: "What aircraft will I fly during training?",
         answer:
-          "Yes. <strong>Multi-engine time is often a requirement</strong> for airline, cargo, and corporate flying. Adding this rating helps you stay competitive.",
+          "Training is conducted in the <strong>Tecnam P2006T</strong>, equipped with a <strong>Garmin G1000 avionics suite</strong>.",
       },
       {
-        question: "What kind of aircraft will I fly?",
+        question: "Is this program suitable for airline or corporate pilots?",
         answer:
-          "You’ll train in <strong>modern, well-maintained twin-engine aircraft</strong> that are equipped for advanced training and checkride preparation.",
+          "Yes. This add-on is specifically designed to prepare pilots for <strong>airline and corporate flight operations</strong>.",
       },
       {
-        question: "Can I combine this with my Commercial training?",
+        question: "How do I get started?",
         answer:
-          "Yes. If you haven’t yet earned your CPL, we offer <a href='/fast-track' class='hover:underline text-primary-600'>Fast Track</a> bundles that include your multi-engine add-on at the end.",
+          "You can <a href='/enroll' class='hover:underline text-primary-600'>apply online</a> or contact us at <strong>info@SpeedwayFT.com</strong> to secure your spot.",
       },
     ],
   },
