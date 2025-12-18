@@ -14,7 +14,8 @@ const multiEngineData = {
   // Top Header
   header: {
     stars: false,
-    imagePath: "/src/assets/stock-chris-michals-PQXjU65EPKE-unsplash.webp",
+    imagePath:
+      "/src/assets/fleet-N605VA_Tecnam P2006T MKII-back_atlanta-airport_Speedway_Flight-School_Pilot-training.png",
     imageAlt: "Multi-engine aircraft at Speedway Flight Training",
     headerH1: `Multi-Engine <br>ADD-ON`,
     paragraph: `Enhance your skills and expand your career opportunities with Speedway’s Multi-Engine Add-On program. This accelerated course prepares pilots for airline and corporate flight operations with advanced multi-engine training.`,

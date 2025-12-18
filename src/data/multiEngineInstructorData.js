@@ -9,7 +9,8 @@ const multiEngineInstructorData = {
 
   header: {
     stars: true,
-    imagePath: "/src/assets/stock-david-b-o27uCBOPbG0-unsplash.webp",
+    imagePath:
+      "/src/assets/fleet-N605VA_Tecnam P2006T MKII-front_atlanta-airport_Speedway_Flight-School_Pilot-training.png",
     imageAlt: "Instructor and student walking toward a multi-engine aircraft",
     headerH1: `Multi-Engine <br>Instructor`,
     paragraph: `Expand your teaching credentials and enhance your career with Speedway’s Multi-Engine Instructor (MEI) program. Train future multi-engine pilots while refining advanced aircraft handling and instructional skills.`,
