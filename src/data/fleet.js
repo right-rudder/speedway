@@ -1,15 +1,39 @@
 export const fleet = [
   {
+    name: "N605VA",
+    slug: "n605va",
+    rentalPrice: null,
+    usableFuel: "Not specified",
+    model: "Tecnam P2006T MKII",
+    equipment: [
+      "Garmin G1000 avionics suite",
+      "Dual-engine configuration",
+      "IFR capable",
+      "Rotax 912 series engines",
+    ],
+    imagePath:
+      "/src/assets/fleet-N605VA_Tecnam P2006T MKII-front_atlanta-airport_Speedway_Flight-School_Pilot-training.png",
+    imagesArray: [
+      "/src/assets/fleet-N605VA_Tecnam P2006T MKII-front_atlanta-airport_Speedway_Flight-School_Pilot-training.png",
+      "/src/assets/fleet-N605VA_Tecnam P2006T MKII-back_atlanta-airport_Speedway_Flight-School_Pilot-training.png",
+      "/src/assets/fleet-N605VA-cockpit_Tecnam P2006T MKII-front_atlanta-airport_Speedway_Flight-School_Pilot-training.jpg",
+      "/src/assets/fleet-N605VA-cockpi-2_Tecnam P2006T MKII-front_atlanta-airport_Speedway_Flight-School_Pilot-training.jpg",
+      "/src/assets/fleet-N605VA-cockpit-3_Tecnam P2006T MKII-front_atlanta-airport_Speedway_Flight-School_Pilot-training.jpg",
+      "/src/assets/fleet-N605VA-cockpit-4_Tecnam P2006T MKII-front_atlanta-airport_Speedway_Flight-School_Pilot-training.jpg",
+    ],
+    description: [
+      "N605VA is a 2023 Tecnam P2006T MKII, a modern fixed-wing multi-engine aircraft designed for advanced pilot training and professional operations. With seating for four and twin Rotax 912 series engines, it offers efficiency, redundancy, and excellent handling characteristics.",
+      "Equipped with a Garmin G1000 avionics suite, this aircraft is ideal for multi-engine training, instrument procedures, and instructor certification courses. Its modern systems and predictable performance make it a cornerstone of Speedway Flight Training’s multi-engine fleet.",
+    ],
+  },
+
+  {
     name: "N7350G",
     slug: "n7350g",
     rentalPrice: null,
     usableFuel: "38 gal",
     model: "Cessna 172K",
-    equipment: [
-      "Garmin 650XI",
-      "Dual Garmin G5",
-      "IFR Certified",
-    ],
+    equipment: ["Garmin 650XI", "Dual Garmin G5", "IFR Certified"],
     imagePath: "/src/assets/N7330G-4.webp",
     imagesArray: [
       "/src/assets/N7330G-4.webp",
@@ -19,7 +43,7 @@ export const fleet = [
     ],
     description: [
       "N7350G is a dependable Cessna 172K ideal for both student pilots and time-building renters. Its predictable handling characteristics and steady performance make it a go-to option for primary flight instruction.",
-      "Equipped with dual Garmin G5s and the Garmin 650XI, this aircraft provides a modern avionics experience in a familiar platform. It is fully IFR certified and well-suited for students preparing for cross-country navigation, instrument approaches, or checkride readiness."
+      "Equipped with dual Garmin G5s and the Garmin 650XI, this aircraft provides a modern avionics experience in a familiar platform. It is fully IFR certified and well-suited for students preparing for cross-country navigation, instrument approaches, or checkride readiness.",
     ],
   },
   {
@@ -43,7 +67,7 @@ export const fleet = [
     ],
     description: [
       "Designated as a Technically Advanced Aircraft (TAA), N3940Q is an excellent platform for instrument, commercial, and CFI training. Its avionics suite mirrors the workflow of larger glass cockpit systems used in the airline and charter environment.",
-      "With GFC 500 autopilot integration, Garmin 650XI GPS, and dual G5s, this aircraft is ideal for students who want to learn automation management and fly precision approaches with real-world complexity. Highly recommended for fast-track career pilots."
+      "With GFC 500 autopilot integration, Garmin 650XI GPS, and dual G5s, this aircraft is ideal for students who want to learn automation management and fly precision approaches with real-world complexity. Highly recommended for fast-track career pilots.",
     ],
   },
   {
@@ -52,21 +76,17 @@ export const fleet = [
     rentalPrice: null,
     usableFuel: "38 gal",
     model: "Cessna 172I",
-    equipment: [
-      "Garmin 650XI",
-      "Dual Garmin G5",
-      "IFR Certified",
-    ],
+    equipment: ["Garmin 650XI", "Dual Garmin G5", "IFR Certified"],
     imagePath: "/src/assets/N46269-4.webp",
     imagesArray: [
       "/src/assets/N46269-4.webp",
-      "/src/assets/N46269-3.webp", 
-      "/src/assets/N46269-2.webp", 
-      "/src/assets/N46269-1.webp", 
+      "/src/assets/N46269-3.webp",
+      "/src/assets/N46269-2.webp",
+      "/src/assets/N46269-1.webp",
     ],
     description: [
       "N46269 blends the timeless reliability of the 172I airframe with a full avionics upgrade for modern training needs. It’s an excellent choice for private, instrument, or recurrent training.",
-      "The dual G5s and 650XI make this aircraft ideal for simulating IFR scenarios while still being cost-effective for everyday flight lessons. With smooth flight characteristics and a roomy cockpit, it remains a student favorite."
+      "The dual G5s and 650XI make this aircraft ideal for simulating IFR scenarios while still being cost-effective for everyday flight lessons. With smooth flight characteristics and a roomy cockpit, it remains a student favorite.",
     ],
   },
   {
@@ -90,7 +110,7 @@ export const fleet = [
     ],
     description: [
       "N21648 is a fully equipped Cessna 172M with Technically Advanced Aircraft (TAA) designation. It’s a high-performing platform for instrument and commercial students ready to operate in a complex avionics environment.",
-      "With GFC 500 autopilot and Garmin G5s, this aircraft offers hands-on automation practice, critical for building confidence before transitioning to turbine operations. Its stable performance and advanced instrumentation make it a cornerstone of Speedway’s career-track training."
+      "With GFC 500 autopilot and Garmin G5s, this aircraft offers hands-on automation practice, critical for building confidence before transitioning to turbine operations. Its stable performance and advanced instrumentation make it a cornerstone of Speedway’s career-track training.",
     ],
   },
 ];
