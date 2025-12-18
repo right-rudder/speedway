@@ -1,100 +1,87 @@
 ---
-pubDate: "June 1, 2025"
-author: Eric Schafhauser
-title: "Announcing the Speedway Flight Training Scholarship Fund"
-description: "Speedway Flight Training launches a full-ride Private Pilot scholarship for high school juniors and seniors. Covers ground school, flight training, and checkride costs. Apply now and take the first step toward your aviation career in Hampton, GA."
-heroImage: "/src/assets/Speedway-Flight-Training-Scholarship-Fund.webp"
+pubDate: "December 19, 2025"
+author: Speedway Flight Training
+title: "Building the Future of Aviation: Speedway Scholarship Fund & Full Throttle Formation Team Partnership"
+description: "The Speedway Flight Training Scholarship Fund proudly partners with the Full Throttle Formation Team to break down financial barriers, inspire future pilots, and expand access to aviation careers through education, outreach, and scholarship support."
+heroImage: "/src/assets/partner_speedway-aviation-scholarship_full-throttle-formation-team_donation-check-all-team-members.png"
 readingTime: 4
 category: "Scholarships"
 tags:
   [
-    "flight training scholarship",
     "aviation scholarship",
-    "private pilot scholarship",
-    "Speedway Flight Training",
-    "learn to fly",
-    "pilot training Georgia",
-    "high school aviation program",
-    "free pilot training",
-    "student pilot scholarship",
-    "Hampton GA flight school",
-    "KHMP airport",
-    "Private Pilot Certificate",
-    "youth aviation opportunities",
-    "pilot career path",
+    "pilot scholarship fund",
+    "aviation partnerships",
+    "youth aviation outreach",
+    "future pilots",
+    "flight training access",
     "aviation education",
+    "airshow inspiration",
+    "pilot career pathways",
+    "Speedway Scholarship Fund",
+    "aviation community support",
   ]
 ---
 
-At Speedway Flight Training, we believe the dream of flight should be within reach for anyone willing to work for it. That’s why we’re proud to introduce the **Speedway Flight Training Scholarship Fund** — a full-ride opportunity for high school juniors and seniors to earn their **Private Pilot Certificate** at no cost. This is more than a scholarship. It’s a launchpad.
+The dream of flight often begins with inspiration, a plane overhead, an airshow performance, or a moment that sparks a lifelong passion. But for many aspiring pilots, financial barriers can stop that dream before it ever leaves the ground.
 
-### Helping You Take Off
+That’s why the **Speedway Flight Training Scholarship Fund** exists, and why we’re proud to partner with the **Full Throttle Formation Team** to help open doors to aviation careers for the next generation.
 
-We started this fund because we’ve seen firsthand how a single opportunity can change a life. Whether it’s a student who grew up watching planes from their backyard or a teen determined to be the first pilot in their family, the spark is always there. Our job — and our privilege — is to fuel it.
-
-This program covers the full cost of training from your first lesson to your checkride. It includes materials, instruction, aircraft rental, mentorship, and testing fees. We don’t just want you to learn to fly — we want you to thrive.
+This partnership represents more than financial support. It’s a shared commitment to education, inspiration, and opportunity.
 
 ---
 
-## **Who’s Eligible?**
+## **A Shared Mission: Inspire, Educate, and Empower**
 
-To apply, you must:
+The Speedway Flight Training Scholarship Fund was created to expand access to flight training for motivated individuals who may not otherwise have the opportunity to pursue aviation. By reducing financial barriers, the fund helps aspiring pilots take their first steps toward professional careers in the cockpit.
 
-- Be a high school junior or senior
-- Be at least 16 years old by the time you solo, and no older than 19 by the time you complete training
-- Plan to pursue a degree in aviation after graduation
-- Pass a DOT-compliant drug screening before training begins
-- Obtain an FAA First Class Medical Certificate before Phase Two
-- Commit to staying drug- and alcohol-free
-- Hold a clean driving record and agree to follow all traffic laws
-- Be responsible for your own transportation to and from **Atlanta Speedway Airport (KHMP)**
+The Full Throttle Formation Team shares that same belief.
 
-You don’t need flight experience. You don’t need money. What you need is commitment, discipline, and the drive to succeed.
+Known for their precision flying and exciting airshow performances across the country, the team’s mission goes beyond entertainment. They strive to inspire audiences, educate future pilots, and show what’s possible through dedication, discipline, and passion for aviation.
+
+Together, we’re working to turn inspiration into action.
 
 ---
 
-## **The Three Phases of the Scholarship Program**
+## **From Airshow Inspiration to Real Opportunity**
 
-### **Phase One: Ground School & Written Exam**
+Airshows are often where aviation dreams begin. The Full Throttle Formation Team understands that moment, the spark that turns curiosity into ambition.
 
-This first phase focuses on academic preparation. Students receive FAA-approved study materials, one-on-one instructor guidance, and test fee coverage. You’ll have up to three attempts to pass the FAA Private Pilot Knowledge Test with a minimum score of **80%**.
+Through their support of the Speedway Flight Training Scholarship Fund, that spark doesn’t end when the airshow does.
 
-Once you pass the test, you're cleared to fly.
+Their partnership helps ensure that students who are inspired to fly can access real training opportunities, guidance, and pathways into aviation careers. By supporting the scholarship fund, the team directly contributes to breaking down financial obstacles that prevent talented individuals from pursuing flight training.
 
-### **Phase Two: First Solo Flight**
-
-After passing your written exam and completing your medical, you'll begin flight training at our home base in Hampton, Georgia. The goal of this phase is your first solo flight — a defining moment in any pilot's journey.
-
-All flight time, instructor fees, and aircraft rental are fully funded. Most students will solo within **15 flight hours**.
-
-### **Phase Three: Certification as a Private Pilot**
-
-This final stage is where everything comes together. You’ll continue flight training to meet FAA minimums, sharpen your skills, and prepare for the checkride. The scholarship includes:
-
-- Up to **50 hours** of flight time (with up to 10 more hours available in special cases)
-- Instructor and aircraft fees
-- All checkride and testing costs
-
-You’ll graduate with your FAA Private Pilot Certificate — the first big step toward an aviation career.
+This is how inspiration becomes impact.
 
 ---
 
-## **Our Commitment to the Next Generation**
+## **Why Partnerships Like This Matter**
 
-We know what it’s like to dream of flight. Every member of our team was once in your shoes. That’s why this scholarship means so much to us — because it’s our chance to give back.
+The aviation industry depends on the next generation of skilled, safety-conscious pilots. But access to training remains one of the biggest challenges facing aspiring aviators.
 
-We’re proud to open the skies to students who may not otherwise have the chance. Proud to invest in the future of aviation. And most of all, proud to help you become the pilot you’ve always wanted to be.
+Partnerships between scholarship organizations and industry leaders help:
+
+- Reduce financial barriers to flight training
+- Expand awareness of aviation career pathways
+- Inspire students at a critical moment in their lives
+- Strengthen the long-term future of the aviation industry
+
+The Speedway Flight Training Scholarship Fund is proud to work alongside partners who understand that investing in people is investing in aviation itself.
 
 ---
 
-### 🛫 **Ready to Apply?**
+## **Looking Ahead**
 
-Applications are open now at
-👉 [www.speedwayscholarship.com/apply](https://www.speedwayscholarship.com/apply)
+The Full Throttle Formation Team will continue performing at airshows across the country in 2026, inspiring audiences and future pilots alike. Their ongoing support of the Speedway Flight Training Scholarship Fund ensures that when inspiration strikes, opportunity can follow.
 
-We can’t wait to meet the next generation of pilots. Let this be your moment. Let this be your start.
+Together, we’re helping ensure that passion, not financial circumstance, determines who gets the chance to fly.
 
-**Speedway Flight Training**
+---
+
+### ✈️ **Join Us in Supporting the Future of Flight**
+
+Whether you’re an aspiring pilot, an aviation professional, or an organization looking to make a difference, the Speedway Flight Training Scholarship Fund welcomes partners who share our mission.
+
+The future of aviation starts with opportunity, and together, we’re making it possible.
+
+**Speedway Flight Training Scholarship Fund**  
 _Hampton, Georgia_
-
----
