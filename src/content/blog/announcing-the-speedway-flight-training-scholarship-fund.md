@@ -24,7 +24,7 @@ tags:
 
 The dream of flight often begins with inspiration, a plane overhead, an airshow performance, or a moment that sparks a lifelong passion. But for many aspiring pilots, financial barriers can stop that dream before it ever leaves the ground.
 
-That’s why the **Speedway Flight Training Scholarship Fund** exists, and why we’re proud to partner with the **Full Throttle Formation Team** to help open doors to aviation careers for the next generation.
+That’s why the [Speedway Flight Training Scholarship Fund](https://speedwayscholarship.com) exists, and why we’re proud to partner with the [Full Throttle Formation Team](https://fullthrottleairshows.com) to help open doors to aviation careers for the next generation.
 
 This partnership represents more than financial support. It’s a shared commitment to education, inspiration, and opportunity.
 
@@ -38,7 +38,7 @@ The Full Throttle Formation Team shares that same belief.
 
 Known for their precision flying and exciting airshow performances across the country, the team’s mission goes beyond entertainment. They strive to inspire audiences, educate future pilots, and show what’s possible through dedication, discipline, and passion for aviation.
 
-Together, we’re working to turn inspiration into action.
+[Together, we’re working to turn inspiration into action.](https://speedwayscholarship.com/partnerships)
 
 ---
 
