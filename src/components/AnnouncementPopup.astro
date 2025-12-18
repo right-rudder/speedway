@@ -11,25 +11,13 @@ const data = {
     {
       title: "Multi Engine Rating Special",
       bullets: [
-        "Introductory $5,995 (normally $7,495).  Call, email, text us to reserve your spot!!",
-        "up to 10 hours flight instruction (non-refundable)",
+        "ME Introductory $5,995 (normally $7,495). MEI Introductory $8,995 (normally $10,495).Introductory $8,995 (normally $10,495).  Call, email, text us to reserve your spot!!",
+        "up to 10 hours flight instruction (ME) and up to 15 hours (MEI) non-refundable)",
         "housing available at additional cost",
       ],
       cta: {
         url: "/programs/multi-engine#top",
         text: "ME Program Details",
-      },
-    },
-    {
-      title: "Multi Engine Instructor Special",
-      bullets: [
-        "Introductory $8,995 (normally $10,495).  Call, email, text us to reserve your spot!!",
-        "up to 15 hours flight instruction (non-refundable).",
-        "housing available at additional cost",
-      ],
-      cta: {
-        url: "/programs/multi-engine-instructor#top",
-        text: "MEI Program Details",
       },
     },
   ],
@@ -38,7 +26,7 @@ const data = {
 
 <astro-banner btnId={data.btnId} section-key="homepage">
   <div
-    class="fixed bottom-0 start-1/2 z-50 mx-auto w-full -translate-x-1/2 transform max-h-[40rem] overflow-y-auto translate-y-full flex flex-col gap-2 px-4 opacity-0 transition-all duration-500 ease-out"
+    class="fixed bottom-0 start-1/2 z-50 mx-auto w-full lg:max-w-5xl -translate-x-1/2 transform max-h-[40rem] overflow-y-auto translate-y-full flex flex-col gap-2 px-4 opacity-0 transition-all duration-500 ease-out"
     role="region"
     aria-label="Promotional Banner"
   >
@@ -62,35 +50,40 @@ const data = {
       >
     </button>
 
-    <div class="rounded-lg bg-neutral-200/90 backdrop-blur-sm p-4 text-center">
-      <div class="flex items-center justify-around flex-col gap-4 mx-auto">
+    <div
+      class="rounded-lg bg-neutral-200/90 backdrop-blur-sm pt-4 text-center py-4"
+    >
+      <div class="flex items-center justify-around flex-col gap-2 mx-auto">
         <span
-          class="font-bold uppercase text-primary-700 text-xl sm:text-3xl"
+          class="font-bold uppercase text-primary-700 text-md sm:text-lg"
           set:html={data.title}
         />
         <p class="font-medium text-sm sm:text-lg" set:html={data.description} />
-        <ul class="flex flex-col lg:flex-row gap-4">
+        <ul class="flex flex-col lg:flex-row gap-2">
           {
             data.offers.map((offer, index) => (
-              <div class="flex flex-col items-center justify-between gap-2 px-2 lg:px-6 first:border-r first:border-gray-400 ">
-                <h2 class="uppercase text-lg py-2 h-xl">{offer.title}</h2>
-                <ul class="list-disc list-inside text-left ">
+              <div class="flex flex-col gap-2 px-2 lg:px-6 second:border-r second:border-gray-400 ">
+                {/* <h2 class="uppercase text-lg py-2 h-xl">{offer.title}</h2> */}
+                <ul class="list-disc list-inside text-left text-sm lg:text-base ">
                   {offer.bullets.map((bullet) => (
                     <li>{bullet}</li>
                   ))}
                 </ul>
-                <a
+                {/* <a
                   href={offer.cta.url}
                   class="px-4 py-2 bg-mariner-900 text-white"
                 >
                   {offer.cta.text}
-                </a>
+                </a> */}
               </div>
             ))
           }
         </ul>
-        <div class="flex justify-center align-middle items-center mt-4">
-          <a href={data.cta.url} class="btn-primary">
+        <div class="flex justify-center align-middle items-center">
+          <a
+            href={data.cta.url}
+            class="px-4 py-2 bg-primary-700 text-white font-semibold rounded-md"
+          >
             {data.cta.text}
           </a>
         </div>
