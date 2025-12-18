@@ -10,8 +10,10 @@ import ContactUs from "../../../components/ContactUs.astro";
 const header = {
   imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-116.webp",
   headerH1: "Our Fleet",
-  imageAlt: "Speedway Flight Training aircraft lined up at Atlanta Speedway Airport",
-  paragraph: "Explore Speedway Flight Training’s modern, well-maintained fleet based in Hampton, GA. From Cessna 172s to TAA-equipped aircraft, our lineup is designed to support students through every stage of flight training.",
+  imageAlt:
+    "Speedway Flight Training aircraft lined up at Atlanta Speedway Airport",
+  paragraph:
+    "Explore Speedway Flight Training’s modern, well-maintained fleet based in Hampton, GA. From Cessna 172s to TAA-equipped aircraft, our lineup is designed to support students through every stage of flight training.",
   buttons: [
     {
       name: "View Our Aircraft",
@@ -30,16 +32,21 @@ const header = {
   <HeaderSmall content={header} />
 
   <section class="py-24 px-5">
-    <div class="max-w-xl gap-10 lg:max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:gap-20">
+    <div
+      class="max-w-xl gap-10 lg:max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:gap-20"
+    >
       <div class="flex-1 relative">
         <Image
           class="pr-6"
           src={Intro}
           alt="Speedway Flight Training tail view of a Cessna"
           widths={[240, 540, 720, 1080, 1440, 1980]}
-          sizes={`(max-width: 240px) 240px, (max-width: 540px) 540px, (max-width: 720px) 720px, (max-width: 1080px) 1080px, (max-width: 1440px) 1440px, 1920px`}      
+          sizes={`(max-width: 240px) 240px, (max-width: 540px) 540px, (max-width: 720px) 720px, (max-width: 1080px) 1080px, (max-width: 1440px) 1440px, 1920px`}
         />
-        <div class="h-3/4 bg-primary-600 absolute -z-10 -right-0 w-20 top-[12.5%]"></div>
+        <div
+          class="h-3/4 bg-primary-600 absolute -z-10 -right-0 w-20 top-[12.5%]"
+        >
+        </div>
       </div>
       <div class="flex flex-col flex-1">
         <h2 class="uppercase text-accent-200 font-bold tracking-widest">
@@ -49,7 +56,11 @@ const header = {
           Fly with Confidence
         </h3>
         <p class="text-accent-200 leading-relaxed my-5">
-          At Speedway, our fleet consists of IFR-equipped Cessna 172s, including technically advanced aircraft (TAA) with Garmin G5 and GFC 500 avionics. All aircraft are kept in top condition and ready for flight training, time building, or rental by qualified pilots. Explore the details below.
+          At Speedway, our fleet consists of IFR-equipped Cessna 172s, including
+          technically advanced aircraft (TAA) with Garmin G5 and GFC 500
+          avionics. All aircraft are kept in top condition and ready for flight
+          training, time building, or rental by qualified pilots. Explore the
+          details below.
         </p>
         <div class="flex flex-col sm:flex-row items-center gap-5">
           <a href="#contact" class="btn-primary">Rent Today</a>
@@ -64,7 +75,7 @@ const header = {
         Available for Rent
       </h2>
       <h3 class="text-5xl text-accent-200 font-bold leading-tight mb-5">
-        Our Cessna 172 Fleet
+        Our Aircraft
       </h3>
       <div class="grid gap-8 mt-5 lg:grid-cols-2">
         {
@@ -88,9 +99,13 @@ const header = {
   </section>
 
   <section class="py-12 px-5 bg-primary-700">
-    <div class="max-w-7xl mx-auto gap-10 lg:gap-52 flex justify-between items-center lg:flex-row flex-col">
+    <div
+      class="max-w-7xl mx-auto gap-10 lg:gap-52 flex justify-between items-center lg:flex-row flex-col"
+    >
       <div>
-        <h3 class="text-5xl text-white font-bold leading-tight text-center lg:text-left">
+        <h3
+          class="text-5xl text-white font-bold leading-tight text-center lg:text-left"
+        >
           Reach out to fly with Speedway
         </h3>
       </div>
@@ -100,5 +115,4 @@ const header = {
     </div>
   </section>
   <ContactUs />
-
 </BaseLayout>
