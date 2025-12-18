@@ -6,19 +6,19 @@ import CTAFlight from "../../data/CTAFlight.js";
 
 import ProgramDetails from "../../components/ProgramDetails.astro";
 import programData from "../../data/multiEngineInstructorData.js";
-
+import AnnouncementPopup from "../../components/AnnouncementPopup.astro";
 ---
+
 <BaseLayout
   siteTitle={programData.pageTitle}
   siteDescription={programData.pageDescription}
   keywords={programData.pageKeywords}
-  >
-  
+>
+  <AnnouncementPopup />
+
   <HeaderSmall content={programData.header} />
 
   <ProgramDetails program={programData.details} />
 
   <CTAColor content={CTAFlight} />
-
 </BaseLayout>
-

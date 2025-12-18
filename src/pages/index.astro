@@ -22,6 +22,7 @@ import FlightTrainingAdvantages from "../components/FlightTrainingAdvantages.ast
 import Partners from "../components/Partners.astro";
 import AirlinesCloud from "../components/AirlinesCloud.astro";
 import PromoModal from "../components/PromoModal.astro";
+import AnnouncementPopup from "../components/AnnouncementPopup.astro";
 
 const blogfeed = {
   upperHeading: "Our Blog",
@@ -104,6 +105,8 @@ const { data } = homePage;
   breadcrumbs={[{ name: "Home", url: "/" }]}
 >
   <!-- <PromoModal /> -->
+
+  <AnnouncementPopup />
 
   <HomeHeader />
 
