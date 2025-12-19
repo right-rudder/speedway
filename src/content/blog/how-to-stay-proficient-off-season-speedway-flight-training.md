@@ -71,8 +71,8 @@ Consistency matters more than flight length. Even 0.5 hours in the logbook helps
 ---
 
 ## Final Thoughts
-Proficiency is built on **habit, not hours**. The best pilots stay ready by combining mental rehearsal, simulator practice, and occasional refresher flights.
+Proficiency is built on **habit, not hours**. The best pilots stay ready by combining mental rehearsal, simulator practice, and occasional refresher flights. Stay connected, stay current, and stay safe, the Speedway Flight Training team is here to help you make every season a flying season.  
 
-> Stay connected, stay current, and stay safe, the Speedway Flight Training team is here to help you make every season a flying season.  
-> **[Book a proficiency flight or simulator session](/enroll)** and stay ahead of your skills all year long.
+**[Book a proficiency flight or simulator session](/enroll)** and stay ahead of your skills all year long.
+
 ---
