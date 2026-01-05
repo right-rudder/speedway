@@ -88,8 +88,8 @@ const Navbar = ({ pathname }) => {
             id="navbar"
           >
             <div className="flex w-full items-center justify-between flex-auto">
-              <div className="hidden lg:flex w-full justify-between text-lg">
-                <ul className="flex flex-1 min-w-0 lg:w-1/3 align-middle gap-2 xl:gap-5 items-center">
+              <div className="hidden lg:flex w-full justify-between text-lg gap-2">
+                <ul className="flex flex-1 align-middle gap-2 xl:gap-5 items-center">
                   {navbarLinks.map((item, index) => (
                     <li
                       key={index}
@@ -169,7 +169,7 @@ const Navbar = ({ pathname }) => {
                 </ul>
                 <a
                   href="/#top"
-                  className="relative hover:brightness-110 duration-200 ease-in-out flex-1 min-w-0 lg:w-1/3 flex justify-center"
+                  className="relative hover:brightness-110 duration-200 ease-in-out flex-1 flex justify-center"
                 >
                   <img
                     src={`${navBar || openMobile ? LOGO_SECONDARY : LOGO_PRIMARY}`}
@@ -182,9 +182,9 @@ const Navbar = ({ pathname }) => {
                 </a>
                 
                 <div
-                  className="relative hover:brightness-110 duration-200 ease-in-out flex-1 min-w-0 lg:w-1/3 flex justify-end items-center"
+                  className="relative hover:brightness-110 duration-200 ease-in-out flex-1 flex justify-end items-center"
                 >
-                  <a href="/contact" className={`btn-primary ${navBar || openMobile ? "btn-accent hover:bg-primary-700" : ""}`}> 
+                  <a href="/contact" className={`btn-primary text-lg xl:text-2xl ${navBar || openMobile ? "btn-accent hover:bg-primary-700" : ""}`}> 
                    Contact Us
                   </a>
                 </div>
@@ -275,13 +275,14 @@ const Navbar = ({ pathname }) => {
           </a>
         </div>
 
-        <div
+        {/* Guilherme : This div was blocking the click on the link above and I couldn't find it's purpose, so I commented it. */}
+        {/* <div
           className={`absolute w-full h-48 top-0 z-20 ${
             openMobile
               ? "translate-x-0 opacity-100"
               : "-translate-x-full opacity-50"
           } delay-500 duration-500 ease-in-out`}
-        ></div>
+        ></div> */}
 
         <ul className="px-3 pb-3 mt-6 pt-2 flex flex-col align-middle font-semibold items-center bg-primary-700">
           {navbarLinks.map((item, index) => (
