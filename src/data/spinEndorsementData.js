@@ -6,7 +6,6 @@ const spinEndorsementData = {
     "Complete your FAA spin endorsement at Speedway Flight Training. This one-day program helps future CFIs build confidence and meet regulatory stall/spin training requirements.",
   pageKeywords:
     "spin endorsement, CFI spin training, FAA spin endorsement, stall recovery training, spin maneuvers, flight instructor requirements",
-
   header: {
     stars: false,
     imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-96.webp",
@@ -32,16 +31,15 @@ const spinEndorsementData = {
     heading: "Spin Endorsement",
     subHeading:
       "Required for flight instructor applicants and beneficial for all pilots, this program builds spin recovery proficiency in a structured environment.",
-
     title: "Overview",
     description: `
-      Speedway Flight Training’s <strong>Spin Endorsement program</strong> is designed for aspiring flight instructors and pilots seeking greater confidence in stall/spin scenarios.
+      Gain confidence and meet regulatory requirements with Speedway Flight Training’s Spin Endorsement program. This essential course is required for future flight instructors and is an excellent way to sharpen stall/spin awareness and recovery skills in a controlled environment.
       <br/><br/>
-      🛩 <strong>Accelerated Format:</strong> Complete in as little as <strong>1 day</strong>.<br/>
-      💰 <strong>Estimated Cost:</strong> <strong>$575</strong> (Includes 1.5 hours of flight instruction / spin recovery & 1.5 hours ground lesson).<br/>
+      🛩 <strong>Accelerated Format:</strong> Complete in <strong>1 day</strong>.<br/>
+      💰 <strong>Estimated Cost:</strong> <strong>$595</strong> (Includes 1.5 hours of flight instruction time & 1.5 hours of ground school).<br/>
       📍 <strong>Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
-      📜 <strong>FAA Requirement:</strong> Endorsement required for CFIs under <strong>14 CFR §61.183(i)</strong>.<br/>
       ✈️ <strong>Aircraft:</strong> Certified for spin maneuvers with dual controls.<br/>
+      📜 <strong>FAA Requirement:</strong> Endorsement required for CFIs under <strong>14 CFR §61.183(i)</strong>.<br/>
       <br/>
       This course includes <strong>briefing, in-flight instruction, and a logbook endorsement</strong> upon demonstrating proficiency.
     `,
@@ -57,34 +55,32 @@ const spinEndorsementData = {
     included: {
       heading: "What’s Included in Your Training Package?",
       items: [
-        "2 hours of dual flight instruction in a spin-certified aircraft",
-        "Pre-flight briefing and post-flight debrief",
-        "One-on-one instruction from a spin-endorsed flight instructor",
-        "Hands-on training in stall recognition, incipient spins, and spin recovery",
-        "FAA-compliant logbook endorsement for spin training",
+        "Up to 1.5 hours of dual instruction focused on stall recognition, incipient spins, and spin recovery",
+        "Pre-flight briefing and post-flight debriefing",
+        "One-on-one instruction with a qualified spin-endorsed instructor",
+        "FAA-compliant spin endorsement upon successful demonstration of proficiency",
       ],
     },
 
     additionalCosts: {
       heading: "What’s Not Included (Additional Student Costs)?",
       items: [
-        "Noise-canceling aviation headset (~$600 - $1,100; Recommended: Bose, Lightspeed, David Clark)",
-        "iPad with GPS (~$500 - $700; Cellular capable, no data plan required)",
-        "Aircraft rental insurance (~$600/year; Required for training flights)",
-        "ForeFlight subscription (~$250/year; For planning and in-flight use)",
-        "FAA 1st Class Medical clearance (~$150; Required for professional pilot careers)",
+        "Noise-canceling aviation headset (~$600 - $1,100  -  Recommended brands: Bose, Lightspeed, David Clark)",
+        "iPad with GPS (~$500 - $700  -  Cellular capable, no cellular plan required)",
+        "Aircraft rental insurance (~$600/year  -  Required for training flights)",
+        "ForeFlight subscription (~$250/year  -  For flight planning and in-flight navigation)",
+        "FAA 1st Class Medical clearance (~$150  -  Required for those pursuing a professional pilot career)",
       ],
     },
 
     benefits: {
       heading: "Why Train with Speedway?",
       items: [
-        "Meet CFI certification requirements quickly and affordably",
-        "Hands-on emergency scenario training in real aircraft",
-        "Expert instructors with experience in stall/spin recovery techniques",
-        "FAA-compliant training and endorsements",
-        "Located at KHMP – a quiet airport ideal for focused training",
-        "Trusted by students pursuing careers in flight instruction and commercial aviation",
+        "Meet CFI spin endorsement requirements",
+        "Sharpen stall/spin awareness and recovery skills",
+        "Train with highly experienced instructors in a safe, structured environment",
+        "Convenient single-day scheduling option",
+        "FAA endorsement provided upon successful completion",
       ],
     },
 
