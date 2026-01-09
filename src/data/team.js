@@ -64,20 +64,6 @@ export const flightTeam = [
     phone: "(123) 456-7890 ext. 123",
   },
   {
-    name: "Paul C. Nugent",
-    title: "Stage Check Instructor",
-    subtitle: "Certificates & Ratings: Commercial ASEL, CFI, CFII",
-    bio: [
-      "<strong>Paul C. Nugent</strong> is a veteran instructor with over four decades of experience in both military and civilian aviation. At Speedway, he plays a key role in conducting stage checks, mentoring instructors, and upholding a high standard of student performance.",
-      "Paul is a retired U.S. Navy pilot, former FAA examiner, and active CFII who brings unmatched insight into flight safety, evaluation standards, and scenario-based instruction.",
-      "As a senior advisor, Paul helps align Speedway’s curriculum and check protocols with real-world expectations—ensuring every student receives both accurate technical guidance and the personal accountability required to succeed in aviation."
-    ],
-    image: "/profile-silhouette.png",
-    alt: "Stage Check Instructor Paul Nugent at Speedway Flight Training",
-    email: "email@speedwayft.com",
-    phone: "(123) 456-7890 ext. 123",
-  },
-{
     name: "Eric Schafhauser",
     title: "Chief Standards Captain – Boeing 717",
     subtitle: "Airline Captain & Aviation Educator",
